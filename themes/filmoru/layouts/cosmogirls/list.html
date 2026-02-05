@@ -10,7 +10,7 @@
     <article class="cosmogirl-card">
       {{ with .Params.featured_image }}
       <a href="{{ $.RelPermalink }}" class="cosmogirl-thumb">
-        <img src="{{ . | relURL }}" alt="{{ $.Params.name }}">
+        <img src="{{ . | absURL }}" alt="{{ $.Params.name }}">
       </a>
       {{ end }}
       <div class="cosmogirl-card-info">
