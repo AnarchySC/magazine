@@ -1,0 +1,205 @@
+{{ define "main" }}
+<section class="feedback-page">
+  <header class="page-header">
+    <h1 class="section-title">フィードバック</h1>
+    <p class="page-subtitle">Feedback</p>
+  </header>
+
+  <div class="feedback-intro">
+    <p class="intro-jp">ご意見・ご感想をお聞かせください。</p>
+    <p class="intro-en">We'd love to hear from you.</p>
+  </div>
+
+  <div class="content-divider">
+    <span class="divider-line divider-blue"></span>
+    <span class="divider-line divider-orange"></span>
+    <span class="divider-line divider-yellow"></span>
+  </div>
+
+  <!-- FORMSPREE: Replace YOUR_FORM_ID with your Formspree form ID -->
+  <!-- Get this from formspree.io after creating a form -->
+  <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="feedback-form">
+
+    <div class="form-group">
+      <label for="name">
+        <span class="label-jp">お名前</span>
+        <span class="label-en">Name (optional)</span>
+      </label>
+      <input type="text" id="name" name="name" placeholder="Anonymous is fine">
+    </div>
+
+    <div class="form-group">
+      <label for="email">
+        <span class="label-jp">メール</span>
+        <span class="label-en">Email (optional)</span>
+      </label>
+      <input type="email" id="email" name="email" placeholder="Only if you want a reply">
+    </div>
+
+    <div class="form-group">
+      <label for="type">
+        <span class="label-jp">種類</span>
+        <span class="label-en">Feedback Type</span>
+      </label>
+      <select id="type" name="type">
+        <option value="general">General Feedback</option>
+        <option value="suggestion">Suggestion</option>
+        <option value="bug">Bug Report</option>
+        <option value="content">Content Request</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="message">
+        <span class="label-jp">メッセージ</span>
+        <span class="label-en">Message</span>
+      </label>
+      <textarea id="message" name="message" rows="6" required placeholder="What's on your mind?"></textarea>
+    </div>
+
+    <!-- Honeypot for spam prevention -->
+    <input type="text" name="_gotcha" style="display:none">
+
+    <button type="submit" class="submit-btn">
+      <span class="btn-jp">送信</span>
+      <span class="btn-en">Send Transmission</span>
+    </button>
+  </form>
+
+  <div class="feedback-note">
+    <p>All feedback is appreciated. We read everything.</p>
+  </div>
+</section>
+
+<style>
+.feedback-page {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.feedback-intro {
+  text-align: center;
+  margin-bottom: var(--space-lg);
+}
+
+.intro-jp {
+  font-family: var(--font-jp);
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: var(--space-xs);
+}
+
+.intro-en {
+  font-size: 1rem;
+  color: var(--text-light);
+}
+
+.content-divider {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  max-width: 150px;
+  margin: var(--space-lg) auto var(--space-xl) auto;
+}
+
+.feedback-form {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: var(--space-xl);
+}
+
+.form-group {
+  margin-bottom: var(--space-lg);
+}
+
+.form-group label {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: var(--space-sm);
+}
+
+.label-jp {
+  font-family: var(--font-jp);
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.label-en {
+  font-size: 0.8rem;
+  color: var(--text-light);
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: var(--space-md);
+  font-size: 1rem;
+  font-family: inherit;
+  border: 1px solid var(--border);
+  background: #fff;
+  transition: border-color 0.2s;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #E85D04;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.form-group select {
+  cursor: pointer;
+}
+
+.submit-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  width: 100%;
+  padding: var(--space-md) var(--space-lg);
+  background: #E85D04;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.submit-btn:hover {
+  background: #FFD000;
+  color: #1a1a1a;
+}
+
+.btn-jp {
+  font-family: var(--font-jp);
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.btn-en {
+  font-size: 0.8rem;
+  opacity: 0.9;
+}
+
+.feedback-note {
+  margin-top: var(--space-xl);
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-light);
+}
+
+@media (max-width: 600px) {
+  .feedback-form {
+    padding: var(--space-lg);
+  }
+}
+</style>
+{{ end }}

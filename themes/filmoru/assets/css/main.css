@@ -441,6 +441,33 @@ footer {
 
 .footer-right {
   text-align: right;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.footer-links {
+  font-size: 0.8rem;
+}
+
+.footer-links a {
+  color: var(--text-light);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer-links a:hover {
+  color: #E85D04;
+}
+
+.footer-sep {
+  color: var(--border);
+  margin: 0 var(--space-xs);
+}
+
+.footer-domain {
+  font-size: 0.75rem;
+  color: var(--text-light);
 }
 
 /* ─────────────────────────────────────────────────────────────────────────────
