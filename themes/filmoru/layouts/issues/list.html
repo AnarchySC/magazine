@@ -2,15 +2,8 @@
 <section class="issues-archive">
   <header class="page-header">
     <h1 class="section-title">発行号</h1>
-    <p class="page-subtitle">All Issues • Complete Archive</p>
+    <p class="page-subtitle">Issues</p>
   </header>
-
-  <!-- Divider -->
-  <div class="content-divider">
-    <span class="divider-line divider-blue"></span>
-    <span class="divider-line divider-orange"></span>
-    <span class="divider-line divider-yellow"></span>
-  </div>
 
   {{ if .Pages }}
   <div class="issues-grid">
@@ -18,9 +11,7 @@
     <article class="issue-card">
       <a href="{{ .RelPermalink }}" class="issue-card-link">
         <div class="issue-card-cover">
-          <div class="issue-label">第</div>
-          <div class="issue-number">{{ .Params.issue_number | default "---" }}</div>
-          <div class="issue-label-suffix">号</div>
+          <div class="issue-number">{{ .Params.issue_number | default "001" }}</div>
           <div class="issue-date">{{ .Params.year | default "2935" }}.{{ .Date.YearDay | printf "%03d" }}</div>
         </div>
         <div class="issue-card-info">
@@ -35,61 +26,36 @@
   </div>
   {{ else }}
   <div class="empty-state">
-    <div class="empty-state-content">
-      <div class="empty-divider">
-        <span class="divider-line divider-blue"></span>
-        <span class="divider-line divider-orange"></span>
-        <span class="divider-line divider-yellow"></span>
-      </div>
-      <div class="empty-jp">編集中</div>
-      <div class="empty-en">Archives Compiling</div>
-      <p class="empty-desc">Issue archives are being transmitted across the galactic relay network.</p>
-      <div class="empty-divider">
-        <span class="divider-line divider-blue"></span>
-        <span class="divider-line divider-orange"></span>
-        <span class="divider-line divider-yellow"></span>
-      </div>
-      <div class="empty-links">
-        <a href="/posts/" class="empty-link">記事アーカイブ →</a>
-        <span class="empty-link-sub">Article Archive</span>
-      </div>
-    </div>
+    <div class="empty-jp">準備中</div>
+    <div class="empty-en">Coming Soon</div>
+    <a href="/posts/" class="empty-link">Browse Articles →</a>
   </div>
   {{ end }}
 </section>
 
 <style>
 .issues-archive {
-  max-width: 1200px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
 .page-header {
-  margin-bottom: var(--space-lg);
-}
-
-.content-divider {
-  display: flex;
-  flex-direction: column;
-  gap: 3px;
   margin-bottom: var(--space-xl);
-  max-width: 200px;
 }
 
 .issues-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: var(--space-xl);
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--space-lg);
 }
 
 .issue-card {
   border: 1px solid var(--border);
-  transition: border-color 0.2s, transform 0.2s;
+  transition: border-color 0.2s;
 }
 
 .issue-card:hover {
   border-color: #E85D04;
-  transform: translateY(-4px);
 }
 
 .issue-card-link {
@@ -99,43 +65,26 @@
 
 .issue-card-cover {
   aspect-ratio: 21/9;
-  background: linear-gradient(135deg, #1B3A5F, #0D2137);
+  background: var(--cassette-navy);
   color: #fff;
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: var(--space-xs);
-  padding: var(--space-lg);
   position: relative;
-}
-
-.issue-label {
-  font-family: var(--font-jp);
-  font-size: 1rem;
-  opacity: 0.7;
 }
 
 .issue-number {
   font-family: var(--font-display);
-  font-size: 3rem;
-  font-weight: 900;
-  letter-spacing: 0.05em;
-}
-
-.issue-label-suffix {
-  font-family: var(--font-jp);
-  font-size: 1rem;
-  opacity: 0.7;
+  font-size: 2.5rem;
+  letter-spacing: 0.1em;
 }
 
 .issue-date {
   position: absolute;
   bottom: var(--space-sm);
-  right: var(--space-md);
-  font-size: 0.75rem;
+  right: var(--space-sm);
+  font-size: 0.7rem;
   opacity: 0.5;
-  letter-spacing: 0.1em;
 }
 
 .issue-card-info {
@@ -143,81 +92,45 @@
 }
 
 .issue-card-info h2 {
-  font-size: 1.1rem;
-  margin-bottom: var(--space-xs);
-}
-
-.issue-card-info p {
-  font-size: 0.875rem;
-  color: var(--text-light);
+  font-size: 1rem;
   margin: 0;
 }
 
-/* Empty state */
+.issue-card-info p {
+  font-size: 0.85rem;
+  color: var(--text-light);
+  margin: var(--space-xs) 0 0 0;
+}
+
+/* Empty state - minimal */
 .empty-state {
-  display: flex;
-  justify-content: center;
-  padding: var(--space-xl) 0;
-}
-
-.empty-state-content {
   text-align: center;
-  max-width: 400px;
-}
-
-.empty-divider {
-  display: flex;
-  flex-direction: column;
-  gap: 3px;
-  max-width: 120px;
-  margin: var(--space-lg) auto;
+  padding: var(--space-xl) 0;
 }
 
 .empty-jp {
   font-family: var(--font-jp);
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 700;
   margin-bottom: var(--space-xs);
 }
 
 .empty-en {
-  font-family: var(--font-display);
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   color: var(--text-light);
-  letter-spacing: 0.15em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   margin-bottom: var(--space-lg);
 }
 
-.empty-desc {
-  color: var(--text-light);
-  font-size: 0.9rem;
-  line-height: 1.6;
-  margin-bottom: var(--space-md);
-}
-
-.empty-links {
-  margin-top: var(--space-xl);
-}
-
 .empty-link {
-  font-family: var(--font-jp);
-  font-size: 1.1rem;
   color: #E85D04;
   border: none;
+  font-size: 0.9rem;
 }
 
 .empty-link:hover {
   color: #FFD000;
-}
-
-.empty-link-sub {
-  display: block;
-  font-size: 0.75rem;
-  color: var(--text-light);
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  margin-top: var(--space-xs);
 }
 </style>
 {{ end }}
