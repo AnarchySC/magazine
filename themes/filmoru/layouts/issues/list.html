@@ -2,26 +2,20 @@
 <section class="issues-archive">
   <header class="page-header">
     <h1 class="section-title">発行号</h1>
-    <p class="page-subtitle">Issues</p>
+    <p class="page-subtitle">Weekly Issues</p>
   </header>
 
   {{ if .Pages }}
-  <div class="issues-grid">
+  <div class="issues-list">
     {{ range .Pages.ByDate.Reverse }}
-    <article class="issue-card">
-      <a href="{{ .RelPermalink }}" class="issue-card-link">
-        <div class="issue-card-cover">
-          <div class="issue-number">{{ .Params.issue_number | default "001" }}</div>
-          <div class="issue-date">{{ .Params.year | default "2935" }}.{{ .Date.YearDay | printf "%03d" }}</div>
-        </div>
-        <div class="issue-card-info">
-          <h2>{{ .Title }}</h2>
-          {{ with .Params.subtitle }}
-          <p>{{ . }}</p>
-          {{ end }}
-        </div>
-      </a>
-    </article>
+    <a href="{{ .RelPermalink }}" class="issue-card">
+      <div class="issue-card-number">{{ .Params.issue_number | default "2935.001" }}</div>
+      <div class="issue-card-content">
+        <h2>{{ .Title }}</h2>
+        <div class="issue-card-date">{{ .Date.Format "Jan 2, 2006" }}</div>
+      </div>
+      <div class="issue-card-arrow">→</div>
+    </a>
     {{ end }}
   </div>
   {{ else }}
@@ -35,7 +29,7 @@
 
 <style>
 .issues-archive {
-  max-width: 900px;
+  max-width: 700px;
   margin: 0 auto;
 }
 
@@ -43,66 +37,60 @@
   margin-bottom: var(--space-xl);
 }
 
-.issues-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: var(--space-lg);
+.issues-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
 }
 
 .issue-card {
+  display: flex;
+  align-items: center;
+  gap: var(--space-lg);
+  padding: var(--space-lg);
   border: 1px solid var(--border);
   transition: border-color 0.2s;
+  text-decoration: none;
+  color: inherit;
 }
 
 .issue-card:hover {
   border-color: #E85D04;
 }
 
-.issue-card-link {
-  display: block;
-  border: none;
-}
-
-.issue-card-cover {
-  aspect-ratio: 21/9;
-  background: var(--cassette-navy);
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-
-.issue-number {
+.issue-card-number {
   font-family: var(--font-display);
-  font-size: 2.5rem;
-  letter-spacing: 0.1em;
+  font-size: 1.5rem;
+  color: var(--cassette-navy);
+  min-width: 100px;
 }
 
-.issue-date {
-  position: absolute;
-  bottom: var(--space-sm);
-  right: var(--space-sm);
-  font-size: 0.7rem;
-  opacity: 0.5;
+.issue-card-content {
+  flex: 1;
 }
 
-.issue-card-info {
-  padding: var(--space-md);
+.issue-card-content h2 {
+  font-size: 1.1rem;
+  margin: 0 0 var(--space-xs) 0;
 }
 
-.issue-card-info h2 {
-  font-size: 1rem;
-  margin: 0;
-}
-
-.issue-card-info p {
-  font-size: 0.85rem;
+.issue-card-date {
+  font-size: 0.8rem;
   color: var(--text-light);
-  margin: var(--space-xs) 0 0 0;
 }
 
-/* Empty state - minimal */
+.issue-card-arrow {
+  font-size: 1.2rem;
+  color: var(--text-light);
+  transition: color 0.2s, transform 0.2s;
+}
+
+.issue-card:hover .issue-card-arrow {
+  color: #E85D04;
+  transform: translateX(4px);
+}
+
+/* Empty state */
 .empty-state {
   text-align: center;
   padding: var(--space-xl) 0;

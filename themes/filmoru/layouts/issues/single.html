@@ -1,0 +1,205 @@
+{{ define "main" }}
+<article class="issue-page">
+  <header class="issue-header">
+    <div class="issue-number-large">{{ .Params.issue_number | default "2935.001" }}</div>
+    <h1>{{ .Title }}</h1>
+    <div class="issue-date">{{ .Date.Format "January 2, 2006" }}</div>
+  </header>
+
+  <div class="issue-divider">
+    <span class="divider-line divider-blue"></span>
+    <span class="divider-line divider-orange"></span>
+    <span class="divider-line divider-yellow"></span>
+  </div>
+
+  {{ .Content }}
+
+  <!-- Articles from this week -->
+  {{ $issueDate := .Date }}
+  {{ $weekStart := $issueDate.AddDate 0 0 -6 }}
+
+  <section class="issue-section">
+    <h2 class="issue-section-title">記事 <span>Articles</span></h2>
+    <div class="issue-articles">
+      {{ range where site.RegularPages "Section" "posts" }}
+        {{ if and (ge .Date $weekStart) (le .Date $issueDate) }}
+        <a href="{{ .RelPermalink }}" class="issue-article-card">
+          <div class="issue-article-jp">{{ .Params.title_jp | default "記事" }}</div>
+          <div class="issue-article-title">{{ .Title }}</div>
+          <div class="issue-article-meta">{{ .Params.journalist | default "Staff" }}</div>
+        </a>
+        {{ end }}
+      {{ end }}
+    </div>
+  </section>
+
+  <!-- Cosmogirl of the Week -->
+  <section class="issue-section">
+    <h2 class="issue-section-title">今週のコスモガール <span>Cosmogirl of the Week</span></h2>
+    <div class="issue-cosmogirl">
+      {{ range first 1 (where site.RegularPages "Section" "cosmogirls") }}
+        {{ if and (ge .Date $weekStart) (le .Date $issueDate) }}
+        <a href="{{ .RelPermalink }}" class="issue-cosmogirl-card">
+          {{ with .Params.featured_image }}
+          <img src="{{ $.Site.BaseURL }}{{ strings.TrimPrefix "/" . }}" alt="{{ $.Params.name }}">
+          {{ end }}
+          <div class="issue-cosmogirl-info">
+            <div class="issue-cosmogirl-name">{{ .Params.name }}</div>
+            <div class="issue-cosmogirl-details">{{ .Params.species }} • {{ .Params.occupation }}</div>
+          </div>
+        </a>
+        {{ end }}
+      {{ end }}
+    </div>
+  </section>
+
+  <div class="issue-nav">
+    <a href="/issues/" class="issue-back">← All Issues</a>
+  </div>
+</article>
+
+<style>
+.issue-page {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.issue-header {
+  text-align: center;
+  margin-bottom: var(--space-lg);
+}
+
+.issue-number-large {
+  font-family: var(--font-display);
+  font-size: 3rem;
+  color: var(--cassette-navy);
+  margin-bottom: var(--space-sm);
+}
+
+.issue-header h1 {
+  font-size: 1.5rem;
+  margin: 0 0 var(--space-xs) 0;
+}
+
+.issue-date {
+  font-size: 0.9rem;
+  color: var(--text-light);
+}
+
+.issue-divider {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  max-width: 150px;
+  margin: var(--space-lg) auto var(--space-xl) auto;
+}
+
+.issue-section {
+  margin-bottom: var(--space-xl);
+}
+
+.issue-section-title {
+  font-family: var(--font-jp);
+  font-size: 1.3rem;
+  margin-bottom: var(--space-lg);
+  padding-bottom: var(--space-sm);
+  border-bottom: 2px solid var(--border);
+}
+
+.issue-section-title span {
+  font-family: var(--font-en);
+  font-size: 0.8rem;
+  color: var(--text-light);
+  margin-left: var(--space-sm);
+}
+
+.issue-articles {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.issue-article-card {
+  display: block;
+  padding: var(--space-md);
+  border: 1px solid var(--border);
+  transition: border-color 0.2s;
+  text-decoration: none;
+  color: inherit;
+}
+
+.issue-article-card:hover {
+  border-color: #E85D04;
+}
+
+.issue-article-jp {
+  font-family: var(--font-jp);
+  font-size: 0.85rem;
+  color: var(--text-light);
+  margin-bottom: var(--space-xs);
+}
+
+.issue-article-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: var(--space-xs);
+}
+
+.issue-article-meta {
+  font-size: 0.8rem;
+  color: #E85D04;
+}
+
+.issue-cosmogirl-card {
+  display: flex;
+  gap: var(--space-lg);
+  padding: var(--space-md);
+  border: 1px solid var(--border);
+  transition: border-color 0.2s;
+  text-decoration: none;
+  color: inherit;
+}
+
+.issue-cosmogirl-card:hover {
+  border-color: #E85D04;
+}
+
+.issue-cosmogirl-card img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.issue-cosmogirl-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.issue-cosmogirl-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: var(--space-xs);
+}
+
+.issue-cosmogirl-details {
+  font-size: 0.85rem;
+  color: var(--text-light);
+}
+
+.issue-nav {
+  margin-top: var(--space-xl);
+  padding-top: var(--space-lg);
+  border-top: 1px solid var(--border);
+}
+
+.issue-back {
+  color: #E85D04;
+  font-size: 0.9rem;
+}
+
+.issue-back:hover {
+  color: #FFD000;
+}
+</style>
+{{ end }}
