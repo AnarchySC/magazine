@@ -1,124 +1,384 @@
 {{ define "main" }}
-<section class="issues-archive">
-  <header class="page-header">
-    <h1 class="section-title">発行号</h1>
-    <p class="page-subtitle">Weekly Issues</p>
+<section class="issues-page">
+  <header class="issues-hero">
+    <div class="issues-hero-number">2935</div>
+    <h1 class="issues-hero-title">発行号</h1>
+    <p class="issues-hero-subtitle">Weekly Issues</p>
+    <div class="issues-hero-tagline">銀河通信アーカイブ</div>
   </header>
 
+  <div class="content-divider">
+    <span class="divider-line divider-blue"></span>
+    <span class="divider-line divider-orange"></span>
+    <span class="divider-line divider-yellow"></span>
+  </div>
+
   {{ if .Pages }}
-  <div class="issues-list">
+  <div class="issues-grid">
     {{ range .Pages.ByDate.Reverse }}
     <a href="{{ .RelPermalink }}" class="issue-card">
-      <div class="issue-card-number">{{ .Params.issue_number | default "2935.001" }}</div>
-      <div class="issue-card-content">
-        <h2>{{ .Title }}</h2>
-        <div class="issue-card-date">{{ .Date.Format "Jan 2, 2006" }}</div>
+      <div class="issue-card-header">
+        <span class="issue-card-year">YEAR 2935</span>
+        <span class="issue-card-number">{{ .Params.issue_number | default "2935.001" }}</span>
       </div>
-      <div class="issue-card-arrow">→</div>
+      <div class="issue-card-body">
+        <h2 class="issue-card-title">{{ .Title }}</h2>
+        <div class="issue-card-date">{{ .Date.Format "January 2, 2006" }}</div>
+      </div>
+      <div class="issue-card-footer">
+        <span class="issue-card-count">{{ len (where site.RegularPages "Section" "posts") }} articles</span>
+        <span class="issue-card-arrow">READ →</span>
+      </div>
     </a>
     {{ end }}
   </div>
+
   {{ else }}
-  <div class="empty-state">
-    <div class="empty-jp">準備中</div>
-    <div class="empty-en">Coming Soon</div>
-    <a href="/posts/" class="empty-link">Browse Articles →</a>
+  <!-- Editorial empty state -->
+  <div class="issues-empty">
+    <div class="empty-frame">
+      <div class="empty-issue-mock">
+        <div class="mock-number">2935.001</div>
+        <div class="mock-lines">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div class="empty-content">
+        <div class="empty-title-jp">初回発行準備中</div>
+        <div class="empty-title-en">First Issue In Production</div>
+        <p class="empty-desc">Our journalists are compiling this week's transmissions. The first weekly digest drops soon.</p>
+        <div class="empty-actions">
+          <a href="/subscribe/" class="empty-btn empty-btn-primary">Get Notified</a>
+          <a href="/posts/" class="empty-btn empty-btn-secondary">Browse Articles</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="empty-preview">
+      <div class="preview-label">What to expect</div>
+      <div class="preview-items">
+        <div class="preview-item">
+          <span class="preview-jp">記事</span>
+          <span class="preview-en">5 curated articles</span>
+        </div>
+        <div class="preview-item">
+          <span class="preview-jp">コスモガール</span>
+          <span class="preview-en">Cosmogirl of the Week</span>
+        </div>
+        <div class="preview-item">
+          <span class="preview-jp">毎週火曜日</span>
+          <span class="preview-en">Every Tuesday</span>
+        </div>
+      </div>
+    </div>
   </div>
   {{ end }}
 </section>
 
 <style>
-.issues-archive {
-  max-width: 700px;
+.issues-page {
+  max-width: 800px;
   margin: 0 auto;
 }
 
-.page-header {
-  margin-bottom: var(--space-xl);
+.issues-hero {
+  text-align: center;
+  margin-bottom: var(--space-lg);
 }
 
-.issues-list {
+.issues-hero-number {
+  font-family: var(--font-display);
+  font-size: 4rem;
+  font-weight: 900;
+  color: var(--cassette-navy);
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.issues-hero-title {
+  font-family: var(--font-jp);
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin: var(--space-xs) 0;
+}
+
+.issues-hero-subtitle {
+  font-size: 0.9rem;
+  color: var(--text-light);
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  margin: 0;
+}
+
+.issues-hero-tagline {
+  font-family: var(--font-jp);
+  font-size: 0.85rem;
+  color: #E85D04;
+  margin-top: var(--space-sm);
+}
+
+.content-divider {
   display: flex;
   flex-direction: column;
-  gap: var(--space-md);
+  gap: 3px;
+  max-width: 120px;
+  margin: var(--space-lg) auto var(--space-xl) auto;
+}
+
+/* Issue cards when populated */
+.issues-grid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
 }
 
 .issue-card {
-  display: flex;
-  align-items: center;
-  gap: var(--space-lg);
+  display: block;
+  border: 2px solid var(--border);
   padding: var(--space-lg);
-  border: 1px solid var(--border);
-  transition: border-color 0.2s;
   text-decoration: none;
   color: inherit;
+  transition: border-color 0.2s, transform 0.2s;
 }
 
 .issue-card:hover {
   border-color: #E85D04;
+  transform: translateX(4px);
+}
+
+.issue-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--space-md);
+  padding-bottom: var(--space-sm);
+  border-bottom: 1px solid var(--border);
+}
+
+.issue-card-year {
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  color: var(--text-light);
 }
 
 .issue-card-number {
   font-family: var(--font-display);
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+  font-weight: 700;
   color: var(--cassette-navy);
-  min-width: 100px;
 }
 
-.issue-card-content {
-  flex: 1;
+.issue-card-body {
+  margin-bottom: var(--space-md);
 }
 
-.issue-card-content h2 {
-  font-size: 1.1rem;
+.issue-card-title {
+  font-family: var(--font-jp);
+  font-size: 1.3rem;
   margin: 0 0 var(--space-xs) 0;
 }
 
 .issue-card-date {
+  font-size: 0.85rem;
+  color: var(--text-light);
+}
+
+.issue-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-size: 0.8rem;
+}
+
+.issue-card-count {
   color: var(--text-light);
 }
 
 .issue-card-arrow {
-  font-size: 1.2rem;
-  color: var(--text-light);
-  transition: color 0.2s, transform 0.2s;
+  color: #E85D04;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  transition: transform 0.2s;
 }
 
 .issue-card:hover .issue-card-arrow {
-  color: #E85D04;
   transform: translateX(4px);
 }
 
-/* Empty state */
-.empty-state {
-  text-align: center;
-  padding: var(--space-xl) 0;
+/* Empty state - editorial style */
+.issues-empty {
+  margin-top: var(--space-xl);
 }
 
-.empty-jp {
+.empty-frame {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: var(--space-xl);
+  padding: var(--space-xl);
+  border: 2px solid var(--border);
+  margin-bottom: var(--space-xl);
+}
+
+.empty-issue-mock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-lg);
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+
+.mock-number {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  color: var(--cassette-navy);
+  margin-bottom: var(--space-md);
+}
+
+.mock-lines {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%;
+}
+
+.mock-lines span {
+  height: 3px;
+  background: var(--border);
+}
+
+.mock-lines span:nth-child(1) { width: 100%; background: #1B3A5F; }
+.mock-lines span:nth-child(2) { width: 80%; background: #E85D04; }
+.mock-lines span:nth-child(3) { width: 60%; background: #FFD000; }
+
+.empty-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.empty-title-jp {
   font-family: var(--font-jp);
-  font-size: 2rem;
-  font-weight: 700;
+  font-size: 1.8rem;
+  font-weight: 900;
   margin-bottom: var(--space-xs);
 }
 
-.empty-en {
-  font-size: 0.85rem;
+.empty-title-en {
+  font-size: 0.9rem;
   color: var(--text-light);
-  letter-spacing: 0.1em;
   text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: var(--space-md);
+}
+
+.empty-desc {
+  font-size: 1rem;
+  color: var(--text-light);
+  line-height: 1.6;
   margin-bottom: var(--space-lg);
 }
 
-.empty-link {
-  color: #E85D04;
-  border: none;
-  font-size: 0.9rem;
+.empty-actions {
+  display: flex;
+  gap: var(--space-md);
 }
 
-.empty-link:hover {
-  color: #FFD000;
+.empty-btn {
+  padding: var(--space-sm) var(--space-lg);
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.empty-btn-primary {
+  background: #E85D04;
+  color: #fff;
+}
+
+.empty-btn-primary:hover {
+  background: #FFD000;
+  color: #1a1a1a;
+}
+
+.empty-btn-secondary {
+  border: 1px solid var(--border);
+  color: var(--text);
+}
+
+.empty-btn-secondary:hover {
+  border-color: #E85D04;
+  color: #E85D04;
+}
+
+/* Preview section */
+.empty-preview {
+  border-top: 2px solid var(--border);
+  padding-top: var(--space-lg);
+}
+
+.preview-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--text-light);
+  margin-bottom: var(--space-md);
+}
+
+.preview-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-md);
+}
+
+.preview-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.preview-jp {
+  font-family: var(--font-jp);
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.preview-en {
+  font-size: 0.8rem;
+  color: var(--text-light);
+}
+
+@media (max-width: 600px) {
+  .issues-hero-number {
+    font-size: 3rem;
+  }
+
+  .issues-hero-title {
+    font-size: 2rem;
+  }
+
+  .empty-frame {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .empty-issue-mock {
+    max-width: 140px;
+    margin: 0 auto;
+  }
+
+  .empty-actions {
+    justify-content: center;
+  }
+
+  .preview-items {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
 }
 </style>
 {{ end }}
