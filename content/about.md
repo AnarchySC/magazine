@@ -40,6 +40,16 @@ This independence is not negotiable.
 
 ---
 
+## Contact
+
+Questions, opinions, or transmission requests? Reach us directly:
+
+**admin@anarchygames.org**
+
+We read everything. We respond when it matters.
+
+---
+
 <div class="transmission-footer">
 銀河通信 • Galactic Transmissions<br>
 Year 2935 and beyond
