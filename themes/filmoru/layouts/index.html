@@ -21,7 +21,7 @@
   {{ with (index (where .Site.RegularPages "Section" "cosmogirls") 0) }}
   <a href="{{ .RelPermalink }}" class="banner-cosmogirl">
     {{ with .Params.featured_image }}
-    <img src="{{ . }}" alt="Cosmogirl of the Week">
+    <img src="{{ . | relURL }}" alt="Cosmogirl of the Week">
     {{ end }}
     <span class="cosmogirl-label">今週のコスモガール</span>
   </a>
@@ -39,7 +39,7 @@
     <div class="cosmogirl-feature-grid">
       {{ with .Params.featured_image }}
       <a href="{{ $.RelPermalink }}" class="cosmogirl-feature-image">
-        <img src="{{ . }}" alt="{{ $.Params.name }}">
+        <img src="{{ . | relURL }}" alt="{{ $.Params.name }}">
       </a>
       {{ end }}
       <div class="cosmogirl-feature-info">

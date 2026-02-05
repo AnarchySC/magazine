@@ -9,7 +9,7 @@
     <div class="footer-date">{{ site.Params.year }}.{{ now.YearDay | printf "%03d" }}</div>
   </div>
   <div class="footer-center">
-    <img src="/images/filmoru-badge.svg" alt="Transmitted via Filmoru" class="filmoru-badge">
+    <img src="{{ "/images/filmoru-badge.svg" | relURL }}" alt="Transmitted via Filmoru" class="filmoru-badge">
   </div>
   <div class="footer-right">
     <span>anarchygames.org</span>

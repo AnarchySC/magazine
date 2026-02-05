@@ -25,7 +25,7 @@
 
   {{ with .Params.featured_image }}
   <figure class="spacer-feature mb-xl">
-    <img src="{{ . }}" alt="{{ $.Title }}" class="spacer-image">
+    <img src="{{ . | relURL }}" alt="{{ $.Title }}" class="spacer-image">
   </figure>
   {{ end }}
 
