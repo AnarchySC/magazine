@@ -1,0 +1,80 @@
+# Cassette Future Magazine - Hugo Configuration
+# Domain: anarchygames.org
+# Year: 2935 | Format: Filmoru (21:9)
+
+baseURL: "/"
+languageCode: "en-us"
+title: "Cassette Future Magazine"
+theme: "filmoru"
+
+# Japanese/English bilingual support
+defaultContentLanguage: "en"
+
+params:
+  # Magazine metadata
+  tagline: "銀河通信 • Galactic Transmissions"
+  year: 2935
+  format: "filmoru"
+  aspectRatio: "21:9"
+
+  # Design
+  background: "#ffffff"
+  textColor: "#1a1a1a"
+  accentColor: "#000000"
+
+  # Fonts
+  headingFont: "Zen Kaku Gothic New"
+  bodyFont: "Inter"
+  japaneseFont: "Noto Sans JP"
+
+  # Footer
+  footerText: "銀河通信 • CASSETTE FUTURE"
+
+  # Social/Meta
+  description: "Weekly satirical digest from the year 2935. 68% Japanese, 32% English. Transmitted via filmoru."
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    style: monokai
+
+# Taxonomies
+taxonomies:
+  tag: tags
+  journalist: journalists
+
+# Menu
+menu:
+  main:
+    - name: "Issues"
+      url: "/issues/"
+      weight: 1
+    - name: "Cosmogirls"
+      url: "/cosmogirls/"
+      weight: 2
+    - name: "Archive"
+      url: "/posts/"
+      weight: 3
+    - name: "About"
+      url: "/about/"
+      weight: 4
+
+# Build settings
+buildDrafts: false
+buildFuture: false
+
+# Output formats
+outputs:
+  home:
+    - HTML
+    - RSS
+  section:
+    - HTML
+    - RSS
+
+# Permalinks
+permalinks:
+  issues: "/issues/:slug/"
+  posts: "/:year/:month/:slug/"

@@ -1,0 +1,17 @@
+<div class="header-accent-top"></div>
+<div class="masthead">
+  <div class="logo">
+    <a href="{{ "/" | relURL }}">
+      <span class="logo-en"><span class="logo-cassette">CASSETTE</span> <span class="logo-future">FUTURE</span></span>
+      <span class="logo-jp">カセット・フューチャー</span>
+    </a>
+  </div>
+  <nav>
+    <ul>
+      {{ range site.Menus.main }}
+        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+      {{ end }}
+    </ul>
+  </nav>
+</div>
+<div class="header-accent-bottom"></div>

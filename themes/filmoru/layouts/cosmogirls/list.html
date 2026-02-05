@@ -1,0 +1,94 @@
+{{ define "main" }}
+<section class="page-section">
+  <header class="page-header">
+    <h1 class="section-title">コスモガール・アーカイブ</h1>
+    <p class="page-subtitle">Cosmogirl Archive</p>
+  </header>
+
+  <div class="cosmogirls-grid">
+    {{ range .Pages.ByDate.Reverse }}
+    <article class="cosmogirl-card">
+      {{ with .Params.featured_image }}
+      <a href="{{ $.RelPermalink }}" class="cosmogirl-thumb">
+        <img src="{{ . }}" alt="{{ $.Params.name }}">
+      </a>
+      {{ end }}
+      <div class="cosmogirl-card-info">
+        <h2><a href="{{ .RelPermalink }}">{{ .Params.name }}</a></h2>
+        <div class="text-small text-light">
+          {{ .Params.species }} • {{ .Params.occupation }}
+        </div>
+      </div>
+    </article>
+    {{ end }}
+  </div>
+</section>
+
+<style>
+.page-section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.page-header {
+  margin-bottom: var(--space-xl);
+}
+
+.page-subtitle {
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+  color: var(--text-light);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-top: var(--space-xs);
+}
+
+.cosmogirls-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: var(--space-lg);
+}
+
+.cosmogirl-card {
+  border: 1px solid var(--border);
+  transition: border-color 0.2s;
+}
+
+.cosmogirl-card:hover {
+  border-color: #E85D04;
+}
+
+.cosmogirl-thumb {
+  display: block;
+  aspect-ratio: 3/4;
+  overflow: hidden;
+  border: none;
+}
+
+.cosmogirl-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cosmogirl-card-info {
+  padding: var(--space-md);
+  border-top: 1px solid var(--border);
+}
+
+.cosmogirl-card-info h2 {
+  font-family: var(--font-jp);
+  font-size: 1rem;
+  margin-bottom: var(--space-xs);
+}
+
+.cosmogirl-card-info h2 a {
+  color: var(--text);
+  border: none;
+}
+
+.cosmogirl-card-info h2 a:hover {
+  color: #E85D04;
+}
+</style>
+{{ end }}

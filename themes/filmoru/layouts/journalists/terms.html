@@ -1,0 +1,71 @@
+{{ define "main" }}
+<section class="journalist-profile">
+  <header class="page-header">
+    <div class="jp page-jp-title">記者</div>
+    <h1 class="page-en-title">{{ .Title }}</h1>
+    <p class="page-subtitle">{{ len .Pages }} {{ if eq (len .Pages) 1 }}article{{ else }}articles{{ end }}</p>
+  </header>
+
+  <!-- Divider -->
+  <div class="content-divider">
+    <span class="divider-line divider-blue"></span>
+    <span class="divider-line divider-orange"></span>
+    <span class="divider-line divider-yellow"></span>
+  </div>
+
+  <div class="journalist-articles">
+    {{ range .Pages }}
+    <article class="article-card">
+      <div class="article-jp-header">
+        {{ .Params.title_jp | default "記事" }}
+      </div>
+      <div class="article-content">
+        <h3 class="article-title">
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </h3>
+        {{ with .Params.subtitle_jp }}
+        <div class="article-subtitle">{{ . }}</div>
+        {{ end }}
+        <p class="article-excerpt">{{ .Summary | truncate 200 }}</p>
+      </div>
+      <div class="article-meta">
+        <div class="article-date">{{ .Params.year | default "2935" }}.{{ .Date.YearDay | printf "%03d" }}</div>
+      </div>
+    </article>
+    {{ end }}
+  </div>
+</section>
+
+<style>
+.journalist-profile {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.page-header {
+  margin-bottom: var(--space-lg);
+}
+
+.page-jp-title {
+  font-size: 2rem;
+  margin-bottom: var(--space-xs);
+}
+
+.page-en-title {
+  font-size: 1.2rem;
+  margin-bottom: var(--space-xs);
+}
+
+.content-divider {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin-bottom: var(--space-xl);
+  max-width: 200px;
+}
+
+.journalist-articles {
+  margin-top: var(--space-lg);
+}
+</style>
+{{ end }}

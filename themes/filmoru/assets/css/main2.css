@@ -1,0 +1,783 @@
+/* ═══════════════════════════════════════════════════════════════════════════
+   CASSETTE FUTURE MAGAZINE - FILMORU THEME
+   21:9 Aspect Ratio | Minimal | Year 2935
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   FONTS
+   ───────────────────────────────────────────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Sans+JP:wght@300;400;500;700;900&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap');
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   CSS VARIABLES
+   ───────────────────────────────────────────────────────────────────────────── */
+:root {
+  /* Colors */
+  --bg: #ffffff;
+  --text: #1a1a1a;
+  --text-light: #666666;
+  --accent: #000000;
+  --border: #e0e0e0;
+
+  /* Cassette Futurism / NASA Punk palette */
+  --cassette-blue: #1B3A5F;
+  --cassette-navy: #0D2137;
+  --nasa-orange: #E85D04;
+  --nasa-yellow: #FAA307;
+  --nasa-gold: #F48C06;
+  --nasa-cream: #FFBA08;
+
+  /* Fonts */
+  --font-jp: 'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif;
+  --font-en: 'Inter', sans-serif;
+
+  /* Spacing */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 2rem;
+  --space-xl: 4rem;
+
+  /* 21:9 Filmoru dimensions */
+  --filmoru-ratio: 21 / 9;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   RESET & BASE
+   ───────────────────────────────────────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-en);
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--text);
+  background: var(--bg);
+  min-height: 100vh;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   TYPOGRAPHY
+   ───────────────────────────────────────────────────────────────────────────── */
+
+/* Japanese text */
+.jp, [lang="ja"], .title-jp, h1.jp, h2.jp {
+  font-family: var(--font-jp);
+  font-weight: 700;
+}
+
+/* Vertical Japanese text */
+.vertical-jp {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-family: var(--font-jp);
+  font-weight: 900;
+  letter-spacing: 0.1em;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: var(--space-md);
+}
+
+h2 {
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 1.3;
+  margin-bottom: var(--space-sm);
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: var(--space-sm);
+}
+
+p {
+  margin-bottom: var(--space-md);
+}
+
+a {
+  color: var(--text);
+  text-decoration: none;
+  border-bottom: 1px solid var(--border);
+  transition: border-color 0.2s;
+}
+
+a:hover {
+  border-color: var(--accent);
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   LAYOUT
+   ───────────────────────────────────────────────────────────────────────────── */
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 var(--space-lg);
+}
+
+.filmoru-frame {
+  aspect-ratio: var(--filmoru-ratio);
+  width: 100%;
+  max-width: 100vw;
+  background: var(--bg);
+  position: relative;
+  overflow: hidden;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   HEADER - NASA PUNK STYLE
+   ───────────────────────────────────────────────────────────────────────────── */
+header {
+  padding: 0;
+}
+
+.header-accent-top {
+  height: 4px;
+  background: linear-gradient(90deg, var(--nasa-orange) 0%, var(--nasa-yellow) 50%, var(--nasa-orange) 100%);
+}
+
+.header-accent-bottom {
+  height: 2px;
+  background: linear-gradient(90deg, var(--nasa-yellow) 0%, var(--nasa-gold) 50%, var(--nasa-yellow) 100%);
+}
+
+.masthead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-lg) 0;
+}
+
+.logo {
+  font-weight: 900;
+  letter-spacing: 0.05em;
+}
+
+.logo a {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+/* English logo - Cassette Futurism colors */
+.logo-en {
+  font-family: var(--font-en);
+  font-size: 1.6rem;
+  font-weight: 800;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.logo-cassette {
+  color: var(--cassette-blue);
+}
+
+.logo-future {
+  background: linear-gradient(90deg, var(--nasa-orange), var(--nasa-yellow));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Japanese subtitle */
+.logo-jp {
+  font-family: var(--font-jp);
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.3em;
+  color: var(--text-light);
+}
+
+nav ul {
+  display: flex;
+  gap: var(--space-lg);
+  list-style: none;
+}
+
+nav a {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border: none;
+}
+
+nav a:hover {
+  opacity: 0.6;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   EDITION HERO - 21:9 MINIMAL
+   ───────────────────────────────────────────────────────────────────────────── */
+.edition-hero {
+  aspect-ratio: 21 / 9;
+  background: #fff;
+  overflow: hidden;
+  margin-bottom: var(--space-xl);
+  /* Full bleed */
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.edition-hero-inner {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  height: calc(100% - 32px);
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Image area */
+.edition-image-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  padding: var(--space-lg);
+  border-right: 1px solid var(--border);
+}
+
+.edition-image-area img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+/* Main content */
+.edition-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--space-xl);
+}
+
+/* Big Japanese title */
+.edition-title-jp {
+  font-family: var(--font-jp);
+  font-size: clamp(3rem, 7vw, 5.5rem);
+  font-weight: 900;
+  color: var(--text);
+  letter-spacing: 0.05em;
+  line-height: 1.1;
+  margin-bottom: var(--space-sm);
+}
+
+/* Smaller English title */
+.edition-title-en {
+  font-family: var(--font-en);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-light);
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  margin-bottom: var(--space-xs);
+}
+
+.edition-subtitle {
+  font-size: 0.85rem;
+  color: var(--text-light);
+  letter-spacing: 0.15em;
+}
+
+/* Bottom bar */
+.edition-footer {
+  background: var(--text);
+  color: #fff;
+  font-size: 0.65rem;
+  letter-spacing: 0.2em;
+  padding: var(--space-sm) var(--space-lg);
+  text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .edition-hero {
+    aspect-ratio: 16 / 9;
+  }
+
+  .edition-title-jp {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .edition-hero {
+    aspect-ratio: 4 / 3;
+  }
+
+  .edition-hero-inner {
+    grid-template-columns: 1fr;
+  }
+
+  .edition-image-area {
+    display: none;
+  }
+
+  .edition-content {
+    text-align: center;
+  }
+
+  .edition-title-jp {
+    font-size: 2rem;
+  }
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   FOOTER - NASA PUNK STYLE
+   ───────────────────────────────────────────────────────────────────────────── */
+footer {
+  margin-top: var(--space-xl);
+}
+
+.footer-accent-top {
+  height: 3px;
+  background: linear-gradient(90deg, var(--nasa-orange) 0%, var(--nasa-yellow) 50%, var(--nasa-orange) 100%);
+}
+
+.footer-accent-bottom {
+  height: 2px;
+  background: linear-gradient(90deg, var(--nasa-yellow) 0%, var(--nasa-orange) 50%, var(--nasa-yellow) 100%);
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-lg) 0;
+  font-size: 0.75rem;
+  color: var(--text-light);
+  letter-spacing: 0.1em;
+}
+
+.footer-left {
+  text-align: left;
+}
+
+.footer-tagline {
+  font-family: var(--font-jp);
+  margin-bottom: var(--space-xs);
+}
+
+.footer-date {
+  font-family: monospace;
+  font-size: 0.7rem;
+}
+
+.footer-center {
+  flex: 0 0 auto;
+}
+
+.filmoru-badge {
+  width: 160px;
+  height: auto;
+  opacity: 0.9;
+  transition: opacity 0.2s;
+}
+
+.filmoru-badge:hover {
+  opacity: 1;
+}
+
+.footer-right {
+  text-align: right;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   ARTICLE CARD - FILMORU STYLE
+   ───────────────────────────────────────────────────────────────────────────── */
+.article-card {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: var(--space-lg);
+  padding: var(--space-xl) 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.article-card:last-child {
+  border-bottom: none;
+}
+
+.article-jp-header {
+  writing-mode: vertical-rl;
+  font-family: var(--font-jp);
+  font-weight: 900;
+  font-size: 2rem;
+  color: var(--text);
+  line-height: 1;
+}
+
+.article-content {
+  max-width: 600px;
+}
+
+.article-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: var(--space-sm);
+}
+
+.article-subtitle {
+  font-family: var(--font-jp);
+  font-size: 0.875rem;
+  color: var(--text-light);
+  margin-bottom: var(--space-md);
+}
+
+.article-excerpt {
+  font-size: 0.9375rem;
+  line-height: 1.7;
+  color: var(--text);
+}
+
+.article-meta {
+  font-size: 0.75rem;
+  color: var(--text-light);
+  text-align: right;
+}
+
+.article-journalist {
+  margin-bottom: var(--space-xs);
+}
+
+.article-image {
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   ISSUE COVER - FILMORU 21:9
+   ───────────────────────────────────────────────────────────────────────────── */
+.issue-cover {
+  aspect-ratio: 21 / 9;
+  background: var(--bg);
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  padding: var(--space-xl);
+  border: 1px solid var(--border);
+  margin-bottom: var(--space-xl);
+}
+
+.issue-cover-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.issue-cover-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 var(--space-xl);
+}
+
+.issue-cover-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.issue-number {
+  font-size: 0.875rem;
+  letter-spacing: 0.2em;
+  margin-bottom: var(--space-sm);
+}
+
+.issue-main-title {
+  font-family: var(--font-jp);
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.1;
+  margin-bottom: var(--space-sm);
+}
+
+.issue-main-subtitle {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   SINGLE ARTICLE PAGE
+   ───────────────────────────────────────────────────────────────────────────── */
+.article-single {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: var(--space-xl) 0;
+}
+
+.article-header {
+  margin-bottom: var(--space-xl);
+  text-align: center;
+}
+
+.article-header .jp {
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-bottom: var(--space-sm);
+}
+
+.article-header h1 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.article-byline {
+  font-size: 0.875rem;
+  color: var(--text-light);
+  margin-top: var(--space-md);
+}
+
+.article-body {
+  font-size: 1.0625rem;
+  line-height: 1.8;
+}
+
+.article-body p {
+  margin-bottom: var(--space-lg);
+}
+
+.article-body h2 {
+  font-family: var(--font-jp);
+  margin-top: var(--space-xl);
+  margin-bottom: var(--space-md);
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   JOURNALIST PROFILE
+   ───────────────────────────────────────────────────────────────────────────── */
+.journalist-card {
+  display: flex;
+  gap: var(--space-lg);
+  padding: var(--space-lg);
+  border: 1px solid var(--border);
+  margin-bottom: var(--space-md);
+}
+
+.journalist-avatar {
+  width: 80px;
+  height: 80px;
+  background: var(--border);
+  border-radius: 0;
+}
+
+.journalist-info h3 {
+  font-family: var(--font-jp);
+  margin-bottom: var(--space-xs);
+}
+
+.journalist-title {
+  font-size: 0.875rem;
+  color: var(--text-light);
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   SPACER IMAGE (Featured Character)
+   ───────────────────────────────────────────────────────────────────────────── */
+.spacer-feature {
+  aspect-ratio: 21 / 9;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  overflow: hidden;
+}
+
+.spacer-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.spacer-info {
+  padding: var(--space-xl);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   RESPONSIVE
+   ───────────────────────────────────────────────────────────────────────────── */
+@media (max-width: 1024px) {
+  .article-card {
+    grid-template-columns: auto 1fr;
+  }
+
+  .article-meta {
+    grid-column: 1 / -1;
+    text-align: left;
+    margin-top: var(--space-md);
+  }
+
+  .issue-cover {
+    aspect-ratio: auto;
+    grid-template-columns: 1fr;
+    gap: var(--space-lg);
+  }
+}
+
+@media (max-width: 768px) {
+  .article-card {
+    grid-template-columns: 1fr;
+  }
+
+  .article-jp-header {
+    writing-mode: horizontal-tb;
+    font-size: 1.5rem;
+  }
+
+  .masthead {
+    flex-direction: column;
+    gap: var(--space-md);
+  }
+
+  nav ul {
+    gap: var(--space-md);
+  }
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   UTILITIES
+   ───────────────────────────────────────────────────────────────────────────── */
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+.text-light { color: var(--text-light); }
+.text-small { font-size: 0.875rem; }
+.mt-xl { margin-top: var(--space-xl); }
+.mb-xl { margin-bottom: var(--space-xl); }
+.hidden { display: none; }
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   COSMOGIRL OF THE WEEK - HOMEPAGE FEATURE
+   ───────────────────────────────────────────────────────────────────────────── */
+.cosmogirl-feature-home {
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+  color: #fff;
+  padding: var(--space-xl);
+  margin: var(--space-xl) calc(-1 * var(--space-lg));
+}
+
+.cosmogirl-feature-grid {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: var(--space-xl);
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.cosmogirl-feature-image {
+  border: none;
+}
+
+.cosmogirl-feature-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+}
+
+.cosmogirl-feature-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cosmogirl-feature-info .jp {
+  color: #888;
+}
+
+.cosmogirl-feature-info h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: var(--space-sm);
+}
+
+.cosmogirl-feature-info h2 a {
+  color: #fff;
+  border: none;
+}
+
+.cosmogirl-feature-info h2 a:hover {
+  color: var(--accent);
+  color: #ccc;
+}
+
+.cosmogirl-tagline {
+  font-size: 1.1rem;
+  color: #aaa;
+  margin-bottom: var(--space-md);
+}
+
+.cosmogirl-details {
+  display: flex;
+  gap: var(--space-lg);
+  font-size: 0.9rem;
+  color: #888;
+  margin-bottom: var(--space-lg);
+}
+
+.cosmogirl-mini-quote {
+  font-style: italic;
+  font-size: 1.1rem;
+  color: #ccc;
+  border-left: 3px solid #444;
+  padding-left: var(--space-md);
+  margin-bottom: var(--space-lg);
+}
+
+.cosmogirl-link {
+  display: inline-block;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: var(--space-sm) var(--space-lg);
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  transition: all 0.2s;
+}
+
+.cosmogirl-link:hover {
+  background: #fff;
+  color: #1a1a1a;
+}
+
+@media (max-width: 768px) {
+  .cosmogirl-feature-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .cosmogirl-feature-image {
+    max-width: 280px;
+    margin: 0 auto;
+  }
+
+  .cosmogirl-details {
+    justify-content: center;
+  }
+
+  .cosmogirl-mini-quote {
+    border-left: none;
+    border-top: 1px solid #444;
+    padding-left: 0;
+    padding-top: var(--space-md);
+  }
+}

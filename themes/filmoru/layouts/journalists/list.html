@@ -1,0 +1,73 @@
+{{ define "main" }}
+<section class="journalists-list">
+  <header class="page-header">
+    <h1 class="section-title">記者一覧</h1>
+    <p class="page-subtitle">Our Journalists • The Voices of Cassette Future</p>
+  </header>
+
+  <!-- Divider -->
+  <div class="content-divider">
+    <span class="divider-line divider-blue"></span>
+    <span class="divider-line divider-orange"></span>
+    <span class="divider-line divider-yellow"></span>
+  </div>
+
+  <div class="journalists-grid">
+    {{ range .Data.Terms.Alphabetical }}
+    <article class="journalist-card">
+      <h2><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></h2>
+      <div class="text-small text-light">{{ .Count }} {{ if eq .Count 1 }}article{{ else }}articles{{ end }}</div>
+    </article>
+    {{ end }}
+  </div>
+</section>
+
+<style>
+.journalists-list {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.page-header {
+  margin-bottom: var(--space-lg);
+}
+
+.content-divider {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin-bottom: var(--space-xl);
+  max-width: 200px;
+}
+
+.journalists-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: var(--space-lg);
+}
+
+.journalist-card {
+  padding: var(--space-lg);
+  border: 1px solid var(--border);
+  transition: border-color 0.2s;
+}
+
+.journalist-card:hover {
+  border-color: #E85D04;
+}
+
+.journalist-card h2 {
+  font-size: 1.25rem;
+  margin-bottom: var(--space-xs);
+}
+
+.journalist-card h2 a {
+  border: none;
+  color: var(--text);
+}
+
+.journalist-card h2 a:hover {
+  color: #E85D04;
+}
+</style>
+{{ end }}

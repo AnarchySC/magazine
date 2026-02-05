@@ -1,0 +1,148 @@
+{{ define "main" }}
+<article class="article-single">
+  <header class="article-header">
+    {{ with .Params.title_jp }}
+    <div class="jp article-jp-title">{{ . }}</div>
+    {{ end }}
+    <h1>{{ .Title }}</h1>
+    <div class="article-byline">
+      {{ with .Params.journalist }}
+        <span class="journalist-name">{{ . }}</span> •
+      {{ end }}
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Params.year | default "2935" }}.{{ .Date.YearDay | printf "%03d" }}</time>
+      {{ with .Params.journalist_title }}
+        <br><span class="text-light text-small">{{ . }}</span>
+      {{ end }}
+    </div>
+  </header>
+
+  <!-- Divider -->
+  <div class="content-divider">
+    <span class="divider-line divider-blue"></span>
+    <span class="divider-line divider-orange"></span>
+    <span class="divider-line divider-yellow"></span>
+  </div>
+
+  {{ with .Params.featured_image }}
+  <figure class="spacer-feature mb-xl">
+    <img src="{{ . }}" alt="{{ $.Title }}" class="spacer-image">
+  </figure>
+  {{ end }}
+
+  <div class="article-body">
+    {{ .Content }}
+  </div>
+
+  {{ with .Params.tags }}
+  <footer class="article-footer">
+    <div class="footer-divider-inline">
+      <span class="divider-line divider-blue"></span>
+      <span class="divider-line divider-orange"></span>
+      <span class="divider-line divider-yellow"></span>
+    </div>
+    <div class="text-small text-light">
+      Tags:
+      {{ range . }}
+        <a href="{{ "/tags/" | relURL }}{{ . | urlize }}/">{{ . }}</a>{{ if not (eq . (index $.Params.tags (sub (len $.Params.tags) 1))) }}, {{ end }}
+      {{ end }}
+    </div>
+  </footer>
+  {{ end }}
+</article>
+
+<style>
+.article-single {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.article-header {
+  margin-bottom: var(--space-lg);
+}
+
+.article-jp-title {
+  font-size: 2rem;
+  margin-bottom: var(--space-xs);
+}
+
+.article-header h1 {
+  font-size: 1.2rem;
+  margin-bottom: var(--space-sm);
+}
+
+.article-byline {
+  color: var(--text-light);
+  font-size: 0.9rem;
+}
+
+.journalist-name {
+  color: #E85D04;
+  font-weight: 600;
+}
+
+.content-divider {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin-bottom: var(--space-xl);
+  max-width: 200px;
+}
+
+.spacer-feature {
+  margin: 0 0 var(--space-xl) 0;
+}
+
+.spacer-image {
+  width: 100%;
+  height: auto;
+}
+
+.article-body {
+  line-height: 1.8;
+}
+
+.article-body h2 {
+  font-family: var(--font-jp);
+  margin-top: var(--space-xl);
+  margin-bottom: var(--space-md);
+  padding-bottom: var(--space-xs);
+  border-bottom: 2px solid #E85D04;
+  display: inline-block;
+}
+
+.article-body h3 {
+  margin-top: var(--space-lg);
+  margin-bottom: var(--space-sm);
+  color: #E85D04;
+}
+
+.article-body blockquote {
+  border-left: 3px solid #E85D04;
+  border-right: 3px solid #FFD000;
+  padding: var(--space-md) var(--space-lg);
+  margin: var(--space-lg) 0;
+  font-style: italic;
+}
+
+.article-footer {
+  margin-top: var(--space-xl);
+  padding-top: var(--space-lg);
+}
+
+.footer-divider-inline {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin-bottom: var(--space-lg);
+  max-width: 120px;
+}
+
+.article-footer a {
+  color: #E85D04;
+}
+
+.article-footer a:hover {
+  color: #FFD000;
+}
+</style>
+{{ end }}

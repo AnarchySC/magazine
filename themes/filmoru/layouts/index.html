@@ -1,0 +1,93 @@
+{{ define "main" }}
+<!-- Edition Banner - 21:9 Minimal -->
+<section class="edition-banner">
+  <!-- Left: Title + Headlines -->
+  <div class="banner-content">
+    <div class="banner-titles">
+      <div class="banner-edition">2935.{{ now.YearDay | printf "%03d" }}</div>
+      <h1 class="banner-title-main">カセット・フューチャー</h1>
+      <div class="banner-subtitle">CASSETTE FUTURE MAGAZINE</div>
+    </div>
+
+    <!-- Headlines -->
+    <div class="banner-headlines">
+      {{ range first 3 (where .Site.RegularPages "Section" "posts") }}
+      <a href="{{ .RelPermalink }}" class="banner-headline">{{ .Title }}</a>
+      {{ end }}
+    </div>
+  </div>
+
+  <!-- Right: Cosmogirl preview -->
+  {{ with (index (where .Site.RegularPages "Section" "cosmogirls") 0) }}
+  <a href="{{ .RelPermalink }}" class="banner-cosmogirl">
+    {{ with .Params.featured_image }}
+    <img src="{{ . }}" alt="Cosmogirl of the Week">
+    {{ end }}
+    <span class="cosmogirl-label">今週のコスモガール</span>
+  </a>
+  {{ end }}
+
+  <!-- Footer bar -->
+  <div class="banner-footer">
+    銀河通信 • CASSETTE FUTURE • 2935.{{ now.YearDay | printf "%03d" }}
+  </div>
+</section>
+
+  <!-- Cosmogirl of the Week -->
+  {{ with (index (where .Site.RegularPages "Section" "cosmogirls") 0) }}
+  <section class="cosmogirl-feature-home mt-xl">
+    <div class="cosmogirl-feature-grid">
+      {{ with .Params.featured_image }}
+      <a href="{{ $.RelPermalink }}" class="cosmogirl-feature-image">
+        <img src="{{ . }}" alt="{{ $.Params.name }}">
+      </a>
+      {{ end }}
+      <div class="cosmogirl-feature-info">
+        <div class="jp" style="font-size: 1.2rem; margin-bottom: var(--space-sm);">今週のコスモガール</div>
+        <h2><a href="{{ .RelPermalink }}">{{ .Params.name }}</a></h2>
+        <div class="cosmogirl-tagline">{{ .Params.species }} • {{ .Params.occupation }}</div>
+        <div class="cosmogirl-details">
+          <span>{{ .Params.home }}</span>
+          <span>{{ .Params.ship_name }}</span>
+        </div>
+        {{ with .Params.quote }}
+        <blockquote class="cosmogirl-mini-quote">"{{ . | truncate 100 }}"</blockquote>
+        {{ end }}
+        <a href="{{ .RelPermalink }}" class="cosmogirl-link">Full Profile →</a>
+      </div>
+    </div>
+  </section>
+  {{ end }}
+
+  <!-- Section Divider -->
+  <div class="section-divider">
+    <span class="divider-line divider-blue"></span>
+    <span class="divider-line divider-orange"></span>
+    <span class="divider-line divider-yellow"></span>
+  </div>
+
+  <!-- Recent Articles -->
+  <section class="mt-xl">
+    <h2 class="section-title">最新記事</h2>
+    {{ range first 5 (where .Site.RegularPages "Section" "!=" "cosmogirls") }}
+      <article class="article-card">
+        <div class="article-jp-header">
+          {{ .Params.title_jp | default "記事" }}
+        </div>
+        <div class="article-content">
+          <h3 class="article-title">
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          </h3>
+          {{ with .Params.subtitle_jp }}
+          <div class="article-subtitle">{{ . }}</div>
+          {{ end }}
+          <p class="article-excerpt">{{ .Summary | truncate 200 }}</p>
+        </div>
+        <div class="article-meta">
+          <div class="article-journalist">{{ .Params.journalist | default "Staff" }}</div>
+          <div class="article-date">{{ .Params.year | default "2935" }}.{{ .Date.YearDay | printf "%03d" }}</div>
+        </div>
+      </article>
+    {{ end }}
+  </section>
+{{ end }}

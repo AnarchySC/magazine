@@ -1,0 +1,255 @@
+{{ define "main" }}
+<article class="cosmogirl-feature">
+  <header class="cosmogirl-header">
+    <h1 class="section-title">{{ .Params.name }}</h1>
+    <p class="page-subtitle">今週のコスモガール • {{ .Params.species }} • {{ .Params.occupation }}</p>
+  </header>
+
+  <!-- Divider -->
+  <div class="content-divider">
+    <span class="divider-line divider-blue"></span>
+    <span class="divider-line divider-orange"></span>
+    <span class="divider-line divider-yellow"></span>
+  </div>
+
+  <div class="cosmogirl-layout">
+    <!-- Main Image -->
+    {{ with .Params.featured_image }}
+    <figure class="cosmogirl-image">
+      <img src="{{ . }}" alt="{{ $.Params.name }}">
+    </figure>
+    {{ end }}
+
+    <!-- Stats Panel -->
+    <aside class="cosmogirl-stats">
+      <h2 class="stats-header">The Stats</h2>
+      <table class="stats-table">
+        <tr>
+          <td class="stat-label">Name</td>
+          <td class="stat-value">{{ .Params.name }}</td>
+        </tr>
+        <tr>
+          <td class="stat-label">Species</td>
+          <td class="stat-value">{{ .Params.species }}</td>
+        </tr>
+        <tr>
+          <td class="stat-label">Age</td>
+          <td class="stat-value">{{ .Params.age }}</td>
+        </tr>
+        <tr>
+          <td class="stat-label">Height</td>
+          <td class="stat-value">{{ .Params.height }}</td>
+        </tr>
+        <tr>
+          <td class="stat-label">Occupation</td>
+          <td class="stat-value">{{ .Params.occupation }}</td>
+        </tr>
+        <tr>
+          <td class="stat-label">Home</td>
+          <td class="stat-value">{{ .Params.home }}</td>
+        </tr>
+      </table>
+
+      <h3 class="stats-subhead">Her Ride</h3>
+      <div class="ship-info">
+        <strong>{{ .Params.ship_name }}</strong><br>
+        <span class="text-light">{{ .Params.ship_class }} ({{ .Params.ship_type }})</span>
+      </div>
+
+      <h3 class="stats-subhead">Hobbies</h3>
+      <ul class="cosmogirl-list">
+        {{ range .Params.hobbies }}
+        <li>{{ . }}</li>
+        {{ end }}
+      </ul>
+
+      <h3 class="stats-subhead">Turn-Ons</h3>
+      <ul class="cosmogirl-list">
+        {{ range .Params.turn_ons }}
+        <li>{{ . }}</li>
+        {{ end }}
+      </ul>
+    </aside>
+  </div>
+
+  <!-- Quote -->
+  {{ with .Params.quote }}
+  <blockquote class="cosmogirl-quote">
+    "{{ . }}"
+  </blockquote>
+  {{ end }}
+
+  <!-- Full Body Shot -->
+  {{ with .Params.fullbody_image }}
+  <section class="cosmogirl-fullbody">
+    <div class="fullbody-divider">
+      <span class="divider-line divider-blue"></span>
+      <span class="divider-line divider-orange"></span>
+      <span class="divider-line divider-yellow"></span>
+    </div>
+    <figure>
+      <img src="{{ . }}" alt="{{ $.Params.name }} - Full Body">
+    </figure>
+    <div class="fullbody-divider">
+      <span class="divider-line divider-blue"></span>
+      <span class="divider-line divider-orange"></span>
+      <span class="divider-line divider-yellow"></span>
+    </div>
+  </section>
+  {{ end }}
+
+  <!-- Bio content from markdown -->
+  {{ if .Content }}
+  <div class="cosmogirl-bio">
+    {{ .Content }}
+  </div>
+  {{ end }}
+
+</article>
+
+<style>
+.cosmogirl-feature {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.cosmogirl-header {
+  margin-bottom: var(--space-lg);
+}
+
+.cosmogirl-header .section-title {
+  font-family: var(--font-jp);
+}
+
+.content-divider {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin-bottom: var(--space-xl);
+}
+
+.cosmogirl-layout {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: var(--space-xl);
+  margin-bottom: var(--space-xl);
+}
+
+@media (max-width: 800px) {
+  .cosmogirl-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+.cosmogirl-image img {
+  width: 100%;
+}
+
+.cosmogirl-stats {
+  border: 1px solid var(--border);
+  padding: var(--space-lg);
+}
+
+.stats-header {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: var(--space-md);
+  padding-bottom: var(--space-sm);
+  border-bottom: 1px solid var(--border);
+}
+
+.stats-subhead {
+  font-size: 0.85rem;
+  margin-top: var(--space-lg);
+  margin-bottom: var(--space-sm);
+  color: #E85D04;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.stats-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.stats-table tr {
+  border-bottom: 1px solid var(--border);
+}
+
+.stats-table td {
+  padding: var(--space-xs) 0;
+  font-size: 0.9rem;
+}
+
+.stat-label {
+  font-weight: 600;
+  width: 40%;
+}
+
+.stat-value {
+  text-align: right;
+}
+
+.ship-info {
+  padding: var(--space-sm);
+  border: 1px solid var(--border);
+  font-size: 0.9rem;
+}
+
+.cosmogirl-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cosmogirl-list li {
+  padding: var(--space-xs) 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.9rem;
+}
+
+.cosmogirl-list li:last-child {
+  border-bottom: none;
+}
+
+.cosmogirl-quote {
+  font-size: 1.3rem;
+  font-style: italic;
+  text-align: center;
+  padding: var(--space-xl);
+  margin: var(--space-xl) 0;
+  border-left: 3px solid #E85D04;
+  border-right: 3px solid #FFD000;
+}
+
+.cosmogirl-bio {
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+.cosmogirl-fullbody {
+  margin: var(--space-xl) 0;
+  text-align: center;
+}
+
+.fullbody-divider {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  max-width: 300px;
+  margin: var(--space-lg) auto;
+}
+
+.cosmogirl-fullbody figure {
+  margin: 0;
+  padding: 0;
+}
+
+.cosmogirl-fullbody img {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+}
+</style>
+{{ end }}

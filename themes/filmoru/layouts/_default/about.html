@@ -1,0 +1,96 @@
+{{ define "main" }}
+<article class="about-page">
+  <header class="about-header">
+    <div class="about-divider">
+      <span class="divider-line divider-blue"></span>
+      <span class="divider-line divider-orange"></span>
+      <span class="divider-line divider-yellow"></span>
+    </div>
+    <div class="jp about-jp-title">{{ .Params.title_jp }}</div>
+    <h1>Cassette Future Magazine</h1>
+    <div class="about-divider">
+      <span class="divider-line divider-blue"></span>
+      <span class="divider-line divider-orange"></span>
+      <span class="divider-line divider-yellow"></span>
+    </div>
+  </header>
+
+  <div class="about-content">
+    {{ .Content }}
+  </div>
+</article>
+
+<style>
+.about-page {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: var(--space-xl) 0;
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: var(--space-xl);
+}
+
+.about-jp-title {
+  font-size: 2.5rem;
+  margin-bottom: var(--space-sm);
+}
+
+.about-header h1 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: var(--space-md) 0;
+  letter-spacing: 0.1em;
+}
+
+.about-divider {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  max-width: 120px;
+  margin: var(--space-md) auto;
+}
+
+.about-content {
+  line-height: 1.9;
+}
+
+.about-content h2 {
+  font-family: var(--font-jp);
+  font-size: 1.3rem;
+  margin-top: var(--space-xl);
+  margin-bottom: var(--space-md);
+  padding-bottom: var(--space-sm);
+  border-bottom: 2px solid #E85D04;
+  display: inline-block;
+}
+
+.about-content p {
+  margin-bottom: var(--space-lg);
+  color: var(--text);
+}
+
+.about-content strong {
+  color: var(--text);
+}
+
+.about-content hr {
+  border: none;
+  height: 1px;
+  background: var(--border);
+  margin: var(--space-xl) 0;
+}
+
+.transmission-footer {
+  margin-top: var(--space-xl);
+  padding: var(--space-lg);
+  text-align: center;
+  font-family: var(--font-jp);
+  font-size: 0.9rem;
+  color: var(--text-light);
+  border-top: 2px solid #FFD000;
+  border-bottom: 2px solid #E85D04;
+}
+</style>
+{{ end }}
