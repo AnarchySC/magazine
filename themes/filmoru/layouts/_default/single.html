@@ -25,7 +25,7 @@
 
   {{ with .Params.featured_image }}
   <figure class="spacer-feature mb-xl">
-    <img src="{{ . | absURL }}" alt="{{ $.Title }}" class="spacer-image">
+    <img src="{{ $.Site.BaseURL }}{{ strings.TrimPrefix "/" . }}" alt="{{ $.Title }}" class="spacer-image">
   </figure>
   {{ end }}
 
@@ -43,7 +43,7 @@
     <div class="text-small text-light">
       Tags:
       {{ range . }}
-        <a href="{{ "/tags/" | absURL }}{{ . | urlize }}/">{{ . }}</a>{{ if not (eq . (index $.Params.tags (sub (len $.Params.tags) 1))) }}, {{ end }}
+        <a href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}/">{{ . }}</a>{{ if not (eq . (index $.Params.tags (sub (len $.Params.tags) 1))) }}, {{ end }}
       {{ end }}
     </div>
   </footer>

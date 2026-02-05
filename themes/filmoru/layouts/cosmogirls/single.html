@@ -16,7 +16,7 @@
     <!-- Main Image -->
     {{ with .Params.featured_image }}
     <figure class="cosmogirl-image">
-      <img src="{{ . | absURL }}" alt="{{ $.Params.name }}">
+      <img src="{{ $.Site.BaseURL }}{{ strings.TrimPrefix "/" . }}" alt="{{ $.Params.name }}">
     </figure>
     {{ end }}
 
@@ -88,7 +88,7 @@
       <span class="divider-line divider-yellow"></span>
     </div>
     <figure>
-      <img src="{{ . | absURL }}" alt="{{ $.Params.name }} - Full Body">
+      <img src="{{ $.Site.BaseURL }}{{ strings.TrimPrefix "/" . }}" alt="{{ $.Params.name }} - Full Body">
     </figure>
     <div class="fullbody-divider">
       <span class="divider-line divider-blue"></span>
