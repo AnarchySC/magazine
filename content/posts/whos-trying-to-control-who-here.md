@@ -1,18 +1,17 @@
 ---
-date: '2026-02-05T17:14:53'
+date: '2026-02-05T23:47:25'
 draft: false
-image_prompt: Anime-style illustration of an independent asteroid miner in a EVA suit
-  floating near a small mining operation, with distant corporate ships in the background,
-  minimal white background, concerned expression
+image_prompt: Anime-style illustration of a lone spacecraft in deep space with multiple
+  tracking satellites pointing at it, minimal white background, subtle warning symbols
+  floating nearby
 journalist: アワセン・オエ
 journalist_title: Opinion Columnist
-subtitle_jp: 新しい「安全」規制の下での真実
+subtitle_jp: 新しい宇宙船検査法について
 tags:
-- regulation
-- mining
-- independence
-- belt
-- GCB
+- surveillance
+- galactic-central-bank
+- privacy
+- space-haulers
 title: Who's Trying to Control Who Here?
 title_jp: 誰が誰をコントロールしようとしているのか？
 year: 2935
@@ -20,32 +19,34 @@ year: 2935
 
 # Who's Trying to Control Who Here?
 
-*The truth behind the new "safety" regulations*
+Back when I was hauling ice between Ceres and Europa, we had a saying: "If someone needs to know where you are every second of every day, they're either your mother or planning to rob you."
 
-Back when I was hauling ice between Ceres and Vesta, there was this guy—let's call him Marcus—who'd show up at independent mining claims with a clipboard and a very serious expression. "New safety requirements," he'd say. "Gotta protect the workers." 
+The Galactic Central Bank isn't anyone's mother.
 
-Funny thing about Marcus: he always worked for whichever mega-corp was trying to buy out that particular claim. And somehow, these "safety requirements" always cost exactly what most independents couldn't afford.
+Their new Vessel Identification Protocol sounds reasonable enough on the surface. Mandatory transponders on every ship over 10 tons. Real-time location tracking. "For safety," they say. "To prevent collisions." "To coordinate rescue operations."
 
-The Galactic Central Bank's new "Autonomous Mining Safety Protocols" remind me a lot of Marcus.
+Look, I've been in space long enough to know what prevents collisions: paying attention and following traffic lanes. I've also been in enough scrapes to know that when someone really needs rescue, they're already broadcasting their location as loud as they can.
 
-Here's the thing about safety—real safety comes from people who actually do the work having the authority to make decisions about how they do it. When someone who's never been inside a mining suit starts writing regulations about EVA procedures, you're not getting safety. You're getting control.
+But here's the thing about surveillance—it never stays focused on the original problem.
 
-Look at what these protocols actually require: "Certified oversight personnel" for any operation with more than three workers. "Standardized equipment verification" through GCB-approved testing facilities—located conveniently on Earth and Mars, nowhere near the Belt where the work actually happens. "Regular compliance audits" that somehow cost more than most small operations gross in a standard cycle.
+When I was running comm networks in the Belt, we had a client who wanted to track employee productivity. Just to "optimize workflows," they said. Within six months, they were using the same system to monitor bathroom breaks, lunch conversations, and who talked to competitors. Same rules for everyone became different rules for management and workers real fast.
 
-That's not a bug. That's the design.
+The GCB says this is about safety. But buried in subsection 47-C of the protocol is language about "economic monitoring" and "tax compliance verification." Amazing how a collision-prevention system suddenly needs access to cargo manifests and financial records.
 
-I spent two decades in space construction. You know what kept us safe? Experienced crews who knew their equipment, understood the risks, and had the freedom to say "this isn't right" without worrying about some bureaucrat's checklist. The most dangerous jobs I ever worked were the ones where Earth-side "experts" had written procedures for situations they'd never actually faced.
+I remember my first supervisor on the construction crews around Saturn. Guy named Martinez. He taught me that the best way to spot a control freak is to watch what they do when you ask "why." Reasonable people explain. Controllers deflect.
 
-The real question is: who benefits when independent miners can't afford to operate anymore? 
+So I asked my Assembly representative why the protocol needs real-time tracking instead of just emergency beacons. Why it needs cargo data for collision prevention. Why there's no opt-out for vessels operating in deep space where collisions are mathematically impossible.
 
-Spoiler alert: it's not the miners. It's not even the consumers paying inflated prices for processed materials. It's the same mega-corps that have been trying to eliminate independent competition for centuries—the ones that coincidentally have the resources to comply with expensive new regulations.
+Got a form letter about "comprehensive safety measures" and "interstellar commerce standards."
 
-Same rules for everyone? That would mean the regulations applied equally to Stellar Mining Consortium and a three-person family operation on Pallas. But somehow, when you can afford to keep a compliance department on payroll, these "burdensome" regulations become just another cost of doing business.
+The real question is: who benefits from knowing where every independent hauler, trader, and prospector is at all times? Not the haulers. We already know where we are. Not legitimate shippers. They're already tracked through port authorities.
 
-Here's what I learned selling comm networks in the Belt: the moment someone starts talking about "protecting you for your own good," check your wallet. Then check who's standing behind them, and what they stand to gain.
+No, this benefits the same people who always benefit from surveillance: those who make money by controlling others.
 
-Independent miners built this system. They took the risks, developed the techniques, figured out how to extract resources from rocks spinning in the dark. Now that the infrastructure exists, suddenly we need "oversight" from people who've never strapped on a suit.
+There's a reason the mega-corps support this protocol while independent operators oppose it. When Stellar Financial can track every competitor's route and cargo, guess who gets the better shipping contracts?
 
-I'm not against safety. I'm against safety theater designed to eliminate competition. There's a difference, and anyone who's actually done the work knows it.
+Here's what I learned selling comm equipment: the customer who insists they need to monitor everything usually has the least legitimate reason for the information.
 
-Same rules for everyone—including the people making the rules.
+Same rules for everyone means the GCB follows the same privacy standards they're imposing on us. Let them broadcast their meeting locations, transaction records, and travel itineraries in real-time. For safety, of course.
+
+Until then, maybe we should ask who's really trying to control who here.
