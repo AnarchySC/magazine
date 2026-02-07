@@ -16,60 +16,59 @@
     <span class="divider-line divider-yellow"></span>
   </div>
 
-  <div class="subscribe-form-container">
-    <div class="ml-embedded" data-form="v4bk2z"></div>
-    <noscript>
-      <p>Please enable JavaScript to use the subscription form, or email admin@anarchygames.org directly.</p>
-    </noscript>
-  </div>
+  <!-- Side-by-side comparison -->
+  <div class="tiers-container">
 
-  <div class="subscribe-benefits">
-    <h2 class="benefits-title">届くもの <span>What You'll Receive</span></h2>
-    <ul class="benefits-list">
-      <li>
-        <span class="benefit-jp">週刊ダイジェスト</span>
-        <span class="benefit-en">Weekly issue digest with all articles</span>
-      </li>
-      <li>
-        <span class="benefit-jp">コスモガール紹介</span>
-        <span class="benefit-en">Cosmogirl of the Week spotlight</span>
-      </li>
-      <li>
-        <span class="benefit-jp">特別コンテンツ</span>
-        <span class="benefit-en">Occasional bonus transmissions</span>
-      </li>
-    </ul>
+    <!-- Free Tier -->
+    <div class="tier tier-free">
+      <div class="tier-badge">無料</div>
+      <h2 class="tier-title">Free</h2>
+      <p class="tier-price">$0<span>/forever</span></p>
+
+      <ul class="tier-features">
+        <li class="included">Weekly issue digest</li>
+        <li class="included">Cosmogirl of the Week spotlight</li>
+        <li class="included">Occasional bonus transmissions</li>
+        <li class="not-included">Exclusive HD wallpapers</li>
+        <li class="not-included">Limited edition content</li>
+      </ul>
+
+      <div class="tier-form">
+        <div class="ml-embedded" data-form="v4bk2z"></div>
+        <noscript>
+          <p>Email admin@anarchygames.org to subscribe.</p>
+        </noscript>
+      </div>
+    </div>
+
+    <!-- Premium Tier -->
+    <div class="tier tier-premium">
+      <div class="tier-badge">銀河限定</div>
+      <h2 class="tier-title">Cassette Future Premium</h2>
+      <p class="tier-price">$1<span>/month</span></p>
+
+      <ul class="tier-features">
+        <li class="included">Weekly issue digest</li>
+        <li class="included">Cosmogirl of the Week spotlight</li>
+        <li class="included">Occasional bonus transmissions</li>
+        <li class="included">Exclusive HD wallpapers (1920x1080)</li>
+        <li class="included">Limited edition content</li>
+      </ul>
+
+      <a href="https://ko-fi.com/cassettefuture" target="_blank" class="tier-btn">Join on Ko-fi →</a>
+      <p class="tier-note">Miss a wallpaper? It's gone to the void forever.</p>
+    </div>
+
   </div>
 
   <div class="subscribe-note">
     <p>No spam. Unsubscribe anytime. Your data stays in this galaxy.</p>
   </div>
-
-  <!-- Premium Tier -->
-  <div class="content-divider" style="margin-top: var(--space-xl);">
-    <span class="divider-line divider-blue"></span>
-    <span class="divider-line divider-orange"></span>
-    <span class="divider-line divider-yellow"></span>
-  </div>
-
-  <div class="premium-tier">
-    <div class="premium-badge">銀河限定</div>
-    <h2 class="premium-title">Cassette Future Premium</h2>
-    <p class="premium-price">$1<span>/month</span></p>
-    <p class="premium-desc">Exclusive HD wallpapers featuring the Cosmogirl of the Week. Scenes you won't find anywhere else.</p>
-    <ul class="premium-features">
-      <li>Weekly 1920x1080 wallpaper</li>
-      <li>Action shots, chill vibes, pinup poses</li>
-      <li>Each wallpaper available ONE WEEK only</li>
-    </ul>
-    <a href="https://ko-fi.com/cassettefuture" target="_blank" class="premium-btn">Join on Ko-fi →</a>
-    <p class="premium-warning">Miss it? It's gone to the void forever.</p>
-  </div>
 </section>
 
 <style>
 .subscribe-page {
-  max-width: 600px;
+  max-width: 900px;
   margin: 0 auto;
   text-align: center;
 }
@@ -98,15 +97,123 @@
   margin: var(--space-lg) auto var(--space-xl) auto;
 }
 
-.subscribe-form-container {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  padding: var(--space-xl);
+/* Tiers comparison layout */
+.tiers-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-lg);
   margin-bottom: var(--space-xl);
 }
 
-/* Mailerlite form overrides */
-.subscribe-form-container input[type="email"] {
+@media (max-width: 700px) {
+  .tiers-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.tier {
+  padding: var(--space-xl);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.tier-free {
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+
+.tier-premium {
+  background: linear-gradient(135deg, #1B3A5F 0%, #0d1f33 100%);
+  color: #fff;
+  border: 2px solid #E85D04;
+}
+
+.tier-badge {
+  display: inline-block;
+  font-family: var(--font-jp);
+  font-size: 0.75rem;
+  padding: 4px 12px;
+  margin-bottom: var(--space-md);
+  letter-spacing: 0.1em;
+  align-self: center;
+}
+
+.tier-free .tier-badge {
+  background: var(--border);
+  color: var(--text);
+}
+
+.tier-premium .tier-badge {
+  background: #E85D04;
+  color: #fff;
+}
+
+.tier-title {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  margin: 0 0 var(--space-sm) 0;
+}
+
+.tier-price {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: var(--space-md) 0 var(--space-lg) 0;
+}
+
+.tier-price span {
+  font-size: 1rem;
+  font-weight: 400;
+  opacity: 0.7;
+}
+
+.tier-features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 var(--space-lg) 0;
+  text-align: left;
+  flex-grow: 1;
+}
+
+.tier-features li {
+  padding: var(--space-sm) 0;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.tier-features li::before {
+  font-size: 1rem;
+  width: 20px;
+  text-align: center;
+}
+
+.tier-features li.included::before {
+  content: "✓";
+  color: #22c55e;
+}
+
+.tier-features li.not-included::before {
+  content: "—";
+  opacity: 0.4;
+}
+
+.tier-features li.not-included {
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+
+.tier-premium .tier-features li.included::before {
+  color: #FFD000;
+}
+
+/* Free tier form */
+.tier-form {
+  margin-top: auto;
+}
+
+.tier-form input[type="email"] {
   width: 100%;
   padding: var(--space-md);
   font-size: 1rem;
@@ -114,10 +221,11 @@
   margin-bottom: var(--space-md);
 }
 
-.subscribe-form-container button,
-.subscribe-form-container input[type="submit"] {
-  background: #E85D04;
-  color: #fff;
+.tier-form button,
+.tier-form input[type="submit"] {
+  width: 100%;
+  background: var(--text);
+  color: var(--bg);
   border: none;
   padding: var(--space-md) var(--space-lg);
   font-size: 1rem;
@@ -126,142 +234,40 @@
   transition: background 0.2s;
 }
 
-.subscribe-form-container button:hover,
-.subscribe-form-container input[type="submit"]:hover {
-  background: #FFD000;
-  color: #1a1a1a;
-}
-
-.benefits-title {
-  font-family: var(--font-jp);
-  font-size: 1.2rem;
-  margin-bottom: var(--space-lg);
-  padding-bottom: var(--space-sm);
-  border-bottom: 2px solid var(--border);
-  text-align: left;
-}
-
-.benefits-title span {
-  font-family: var(--font-en);
-  font-size: 0.8rem;
-  color: var(--text-light);
-  margin-left: var(--space-sm);
-}
-
-.benefits-list {
-  list-style: none;
-  padding: 0;
-  text-align: left;
-}
-
-.benefits-list li {
-  padding: var(--space-md) 0;
-  border-bottom: 1px solid var(--border);
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-xs);
-}
-
-.benefit-jp {
-  font-family: var(--font-jp);
-  font-weight: 600;
-}
-
-.benefit-en {
-  font-size: 0.85rem;
-  color: var(--text-light);
-}
-
-.subscribe-note {
-  margin-top: var(--space-xl);
-  font-size: 0.8rem;
-  color: var(--text-light);
-}
-
-/* Premium tier */
-.premium-tier {
-  background: linear-gradient(135deg, #1B3A5F 0%, #0d1f33 100%);
-  color: #fff;
-  padding: var(--space-xl);
-  margin-top: var(--space-lg);
-  text-align: center;
-}
-
-.premium-badge {
-  display: inline-block;
-  font-family: var(--font-jp);
-  font-size: 0.8rem;
+.tier-form button:hover,
+.tier-form input[type="submit"]:hover {
   background: #E85D04;
-  padding: 4px 12px;
-  margin-bottom: var(--space-md);
-  letter-spacing: 0.1em;
+  color: #fff;
 }
 
-.premium-title {
-  font-family: var(--font-display);
-  font-size: 1.5rem;
-  margin: 0 0 var(--space-sm) 0;
-}
-
-.premium-price {
-  font-size: 2.5rem;
-  font-weight: 700;
-  margin: var(--space-md) 0;
-}
-
-.premium-price span {
-  font-size: 1rem;
-  font-weight: 400;
-  opacity: 0.7;
-}
-
-.premium-desc {
-  font-size: 0.95rem;
-  opacity: 0.9;
-  margin-bottom: var(--space-lg);
-}
-
-.premium-features {
-  list-style: none;
-  padding: 0;
-  margin-bottom: var(--space-lg);
-  text-align: left;
-  max-width: 300px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.premium-features li {
-  padding: var(--space-sm) 0;
-  border-bottom: 1px solid rgba(255,255,255,0.1);
-  font-size: 0.9rem;
-}
-
-.premium-features li::before {
-  content: "✦ ";
-  color: #FFD000;
-}
-
-.premium-btn {
-  display: inline-block;
+/* Premium tier button */
+.tier-btn {
+  display: block;
   background: #E85D04;
   color: #fff;
   padding: var(--space-md) var(--space-xl);
   font-weight: 600;
   text-decoration: none;
   transition: background 0.2s;
+  margin-top: auto;
 }
 
-.premium-btn:hover {
+.tier-btn:hover {
   background: #FFD000;
   color: #1a1a1a;
 }
 
-.premium-warning {
+.tier-note {
   margin-top: var(--space-md);
   font-size: 0.75rem;
   opacity: 0.6;
   font-style: italic;
+}
+
+.subscribe-note {
+  margin-top: var(--space-lg);
+  font-size: 0.8rem;
+  color: var(--text-light);
 }
 </style>
 
