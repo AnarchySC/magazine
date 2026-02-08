@@ -9,9 +9,14 @@
       <div class="banner-subtitle">CASSETTE FUTURE MAGAZINE</div>
     </div>
 
-    <!-- Headlines -->
+    <!-- Headlines (from today's issue) -->
+    {{ $issueNum := printf "2935.%03d" now.YearDay }}
+    {{ $issueArticles := where (where .Site.RegularPages "Section" "posts") ".Params.issue_number" $issueNum }}
+    {{ if not $issueArticles }}
+      {{ $issueArticles = first 3 (where .Site.RegularPages "Section" "posts") }}
+    {{ end }}
     <div class="banner-headlines">
-      {{ range first 3 (where .Site.RegularPages "Section" "posts") }}
+      {{ range first 3 $issueArticles }}
       <a href="{{ .RelPermalink }}" class="banner-headline">{{ .Title }}</a>
       {{ end }}
     </div>
@@ -66,10 +71,15 @@
     <span class="divider-line divider-yellow"></span>
   </div>
 
-  <!-- Recent Articles -->
+  <!-- Recent Articles (filtered to today's issue) -->
+  {{ $todayIssue := printf "2935.%03d" now.YearDay }}
   <section class="mt-xl">
     <h2 class="section-title">最新記事</h2>
-    {{ range first 5 (where .Site.RegularPages "Section" "!=" "cosmogirls") }}
+    {{ $todayArticles := where (where .Site.RegularPages "Section" "posts") ".Params.issue_number" $todayIssue }}
+    {{ if not $todayArticles }}
+      {{ $todayArticles = first 5 (where .Site.RegularPages "Section" "posts") }}
+    {{ end }}
+    {{ range $todayArticles }}
       <article class="article-card">
         <div class="article-jp-header">
           {{ .Params.title_jp | default "記事" }}
