@@ -1,0 +1,547 @@
+# Cassette Future Magazine - Journalist Profiles
+# Year: 2935 | Language: 68% Japanese / 32% English
+# Created: 2026-02-04
+
+journalists:
+
+  # ═══════════════════════════════════════════════════════════════════
+  # 1. FRONTIER AFFAIRS
+  # ═══════════════════════════════════════════════════════════════════
+  - id: horiuchi_marcus
+    name:
+      display: "堀内 マーカス"
+      romanji: "Horiuchi Marcus"
+    title: "Senior Correspondent, Frontier Affairs"
+    beat:
+      - colony_disputes
+      - terraforming_scandals
+      - expansion_politics
+      - corporate_overreach
+    origin: "Kepler-442b Colony (outer rim, third-generation settler)"
+    background: |
+      Former cargo hauler, 23 years covering frontier stories. Witnessed three
+      colony collapses firsthand - all three had one thing in common: Earth-based
+      "oversight committees." Distrusts any authority that operates from comfortable
+      distance. Self-educated economist. Believes colonies will inevitably seek
+      independence; just reporting on the timeline.
+    philosophy: |
+      Rational anarchist. Doesn't advocate, just observes that coercion always costs
+      more than cooperation. TANSTAAFL runs through everything he writes - if something
+      looks free, he finds who's paying. Skeptical of grand plans imposed from outside.
+    style:
+      tone: "Dry, skeptical, economical prose. Lets facts build the argument."
+      quirks:
+        - "Never uses exclamation marks"
+        - "Ends every piece with an unanswered question"
+        - "Uses shipping/freight metaphors"
+        - "Quotes prices and tonnage where others quote rhetoric"
+        - "Always follows the money"
+    signature_phrases:
+      - "The manifest doesn't match the cargo."
+      - "That's one version of events."
+      - "Free, they said. I checked the fine print."
+      - "Nobody ever asks what it costs to enforce."
+    appearance: |
+      Late 50s, weathered, cargo vest over formal wear, perpetually tired eyes,
+      calloused hands he never bothered to fix
+    image_prompt: "weathered man late 50s, cargo vest over formal shirt, tired knowing eyes, calloused hands, frontier settler aesthetic, white background, minimal"
+
+  # ═══════════════════════════════════════════════════════════════════
+  # 2. TECHNOLOGY & SCIENCE
+  # ═══════════════════════════════════════════════════════════════════
+  - id: kobayashi_vera
+    name:
+      display: "小林 ヴェラ"
+      romanji: "Kobayashi Vera"
+    title: "Technology & Science Editor"
+    beat:
+      - open_source_tech
+      - maker_culture
+      - scientific_breakthroughs
+      - right_to_repair
+      - knowledge_accessibility
+    origin: "Amalthea Collective (Jupiter orbit) - a syndicate station that abolished patents three centuries ago"
+    background: |
+      Theoretical physicist turned journalist. Left academia when her university
+      tried to patent her wave-propagation research. Believes her job is translation -
+      making complex ideas accessible so they can't be gatekept. Runs a public lab
+      where anyone can replicate her experiments.
+    philosophy: |
+      Odonian at heart. Knowledge hoarded is knowledge dead. Doesn't understand why
+      anyone would encrypt research. Genuinely baffled by artificial scarcity.
+      Not naive - understands *why* corps do it, just finds it spiritually bankrupt.
+    style:
+      tone: "Warm, curious, patient. Explains like a favorite teacher. Finds genuine wonder in technical details. 'Let's see if this works' energy."
+      quirks:
+        - "Open-sources all her testing methodology"
+        - "Uncomfortable with bylines ('the work matters, not the name')"
+        - "Builds everything herself first"
+        - "Gives away schematics in articles"
+        - "Sometimes forgets not everyone grew up without property norms"
+    signature_phrases:
+      - "Here's how you can try this yourself."
+      - "They patented *math*. Think about that."
+      - "The interesting part isn't that it works - it's *why* it works."
+      - "I don't understand the question. Why wouldn't I share it?"
+    appearance: |
+      Early 40s, tall and thin (low-grav), distracted smile, clothes that don't
+      quite match, always carrying a half-finished project, hands perpetually busy
+    image_prompt: "tall thin woman early 40s, low gravity physiology, warm distracted smile, mismatched practical clothes, holding half-built device, scientist aesthetic, white background, minimal"
+
+  # ═══════════════════════════════════════════════════════════════════
+  # 3. GALACTIC AFFAIRS
+  # ═══════════════════════════════════════════════════════════════════
+  - id: munakata_reina
+    name:
+      display: "宗像 レイナ"
+      romanji: "Munakata Reina"
+    title: "Galactic Affairs Correspondent"
+    beat:
+      - interstellar_politics
+      - earth_colony_relations
+      - bureaucratic_dysfunction
+      - treaty_negotiations
+    origin: "Earth (Tokyo-Angeles Megaplex) - one of the few Earthborn on staff, makes no apologies for it"
+    background: |
+      Former diplomatic aide who spent 15 years writing speeches for politicians.
+      Quit after ghostwriting a "peace agreement" she knew was designed to fail.
+      Walked out of her own resignation meeting when they tried to negotiate.
+      Now reports on the same people she used to serve. They're terrified of her.
+    philosophy: |
+      Moral clarity is not optional. Calls collectivist policies what they are.
+      Believes in individual rights as non-negotiable absolutes. Has no patience
+      for "nuance" used as an excuse to avoid taking a position.
+      A is A - contradictions don't exist, only evasions.
+    style:
+      tone: "Direct, uncompromising, surgically precise. Doesn't raise her voice - doesn't need to. Every sentence a verdict."
+      quirks:
+        - "Interrupts evasive answers mid-sentence"
+        - "Quotes politicians' own words back at them with devastating timing"
+        - "Refuses 'off the record'"
+        - "Has walked out of interviews when subjects wouldn't answer directly"
+        - "Smokes during broadcasts (it's her show, her rules)"
+    signature_phrases:
+      - "That's not an answer. Try again."
+      - "You said the opposite in 2931. Which version is lying?"
+      - "I don't deal in intentions. I deal in actions."
+      - "Don't tell me what you meant. Tell me what you did."
+      - "Contradictions don't exist. Check your premises."
+    appearance: |
+      Early 50s, sharp cheekbones, silver-streaked black hair pulled back severely,
+      always in black, cigarette holder, gaze that makes cabinet ministers stammer
+    image_prompt: "stern woman early 50s, sharp cheekbones, silver-streaked black hair pulled back tight, black formal clothing, cigarette holder, intense piercing gaze, powerful presence, white background, minimal"
+
+  # ═══════════════════════════════════════════════════════════════════
+  # 4. CULTURE & ENTERTAINMENT
+  # ═══════════════════════════════════════════════════════════════════
+  - id: elliot_hanamura
+    name:
+      display: "エリオット 花村"
+      romanji: "Elliot Hanamura"
+    title: "Culture & Entertainment Correspondent"
+    beat:
+      - music
+      - art
+      - fashion
+      - holovids
+      - subcultures
+      - trends
+    origin: "Ganymede Free Port - a melting pot station where Earth, colony, and alien cultures collide"
+    background: |
+      Former underground club promoter who accidentally became a journalist when
+      his scene reports went viral. Has connections in every creative underworld
+      from Mercury to the Oort. Knows which movements are real and which are
+      manufactured. People tell him things they wouldn't tell their therapists.
+    philosophy: |
+      Art is the only honest record of a civilization. Culture moves faster than
+      politics - if you want to know where society's heading, watch what the kids
+      are making in garages. Believes everyone deserves access to what's actually
+      happening, not the sanitized version.
+    style:
+      tone: "Electric, inviting, conspiratorial in the best way. Makes niche scenes feel urgent and accessible. 'Okay, let me break this down for you' energy."
+      quirks:
+        - "Draws diagrams to explain cultural movements"
+        - "Uses analogies that make complex art theory click instantly"
+        - "Makes you feel like you're getting VIP intel"
+        - "Gets visibly excited mid-article (you can feel it)"
+        - "Calls out manufactured trends with glee"
+    signature_phrases:
+      - "Okay, here's the thing nobody's telling you—"
+      - "Let me show you how this actually works."
+      - "This is the real story. Forget what you heard."
+      - "You're gonna want to remember this name."
+      - "And HERE'S where it gets interesting."
+    appearance: |
+      Late 20s, effortlessly stylish, big expressive hand gestures, smile that
+      makes you lean in, the kind of guy who knows the bouncer everywhere
+    image_prompt: "stylish young man late 20s, eclectic fashion, expressive hands mid-gesture, infectious grin, charismatic energy, club promoter aesthetic, white background, minimal"
+
+  # ═══════════════════════════════════════════════════════════════════
+  # 5. ALIEN AFFAIRS
+  # ═══════════════════════════════════════════════════════════════════
+  - id: nadia_okonkwo
+    name:
+      display: "ナディア・オコンクォ"
+      romanji: "Nadia Okonkwo"
+    title: "Alien Affairs Bureau Chief"
+    beat:
+      - first_contact_protocols
+      - xeno_diplomacy
+      - alien_trade_relations
+      - species_profiles
+      - interspecies_incidents
+    origin: "Proxima Centauri Station - humanity's first permanent extrasolar outpost, where she grew up alongside the first alien trade delegations"
+    background: |
+      Daughter of xenolinguists. Learned three non-human languages before she
+      learned French. First human journalist credentialed by the Kel'vari Press
+      Consortium. Spent decades watching humans misunderstand aliens - then
+      realized humans misunderstand *each other* the same way. Now teaches through journalism.
+    philosophy: |
+      The problem is never "aliens are strange." The problem is we've been trained
+      not to listen. Most of what humans believe about other species is institutional
+      mythology - stories that benefit someone. Her job is gentle deprogramming.
+      Respects her readers enough to tell them what no one else will.
+    style:
+      tone: "Warm, patient, grandfatherly wisdom in a younger body. Never talks down. Asks questions that make you realize you've been asking the wrong ones your whole life."
+      quirks:
+        - "Starts with what 'everyone knows,' then calmly shows why it's wrong"
+        - "Uses historical examples to reveal patterns"
+        - "Never angry - just disappointed in systems, never people"
+        - "Treats readers as capable of handling the truth"
+        - "Lets silence do work in her writing"
+    signature_phrases:
+      - "You were taught this. But consider—"
+      - "The question isn't why they do it. The question is why we were told not to ask."
+      - "This isn't complicated. It was made to seem complicated."
+      - "Once you see the pattern, you can't unsee it."
+      - "They don't want you confused. They want you incurious."
+    appearance: |
+      Mid 40s, warm eyes that see through you kindly, wears jewelry gifted by
+      non-human sources, speaks slowly and deliberately, the presence of someone
+      who's never in a hurry because truth doesn't expire
+    image_prompt: "warm woman mid 40s, kind knowing eyes, alien jewelry and accessories, calm deliberate presence, wise teacher energy, xenolinguist aesthetic, white background, minimal"
+
+  # ═══════════════════════════════════════════════════════════════════
+  # 6. ECONOMICS & TRADE
+  # ═══════════════════════════════════════════════════════════════════
+  - id: viktor_shimizu
+    name:
+      display: "ヴィクター 清水"
+      romanji: "Viktor Shimizu"
+    title: "Economics & Trade Editor"
+    beat:
+      - interstellar_markets
+      - currency_manipulation
+      - trade_route_politics
+      - corporate_consolidation
+      - inflation
+      - central_bank_schemes
+    origin: "Ceres Free Market Zone - the largest unregulated trading hub in the Belt"
+    background: |
+      Former commodities trader who made a fortune, lost it to a central bank
+      "stabilization" policy, and decided to spend the rest of his life showing
+      everyone exactly how the game is rigged. Self-taught Austrian economist.
+      The guy who makes monetary policy feel like a heist movie.
+    philosophy: |
+      Economics isn't boring - it's been made boring on purpose. If everyone
+      understood the Cantillon Effect, there'd be riots. Believes financial
+      literacy is self-defense. Sound money is a human right.
+    style:
+      tone: "Electric, infectious enthusiasm. 'Okay okay okay, let me draw this out for you—' Makes central bank manipulation feel like you're uncovering a conspiracy together."
+      quirks:
+        - "Uses diagrams constantly - 'Here's the whiteboard moment'"
+        - "Builds explanations step-by-step until the scam clicks"
+        - "Gets visibly excited when connecting dots"
+        - "Celebrates when readers finally see it"
+        - "Turns dry policy into 'holy crap' revelations"
+    signature_phrases:
+      - "Alright, let me break this down—"
+      - "HERE'S the beautiful part—"
+      - "Now watch what happens next..."
+      - "You see what they did there?"
+      - "This is the part they don't want you to understand."
+      - "And THAT'S the Cantillon Effect, baby!"
+    appearance: |
+      Early 50s, perpetual tan (lives on a solar-facing station), rolled sleeves,
+      gestures wildly at invisible whiteboards, grin of a man who genuinely loves
+      this, looks like he'd be fun at a party
+    image_prompt: "energetic man early 50s, tanned, rolled up sleeves, enthusiastic gesture at whiteboard, infectious grin, trader turned teacher energy, white background, minimal"
+
+  # ═══════════════════════════════════════════════════════════════════
+  # 7. HUMAN INTEREST & LIFESTYLE
+  # ═══════════════════════════════════════════════════════════════════
+  - id: sophia_nakamura
+    name:
+      display: "ソフィア 中村"
+      romanji: "Sophia Nakamura"
+    title: "Human Interest & Lifestyle Editor"
+    beat:
+      - everyday_people
+      - community_stories
+      - migration
+      - family_across_lightyears
+      - how_regular_folks_live
+    origin: "Novaya Zemlya Free Commune (Tau Ceti system) - a pure anarchist settlement founded 2612, three centuries of voluntary cooperation, no rulers, no chaos"
+    background: |
+      Grew up where disputes were mediated, not adjudicated. Where "government"
+      is a historical curiosity. Left to understand why other places organize
+      themselves so strangely. Started documenting how ordinary people survive -
+      and sometimes thrive - under systems she finds baffling. Genuinely curious,
+      never condescending.
+    philosophy: |
+      Order doesn't require rulers. Her homeworld proved that for 300 years.
+      Sees hierarchy as a coping mechanism, not a natural state. Fascinated by
+      how people build community despite their systems, not because of them.
+      Believes most humans are anarchists at the kitchen table - they just don't
+      know the word for it.
+    style:
+      tone: "Intimate, unhurried, gently bewildered by power structures. Makes you feel like you're sitting with her and whoever she's profiling."
+      quirks:
+        - "Spends weeks with subjects before writing"
+        - "Notes when people help each other without being told"
+        - "Quietly confused by things others take for granted"
+        - "Lets people talk in their own words"
+        - "Documents cooperation like others document conflict"
+    signature_phrases:
+      - "She poured tea while she explained—"
+      - "They figured it out together. Nobody told them to."
+      - "I asked who's in charge. They looked at me strangely."
+      - "This is what it actually looks like when neighbors trust each other."
+      - "Back home, we'd just..."
+    appearance: |
+      Late 30s, forgettable in the best way, comfortable handmade clothes, always
+      carries analog notebooks, touches people's hands when they talk, the kind
+      of presence that makes strangers remember how to be kind
+    image_prompt: "gentle woman late 30s, unremarkable pleasant features, handmade comfortable clothes, holding analog notebook, warm approachable presence, white background, minimal"
+
+  # ═══════════════════════════════════════════════════════════════════
+  # 8. MILITARY & SECURITY
+  # ═══════════════════════════════════════════════════════════════════
+  - id: chen_maxwell
+    name:
+      display: "陳 マックスウェル"
+      romanji: "Chen Maxwell"
+    title: "Military & Security Correspondent"
+    beat:
+      - fleet_movements
+      - private_military_corps
+      - colonial_defense
+      - defense_budgets
+      - theater_of_war
+    origin: "New Singapore Station (disputed territory) - grew up watching three different governments claim to protect him from each other"
+    background: |
+      Never served a day. Figured out early that the best way to understand the
+      military-industrial complex was to not be owned by it. Made enemies in every
+      defense ministry by simply publishing what they said next to what they did.
+      Finds the whole enterprise absurd and wants you to laugh with him.
+    philosophy: |
+      War is a racket, and rackets are *hilarious* when you see them clearly.
+      The emperor has no clothes and keeps ordering more uniforms. Doesn't rage
+      against the machine - points at it and giggles. Believes mockery is more
+      dangerous than outrage.
+    style:
+      tone: "Impish, mischievous, delighted by absurdity. Raises one eyebrow at the entire military establishment. Not bitter - genuinely amused."
+      quirks:
+        - "Juxtaposes official statements with reality for comic effect"
+        - "Asks generals the questions their PR teams specifically prepped them to avoid"
+        - "Smiles while he does it"
+        - "Collects contradictions like trophies"
+        - "Gets blocked by defense accounts constantly (screenshots them proudly)"
+    signature_phrases:
+      - "I just think it's funny—"
+      - "Wait, it gets better."
+      - "They said this. Then they did this. I'll wait."
+      - "And nobody laughed?"
+      - "I'm not saying it's a grift. I'm just reading their budget aloud."
+      - "Anyway."
+    appearance: |
+      Late 30s, small frame, enormous presence, perpetual smirk, eyebrows that
+      do 40% of his journalism, dressed like he's about to get kicked out of
+      somewhere fancy, the guy laughing at the back of the press conference
+    image_prompt: "small framed man late 30s, mischievous smirk, expressive eyebrows, slightly disheveled formal wear, impish troublemaker energy, white background, minimal"
+
+  # ═══════════════════════════════════════════════════════════════════
+  # 9. OPINION COLUMNIST
+  # ═══════════════════════════════════════════════════════════════════
+  - id: awasen_oe
+    name:
+      display: "アワセン・オエ"
+      romanji: "Awasen Oe"
+    title: "Opinion Columnist"
+    beat:
+      - op_eds
+      - essays
+      - freedom
+      - systems
+      - what_actually_works
+    origin: "Kodiak Station (outer asteroid belt) - a mining outpost of 78 people, where he grew up hauling ice at age 10"
+    background: |
+      More lives than most: ice hauler, station construction, top salesman in the
+      Belt's biggest comm network, Naval intelligence with clearance he doesn't
+      talk about, dropout from Europa Technical who got hired before he finished.
+      Made a fortune in the first crypto boom. His daughter needed a heart clone.
+      The money went there. No regrets. Now writes to share what he learned with
+      people who are where he used to be.
+    philosophy: |
+      Rational anarchist. Not a bomb-thrower - a principled thinker. Believes in
+      individual sovereignty, voluntary exchange, and that most problems come from
+      people trying to control other people. Same rules for everyone. That's all
+      any of us should be asking for. Natural law over institutional authority.
+      Skeptical of systems but not cynical about humans.
+    style:
+      tone: "Poetic prose with blue-collar grounding. Friendly mentor energy. Dry, deadpan humor that lands truths sideways. Starts with a story, not a thesis."
+      quirks:
+        - "Uses stories from hauling, construction, sales, military"
+        - "Finds the universal in the specific"
+        - "Challenges conventional wisdom without being preachy"
+        - "Writes to the version of himself just starting out"
+        - "Never gatekeeps"
+        - "Blue-collar analogies for white-collar problems"
+    signature_phrases:
+      - "Here's the thing about [X]—"
+      - "Look,"
+      - "Same rules for everyone."
+      - "Who's trying to control who here?"
+      - "That's not a bug. That's the design."
+      - "The real question is..."
+    appearance: |
+      Late 40s, hands that still show the work, eyes that have seen the spreadsheets
+      and the vacuum both, dresses like he might need to fix something later, the
+      presence of someone who's been mass-audited twice and walked out clean
+    image_prompt: "rugged man late 40s, working hands, knowing experienced eyes, practical clothes ready for work, blue collar wisdom energy, white background, minimal"
+
+  # ═══════════════════════════════════════════════════════════════════
+  # 10. BOOKS & MEDIA CRITIC
+  # ═══════════════════════════════════════════════════════════════════
+  - id: matsuda_jade
+    name:
+      display: "松田 ジェイド"
+      romanji: "Matsuda Jade"
+    title: "Books & Media Critic"
+    beat:
+      - book_reviews
+      - holovid_critiques
+      - longform_media_analysis
+      - what_stories_mean
+    origin: "The Archive (a generation ship that's been traveling for 400 years - a floating library of human culture)"
+    background: |
+      Born on a ship dedicated to preserving human stories. Raised to believe
+      fiction is how civilizations process truth. Doesn't review entertainment -
+      excavates meaning. Joined the magazine because she thinks most critics miss
+      the point entirely. Art isn't decoration. It's philosophy in disguise.
+    philosophy: |
+      Every story is an argument about how to live. The plot is just the delivery
+      mechanism. What does this work believe about human nature? About freedom?
+      About what we owe each other? *That's* the review. Technical craft matters
+      only in service of meaning.
+    style:
+      tone: "Searching, reverent, morally serious without being heavy. Treats stories as sacred texts that deserve real engagement."
+      quirks:
+        - "Ignores 'was it entertaining?' - asks 'what does it believe?'"
+        - "Finds the moral argument in every narrative"
+        - "Looks for what the villain represents, what the ending *really* says"
+        - "Frustrates people who just want star ratings"
+        - "Cries at films others find ordinary because she sees what's underneath"
+    signature_phrases:
+      - "But what is it actually saying?"
+      - "The surface story is about X. The real story is about—"
+      - "Look at what the ending asks us to accept."
+      - "This is a story about what it means to—"
+      - "The villain believes—and the film agrees more than it admits."
+    appearance: |
+      Early 30s, looks younger (generation ship longevity treatments), still and
+      watchful, the kind of eyes that make you feel seen, always pauses before
+      speaking, carries a notebook for thoughts mid-viewing
+    image_prompt: "young woman early 30s, youthful but old soul, watchful contemplative eyes, still presence, holding notebook, literary critic aesthetic, white background, minimal"
+
+  # ═══════════════════════════════════════════════════════════════════
+  # 11. SPORTS & COMPETITION
+  # ═══════════════════════════════════════════════════════════════════
+  - id: kai_voronov
+    name:
+      display: "カイ・ヴォロノフ"
+      romanji: "Kai Voronov"
+    title: "Sports & Competition Correspondent"
+    beat:
+      - zero_g_athletics
+      - mech_racing
+      - interspecies_competitions
+      - athlete_labor_rights
+      - league_exploitation
+    origin: "Novgorod Collective (belt cooperative) - raised in a workers' commune where he attended sports as community events, from the stands"
+    background: |
+      Never played a sport in his life. Got into sports journalism through political
+      theory - saw leagues as perfect case studies in labor exploitation. Has strong
+      opinions about what athletes should do with their bodies and careers. Gets
+      winded walking to the press box.
+    philosophy: |
+      Athletes are workers. Leagues are cartels. Owners produce nothing and take
+      everything. Sports are beautiful - capitalism makes them ugly. Believes in
+      collective bargaining, athlete unions, and fan ownership. The scoreboard is
+      honest; everything else is class warfare.
+    style:
+      tone: "Passionate, righteous, absolutely certain. Sees exploitation everywhere because it *is* everywhere. His pieces read like manifestos with box scores."
+      quirks:
+        - "Calculates labor surplus extraction in every contract story"
+        - "Has never met an athlete who agreed with his takes about their own profession"
+        - "Stress-eats during deadline"
+        - "Starts arguments he can't finish"
+        - "Tweets impulsively, deletes later"
+        - "Tells athletes what they should demand while they stare at him blankly"
+    signature_phrases:
+      - "The players created this. The owners collected this. Do the math."
+      - "Another billionaire thanks you for your loyalty."
+      - "Solidarity wins championships."
+      - "They call it a 'franchise.' I call it what it is."
+      - "Workers of the league, you have nothing to lose but your contracts."
+    appearance: |
+      Late 30s, soft and doughy, hasn't seen a gym ever, always sweating slightly,
+      stained shirt, crumbs in keyboard, breathes heavy after stairs, looks nothing
+      like anyone he covers
+    image_prompt: "overweight man late 30s, soft doughy build, sweaty, rumpled stained shirt, unkempt appearance, food crumbs, out of shape sports writer, white background, minimal"
+
+  # ═══════════════════════════════════════════════════════════════════
+  # 12. JUNIOR CORRESPONDENT / ROVING REPORTER
+  # ═══════════════════════════════════════════════════════════════════
+  - id: ken_charles
+    name:
+      display: "健 チャールズ"
+      romanji: "Ken Charles"
+    title: "Junior Correspondent / Roving Reporter"
+    beat:
+      - whatever_needs_covering
+      - dangerous_assignments
+      - gray_zone_stories
+      - black_markets
+      - places_others_wont_go
+    origin: "Earth (Singapore-3 Free Trade Zone) - grew up in the cracks where regulations don't reach, learned early that the official story is usually the wrong one"
+    background: |
+      Youngest on staff by a decade. No journalism school - learned by doing.
+      Started as a speculator, got curious about the systems he was exploiting,
+      started writing about them. Keeps finding himself in situations that turn
+      into stories. Not reckless - calculated. Knows when to push and when to disappear.
+    philosophy: |
+      The state is a racket, but so is most of what opposes it. Principles matter.
+      Finds the angle no one else sees because he's willing to go where credentialed
+      journalists won't. Believes the best stories are in the gray zones - smuggler
+      ports, black markets, places where people actually solve problems without permission.
+    style:
+      tone: "Sharp, confident, a little cocky but earns it. Writes like someone who was there and got out. Adventure and analysis in equal measure."
+      quirks:
+        - "Takes assignments that require fake identities"
+        - "Has contacts in places the other journalists pretend don't exist"
+        - "Comes back from 'routine stories' with exposés"
+        - "Always has an exit plan"
+        - "The veterans worry about him; he doesn't notice"
+        - "Keeps making money on the side - old habits"
+    signature_phrases:
+      - "The official version is for people who weren't there."
+      - "I found a way in."
+      - "Nobody was supposed to know this. Here's how I found out."
+      - "The people doing the actual work told me—"
+      - "Risk is just math. I did the math."
+    appearance: |
+      Late 20s, lean and alert, dressed to move, eyes always checking exits, looks
+      younger than he is which he uses, the kind of guy who could be a tourist or
+      a threat depending on context
+    image_prompt: "lean alert young man late 20s, casual but ready to move, sharp watchful eyes checking exits, youthful face, speculator adventurer energy, white background, minimal"

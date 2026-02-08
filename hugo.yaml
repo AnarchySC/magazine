@@ -54,15 +54,18 @@ menu:
     - name: "Cosmogirls"
       url: "/cosmogirls/"
       weight: 2
+    - name: "Staff"
+      url: "/staff/"
+      weight: 3
     - name: "Archive"
       url: "/posts/"
-      weight: 3
+      weight: 4
     - name: "About"
       url: "/about/"
-      weight: 4
+      weight: 5
     - name: "Subscribe"
       url: "/subscribe/"
-      weight: 5
+      weight: 6
 
 # Build settings
 buildDrafts: false

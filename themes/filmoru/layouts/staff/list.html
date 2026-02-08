@@ -1,0 +1,289 @@
+{{ define "main" }}
+<section class="staff-page">
+  <header class="page-header">
+    <h1 class="section-title">編集部</h1>
+    <p class="page-subtitle">Our Staff • The Voices of Cassette Future</p>
+  </header>
+
+  <!-- Divider -->
+  <div class="content-divider">
+    <span class="divider-line divider-blue"></span>
+    <span class="divider-line divider-orange"></span>
+    <span class="divider-line divider-yellow"></span>
+  </div>
+
+  <p class="staff-intro">{{ .Content }}</p>
+
+  <div class="staff-grid">
+    {{ range .Site.Data.journalists.journalists }}
+    <article class="staff-card" id="{{ .id }}">
+      <div class="staff-header">
+        <h2 class="staff-name">{{ .name.display }}</h2>
+        <p class="staff-romanji">{{ .name.romanji }}</p>
+        <p class="staff-title">{{ .title }}</p>
+      </div>
+
+      <div class="staff-origin">
+        <span class="origin-label">Origin:</span> {{ .origin }}
+      </div>
+
+      <div class="staff-beat">
+        <span class="beat-label">Beat:</span>
+        {{ range .beat }}
+        <span class="beat-tag">{{ . | humanize }}</span>
+        {{ end }}
+      </div>
+
+      <div class="staff-background">
+        <h3>Background</h3>
+        <p>{{ .background | markdownify }}</p>
+      </div>
+
+      <div class="staff-philosophy">
+        <h3>Philosophy</h3>
+        <p>{{ .philosophy | markdownify }}</p>
+      </div>
+
+      <div class="staff-style">
+        <h3>Writing Style</h3>
+        <p class="style-tone">{{ .style.tone }}</p>
+        <ul class="style-quirks">
+          {{ range .style.quirks }}
+          <li>{{ . }}</li>
+          {{ end }}
+        </ul>
+      </div>
+
+      <div class="staff-phrases">
+        <h3>Signature Phrases</h3>
+        <ul class="phrases-list">
+          {{ range .signature_phrases }}
+          <li>"{{ . }}"</li>
+          {{ end }}
+        </ul>
+      </div>
+
+      <div class="staff-appearance">
+        <p class="appearance-text">{{ .appearance }}</p>
+      </div>
+
+      <!-- Link to articles by this journalist -->
+      {{ $journalistName := .name.display }}
+      {{ with $.Site.Taxonomies.journalists }}
+        {{ range $name, $pages := . }}
+          {{ if eq $name $journalistName }}
+          <div class="staff-articles">
+            <a href="{{ printf "/journalists/%s/" ($name | urlize) }}">View {{ len $pages }} article{{ if ne (len $pages) 1 }}s{{ end }} by {{ $journalistName }} →</a>
+          </div>
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    </article>
+    {{ end }}
+  </div>
+</section>
+
+<style>
+.staff-page {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.page-header {
+  margin-bottom: var(--space-lg);
+}
+
+.content-divider {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin-bottom: var(--space-xl);
+  max-width: 200px;
+}
+
+.staff-intro {
+  font-size: 1.1rem;
+  color: var(--text-light);
+  margin-bottom: var(--space-xl);
+  max-width: 700px;
+}
+
+.staff-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: var(--space-xl);
+}
+
+@media (max-width: 800px) {
+  .staff-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.staff-card {
+  border: 1px solid var(--border);
+  padding: var(--space-xl);
+  background: var(--bg);
+  transition: border-color 0.2s;
+}
+
+.staff-card:hover {
+  border-color: #E85D04;
+}
+
+.staff-header {
+  margin-bottom: var(--space-lg);
+  padding-bottom: var(--space-md);
+  border-bottom: 2px solid var(--border);
+}
+
+.staff-name {
+  font-family: var(--font-jp);
+  font-size: 1.75rem;
+  margin: 0;
+  color: var(--text);
+}
+
+.staff-romanji {
+  font-size: 1rem;
+  color: var(--text-light);
+  margin: var(--space-xs) 0;
+}
+
+.staff-title {
+  font-size: 0.9rem;
+  color: #E85D04;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 0;
+}
+
+.staff-origin {
+  font-size: 0.85rem;
+  color: var(--text-light);
+  margin-bottom: var(--space-md);
+  font-style: italic;
+}
+
+.origin-label {
+  font-weight: 600;
+  color: var(--text);
+}
+
+.staff-beat {
+  margin-bottom: var(--space-lg);
+}
+
+.beat-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-right: var(--space-xs);
+}
+
+.beat-tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  background: #1B3A5F;
+  color: #fff;
+  padding: 2px 8px;
+  margin: 2px;
+  border-radius: 2px;
+}
+
+.staff-card h3 {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #E85D04;
+  margin: var(--space-lg) 0 var(--space-sm) 0;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: var(--space-xs);
+}
+
+.staff-background p,
+.staff-philosophy p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--text);
+}
+
+.style-tone {
+  font-style: italic;
+  font-size: 0.9rem;
+  color: var(--text);
+  margin-bottom: var(--space-sm);
+}
+
+.style-quirks,
+.phrases-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.style-quirks li {
+  font-size: 0.85rem;
+  padding: var(--space-xs) 0;
+  border-bottom: 1px solid var(--border);
+  color: var(--text-light);
+}
+
+.style-quirks li:last-child {
+  border-bottom: none;
+}
+
+.phrases-list li {
+  font-size: 0.85rem;
+  font-style: italic;
+  padding: var(--space-xs) 0;
+  color: var(--text);
+}
+
+.phrases-list li::before {
+  content: "» ";
+  color: #FFD000;
+}
+
+.staff-appearance {
+  margin-top: var(--space-lg);
+  padding: var(--space-md);
+  background: linear-gradient(135deg, #f8f8f8 0%, #f0f0f0 100%);
+  border-left: 3px solid #1B3A5F;
+}
+
+.appearance-text {
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--text-light);
+  margin: 0;
+  line-height: 1.5;
+}
+
+.staff-articles {
+  margin-top: var(--space-lg);
+  padding-top: var(--space-md);
+  border-top: 1px solid var(--border);
+}
+
+.staff-articles a {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #E85D04;
+  text-decoration: none;
+}
+
+.staff-articles a:hover {
+  text-decoration: underline;
+}
+
+/* Dark mode adjustments */
+@media (prefers-color-scheme: dark) {
+  .staff-appearance {
+    background: linear-gradient(135deg, #1a1a1a 0%, #222 100%);
+  }
+}
+</style>
+{{ end }}
