@@ -1,6 +1,7 @@
 ---
 date: '2026-02-08T01:07:41'
 draft: false
+featured_image: /images/header-whos-trying-to-control-who-here.png
 image_prompt: Anime-style illustration of a lone figure in space suit checking navigation
   instruments while neural network data streams flow around them, minimal white background,
   cyberpunk aesthetic

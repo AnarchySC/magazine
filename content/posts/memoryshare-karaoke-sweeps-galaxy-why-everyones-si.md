@@ -1,6 +1,7 @@
 ---
 date: '2026-02-08T00:34:14'
 draft: false
+featured_image: /images/header-memoryshare-karaoke-sweeps-galaxy-why-everyones-si.png
 image_prompt: Anime-style illustration of a futuristic karaoke booth with glowing
   neural interface cables, person inside singing with ethereal memory fragments floating
   around them, minimalist sci-fi aesthetic, white background

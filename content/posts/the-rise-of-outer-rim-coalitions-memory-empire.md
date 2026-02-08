@@ -1,6 +1,7 @@
 ---
 date: '2026-02-08T00:36:39'
 draft: false
+featured_image: /images/header-the-rise-of-outer-rim-coalitions-memory-empire.png
 image_prompt: Anime-style illustration of crystalline memory chips floating in space
   with geometric patterns, glowing quantum circuits, frontier space colonies in background,
   minimal white background, clean sci-fi aesthetic

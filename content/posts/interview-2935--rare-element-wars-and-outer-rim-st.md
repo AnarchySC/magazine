@@ -1,6 +1,7 @@
 ---
 date: '2026-02-08T01:04:45'
 draft: false
+featured_image: /images/header-interview-2935--rare-element-wars-and-outer-rim-st.png
 image_prompt: Anime-style cargo spaceship with scattered shipping containers floating
   in space, Earth visible in background, minimalist sci-fi aesthetic, muted colors,
   white background

@@ -1,6 +1,7 @@
 ---
 date: '2026-02-08T00:36:13'
 draft: false
+featured_image: /images/header-scientists-discover-totally-harmless-microbes-on-m.png
 image_prompt: Anime-style illustration of cute cartoon microbes floating near Mars
   surface, with concerned military officials in the background pointing at budget
   charts, minimal white background, satirical tone

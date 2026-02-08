@@ -1,6 +1,7 @@
 ---
 date: '2026-02-08T00:35:24'
 draft: false
+featured_image: /images/header-galactic-central-banks-new-stabilization-policy-an.png
 image_prompt: Anime-style illustration of a vast space station with credit symbols
   flowing from the center to outer rings, some figures in suits at the center collecting
   money while colonists at the edges look confused, minimal clean art style, white

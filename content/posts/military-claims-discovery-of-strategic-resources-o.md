@@ -1,6 +1,7 @@
 ---
 date: '2026-02-08T01:05:36'
 draft: false
+featured_image: /images/header-military-claims-discovery-of-strategic-resources-o.png
 image_prompt: Anime-style illustration of a military admiral pointing at a holographic
   display of a distant planet, with corporate executives taking notes in the background,
   minimalist design on white background

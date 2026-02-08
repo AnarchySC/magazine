@@ -1,6 +1,7 @@
 ---
 date: '2026-02-08T01:06:29'
 draft: false
+featured_image: /images/header-the-new-trade-wars-frontier-colony-rebellion.png
 image_prompt: Anime-style illustration of space mining colony with floating holographic
   trade network diagrams, miners exchanging glowing resource containers directly,
   Earth in background looking concerned, white background, minimal design

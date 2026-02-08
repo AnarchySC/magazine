@@ -1,6 +1,7 @@
 ---
 date: '2026-02-08T01:05:10'
 draft: false
+featured_image: /images/header-gaiatech-piracy-and-memory-monopoly-week.png
 image_prompt: Anime-style illustration of floating memory cores being funneled into
   a giant corporate tower, while small independent researchers share data through
   glowing network connections, minimal white background, tech noir aesthetic

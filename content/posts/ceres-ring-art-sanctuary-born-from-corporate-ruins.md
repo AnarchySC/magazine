@@ -1,6 +1,7 @@
 ---
 date: '2026-02-08T01:06:03'
 draft: false
+featured_image: /images/header-ceres-ring-art-sanctuary-born-from-corporate-ruins.png
 image_prompt: Anime-style illustration of a massive space station built into an asteroid,
   with colorful lights and art installations visible through transparent sections,
   artists floating in zero gravity working on sculptures, industrial mining equipment

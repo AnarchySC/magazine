@@ -1,6 +1,7 @@
 ---
 date: '2026-02-08T00:35:49'
 draft: false
+featured_image: /images/header-zerog-racing-the-new-era-of-gambling-and-politics.png
 image_prompt: Anime-style illustration of sleek racing crafts speeding through an
   asteroid field, minimal line art, white background, dynamic motion blur effects,
   futuristic design

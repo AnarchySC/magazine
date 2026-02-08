@@ -1,6 +1,7 @@
 ---
 date: '2026-02-08T00:33:26'
 draft: false
+featured_image: /images/header-outer-rim-coalition-announces-withdrawal-from-stan.png
 image_prompt: Anime-style illustration of a futuristic government building with the
   Outer Rim Coalition flag, space stations visible in the background, economic charts
   and currency symbols floating around, minimal color palette, white background, political

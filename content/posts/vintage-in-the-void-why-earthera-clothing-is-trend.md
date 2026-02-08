@@ -1,6 +1,7 @@
 ---
 date: '2026-02-08T00:33:49'
 draft: false
+featured_image: /images/header-vintage-in-the-void-why-earthera-clothing-is-trend.png
 image_prompt: Anime-style illustration of young people in a space station wearing
   vintage Earth clothing (jeans, t-shirts) floating in zero gravity, minimal color
   palette, white background, melancholic mood

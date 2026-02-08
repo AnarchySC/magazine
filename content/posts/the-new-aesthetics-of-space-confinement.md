@@ -1,6 +1,7 @@
 ---
 date: '2026-02-08T01:06:56'
 draft: false
+featured_image: /images/header-the-new-aesthetics-of-space-confinement.png
 image_prompt: A serene family of three in a tiny, perfectly organized 3x3 meter living
   pod, surrounded by exactly seventeen meaningful objects including a physical book
   and handmade textile, anime style, clean white background, emphasizing both constraint

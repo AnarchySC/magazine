@@ -1,6 +1,7 @@
 ---
 date: '2026-02-08T00:35:00'
 draft: false
+featured_image: /images/header-miracles-in-space-hospitals-doctors-break-rules-to.png
 image_prompt: Anime-style space hospital corridor with doctors and nurses collaborating
   naturally, sharing equipment and helping patients together, soft lighting, minimal
   white background, peaceful cooperative atmosphere
