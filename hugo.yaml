@@ -31,7 +31,7 @@ params:
   footerText: "銀河通信 • CASSETTE FUTURE"
 
   # Social/Meta
-  description: "Weekly satirical digest from the year 2935. 68% Japanese, 32% English. Transmitted via filmoru."
+  description: "Galactic news, culture, and the Cosmogirl of the Week. Broadcasting from Year 2935."
 
 markup:
   goldmark:
