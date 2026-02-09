@@ -1,9 +1,21 @@
 {{ define "main" }}
 <section class="staff-page">
-  <header class="page-header">
-    <h1 class="section-title">編集部</h1>
-    <p class="page-subtitle">Our Staff • The Voices of Cassette Future</p>
-  </header>
+  <div class="staff-top-row">
+    <header class="page-header">
+      <h1 class="section-title">編集部</h1>
+      <p class="page-subtitle">Our Staff • The Voices of Cassette Future</p>
+    </header>
+
+    <!-- Letters to the Editor CTA -->
+    <aside class="letters-cta">
+      <div class="letters-cta-icon">✉</div>
+      <div class="letters-cta-content">
+        <span class="letters-cta-jp">読者投稿</span>
+        <span class="letters-cta-title">Letters to the Editor</span>
+        <a href="mailto:letters@anarchygames.org" class="letters-cta-link">letters@anarchygames.org</a>
+      </div>
+    </aside>
+  </div>
 
   <!-- Divider -->
   <div class="content-divider">
@@ -89,8 +101,72 @@
   margin: 0 auto;
 }
 
+.staff-top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: var(--space-xl);
+  flex-wrap: wrap;
+}
+
 .page-header {
   margin-bottom: var(--space-lg);
+}
+
+/* Letters CTA */
+.letters-cta {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-md);
+  padding: var(--space-md) var(--space-lg);
+  background: var(--surface);
+  border-left: 3px solid #1B3A5F;
+  max-width: 280px;
+}
+
+.letters-cta-icon {
+  font-size: 1.5rem;
+  opacity: 0.6;
+}
+
+.letters-cta-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.letters-cta-jp {
+  font-family: var(--font-jp);
+  font-size: 0.7rem;
+  color: #1B3A5F;
+  letter-spacing: 0.1em;
+}
+
+.letters-cta-title {
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.letters-cta-link {
+  font-size: 0.8rem;
+  color: #E85D04;
+  font-weight: 500;
+}
+
+.letters-cta-link:hover {
+  color: #FFD000;
+}
+
+@media (max-width: 600px) {
+  .staff-top-row {
+    flex-direction: column;
+  }
+
+  .letters-cta {
+    max-width: 100%;
+    width: 100%;
+  }
 }
 
 .content-divider {
