@@ -5,6 +5,9 @@ draft: false
 featured_image: /images/cosmogirl-lorna-colombo.png
 fullbody_image: /images/cosmogirl-lorna-colombo-fullbody.png
 height: 6'0"
+skin: pale skin with smoky grey undertones
+body_type: athletic build, tall
+species_traits: ethereal shadow wisps, subtle glowing eyes, darkness-touched
 hobbies:
 - Paradox hunting
 - Matchmaking AIs
@@ -30,7 +33,7 @@ year: 2935
 
 # Lor'na Colombo
 
-*Meet Lor'na Colombo, the shadow-wreathed repo queen of Lacaille Industrial Park who's made a career out of liberating spoiled rich kids from their underappreciated rides—including her own pristine powerhouse, The Crimson Phoenix. When this 35-year-old Umbrani isn't busy chasing down paradox anomalies or setting up lovelorn AIs with their perfect matches, you'll find her floating in zero-G creating masterpiece body art that literally glows against her darkness-touched skin. She's proof that the best toys always end up in the hands of someone who knows how to really use them.*
+*Meet Lor'na Colombo, the shadow-wreathed repo queen of Lacaille Industrial Park who's made a career out of liberating spoiled rich kids from their underappreciated rides—including her own pristine powerhouse, The Crimson Phoenix. When this 35-year-old Umbrani isn't busy chasing down paradox anomalies or setting up lovelorn AIs with their perfect matches, you'll find her floating in zero-G creating masterpiece body art that glows against her pale, shadow-kissed skin. She's proof that the best toys always end up in the hands of someone who knows how to really use them.*
 
 
 ## The Stats

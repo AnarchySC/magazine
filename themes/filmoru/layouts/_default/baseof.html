@@ -4,6 +4,9 @@
   {{ partial "head.html" . }}
 </head>
 <body>
+  <!-- Holographic Ad Rails -->
+  {{ partial "holo-ad-rail.html" . }}
+
   <div class="container">
     <header>
       {{ partial "header.html" . }}
@@ -16,15 +19,30 @@
     </footer>
   </div>
 
-  <!-- Ko-fi floating widget -->
-  <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+  <!-- Scroll fade for holo ads -->
   <script>
-    kofiWidgetOverlay.draw('cassettefuture', {
-      'type': 'floating-chat',
-      'floating-chat.donateButton.text': 'Join the Crew',
-      'floating-chat.donateButton.background-color': '#f45d22',
-      'floating-chat.donateButton.text-color': '#fff'
-    });
+    (function() {
+      const rail = document.querySelector('.holo-rail-right');
+      const kofi = document.querySelector('.holo-kofi-float');
+
+      if (!rail && !kofi) return;
+
+      function updateFade() {
+        const scrollY = window.scrollY;
+        const halfPage = document.documentElement.scrollHeight / 2;
+        const fadeStart = 0;
+        const fadeEnd = halfPage;
+
+        let opacity = 1 - (scrollY / fadeEnd);
+        opacity = Math.max(0, Math.min(1, opacity));
+
+        if (rail) rail.style.opacity = opacity;
+        if (kofi) kofi.style.opacity = opacity;
+      }
+
+      window.addEventListener('scroll', updateFade, { passive: true });
+      updateFade();
+    })();
   </script>
 </body>
 </html>

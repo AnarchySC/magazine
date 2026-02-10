@@ -1,11 +1,14 @@
 {{ define "main" }}
 <section class="issues-page">
-  <header class="issues-hero">
-    <div class="issues-hero-number">2935</div>
-    <h1 class="issues-hero-title">発行号</h1>
-    <p class="issues-hero-subtitle">Weekly Issues</p>
-    <div class="issues-hero-tagline">銀河通信アーカイブ</div>
+  <header class="page-header">
+    <h1 class="section-title">発行号</h1>
+    <p class="page-subtitle">Weekly Issues</p>
   </header>
+
+  <div class="issues-intro">
+    <p class="intro-jp">銀河通信アーカイブ — 毎週の記事をまとめてお届け</p>
+    <p class="intro-en">Browse our weekly galactic transmissions archive.</p>
+  </div>
 
   <div class="content-divider">
     <span class="divider-line divider-blue"></span>
@@ -16,18 +19,22 @@
   {{ if .Pages }}
   <div class="issues-grid">
     {{ range .Pages.ByDate.Reverse }}
+    {{ $issueNum := .Params.issue_number }}
+    {{ $issueArticles := where (where site.RegularPages "Section" "posts") ".Params.issue_number" $issueNum }}
     <a href="{{ .RelPermalink }}" class="issue-card">
-      <div class="issue-card-header">
-        <span class="issue-card-year">YEAR 2935</span>
+      <div class="issue-card-left">
         <span class="issue-card-number">{{ .Params.issue_number | default "2935.001" }}</span>
       </div>
-      <div class="issue-card-body">
+      <div class="issue-card-center">
         <h2 class="issue-card-title">{{ .Title }}</h2>
-        <div class="issue-card-date">{{ .Date.Format "January 2, 2006" }}</div>
+        <div class="issue-card-meta">
+          <span class="issue-card-date">{{ .Date.Format "Jan 2, 2006" }}</span>
+          <span class="issue-card-sep">•</span>
+          <span class="issue-card-count">{{ len $issueArticles }} articles</span>
+        </div>
       </div>
-      <div class="issue-card-footer">
-        <span class="issue-card-count">{{ len (where site.RegularPages "Section" "posts") }} articles</span>
-        <span class="issue-card-arrow">READ →</span>
+      <div class="issue-card-right">
+        <span class="issue-card-arrow">→</span>
       </div>
     </a>
     {{ end }}
@@ -79,44 +86,26 @@
 
 <style>
 .issues-page {
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
+  text-align: center;
+  overflow: visible;
 }
 
-.issues-hero {
-  text-align: center;
+.issues-intro {
   margin-bottom: var(--space-lg);
 }
 
-.issues-hero-number {
-  font-family: var(--font-display);
-  font-size: 4rem;
-  font-weight: 900;
-  color: var(--cassette-navy);
-  line-height: 1;
-  letter-spacing: -0.02em;
-}
-
-.issues-hero-title {
+.issues-intro .intro-jp {
   font-family: var(--font-jp);
-  font-size: 2.5rem;
-  font-weight: 900;
-  margin: var(--space-xs) 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: var(--space-xs);
 }
 
-.issues-hero-subtitle {
-  font-size: 0.9rem;
+.issues-intro .intro-en {
+  font-size: 1rem;
   color: var(--text-light);
-  text-transform: uppercase;
-  letter-spacing: 0.15em;
-  margin: 0;
-}
-
-.issues-hero-tagline {
-  font-family: var(--font-jp);
-  font-size: 0.85rem;
-  color: #E85D04;
-  margin-top: var(--space-sm);
 }
 
 .content-divider {
@@ -127,83 +116,75 @@
   margin: var(--space-lg) auto var(--space-xl) auto;
 }
 
-/* Issue cards when populated */
+/* Issue cards - clean horizontal layout */
 .issues-grid {
   display: flex;
   flex-direction: column;
-  gap: var(--space-lg);
+  gap: var(--space-sm);
 }
 
 .issue-card {
-  display: block;
-  border: 2px solid var(--border);
-  padding: var(--space-lg);
+  display: flex;
+  align-items: center;
+  gap: var(--space-lg);
+  padding: var(--space-md) var(--space-lg);
   text-decoration: none;
   color: inherit;
-  transition: border-color 0.2s, transform 0.2s;
+  border-bottom: 1px solid var(--border);
+  transition: background 0.2s, border-color 0.2s;
 }
 
 .issue-card:hover {
+  background: var(--surface);
   border-color: #E85D04;
-  transform: translateX(4px);
 }
 
-.issue-card-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: var(--space-md);
-  padding-bottom: var(--space-sm);
-  border-bottom: 1px solid var(--border);
-}
-
-.issue-card-year {
-  font-size: 0.7rem;
-  letter-spacing: 0.1em;
-  color: var(--text-light);
+.issue-card-left {
+  flex-shrink: 0;
 }
 
 .issue-card-number {
   font-family: var(--font-display);
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   font-weight: 700;
   color: var(--cassette-navy);
+  white-space: nowrap;
 }
 
-.issue-card-body {
-  margin-bottom: var(--space-md);
+.issue-card-center {
+  flex: 1;
 }
 
 .issue-card-title {
-  font-family: var(--font-jp);
-  font-size: 1.3rem;
-  margin: 0 0 var(--space-xs) 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0 0 4px 0;
 }
 
-.issue-card-date {
+.issue-card-meta {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
   font-size: 0.85rem;
   color: var(--text-light);
 }
 
-.issue-card-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 0.8rem;
+.issue-card-sep {
+  opacity: 0.5;
 }
 
-.issue-card-count {
-  color: var(--text-light);
+.issue-card-right {
+  flex-shrink: 0;
 }
 
 .issue-card-arrow {
-  color: #E85D04;
-  font-weight: 600;
-  letter-spacing: 0.05em;
-  transition: transform 0.2s;
+  font-size: 1.5rem;
+  color: var(--border);
+  transition: color 0.2s, transform 0.2s;
 }
 
 .issue-card:hover .issue-card-arrow {
+  color: #E85D04;
   transform: translateX(4px);
 }
 

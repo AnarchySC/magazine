@@ -1,0 +1,65 @@
+{{/*
+  Holographic Ad Component - Blade Runner / Cassette Future style
+
+  Usage: {{ partial "holo-ad.html" (dict "type" "kofi") }}
+  Types: kofi, book, scrivener, merch
+*/}}
+
+{{ $type := .type | default "kofi" }}
+
+<aside class="holo-ad" data-ad-type="{{ $type }}">
+  <div class="holo-scanlines"></div>
+  <div class="holo-glitch"></div>
+
+  <div class="holo-badge">銀河広告 • TRANSMISSION</div>
+
+  {{ if eq $type "kofi" }}
+  <div class="holo-content">
+    <div class="holo-icon">◈</div>
+    <div class="holo-text">
+      <div class="holo-tagline-jp">プレミアム限定</div>
+      <div class="holo-headline">Join the Crew</div>
+      <div class="holo-subtext">Exclusive wallpapers. Behind the scenes. $1/mo.</div>
+    </div>
+    <a href="https://ko-fi.com/cassettefuture" target="_blank" class="holo-cta">SUBSCRIBE →</a>
+  </div>
+
+  {{ else if eq $type "book" }}
+  <div class="holo-content">
+    <div class="holo-icon">◉</div>
+    <div class="holo-text">
+      <div class="holo-tagline-jp">新刊発売</div>
+      <div class="holo-headline">AWASENOE</div>
+      <div class="holo-subtext">A new novel. Summer 2026. From the outer rim.</div>
+    </div>
+    <a href="https://awasenoe.com" target="_blank" class="holo-cta">LEARN MORE →</a>
+  </div>
+
+  {{ else if eq $type "scrivener" }}
+  <div class="holo-content">
+    <div class="holo-icon">⬡</div>
+    <div class="holo-text">
+      <div class="holo-tagline-jp">技術支援</div>
+      <div class="holo-headline">IT GURU</div>
+      <div class="holo-subtext">Systems. Security. Solutions. scrivener.pro</div>
+    </div>
+    <a href="https://scrivener.pro" target="_blank" class="holo-cta">CONNECT →</a>
+  </div>
+
+  {{ else if eq $type "merch" }}
+  <div class="holo-content">
+    <div class="holo-icon">✦</div>
+    <div class="holo-text">
+      <div class="holo-tagline-jp">商品準備中</div>
+      <div class="holo-headline">MERCH INCOMING</div>
+      <div class="holo-subtext">Cassette Future gear. Transmitting soon.</div>
+    </div>
+    <span class="holo-cta holo-cta-disabled">COMING SOON</span>
+  </div>
+  {{ end }}
+
+  <div class="holo-corner holo-corner-tl"></div>
+  <div class="holo-corner holo-corner-tr"></div>
+  <div class="holo-corner holo-corner-bl"></div>
+  <div class="holo-corner holo-corner-br"></div>
+</aside>

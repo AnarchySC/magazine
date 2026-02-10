@@ -29,6 +29,7 @@
     <img src="{{ $.Site.BaseURL }}{{ strings.TrimPrefix "/" . }}" alt="Cosmogirl of the Week">
     {{ end }}
     <span class="cosmogirl-label">今週のコスモガール</span>
+    <span class="cosmogirl-name">Cosmogirl of the Week: {{ .Params.name }}</span>
   </a>
   {{ end }}
 
@@ -37,32 +38,6 @@
     銀河通信 • CASSETTE FUTURE • 2935.{{ now.YearDay | printf "%03d" }}
   </div>
 </section>
-
-  <!-- Cosmogirl of the Week -->
-  {{ with (index (where .Site.RegularPages "Section" "cosmogirls") 0) }}
-  <section class="cosmogirl-feature-home mt-xl">
-    <div class="cosmogirl-feature-grid">
-      {{ with .Params.featured_image }}
-      <a href="{{ $.RelPermalink }}" class="cosmogirl-feature-image">
-        <img src="{{ $.Site.BaseURL }}{{ strings.TrimPrefix "/" . }}" alt="{{ $.Params.name }}">
-      </a>
-      {{ end }}
-      <div class="cosmogirl-feature-info">
-        <div class="jp" style="font-size: 1.2rem; margin-bottom: var(--space-sm);">今週のコスモガール</div>
-        <h2><a href="{{ .RelPermalink }}">{{ .Params.name }}</a></h2>
-        <div class="cosmogirl-tagline">{{ .Params.species }} • {{ .Params.occupation }}</div>
-        <div class="cosmogirl-details">
-          <span>{{ .Params.home }}</span>
-          <span>{{ .Params.ship_name }}</span>
-        </div>
-        {{ with .Params.quote }}
-        <blockquote class="cosmogirl-mini-quote">"{{ . | truncate 100 }}"</blockquote>
-        {{ end }}
-        <a href="{{ .RelPermalink }}" class="cosmogirl-link">Full Profile →</a>
-      </div>
-    </div>
-  </section>
-  {{ end }}
 
   <!-- Section Divider -->
   <div class="section-divider">
@@ -130,23 +105,24 @@
 <style>
 .subscribe-box {
   margin-top: var(--space-xl);
-  padding: var(--space-lg) 0;
+  padding: var(--space-xl) 0;
   border-top: 2px solid var(--border);
   border-bottom: 2px solid var(--border);
+  text-align: center;
 }
 
 .subscribe-box-inner {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  gap: var(--space-xl);
-  flex-wrap: wrap;
+  gap: var(--space-lg);
 }
 
 .subscribe-box-text {
   display: flex;
   flex-direction: column;
-  gap: 2px;
+  align-items: center;
+  gap: 4px;
 }
 
 .subscribe-jp {
@@ -156,17 +132,16 @@
 }
 
 .subscribe-en {
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   color: var(--text-light);
 }
 
 .subscribe-box-form {
-  flex: 1;
-  max-width: 400px;
-  min-width: 280px;
+  width: 100%;
+  max-width: 450px;
 }
 
-/* Override Mailerlite default styles for inline look */
+/* Override Mailerlite default styles */
 .subscribe-box .ml-embedded {
   margin: 0;
 }
@@ -182,20 +157,21 @@
 .subscribe-box .ml-form-fieldRow {
   display: flex !important;
   gap: var(--space-sm);
+  justify-content: center;
 }
 
 .subscribe-box .ml-form-fieldRow input[type="email"] {
   flex: 1;
-  padding: var(--space-sm) var(--space-md) !important;
+  padding: var(--space-md) !important;
   border: 1px solid var(--border) !important;
-  font-size: 0.9rem !important;
+  font-size: 1rem !important;
 }
 
 .subscribe-box .ml-form-fieldRow button,
 .subscribe-box .ml-form-embedSubmit button {
   background: #E85D04 !important;
   border: none !important;
-  padding: var(--space-sm) var(--space-lg) !important;
+  padding: var(--space-md) var(--space-xl) !important;
   font-weight: 600 !important;
   cursor: pointer;
   white-space: nowrap;
@@ -205,18 +181,6 @@
 .subscribe-box .ml-form-embedSubmit button:hover {
   background: #FFD000 !important;
   color: #1a1a1a !important;
-}
-
-@media (max-width: 600px) {
-  .subscribe-box-inner {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .subscribe-box-form {
-    width: 100%;
-    max-width: 100%;
-  }
 }
 
 /* Letters to the Editor */
