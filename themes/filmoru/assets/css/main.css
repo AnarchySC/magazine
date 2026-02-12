@@ -32,6 +32,14 @@
   font-style: normal;
 }
 
+/* Fawkes Gradient - Display font for English site title */
+@font-face {
+  font-family: 'Fawkes';
+  src: url('/fonts/FawkesGradient-2vnad.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* ─────────────────────────────────────────────────────────────────────────────
    CSS VARIABLES
    ───────────────────────────────────────────────────────────────────────────── */
@@ -211,9 +219,9 @@ header {
   line-height: 1.1;
 }
 
-/* English title - Codex font for site header */
+/* English title - Fawkes font for site header */
 .logo-en {
-  font-family: 'Codex', var(--font-display);
+  font-family: 'Fawkes', var(--font-display);
   font-size: 2.8rem;
   font-weight: normal;
   letter-spacing: 0.02em;
