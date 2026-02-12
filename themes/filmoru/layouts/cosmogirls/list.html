@@ -7,19 +7,19 @@
 
   <div class="cosmogirls-grid">
     {{ range .Pages.ByDate.Reverse }}
-    <article class="cosmogirl-card">
+    <a href="{{ .RelPermalink }}" class="cosmogirl-card">
       {{ with .Params.featured_image }}
-      <a href="{{ $.RelPermalink }}" class="cosmogirl-thumb">
+      <div class="cosmogirl-thumb">
         <img src="{{ $.Site.BaseURL }}{{ strings.TrimPrefix "/" . }}" alt="{{ $.Params.name }}">
-      </a>
+      </div>
       {{ end }}
       <div class="cosmogirl-card-info">
-        <h2><a href="{{ .RelPermalink }}">{{ .Params.name }}</a></h2>
+        <h2>{{ $.Params.name }}</h2>
         <div class="text-small text-light">
-          {{ .Params.species }} • {{ .Params.occupation }}
+          {{ $.Params.species }} • {{ $.Params.occupation }}
         </div>
       </div>
-    </article>
+    </a>
     {{ end }}
   </div>
 </section>
@@ -50,12 +50,20 @@
 }
 
 .cosmogirl-card {
+  display: block;
   border: 1px solid var(--border);
   transition: border-color 0.2s;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
 }
 
 .cosmogirl-card:hover {
   border-color: #E85D04;
+}
+
+.cosmogirl-card:hover h2 {
+  color: #E85D04;
 }
 
 .cosmogirl-thumb {
@@ -80,15 +88,8 @@
   font-family: var(--font-jp);
   font-size: 1rem;
   margin-bottom: var(--space-xs);
-}
-
-.cosmogirl-card-info h2 a {
   color: var(--text);
-  border: none;
-}
-
-.cosmogirl-card-info h2 a:hover {
-  color: #E85D04;
+  transition: color 0.2s;
 }
 </style>
 {{ end }}
