@@ -1,6 +1,6 @@
 ---
 age: 320 (16 in Arachni years)
-date: '2026-02-11T18:23:44'
+date: '2026-02-11T23:55:39'
 draft: false
 featured_image: /images/cosmogirl-thessa-adeyemi.png
 fullbody_image: /images/cosmogirl-thessa-adeyemi-fullbody.png
@@ -12,8 +12,8 @@ hobbies:
 home: Ganymede Agricultural Domes
 name: Thessa Adeyemi
 occupation: FTL Navigation Specialist
-quote: I can plot a course through any nebula in the galaxy, but the only destination
-  that matters is wherever you want to go, handsome.
+quote: I can plot a course through any nebula in the galaxy, but I still get lost
+  in a cute pilot's eyes every time.
 ship_class: Sleeper Coach
 ship_name: The Lucky Rose
 ship_type: Passenger liner
@@ -30,7 +30,7 @@ year: 2935
 
 # Thessa Adeyemi
 
-*Meet Thessa Adeyemi, the 16-year-old Arachni prodigy who's plotting hyperspace jumps for The Lucky Rose while most kids her age are still figuring out basic algebra! This multi-eyed navigation wizard from Ganymede's ag-domes spends her downtime cracking codes, sketching stellar cartography by hand (old school cool!), and pulling off identity switches smoother than a zero-G drift. When you're hauling 200 sleeping passengers across the galaxy, you better believe Thessa's eight eyes are keeping everyone on course and her web of fake IDs is keeping things interesting at every port of call.*
+*Meet Thessa Adeyemi, the 16-year-old Arachni prodigy who's already mastering FTL nav on the passenger liner *Lucky Rose* – those extra eyes aren't just for show when you're plotting jumps for 200 sleeping passengers! When she's not charting courses between star systems, this Ganymede dome girl unwinds by cracking ancient codes and hand-drawing stellar cartography that puts most ship computers to shame. Word of advice: if you spot Thessa at a spaceport bar, she might not be who she seems – this spider's got more identities than a master spy and twice the attitude!*
 
 
 ## The Stats
@@ -62,5 +62,5 @@ year: 2935
 
 ---
 
-> "I can plot a course through any nebula in the galaxy, but the only destination that matters is wherever you want to go, handsome."
+> "I can plot a course through any nebula in the galaxy, but I still get lost in a cute pilot's eyes every time."
 
