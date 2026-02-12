@@ -2,7 +2,7 @@
   Holographic Ad Component - Blade Runner / Cassette Future style
 
   Usage: {{ partial "holo-ad.html" (dict "type" "kofi") }}
-  Types: kofi, book, scrivener, merch
+  Types: kofi, book, scrivener, merch, galleray
 */}}
 
 {{ $type := .type | default "kofi" }}
@@ -55,6 +55,17 @@
       <div class="holo-subtext">Cassette Future gear. Transmitting soon.</div>
     </div>
     <span class="holo-cta holo-cta-disabled">COMING SOON</span>
+  </div>
+
+  {{ else if eq $type "galleray" }}
+  <div class="holo-content">
+    <div class="holo-icon">▣</div>
+    <div class="holo-text">
+      <div class="holo-tagline-jp">画像閲覧</div>
+      <div class="holo-headline">GALL-ARRAY</div>
+      <div class="holo-subtext">Fast. Minimal. Image viewer for Linux.</div>
+    </div>
+    <a href="https://snapcraft.io/gall-array" target="_blank" class="holo-cta">GET IT →</a>
   </div>
   {{ end }}
 
