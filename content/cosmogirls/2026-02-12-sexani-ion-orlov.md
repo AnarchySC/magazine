@@ -1,6 +1,6 @@
 ---
 age: 41 (123 in Vexian years)
-date: '2026-02-10T21:49:49'
+date: '2026-02-12T15:37:20'
 draft: false
 featured_image: /images/cosmogirl-sexani-ion-orlov.png
 fullbody_image: /images/cosmogirl-sexani-ion-orlov-fullbody.png

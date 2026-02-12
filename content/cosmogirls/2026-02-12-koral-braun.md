@@ -1,6 +1,6 @@
 ---
 age: 21 (84 in Vexian years)
-date: '2026-02-11T23:54:00'
+date: '2026-02-12T15:26:32'
 draft: false
 featured_image: /images/cosmogirl-koral-braun.png
 fullbody_image: /images/cosmogirl-koral-braun-fullbody.png
@@ -12,7 +12,8 @@ hobbies:
 home: Sedna Listening Post
 name: Kor'al Braun
 occupation: Zero-G Dancer
-quote: When you've mastered zero-G like I have, everything else just feels like gravity is holding you back - and trust me, I never let anything hold me back for long.
+quote: When you've mastered zero-G like I have, everything else just feels like gravity
+  is holding you back - and trust me, I never let anything hold me back for long.
 ship_class: Torpedo Boat
 ship_name: The Lucky Lady
 ship_type: Strike craft

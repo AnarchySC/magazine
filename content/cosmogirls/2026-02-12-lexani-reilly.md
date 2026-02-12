@@ -1,6 +1,6 @@
 ---
 age: 456 (24 in Felinari years)
-date: '2026-02-08T01:33:25'
+date: '2026-02-12T15:34:37'
 draft: false
 featured_image: /images/cosmogirl-lexani-reilly.png
 fullbody_image: /images/cosmogirl-lexani-reilly-fullbody.png
@@ -14,7 +14,7 @@ name: Lex'ani Reilly
 occupation: Anomaly Investigator
 quote: I investigate anomalies across the galaxy, but the real mystery is why spacers
   keep underestimating a girl from the No Law Zone - until I clean them out at the
-  poker table and chart systems they didn't even know existed.
+  poker table and chart systems they did not even know existed.
 ship_class: Pub Crawler
 ship_name: The Lucky Dream
 ship_type: Station hopper
@@ -31,7 +31,7 @@ year: 2935
 
 # Lex'ani Reilly
 
-*Meet Lex'ani Reilly, the 456-year-old Felinari firecracker who's got those hypnotic slit pupils and enough attitude to power a dreadnought! When she's not chasing down cosmic anomalies in her tricked-out station hopper "The Lucky Dream," this No Law Zone 7 native is either organizing union strikes, throwing down serious credits at high-stakes tables, or mapping systems that don't officially exist. Fair warning: this cat's got claws, and she's not afraid to use them whether she's negotiating worker contracts or navigating uncharted space!*
+*Meet Lexani Reilly, the 456-year-old Felinari firecracker who has got those hypnotic slit pupils and enough attitude to power a dreadnought! When she is not chasing down cosmic anomalies in her tricked-out station hopper The Lucky Dream, this No Law Zone 7 native is either organizing union strikes, throwing down serious credits at high-stakes tables, or mapping systems that do not officially exist. Fair warning: this cat has got claws, and she is not afraid to use them whether she is negotiating worker contracts or navigating uncharted space!*
 
 
 ## The Stats
@@ -63,5 +63,5 @@ year: 2935
 
 ---
 
-> "I investigate anomalies across the galaxy, but the real mystery is why spacers keep underestimating a girl from the No Law Zone - until I clean them out at the poker table and chart systems they didn't even know existed."
+> "I investigate anomalies across the galaxy, but the real mystery is why spacers keep underestimating a girl from the No Law Zone - until I clean them out at the poker table and chart systems they did not even know existed."
 

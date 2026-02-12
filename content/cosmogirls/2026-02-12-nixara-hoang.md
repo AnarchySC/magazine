@@ -1,6 +1,6 @@
 ---
 age: 380 (19 in Vexian years)
-date: '2026-02-11T23:52:17'
+date: '2026-02-12T15:27:26'
 draft: false
 featured_image: /images/cosmogirl-nixara-hoang.png
 fullbody_image: /images/cosmogirl-nixara-hoang-fullbody.png

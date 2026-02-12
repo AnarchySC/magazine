@@ -1,13 +1,10 @@
 ---
 age: 35 (105 in Umbrani years)
-date: '2026-02-08T00:38:16'
+date: '2026-02-12T15:35:32'
 draft: false
 featured_image: /images/cosmogirl-lorna-colombo.png
 fullbody_image: /images/cosmogirl-lorna-colombo-fullbody.png
 height: 6'0"
-skin: pale skin with smoky grey undertones
-body_type: athletic build, tall
-species_traits: ethereal shadow wisps, subtle glowing eyes, darkness-touched
 hobbies:
 - Paradox hunting
 - Matchmaking AIs

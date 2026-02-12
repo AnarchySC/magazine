@@ -1,6 +1,6 @@
 ---
 age: 19 (152 in Avirix years)
-date: '2026-02-10T19:06:01'
+date: '2026-02-12T15:38:15'
 draft: false
 featured_image: /images/cosmogirl-wraitha-dang.png
 fullbody_image: /images/cosmogirl-wraitha-dang-fullbody.png
