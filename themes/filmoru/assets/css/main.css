@@ -32,10 +32,10 @@
   font-style: normal;
 }
 
-/* Fawkes Gradient - Display font for English site title */
+/* Fawkes Halftone Italic - Display font for English site title */
 @font-face {
   font-family: 'Fawkes';
-  src: url('/fonts/FawkesGradient-2vnad.otf') format('opentype');
+  src: url('/fonts/FawkesHalftoneItalic-7OYxK.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
