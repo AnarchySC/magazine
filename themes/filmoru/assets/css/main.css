@@ -1887,7 +1887,7 @@ body::after {
 }
 
 .holo-ad-side {
-  width: 140px;
+  width: 180px;
   background: radial-gradient(
     ellipse at center,
     rgba(27, 58, 95, 0.35) 0%,
