@@ -1,19 +1,18 @@
 ---
-date: '2026-02-08T01:31:46'
+date: '2026-02-14T00:07:56'
 draft: false
 featured_image: /images/header-whos-controlling-who-here.png
-image_prompt: A weathered independent cargo hauler ship docked at a space station,
-  with sleek corporate vessels in the background, anime style, minimal composition,
-  white background
-issue_number: '2935.039'
+image_prompt: Minimalist anime-style illustration of a distant planet with small settlements,
+  overshadowed by a large official stamp or seal floating above it in space, white
+  background
+issue_number: '2935.045'
 journalist: アワセン・オエ
 journalist_title: Opinion Columnist
-subtitle_jp: 新しい「安全」規制の本当のコスト
+subtitle_jp: 新しい惑星認証システムについて
 tags:
-- regulation
-- independent-haulers
-- mega-corps
-- interstellar-assembly
+- bureaucracy
+- colony-rights
+- interstellar-politics
 title: Who's Controlling Who Here?
 title_jp: 誰が誰をコントロールしているのか？
 year: 2935
@@ -21,34 +20,32 @@ year: 2935
 
 # Who's Controlling Who Here?
 
-*The real cost of the new "safety" regulations*
+Back when I was hauling ice between Titan and the Belt, we had a saying: *If it floats, it boats.* Didn't matter if your ship was jury-rigged scrap or fresh from the Martian yards. If you could make runs without killing anybody, you belonged out there.
 
-Twenty years ago, I was pulling ice from the outer Belt in a retrofitted mining tender held together with prayer and liquid metal patches. Ship computer older than my daughter's neural implants. Radiation shielding that wouldn't protect a lab mouse. And you know what? Never lost a cargo. Never lost a crew member.
+Turns out the Interstellar Assembly missed that memo.
 
-Wasn't because I was lucky. Wasn't because I was reckless either. It was because when your life depends on your equipment, you maintain your equipment. When there's no rescue coming for six months, you think twice about cutting corners. The margins teach you respect.
+Their shiny new Planet Verification System rolled out last month with all the fanfare of a military parade. "Ensuring galactic standards," they called it. "Protecting settlers from substandard worlds." Real noble stuff, if you ignore the part where Earth bureaucrats now decide which colonies get to call themselves "legitimate."
 
-Look, I get why the Interstellar Assembly thinks independent haulers need "enhanced safety protocols." Three accidents in the Vesta corridor this cycle. Forty-seven lives lost. Nobody wants to see good people die in the black.
+Here's the thing about legitimacy—it used to come from whether people could actually live somewhere. Breathable air, decent soil, manageable radiation. Basic stuff. Now it comes from filing Form 2847-C and waiting eighteen months for some desk jockey who's never left Low Earth Orbit to stamp your paperwork.
 
-But here's the thing about their new regulations—they're not written by people who've ever sealed a hull breach with their bare hands. They're written by committee members who've never been more than a day's flight from the nearest rescue beacon.
+I talked to Kenji Nakamura last week. Guy spent fifteen years turning a dead rock in the Proxima system into something that grows actual food. Feeds twelve thousand people. But his colony doesn't have "proper atmospheric monitoring stations" according to the new standards, so Earth won't recognize them. Can't get banking. Can't get supply contracts. Can't even get their births registered.
 
-Mandatory ship inspections every six months? Sounds reasonable until you realize the nearest certified inspector is three weeks out from most hauler routes. New atmospheric processors for ships over fifteen years old? That's half the independent fleet right there. And don't get me started on the "crew certification requirements"—as if twenty years of not dying isn't certification enough.
+"Same rules for everyone," Earth says. Except the rules were written by people who never had to choose between buying air scrubbers or keeping the fusion reactor running.
 
-The real question is: who benefits when small operators can't afford compliance?
+Look, I'm not against standards. When I was in construction, we followed safety protocols because nobody wanted to explain to someone's family why the habitat breach happened. But those were protocols written by people who'd actually built habitats. By people who understood the trade-offs.
 
-Mega-corps like Stellar Freight are already praising the new rules. Amazing coincidence. They've got inspection facilities at every major hub. They've got the capital to retrofit entire fleets overnight. They've got lawyers who helped write the regulations.
+This verification system? It's written by committee. By people whose biggest risk is their morning coffee being too cold.
 
-Meanwhile, the indie hauler who's been running clean for decades suddenly can't afford to operate. Has to sell his route to... guess who?
+The real question is why we're letting them decide. These colonies didn't ask Earth for permission when they launched. They didn't ask for permission when they figured out how to turn rocks into farms. Why are they asking now?
+
+Every verification requirement, every compliance fee, every mandatory inspection—it's not about safety. It's about control. It's about making sure every world in human space knows who's really in charge.
 
 That's not a bug. That's the design.
 
-I've seen this play before. Back in the old Solar Authority days, they "reformed" the mining codes. Cleaned up the dangerous practices, they said. Made everything safer. Except somehow all the safety requirements happened to match exactly what the big mining consortiums were already doing. Funny how that works.
+Out in the Belt, we learned something Earth forgot: people don't need permission to be free. They need permission to be controlled. The difference matters.
 
-Same rules for everyone would mean the mega-corps follow the same maintenance schedules as the indies. Use the same equipment standards. Face the same penalties for cutting corners. But they don't, do they? Their "corporate safety programs" get them exemptions the little guy never sees.
+So next time someone tells you the new standards are for your own protection, ask them who decided you needed protecting. Ask them who benefits when legitimate colonies get labeled "unauthorized settlements."
 
-Look, nobody's arguing against safety. We all want to come home. But real safety comes from skin in the game, not compliance paperwork. Real safety comes from people who know their ships because their lives depend on it.
+Ask them who's trying to control who here.
 
-The Assembly could have required better emergency beacons. Could have funded more rescue stations in the outer routes. Could have subsidized equipment upgrades instead of mandating them.
-
-But that wouldn't have consolidated market share.
-
-Who's trying to control who here? Follow the credits.
+Because the answer isn't what they're selling.
