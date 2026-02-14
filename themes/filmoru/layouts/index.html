@@ -46,34 +46,54 @@
     <span class="divider-line divider-yellow"></span>
   </div>
 
-  <!-- Recent Articles (filtered to today's issue) -->
+  <!-- Main Content: Articles + Cosmogirl Side by Side -->
   {{ $todayIssue := printf "2935.%03d" now.YearDay }}
-  <section class="mt-xl">
-    <h2 class="section-title">最新記事</h2>
-    {{ $todayArticles := where (where .Site.RegularPages "Section" "posts") ".Params.issue_number" $todayIssue }}
-    {{ if not $todayArticles }}
-      {{ $todayArticles = first 5 (where .Site.RegularPages "Section" "posts") }}
-    {{ end }}
-    {{ range $todayArticles }}
-      <article class="article-card">
-        <div class="article-jp-header">
-          {{ .Params.title_jp | default "記事" }}
+  <section class="home-main-grid mt-xl">
+    <!-- Left: Recent Articles -->
+    <div class="home-articles">
+      <h2 class="section-title">最新記事</h2>
+      {{ $todayArticles := where (where .Site.RegularPages "Section" "posts") ".Params.issue_number" $todayIssue }}
+      {{ if not $todayArticles }}
+        {{ $todayArticles = first 5 (where .Site.RegularPages "Section" "posts") }}
+      {{ end }}
+      {{ range $todayArticles }}
+        <article class="article-card">
+          <div class="article-jp-header">
+            {{ .Params.title_jp | default "記事" }}
+          </div>
+          <div class="article-content">
+            <h3 class="article-title">
+              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </h3>
+            {{ with .Params.subtitle_jp }}
+            <div class="article-subtitle">{{ . }}</div>
+            {{ end }}
+            <p class="article-excerpt">{{ .Summary | truncate 200 }}</p>
+          </div>
+          <div class="article-meta">
+            <div class="article-journalist">{{ .Params.journalist | default "Staff" }}</div>
+            <div class="article-date">{{ .Params.year | default "2935" }}.{{ .Date.YearDay | printf "%03d" }}</div>
+          </div>
+        </article>
+      {{ end }}
+    </div>
+
+    <!-- Right: Cosmogirl of the Week -->
+    <div class="home-cosmogirl-sidebar">
+      <h2 class="section-title">今週のコスモガール</h2>
+      {{ with (index (where .Site.RegularPages "Section" "cosmogirls") 0) }}
+      <a href="{{ .RelPermalink }}" class="home-cosmogirl-card">
+        {{ with .Params.featured_image }}
+        <img src="{{ $.Site.BaseURL }}{{ strings.TrimPrefix "/" . }}" alt="{{ $.Params.name }}">
+        {{ end }}
+        <div class="home-cosmogirl-info">
+          <div class="home-cosmogirl-name">{{ .Params.name }}</div>
+          <div class="home-cosmogirl-details">{{ .Params.species }} • {{ .Params.occupation }}</div>
         </div>
-        <div class="article-content">
-          <h3 class="article-title">
-            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-          </h3>
-          {{ with .Params.subtitle_jp }}
-          <div class="article-subtitle">{{ . }}</div>
-          {{ end }}
-          <p class="article-excerpt">{{ .Summary | truncate 200 }}</p>
-        </div>
-        <div class="article-meta">
-          <div class="article-journalist">{{ .Params.journalist | default "Staff" }}</div>
-          <div class="article-date">{{ .Params.year | default "2935" }}.{{ .Date.YearDay | printf "%03d" }}</div>
-        </div>
-      </article>
-    {{ end }}
+      </a>
+      {{ end }}
+      <a href="/cosmogirls/" class="home-cosmogirl-archive-link">View Archive →</a>
+    </div>
   </section>
 
   <!-- Subscribe Box -->
@@ -103,6 +123,88 @@
   </section>
 
 <style>
+/* Home page grid layout - Articles + Cosmogirl side by side */
+.home-main-grid {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: var(--space-xl);
+  align-items: start;
+}
+
+.home-articles {
+  min-width: 0;
+}
+
+.home-cosmogirl-sidebar {
+  position: sticky;
+  top: var(--space-lg);
+}
+
+.home-cosmogirl-card {
+  display: block;
+  border: 1px solid var(--border);
+  transition: border-color 0.2s;
+  text-decoration: none;
+  color: inherit;
+}
+
+.home-cosmogirl-card:hover {
+  border-color: #E85D04;
+}
+
+.home-cosmogirl-card img {
+  width: 100%;
+  aspect-ratio: 3/4;
+  object-fit: cover;
+  display: block;
+}
+
+.home-cosmogirl-info {
+  padding: var(--space-md);
+  border-top: 1px solid var(--border);
+}
+
+.home-cosmogirl-name {
+  font-family: var(--font-jp);
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.home-cosmogirl-card:hover .home-cosmogirl-name {
+  color: #E85D04;
+}
+
+.home-cosmogirl-details {
+  font-size: 0.85rem;
+  color: var(--text-light);
+}
+
+.home-cosmogirl-archive-link {
+  display: block;
+  margin-top: var(--space-md);
+  font-size: 0.9rem;
+  color: #E85D04;
+  text-decoration: none;
+}
+
+.home-cosmogirl-archive-link:hover {
+  color: #FFD000;
+}
+
+@media (max-width: 800px) {
+  .home-main-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .home-cosmogirl-sidebar {
+    position: static;
+    order: -1;
+    max-width: 300px;
+    margin: 0 auto var(--space-xl);
+  }
+}
+
 .subscribe-box {
   margin-top: var(--space-xl);
   padding: var(--space-xl) 0;
