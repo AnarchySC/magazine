@@ -1856,7 +1856,7 @@ body::after {
    ───────────────────────────────────────────────────────────────────────────── */
 .holo-rail {
   position: fixed;
-  top: calc(50% - 95px);
+  top: calc(50% - 135px);
   transform: translateY(-50%);
   z-index: 100;
   display: flex;
