@@ -262,7 +262,7 @@ nav a:hover {
   aspect-ratio: 21 / 9;
   background: #fff;
   display: grid;
-  grid-template-columns: 1fr 250px;
+  grid-template-columns: 1fr;
   grid-template-rows: 1fr auto;
   margin-bottom: var(--space-xl);
   /* Full bleed but leave room for ads */
@@ -403,7 +403,6 @@ nav a:hover {
 @media (max-width: 900px) {
   .edition-banner {
     aspect-ratio: 16 / 9;
-    grid-template-columns: 1fr 180px;
   }
 
   .banner-title-main {

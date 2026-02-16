@@ -22,17 +22,6 @@
     </div>
   </div>
 
-  <!-- Right: Cosmogirl preview -->
-  {{ with (index (where .Site.RegularPages "Section" "cosmogirls") 0) }}
-  <a href="{{ .RelPermalink }}" class="banner-cosmogirl">
-    {{ with .Params.featured_image }}
-    <img src="{{ $.Site.BaseURL }}{{ strings.TrimPrefix "/" . }}" alt="Cosmogirl of the Week">
-    {{ end }}
-    <span class="cosmogirl-label">今週のコスモガール</span>
-    <span class="cosmogirl-name">Cosmogirl of the Week: {{ .Params.name }}</span>
-  </a>
-  {{ end }}
-
   <!-- Footer bar -->
   <div class="banner-footer">
     銀河通信 • CASSETTE FUTURE • 2935.{{ now.YearDay | printf "%03d" }}
