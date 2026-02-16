@@ -1,57 +1,93 @@
 {{ define "main" }}
-<article class="about-page">
-  <header class="about-header">
-    <div class="about-divider">
-      <span class="divider-line divider-blue"></span>
-      <span class="divider-line divider-orange"></span>
-      <span class="divider-line divider-yellow"></span>
-    </div>
-    <div class="jp about-jp-title">{{ .Params.title_jp }}</div>
-    <h1>Cassette Future Magazine</h1>
-    <div class="about-divider">
-      <span class="divider-line divider-blue"></span>
-      <span class="divider-line divider-orange"></span>
-      <span class="divider-line divider-yellow"></span>
-    </div>
+<section class="about-page">
+  <header class="page-header">
+    <h1 class="section-title">{{ .Params.title_jp | default "私たちについて" }}</h1>
+    <p class="page-subtitle">About Cassette Future Magazine</p>
   </header>
+
+  <!-- Divider -->
+  <div class="content-divider">
+    <span class="divider-line divider-blue"></span>
+    <span class="divider-line divider-orange"></span>
+    <span class="divider-line divider-yellow"></span>
+  </div>
 
   <div class="about-content">
     {{ .Content }}
   </div>
-</article>
+
+  <!-- Navigation Cards -->
+  <div class="about-nav">
+    <h2 class="about-nav-heading">
+      <span class="nav-heading-jp">探索する</span>
+      <span class="nav-heading-en">Explore the Magazine</span>
+    </h2>
+    <div class="about-nav-grid">
+      <a href="{{ .Site.BaseURL }}staff/" class="about-nav-card">
+        <div class="nav-card-text">
+          <span class="nav-card-jp">編集部</span>
+          <span class="nav-card-title">Meet Our Staff</span>
+          <span class="nav-card-desc">The journalists behind the transmissions</span>
+        </div>
+        <span class="nav-card-arrow">→</span>
+      </a>
+      <a href="{{ .Site.BaseURL }}issues/" class="about-nav-card">
+        <div class="nav-card-text">
+          <span class="nav-card-jp">発行号</span>
+          <span class="nav-card-title">Browse Issues</span>
+          <span class="nav-card-desc">Weekly galactic transmissions archive</span>
+        </div>
+        <span class="nav-card-arrow">→</span>
+      </a>
+      <a href="{{ .Site.BaseURL }}subscribe/" class="about-nav-card">
+        <div class="nav-card-text">
+          <span class="nav-card-jp">購読</span>
+          <span class="nav-card-title">Subscribe</span>
+          <span class="nav-card-desc">Get transmissions delivered every Tuesday</span>
+        </div>
+        <span class="nav-card-arrow">→</span>
+      </a>
+      <a href="{{ .Site.BaseURL }}feedback/" class="about-nav-card">
+        <div class="nav-card-text">
+          <span class="nav-card-jp">フィードバック</span>
+          <span class="nav-card-title">Send Feedback</span>
+          <span class="nav-card-desc">We read everything</span>
+        </div>
+        <span class="nav-card-arrow">→</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Contact -->
+  <aside class="about-contact">
+    <div class="about-contact-icon">✉</div>
+    <div class="about-contact-content">
+      <span class="about-contact-jp">連絡先</span>
+      <span class="about-contact-title">Contact</span>
+      <a href="mailto:admin@anarchygames.org" class="about-contact-link">admin@anarchygames.org</a>
+    </div>
+  </aside>
+</section>
 
 <style>
 .about-page {
-  max-width: 700px;
+  max-width: 800px;
   margin: 0 auto;
-  padding: var(--space-xl) 0;
 }
 
-.about-header {
-  text-align: center;
-  margin-bottom: var(--space-xl);
+.page-header {
+  margin-bottom: var(--space-lg);
 }
 
-.about-jp-title {
-  font-size: 2.5rem;
-  margin-bottom: var(--space-sm);
-}
-
-.about-header h1 {
-  font-size: 1.2rem;
-  font-weight: 600;
-  margin: var(--space-md) 0;
-  letter-spacing: 0.1em;
-}
-
-.about-divider {
+.content-divider {
   display: flex;
   flex-direction: column;
   gap: 3px;
-  max-width: 120px;
-  margin: var(--space-md) auto;
+  margin-bottom: var(--space-xl);
+  max-width: 200px;
 }
 
+/* Content */
 .about-content {
   line-height: 1.9;
 }
@@ -62,7 +98,7 @@
   margin-top: var(--space-xl);
   margin-bottom: var(--space-md);
   padding-bottom: var(--space-sm);
-  border-bottom: 2px solid #E85D04;
+  border-bottom: 2px solid var(--nasa-orange);
   display: inline-block;
 }
 
@@ -89,8 +125,150 @@
   font-family: var(--font-jp);
   font-size: 0.9rem;
   color: var(--text-light);
-  border-top: 2px solid #FFD000;
-  border-bottom: 2px solid #E85D04;
+  border-top: 2px solid var(--cassette-yellow);
+  border-bottom: 2px solid var(--nasa-orange);
+}
+
+/* Navigation Cards */
+.about-nav {
+  margin-top: var(--space-xl);
+  padding-top: var(--space-xl);
+  border-top: 1px solid var(--border);
+}
+
+.about-nav-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: var(--space-lg);
+}
+
+.nav-heading-jp {
+  font-family: var(--font-jp);
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.nav-heading-en {
+  font-size: 0.8rem;
+  color: var(--text-light);
+  letter-spacing: 0.1em;
+}
+
+.about-nav-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-md);
+}
+
+.about-nav-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-md);
+  padding: var(--space-lg);
+  border: 1px solid var(--border);
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.about-nav-card:hover {
+  border-color: var(--nasa-orange);
+  background: var(--surface);
+}
+
+.nav-card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.nav-card-jp {
+  font-family: var(--font-jp);
+  font-size: 0.75rem;
+  color: var(--cassette-blue);
+  letter-spacing: 0.1em;
+}
+
+.nav-card-title {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.nav-card-desc {
+  font-size: 0.8rem;
+  color: var(--text-light);
+}
+
+.nav-card-arrow {
+  font-size: 1.5rem;
+  color: var(--border);
+  transition: color 0.2s, transform 0.2s;
+  flex-shrink: 0;
+}
+
+.about-nav-card:hover .nav-card-arrow {
+  color: var(--nasa-orange);
+  transform: translateX(4px);
+}
+
+/* Contact */
+.about-contact {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-md);
+  padding: var(--space-md) var(--space-lg);
+  background: var(--surface);
+  border-left: 3px solid var(--cassette-blue);
+  margin-top: var(--space-xl);
+  max-width: 320px;
+}
+
+.about-contact-icon {
+  font-size: 1.5rem;
+  opacity: 0.6;
+}
+
+.about-contact-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.about-contact-jp {
+  font-family: var(--font-jp);
+  font-size: 0.7rem;
+  color: var(--cassette-blue);
+  letter-spacing: 0.1em;
+}
+
+.about-contact-title {
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.about-contact-link {
+  font-size: 0.8rem;
+  color: var(--nasa-orange);
+  font-weight: 500;
+  border: none;
+}
+
+.about-contact-link:hover {
+  color: var(--cassette-yellow);
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .about-nav-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-contact {
+    max-width: 100%;
+  }
 }
 </style>
 {{ end }}

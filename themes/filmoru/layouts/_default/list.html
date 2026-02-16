@@ -14,6 +14,19 @@
 
   {{ .Content }}
 
+  <div class="archive-search">
+    <label for="archive-search">
+      <span class="label-jp">検索</span>
+      <span class="label-en">Search articles</span>
+    </label>
+    <input type="text" id="archive-search" placeholder="Title, journalist, keyword...">
+  </div>
+
+  <div class="no-results" id="no-results">
+    <p class="no-results-jp">結果なし</p>
+    <p class="no-results-en">No articles match your search.</p>
+  </div>
+
   <div class="articles-list">
     {{ range .Pages }}
       <article class="article-card">
@@ -56,8 +69,73 @@
   max-width: 200px;
 }
 
+.archive-search {
+  margin-bottom: var(--space-lg);
+}
+
+.archive-search label {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: var(--space-sm);
+}
+
+.archive-search input {
+  width: 100%;
+  padding: var(--space-md);
+  font-size: 1rem;
+  font-family: inherit;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  transition: border-color 0.2s;
+}
+
+.archive-search input:focus {
+  outline: none;
+  border-color: var(--nasa-orange);
+}
+
+.no-results {
+  display: none;
+  text-align: center;
+  padding: var(--space-xl) 0;
+  color: var(--text-light);
+}
+
+.no-results-jp {
+  font-family: var(--font-jp);
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: var(--space-xs);
+}
+
+.no-results-en {
+  font-size: 0.85rem;
+}
+
 .articles-list {
   margin-top: var(--space-md);
 }
 </style>
+
+<script>
+(function() {
+  var input = document.getElementById('archive-search');
+  var cards = document.querySelectorAll('.article-card');
+  var noResults = document.getElementById('no-results');
+
+  input.addEventListener('input', function() {
+    var query = this.value.toLowerCase();
+    var visible = 0;
+
+    cards.forEach(function(card) {
+      var match = !query || card.textContent.toLowerCase().indexOf(query) !== -1;
+      card.style.display = match ? '' : 'none';
+      if (match) visible++;
+    });
+
+    noResults.style.display = (query && visible === 0) ? 'block' : 'none';
+  });
+})();
+</script>
 {{ end }}

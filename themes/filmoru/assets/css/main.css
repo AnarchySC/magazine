@@ -61,6 +61,7 @@
   --nasa-yellow: #FAA307;
   --nasa-gold: #F48C06;
   --nasa-cream: #FFBA08;
+  --cassette-yellow: #FFD000;
 
   /* Fonts */
   --font-jp: 'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif;
@@ -146,8 +147,8 @@ html[data-theme="dark"] body::before {
 }
 
 /* Show/hide moon states */
-html:not([data-theme="dark"]) .moon-full { display: none; }
-html[data-theme="dark"] .moon-crescent { display: none; }
+html:not([data-theme="dark"]) .moon-crescent { display: none; }
+html[data-theme="dark"] .moon-full { display: none; }
 
 /* ─────────────────────────────────────────────────────────────────────────────
    RESET & BASE
@@ -551,7 +552,7 @@ footer {
 }
 
 .footer-links a:hover {
-  color: #E85D04;
+  color: var(--nasa-orange);
 }
 
 .footer-sep {
@@ -580,7 +581,7 @@ footer {
 }
 
 .article-card:hover {
-  border-left-color: #E85D04;
+  border-left-color: var(--nasa-orange);
 }
 
 .article-card:last-child {
@@ -850,15 +851,15 @@ footer {
 }
 
 .divider-blue {
-  background: #1B3A5F;
+  background: var(--cassette-blue);
 }
 
 .divider-orange {
-  background: #E85D04;
+  background: var(--nasa-orange);
 }
 
 .divider-yellow {
-  background: #FFD000;
+  background: var(--cassette-yellow);
 }
 
 /* Section title with accent underline */
@@ -878,7 +879,7 @@ footer {
   left: 0;
   width: 120px;
   height: 6px;
-  background: linear-gradient(to right, #1B3A5F 33%, #E85D04 33%, #E85D04 66%, #FFD000 66%);
+  background: linear-gradient(to right, var(--cassette-blue) 33%, var(--nasa-orange) 33%, var(--nasa-orange) 66%, var(--cassette-yellow) 66%);
 }
 
 /* Page subtitle (English below Japanese titles) */
@@ -1014,7 +1015,7 @@ footer {
 
   .cosmogirl-mini-quote {
     border-left: none;
-    border-top: 1px solid #444;
+    border-top: 1px solid var(--border);
     padding-left: 0;
     padding-top: var(--space-md);
   }
@@ -1285,7 +1286,7 @@ footer {
 
 .border-gradient-left {
   border-left: 4px solid transparent;
-  border-image: linear-gradient(to bottom, var(--cassette-blue), var(--nasa-orange), #FFD000) 1;
+  border-image: linear-gradient(to bottom, var(--cassette-blue), var(--nasa-orange), var(--cassette-yellow)) 1;
   padding-left: var(--space-md);
 }
 
@@ -1855,7 +1856,7 @@ body::after {
    ───────────────────────────────────────────────────────────────────────────── */
 .holo-rail {
   position: fixed;
-  top: calc(50% - 25px);
+  top: calc(50% - 45px);
   transform: translateY(-50%);
   z-index: 100;
   display: flex;

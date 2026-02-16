@@ -5,6 +5,13 @@
     <p class="page-subtitle">Cosmogirl Archive</p>
   </header>
 
+  <!-- Divider -->
+  <div class="content-divider">
+    <span class="divider-line divider-blue"></span>
+    <span class="divider-line divider-orange"></span>
+    <span class="divider-line divider-yellow"></span>
+  </div>
+
   <div class="cosmogirls-grid">
     {{ range .Pages.ByDate.Reverse }}
     <a href="{{ .RelPermalink }}" class="cosmogirl-card">
@@ -31,7 +38,15 @@
 }
 
 .page-header {
+  margin-bottom: var(--space-lg);
+}
+
+.content-divider {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
   margin-bottom: var(--space-xl);
+  max-width: 200px;
 }
 
 .page-subtitle {
@@ -59,11 +74,11 @@
 }
 
 .cosmogirl-card:hover {
-  border-color: #E85D04;
+  border-color: var(--nasa-orange);
 }
 
 .cosmogirl-card:hover h2 {
-  color: #E85D04;
+  color: var(--nasa-orange);
 }
 
 .cosmogirl-thumb {

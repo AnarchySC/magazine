@@ -9,7 +9,16 @@
     <div class="footer-date">{{ site.Params.year }}.{{ now.YearDay | printf "%03d" }}</div>
   </div>
   <div class="footer-center">
-    <img src="{{ .Site.BaseURL }}images/filmoru-badge.svg" alt="Transmitted via Filmoru" class="filmoru-badge">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" class="filmoru-badge" role="img" aria-label="Transmitted via Filmoru">
+      <rect x="0" y="0" width="200" height="3" fill="#E85D04"/>
+      <rect x="0" y="57" width="200" height="3" fill="#FAA307"/>
+      <text x="100" y="28" font-family="Inter, sans-serif" font-size="10" font-weight="500" fill="currentColor" text-anchor="middle" letter-spacing="0.15em">TRANSMITTED VIA</text>
+      <text x="100" y="46" font-family="Inter, sans-serif" font-size="16" font-weight="700" fill="currentColor" text-anchor="middle" letter-spacing="0.2em">FILMORU</text>
+      <rect x="10" y="20" width="25" height="2" fill="#E85D04"/>
+      <rect x="165" y="20" width="25" height="2" fill="#E85D04"/>
+      <rect x="10" y="38" width="25" height="2" fill="#FAA307"/>
+      <rect x="165" y="38" width="25" height="2" fill="#FAA307"/>
+    </svg>
   </div>
   <div class="footer-right">
     <div class="footer-links">

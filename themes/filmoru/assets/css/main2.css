@@ -224,7 +224,7 @@ nav a:hover {
    ───────────────────────────────────────────────────────────────────────────── */
 .edition-hero {
   aspect-ratio: 21 / 9;
-  background: #fff;
+  background: var(--bg);
   overflow: hidden;
   margin-bottom: var(--space-xl);
   /* Full bleed */
@@ -297,7 +297,7 @@ nav a:hover {
 /* Bottom bar */
 .edition-footer {
   background: var(--text);
-  color: #fff;
+  color: var(--bg);
   font-size: 0.65rem;
   letter-spacing: 0.2em;
   padding: var(--space-sm) var(--space-lg);
@@ -780,4 +780,12 @@ footer {
     padding-left: 0;
     padding-top: var(--space-md);
   }
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   DARK MODE OVERRIDES
+   ───────────────────────────────────────────────────────────────────────────── */
+html[data-theme="dark"] .cosmogirl-feature-home {
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
 }
