@@ -113,30 +113,36 @@ html[data-theme="dark"] body::before {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: var(--space-md);
+  margin-left: var(--space-lg);
+  margin-top: -2px;
 }
 
 /* Crescent moon - visible in light mode */
 .moon-crescent {
   display: block;
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
-  background: transparent;
-  box-shadow: inset -6px -2px 0 0 var(--text);
-}
-
-/* Full moon - visible in dark mode */
-.moon-full {
-  display: block;
-  width: 16px;
-  height: 16px;
+  width: 24px;
+  height: 24px;
   border-radius: 50%;
   background:
-    radial-gradient(circle 2px at 5px 5px, rgba(0,0,0,0.2) 50%, transparent 51%),
-    radial-gradient(circle 1.5px at 10px 8px, rgba(0,0,0,0.15) 50%, transparent 51%),
-    radial-gradient(circle 1px at 7px 12px, rgba(0,0,0,0.15) 50%, transparent 51%),
-    #e6e6e6;
+    radial-gradient(circle 2px at 8px 9px, rgba(0,0,0,0.08) 50%, transparent 51%),
+    radial-gradient(circle 1.5px at 14px 16px, rgba(0,0,0,0.06) 50%, transparent 51%),
+    transparent;
+  box-shadow: inset -8px -3px 0 0 var(--text);
+}
+
+/* Full moon (dark side) - visible in dark mode */
+.moon-full {
+  display: block;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle 3px at 8px 7px, rgba(255,255,255,0.08) 50%, transparent 51%),
+    radial-gradient(circle 2px at 16px 12px, rgba(255,255,255,0.06) 50%, transparent 51%),
+    radial-gradient(circle 1.5px at 11px 18px, rgba(255,255,255,0.05) 50%, transparent 51%),
+    radial-gradient(circle 1.5px at 5px 15px, rgba(255,255,255,0.05) 50%, transparent 51%),
+    #1a1a1a;
+  border: 1px solid rgba(255,255,255,0.15);
 }
 
 /* Show/hide moon states */
@@ -333,16 +339,7 @@ nav a:hover {
   grid-template-columns: 1fr 300px;
   grid-template-rows: 1fr auto;
   margin-bottom: var(--space-xl);
-  /* Full bleed but leave room for ads */
-  width: calc(100vw - 180px);
-  margin-left: calc(-50vw + 50%);
   border-bottom: 1px solid var(--border);
-}
-
-@media (max-width: 1400px) {
-  .edition-banner {
-    width: 100vw;
-  }
 }
 
 /* Left content area */
