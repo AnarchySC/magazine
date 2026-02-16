@@ -1790,7 +1790,7 @@ body::after {
    ───────────────────────────────────────────────────────────────────────────── */
 .holo-rail {
   position: fixed;
-  top: 50%;
+  top: calc(50% - 10px);
   transform: translateY(-50%);
   z-index: 100;
   display: flex;
@@ -1816,7 +1816,7 @@ body::after {
 
 .holo-rail-header-jp {
   font-family: var(--font-jp);
-  font-size: 0.6rem;
+  font-size: 0.7rem;
   color: #1B3A5F;
   letter-spacing: 0.2em;
   text-shadow: 0 0 8px rgba(27, 58, 95, 0.5);
@@ -1824,7 +1824,7 @@ body::after {
 
 .holo-rail-header-en {
   font-family: var(--font-display);
-  font-size: 0.55rem;
+  font-size: 0.65rem;
   color: #1B3A5F;
   letter-spacing: 0.15em;
   text-shadow: 0 0 5px rgba(27, 58, 95, 0.4);
@@ -2072,7 +2072,7 @@ body::after {
 
 .holo-side-headline {
   font-family: var(--font-display);
-  font-size: 0.95rem;
+  font-size: 1.05rem;
   font-weight: 700;
   color: rgba(255, 255, 255, 0.95);
   letter-spacing: 0.15em;
@@ -2085,7 +2085,7 @@ body::after {
 }
 
 .holo-side-subtext {
-  font-size: 0.85rem;
+  font-size: 0.95rem;
   color: rgba(255, 255, 255, 0.7);
   line-height: 1.5;
   letter-spacing: 0.05em;
