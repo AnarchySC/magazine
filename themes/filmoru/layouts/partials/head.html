@@ -7,6 +7,15 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
+<!-- Theme: apply early to prevent flash -->
+<script>
+(function(){
+  var t = localStorage.getItem('theme');
+  if (!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  document.documentElement.setAttribute('data-theme', t);
+})();
+</script>
+
 <!-- CSS with cache busting -->
 {{ $css := resources.Get "css/main.css" | fingerprint }}
 <link rel="stylesheet" href="{{ $css.Permalink }}">

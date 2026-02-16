@@ -51,6 +51,9 @@
   --accent: #000000;
   --border: #e0e0e0;
 
+  /* Surfaces */
+  --surface: #f5f5f5;
+
   /* Cassette Futurism / NASA Punk palette */
   --cassette-blue: #1B3A5F;
   --cassette-navy: #0D2137;
@@ -74,6 +77,71 @@
   /* 21:9 Filmoru dimensions */
   --filmoru-ratio: 21 / 9;
 }
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   DARK MODE
+   ───────────────────────────────────────────────────────────────────────────── */
+html[data-theme="dark"] {
+  --bg: #0d1117;
+  --text: #e6e6e6;
+  --text-light: #999999;
+  --accent: #ffffff;
+  --border: #2a2a2a;
+  --surface: #161b22;
+  --cassette-blue: #4a7ab5;
+}
+
+/* Enhanced CRT scanline visibility on dark backgrounds */
+html[data-theme="dark"] body::before {
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 0, 0, 0.04) 2px,
+    rgba(0, 0, 0, 0.04) 4px
+  );
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   THEME TOGGLE
+   ───────────────────────────────────────────────────────────────────────────── */
+.theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: var(--space-md);
+}
+
+/* Crescent moon - visible in light mode */
+.moon-crescent {
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: transparent;
+  box-shadow: inset -6px -2px 0 0 var(--text);
+}
+
+/* Full moon - visible in dark mode */
+.moon-full {
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle 2px at 5px 5px, rgba(0,0,0,0.2) 50%, transparent 51%),
+    radial-gradient(circle 1.5px at 10px 8px, rgba(0,0,0,0.15) 50%, transparent 51%),
+    radial-gradient(circle 1px at 7px 12px, rgba(0,0,0,0.15) 50%, transparent 51%),
+    #e6e6e6;
+}
+
+/* Show/hide moon states */
+html:not([data-theme="dark"]) .moon-full { display: none; }
+html[data-theme="dark"] .moon-crescent { display: none; }
 
 /* ─────────────────────────────────────────────────────────────────────────────
    RESET & BASE
@@ -260,7 +328,7 @@ nav a:hover {
    ───────────────────────────────────────────────────────────────────────────── */
 .edition-banner {
   aspect-ratio: 21 / 9;
-  background: #fff;
+  background: var(--bg);
   display: grid;
   grid-template-columns: 1fr 300px;
   grid-template-rows: 1fr auto;
@@ -1156,7 +1224,7 @@ footer {
 
 /* Callout Box */
 .callout {
-  background: #f8f8f8;
+  background: var(--surface);
   border-left: 4px solid var(--nasa-orange);
   padding: var(--space-lg);
   margin: var(--space-lg) 0;
@@ -1790,7 +1858,7 @@ body::after {
    ───────────────────────────────────────────────────────────────────────────── */
 .holo-rail {
   position: fixed;
-  top: calc(50% - 10px);
+  top: calc(50% - 25px);
   transform: translateY(-50%);
   z-index: 100;
   display: flex;
@@ -1816,7 +1884,7 @@ body::after {
 
 .holo-rail-header-jp {
   font-family: var(--font-jp);
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   color: #1B3A5F;
   letter-spacing: 0.2em;
   text-shadow: 0 0 8px rgba(27, 58, 95, 0.5);
@@ -1824,7 +1892,7 @@ body::after {
 
 .holo-rail-header-en {
   font-family: var(--font-display);
-  font-size: 0.65rem;
+  font-size: 0.75rem;
   color: #1B3A5F;
   letter-spacing: 0.15em;
   text-shadow: 0 0 5px rgba(27, 58, 95, 0.4);
