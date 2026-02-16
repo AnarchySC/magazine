@@ -262,7 +262,7 @@ nav a:hover {
   aspect-ratio: 21 / 9;
   background: #fff;
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 300px;
   grid-template-rows: 1fr auto;
   margin-bottom: var(--space-xl);
   /* Full bleed but leave room for ads */
@@ -334,58 +334,29 @@ nav a:hover {
   color: var(--nasa-orange);
 }
 
-/* Right: Cosmogirl preview */
-.banner-cosmogirl {
+/* Right: About block */
+.banner-about {
   grid-row: 1 / 2;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
-  border: none;
-  padding: var(--space-md);
-  position: relative;
-  overflow: hidden;
+  justify-content: center;
+  padding: var(--space-xl) var(--space-lg);
+  border-left: 1px solid var(--border);
 }
 
-.banner-cosmogirl img {
-  height: 100%;
-  width: auto;
-  max-width: 100%;
-  object-fit: contain;
-  object-position: bottom;
-}
-
-.cosmogirl-label {
-  font-family: var(--font-jp);
+.banner-about-tagline {
   font-size: 0.9rem;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  color: #E85D04;
-  margin-top: var(--space-sm);
-  padding-left: var(--space-sm);
-  border-left: 3px solid #FFD000;
-  transition: text-shadow 0.3s ease, transform 0.3s ease;
-}
-
-.banner-cosmogirl:hover .cosmogirl-label {
-  text-shadow: 0 0 12px rgba(232, 93, 4, 0.8), 0 0 20px rgba(255, 208, 0, 0.5);
-  transform: scale(1.05);
-}
-
-.cosmogirl-name {
-  display: block;
-  font-family: var(--font-en);
-  font-size: 0.8rem;
-  font-weight: 600;
+  line-height: 1.6;
   color: var(--text);
-  margin-top: var(--space-xs);
-  letter-spacing: 0.02em;
-  transition: text-shadow 0.3s ease, transform 0.3s ease;
+  margin-bottom: var(--space-md);
 }
 
-.banner-cosmogirl:hover .cosmogirl-name {
-  text-shadow: 0 0 10px rgba(27, 58, 95, 0.6);
-  transform: scale(1.05);
+.banner-about-audience {
+  font-size: 0.8rem;
+  font-style: italic;
+  color: var(--text-light);
+  padding-top: var(--space-md);
+  border-top: 1px solid var(--border);
 }
 
 /* Footer bar */
@@ -403,6 +374,7 @@ nav a:hover {
 @media (max-width: 900px) {
   .edition-banner {
     aspect-ratio: 16 / 9;
+    grid-template-columns: 1fr;
   }
 
   .banner-title-main {
@@ -412,6 +384,10 @@ nav a:hover {
   .banner-headlines {
     display: none;
   }
+
+  .banner-about {
+    display: none;
+  }
 }
 
 @media (max-width: 600px) {
@@ -419,10 +395,6 @@ nav a:hover {
     aspect-ratio: auto;
     grid-template-columns: 1fr;
     min-height: 250px;
-  }
-
-  .banner-cosmogirl {
-    display: none;
   }
 
   .banner-content {
