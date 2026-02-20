@@ -1862,6 +1862,13 @@ body::after {
   display: flex;
   flex-direction: column;
   gap: var(--space-md);
+  max-height: 90vh;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.holo-rail::-webkit-scrollbar {
+  display: none;
 }
 
 .holo-rail-left {
