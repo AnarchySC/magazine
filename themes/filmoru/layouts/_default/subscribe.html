@@ -81,6 +81,23 @@
 
   </div>
 
+  <!-- Lifetime Tier -->
+  <div class="tier tier-lifetime">
+    <div class="tier-badge">永久信号</div>
+    <h2 class="tier-title">Lifetime Signal</h2>
+    <p class="tier-price">$499<span>/once</span></p>
+
+    <ul class="tier-features">
+      <li class="included">All premium content, forever</li>
+      <li class="included">Permanent name on the <a href="/sponsors/">sponsors wall</a> with Lifetime badge</li>
+      <li class="included">Physical membership card shipped to you</li>
+      <li class="included">No subscriptions. No renewals. Just signal.</li>
+    </ul>
+
+    <a href="https://ko-fi.com/s/07fa0011a5" target="_blank" class="tier-btn">Lock In Forever →</a>
+    <p class="tier-note">One transmission. Permanent frequency.</p>
+  </div>
+
   <div class="subscribe-note">
     <p>No spam. Unsubscribe anytime. Your data stays in this galaxy.</p>
   </div>
@@ -186,6 +203,36 @@
 
 .tier-sponsor .tier-features a {
   color: #FFD000;
+}
+
+.tier-lifetime {
+  background: linear-gradient(135deg, #1a1000 0%, #0d0800 50%, #1a0d00 100%);
+  color: #fff;
+  border: 2px solid #c9a84c;
+  max-width: 500px;
+  margin: 0 auto var(--space-xl) auto;
+}
+
+.tier-lifetime .tier-badge {
+  background: linear-gradient(135deg, #c9a84c, #f0d060, #c9a84c);
+  color: #1a1a1a;
+}
+
+.tier-lifetime .tier-features li.included::before {
+  color: #c9a84c;
+}
+
+.tier-lifetime .tier-features a {
+  color: #f0d060;
+}
+
+.tier-lifetime .tier-btn {
+  background: linear-gradient(135deg, #c9a84c, #f0d060);
+  color: #1a1a1a;
+}
+
+.tier-lifetime .tier-btn:hover {
+  background: linear-gradient(135deg, #f0d060, #fff0a0);
 }
 
 .tier-title {
