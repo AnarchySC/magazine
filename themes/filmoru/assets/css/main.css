@@ -115,8 +115,9 @@ html[data-theme="dark"] body::before {
   align-items: center;
   justify-content: center;
   position: fixed;
-  top: calc(10rem - 70px);
-  right: max(var(--space-lg), calc((100vw - 1600px) / 2 + var(--space-lg)));
+  top: var(--space-sm);
+  right: 10px;
+  width: 180px;
   z-index: 101;
 }
 
