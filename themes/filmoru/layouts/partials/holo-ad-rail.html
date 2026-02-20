@@ -67,4 +67,20 @@
       <a href="https://ko-fi.com/cassettefuture" target="_blank" class="holo-side-cta">→</a>
     </div>
   </aside>
+
+  <aside class="holo-ad-side holo-ad-sponsor-cta" data-ad-type="sponsors">
+    <div class="holo-side-scanlines"></div>
+    <div class="holo-side-content">
+      <div class="holo-side-icon">☆</div>
+      {{ $sponsors := .Site.Data.sponsors.sponsors }}
+      {{ if $sponsors }}
+        <div class="holo-side-headline">SPONSORS</div>
+        <div class="holo-side-subtext">{{ len $sponsors }} crew member{{ if ne (len $sponsors) 1 }}s{{ end }}<br>on the wall</div>
+      {{ else }}
+        <div class="holo-side-headline">SPONSORS</div>
+        <div class="holo-side-subtext">Be the first to<br>support the signal</div>
+      {{ end }}
+      <a href="/sponsors/" class="holo-side-cta">→</a>
+    </div>
+  </aside>
 </div>

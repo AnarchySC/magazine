@@ -16,7 +16,7 @@
     <span class="divider-line divider-yellow"></span>
   </div>
 
-  <!-- Side-by-side comparison -->
+  <!-- Tier comparison -->
   <div class="tiers-container">
 
     <!-- Free Tier -->
@@ -30,6 +30,8 @@
         <li class="not-included">Exclusive centerfold wallpapers</li>
         <li class="not-included">Behind the scenes content</li>
         <li class="not-included">Exclusive merchandise &amp; shop items</li>
+        <li class="not-included">Name on the sponsors wall</li>
+        <li class="not-included">Ad column spot</li>
       </ul>
 
       <div class="tier-form">
@@ -51,12 +53,30 @@
         <li class="included">Exclusive centerfold wallpapers (Desktop/Mobile)</li>
         <li class="included">Behind the scenes content</li>
         <li class="included">Exclusive merchandise &amp; shop items</li>
-        <li class="included">Keep the signal alive</li>
+        <li class="included">Name on the <a href="/sponsors/">sponsors wall</a></li>
+        <li class="not-included">Ad column spot</li>
       </ul>
 
       <a href="https://ko-fi.com/cassettefuture" target="_blank" class="tier-btn">Join on Ko-fi →</a>
       <p class="tier-note">Miss a wallpaper? It's gone to the void forever.</p>
       <span class="nsfw-notice">NSFW</span>
+    </div>
+
+    <!-- Sponsor Tier -->
+    <div class="tier tier-sponsor">
+      <div class="tier-badge">支援者</div>
+      <h2 class="tier-title">Cassette Future Sponsor</h2>
+      <p class="tier-price">$5<span>/month</span></p>
+
+      <ul class="tier-features">
+        <li class="included">Everything in Premium</li>
+        <li class="included">Name &amp; message on the <a href="/sponsors/">sponsors wall</a></li>
+        <li class="included">Ad column spot in the <a href="/sponsors/">holo-rail</a></li>
+        <li class="included">Keep the signal alive</li>
+      </ul>
+
+      <a href="https://ko-fi.com/cassettefuture" target="_blank" class="tier-btn">Become a Sponsor →</a>
+      <p class="tier-note">Your name on the wall. Your ad in the rail.</p>
     </div>
 
   </div>
@@ -68,7 +88,7 @@
 
 <style>
 .subscribe-page {
-  max-width: 900px;
+  max-width: 1100px;
   margin: 0 auto;
   text-align: center;
 }
@@ -100,12 +120,12 @@
 /* Tiers comparison layout */
 .tiers-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: var(--space-lg);
   margin-bottom: var(--space-xl);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
   .tiers-container {
     grid-template-columns: 1fr;
   }
@@ -147,6 +167,25 @@
 .tier-premium .tier-badge {
   background: #E85D04;
   color: #fff;
+}
+
+.tier-sponsor {
+  background: linear-gradient(135deg, #3d1a00 0%, #1a0d00 100%);
+  color: #fff;
+  border: 2px solid #FFD000;
+}
+
+.tier-sponsor .tier-badge {
+  background: #FFD000;
+  color: #1a1a1a;
+}
+
+.tier-sponsor .tier-features li.included::before {
+  color: #FFD000;
+}
+
+.tier-sponsor .tier-features a {
+  color: #FFD000;
 }
 
 .tier-title {
@@ -206,6 +245,10 @@
 
 .tier-premium .tier-features li.included::before {
   color: #FFD000;
+}
+
+.tier-premium .tier-features a {
+  color: #E85D04;
 }
 
 /* Free tier form */

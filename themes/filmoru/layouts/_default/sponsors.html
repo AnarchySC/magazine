@@ -1,0 +1,226 @@
+{{ define "main" }}
+<section class="sponsors-page">
+  <header class="page-header">
+    <h1 class="section-title">支援者</h1>
+    <p class="page-subtitle">Our Sponsors</p>
+  </header>
+
+  <div class="sponsors-intro">
+    <p class="intro-jp">信号を支える仲間たち。</p>
+    <p class="intro-en">These are the people keeping the signal alive.</p>
+  </div>
+
+  <div class="content-divider">
+    <span class="divider-line divider-blue"></span>
+    <span class="divider-line divider-orange"></span>
+    <span class="divider-line divider-yellow"></span>
+  </div>
+
+  {{ $allSponsors := .Site.Data.sponsors.sponsors }}
+  {{ $sponsors := slice }}
+  {{ $premium := slice }}
+  {{ range $allSponsors }}
+    {{ if eq .tier "sponsor" }}
+      {{ $sponsors = $sponsors | append . }}
+    {{ else }}
+      {{ $premium = $premium | append . }}
+    {{ end }}
+  {{ end }}
+
+  {{ if $allSponsors }}
+
+    {{ if $sponsors }}
+    <div class="tier-section">
+      <h2 class="tier-heading">スポンサー <span>Sponsors</span></h2>
+      <p class="tier-desc">$5/month — name &amp; message on the wall, ad column spot, and all premium content.</p>
+      <div class="sponsors-grid">
+        {{ range $sponsors }}
+        <div class="sponsor-card sponsor-tier">
+          <div class="sponsor-name">{{ .name }}</div>
+          {{ with .message }}<div class="sponsor-message">{{ . }}</div>{{ end }}
+        </div>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+
+    {{ if $premium }}
+    <div class="tier-section">
+      <h2 class="tier-heading">クルー <span>Crew</span></h2>
+      <p class="tier-desc">$1/month — name on the wall and all premium content.</p>
+      <div class="premium-grid">
+        {{ range $premium }}
+        <div class="sponsor-card premium-tier">
+          <div class="sponsor-name">{{ .name }}</div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+
+  {{ else }}
+  <div class="sponsors-empty">
+    <div class="empty-icon">☆</div>
+    <p class="empty-headline">No sponsors yet</p>
+    <p class="empty-text">Be the first crew member on the wall. Subscribe on Ko-fi and let us know you want your name listed.</p>
+  </div>
+  {{ end }}
+
+  <div class="sponsors-cta">
+    <a href="https://ko-fi.com/cassettefuture" target="_blank" class="sponsors-btn">Support on Ko-fi →</a>
+    <p class="sponsors-note">Message us to opt in to the sponsors wall.</p>
+  </div>
+</section>
+
+<style>
+.sponsors-page {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sponsors-intro {
+  margin-bottom: var(--space-lg);
+}
+
+.intro-jp {
+  font-family: var(--font-jp);
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: var(--space-xs);
+}
+
+.intro-en {
+  font-size: 1rem;
+  color: var(--text-light);
+}
+
+.content-divider {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  max-width: 150px;
+  margin: var(--space-lg) auto var(--space-xl) auto;
+}
+
+/* Tier sections */
+.tier-section {
+  margin-bottom: var(--space-xl);
+}
+
+.tier-heading {
+  font-family: var(--font-jp);
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: var(--space-xs);
+}
+
+.tier-heading span {
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+  color: var(--text-light);
+  margin-left: var(--space-sm);
+}
+
+.tier-desc {
+  font-size: 0.85rem;
+  color: var(--text-light);
+  margin-bottom: var(--space-lg);
+}
+
+/* Sponsor cards grid ($5 tier) */
+.sponsors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: var(--space-md);
+  text-align: left;
+}
+
+.sponsor-card {
+  padding: var(--space-md) var(--space-lg);
+  background: var(--surface);
+}
+
+.sponsor-card.sponsor-tier {
+  border-left: 3px solid var(--nasa-orange);
+}
+
+.sponsor-card.premium-tier {
+  border-left: 3px solid var(--cassette-blue);
+}
+
+.sponsor-name {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+}
+
+.sponsor-tier .sponsor-name {
+  margin-bottom: var(--space-xs);
+}
+
+.sponsor-message {
+  font-size: 0.85rem;
+  color: var(--text-light);
+  font-style: italic;
+}
+
+/* Premium crew grid ($1 tier) */
+.premium-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: var(--space-sm);
+  text-align: left;
+}
+
+/* Empty state */
+.sponsors-empty {
+  padding: var(--space-xl);
+  margin-bottom: var(--space-xl);
+}
+
+.empty-icon {
+  font-size: 2.5rem;
+  margin-bottom: var(--space-md);
+  opacity: 0.5;
+}
+
+.empty-headline {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  margin-bottom: var(--space-sm);
+}
+
+.empty-text {
+  font-size: 0.95rem;
+  color: var(--text-light);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* CTA */
+.sponsors-cta {
+  margin-top: var(--space-lg);
+}
+
+.sponsors-btn {
+  display: inline-block;
+  background: #E85D04;
+  color: #fff;
+  padding: var(--space-md) var(--space-xl);
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.sponsors-btn:hover {
+  background: #FFD000;
+  color: #1a1a1a;
+}
+
+.sponsors-note {
+  margin-top: var(--space-md);
+  font-size: 0.8rem;
+  color: var(--text-light);
+}
+</style>
+{{ end }}

@@ -1,0 +1,11 @@
+sponsors:
+  # tier: "premium" ($1/mo) — name on the sponsors wall + premium content
+  # tier: "sponsor" ($5/mo) — name + message on the wall, ad column spot + premium content
+  #
+  # - name: "Display Name"
+  #   tier: "premium"
+  #
+  # - name: "Display Name"
+  #   tier: "sponsor"
+  #   message: "Optional short message or tagline"
+  #   url: "https://example.com"
