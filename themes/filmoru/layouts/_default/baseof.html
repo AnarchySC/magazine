@@ -27,6 +27,16 @@
 
       if (!rail && !kofi) return;
 
+      // Align rail top with the banner (right after the header)
+      if (rail) {
+        const header = document.querySelector('header');
+        if (header) {
+          const top = header.offsetTop + header.offsetHeight;
+          rail.style.top = top + 'px';
+          rail.style.maxHeight = 'calc(100vh - ' + (top + 16) + 'px)';
+        }
+      }
+
       function updateFade() {
         const scrollY = window.scrollY;
         const halfPage = document.documentElement.scrollHeight / 2;
