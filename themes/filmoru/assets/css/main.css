@@ -114,8 +114,10 @@ html[data-theme="dark"] body::before {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: var(--space-lg);
-  margin-top: -2px;
+  position: fixed;
+  top: 10rem;
+  right: max(var(--space-lg), calc((100vw - 1600px) / 2 + var(--space-lg)));
+  z-index: 101;
 }
 
 /* Crescent moon - visible in light mode */
@@ -827,6 +829,10 @@ footer {
 
   nav ul {
     gap: var(--space-md);
+  }
+
+  .theme-toggle {
+    position: static;
   }
 }
 
