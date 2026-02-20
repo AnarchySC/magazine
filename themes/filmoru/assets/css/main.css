@@ -2521,117 +2521,37 @@ html[data-theme="dark"] .holo-rail-header-en {
 }
 
 /* ─────────────────────────────────────────────────────────────────────────────
-   HOLO KO-FI FLOAT - Bottom left holographic CTA
+   KO-FI FLOAT - Bottom left fixed CTA
    ───────────────────────────────────────────────────────────────────────────── */
 .holo-kofi-float {
   position: fixed;
   bottom: 20px;
   left: 20px;
   z-index: 1000;
-  display: flex;
-  align-items: center;
-  gap: var(--space-sm);
-  padding: var(--space-sm) var(--space-lg) var(--space-sm) var(--space-md);
-  background: radial-gradient(
-    ellipse at center,
-    rgba(27, 58, 95, 0.5) 0%,
-    rgba(27, 58, 95, 0.3) 60%,
-    transparent 100%
-  );
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
   text-decoration: none;
-  overflow: hidden;
-  animation: holo-flicker 0.15s infinite;
-  -webkit-mask-image: radial-gradient(
-    ellipse 100% 100% at center,
-    black 50%,
-    transparent 100%
-  );
-  mask-image: radial-gradient(
-    ellipse 100% 100% at center,
-    black 50%,
-    transparent 100%
-  );
-}
-
-.holo-kofi-float .holo-side-scanlines {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: repeating-linear-gradient(
-    0deg,
-    transparent,
-    transparent 1px,
-    rgba(0, 0, 0, 0.2) 1px,
-    rgba(0, 0, 0, 0.2) 2px
-  );
-  pointer-events: none;
-  z-index: 1;
-  animation: scanline-scroll 8s linear infinite;
-}
-
-.holo-kofi-content {
-  position: relative;
-  z-index: 2;
-  display: flex;
-  align-items: center;
-  gap: var(--space-sm);
-}
-
-.holo-kofi-icon {
-  font-size: 1.4rem;
-  color: #E85D04;
-  text-shadow:
-    0 0 10px rgba(232, 93, 4, 0.9),
-    0 0 20px rgba(232, 93, 4, 0.5);
-  animation: icon-pulse 2s ease-in-out infinite alternate;
-}
-
-.holo-kofi-text {
-  font-family: var(--font-display);
-  font-size: 0.85rem;
-  font-weight: 700;
-  color: rgba(255, 255, 255, 0.95);
-  letter-spacing: 0.15em;
-  text-shadow:
-    0 0 8px rgba(255, 255, 255, 0.8),
-    -1px 0 rgba(255, 0, 100, 0.3),
-    1px 0 rgba(0, 255, 255, 0.3);
+  opacity: 0.85;
+  transition: opacity 0.2s, transform 0.2s;
 }
 
 .holo-kofi-float:hover {
-  animation: holo-flicker-intense 0.1s infinite;
+  opacity: 1;
+  transform: scale(1.05);
 }
 
-.holo-kofi-float:hover .holo-kofi-text {
-  animation: chromatic-shift 0.1s infinite;
+.kofi-logo-img {
+  display: block;
+  height: 48px;
+  width: auto;
 }
 
-.holo-kofi-float:hover .holo-kofi-icon {
-  text-shadow:
-    0 0 15px rgba(255, 208, 0, 1),
-    0 0 30px rgba(232, 93, 4, 0.8),
-    0 0 45px rgba(232, 93, 4, 0.5);
-}
-
-/* Mobile - smaller but still visible */
 @media (max-width: 600px) {
   .holo-kofi-float {
     bottom: 15px;
     left: 15px;
-    padding: var(--space-xs) var(--space-md);
   }
 
-  .holo-kofi-icon {
-    font-size: 1.2rem;
-  }
-
-  .holo-kofi-text {
-    font-size: 0.7rem;
-    letter-spacing: 0.1em;
+  .kofi-logo-img {
+    height: 36px;
   }
 }
 
