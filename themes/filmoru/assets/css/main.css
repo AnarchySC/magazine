@@ -115,7 +115,7 @@ html[data-theme="dark"] body::before {
   align-items: center;
   justify-content: center;
   position: fixed;
-  top: calc(10rem - 50px);
+  top: calc(10rem - 70px);
   right: 10px;
   width: 180px;
   z-index: 101;
