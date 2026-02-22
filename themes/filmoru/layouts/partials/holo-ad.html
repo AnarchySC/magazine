@@ -2,7 +2,7 @@
   Holographic Ad Component - Blade Runner / Cassette Future style
 
   Usage: {{ partial "holo-ad.html" (dict "type" "kofi") }}
-  Types: kofi, book, scrivener, merch, galleray
+  Types: kofi, book, scrivener, merch, galleray, intheblack
 */}}
 
 {{ $type := .type | default "kofi" }}
@@ -66,6 +66,17 @@
       <div class="holo-subtext">Fast. Minimal. Image viewer for Linux.</div>
     </div>
     <a href="https://snapcraft.io/gall-array" target="_blank" class="holo-cta">GET IT →</a>
+  </div>
+
+  {{ else if eq $type "intheblack" }}
+  <div class="holo-content">
+    <div class="holo-icon">☄</div>
+    <div class="holo-text">
+      <div class="holo-tagline-jp">宇宙戦闘</div>
+      <div class="holo-headline">IN THE BLACK</div>
+      <div class="holo-subtext">Space combat pong. Shields up. Free to play.</div>
+    </div>
+    <a href="https://ko-fi.com/s/d21284eadd" target="_blank" class="holo-cta">PLAY NOW →</a>
   </div>
   {{ end }}
 

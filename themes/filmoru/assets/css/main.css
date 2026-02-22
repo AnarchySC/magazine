@@ -2359,6 +2359,97 @@ html:not([data-theme="dark"]) .holo-ad-side {
   }
 }
 
+/* IN THE BLACK / Game — hot pink / magenta */
+[data-ad-type="intheblack"] {
+  background: radial-gradient(
+    ellipse at center,
+    rgba(255, 102, 170, 0.2) 0%,
+    rgba(255, 102, 170, 0.12) 40%,
+    rgba(100, 20, 70, 0.1) 70%,
+    transparent 100%
+  );
+  animation: holo-flicker-intheblack 0.15s infinite;
+  animation-delay: -0.08s;
+}
+
+@keyframes holo-flicker-intheblack {
+  0%, 100% {
+    opacity: 0.9;
+    box-shadow:
+      0 0 20px rgba(255, 102, 170, 0.4),
+      0 0 40px rgba(170, 0, 255, 0.15),
+      inset 0 0 20px rgba(255, 102, 170, 0.1);
+  }
+  50% {
+    opacity: 0.95;
+    box-shadow:
+      0 0 25px rgba(255, 102, 170, 0.5),
+      0 0 50px rgba(170, 0, 255, 0.2),
+      inset 0 0 25px rgba(255, 102, 170, 0.15);
+  }
+}
+
+[data-ad-type="intheblack"]::before {
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 102, 170, 0.12) 45%,
+    rgba(170, 0, 255, 0.1) 55%,
+    transparent 100%
+  );
+  animation-delay: -1.5s;
+}
+
+[data-ad-type="intheblack"]::after {
+  background: rgba(255, 102, 170, 0.6);
+  animation-delay: -0.8s;
+}
+
+[data-ad-type="intheblack"] .holo-side-icon {
+  color: #FF66AA;
+  text-shadow:
+    0 0 10px rgba(255, 102, 170, 0.9),
+    0 0 20px rgba(255, 102, 170, 0.5),
+    0 0 30px rgba(170, 0, 255, 0.3);
+  animation: icon-pulse-intheblack 2s ease-in-out infinite alternate;
+}
+
+[data-ad-type="intheblack"] .holo-side-badge {
+  color: #FF66AA;
+  text-shadow: 0 0 8px rgba(255, 102, 170, 0.5);
+}
+
+[data-ad-type="intheblack"] .holo-side-cta {
+  background: rgba(255, 102, 170, 0.2);
+  color: #FF66AA;
+  box-shadow:
+    0 0 15px rgba(255, 102, 170, 0.5),
+    inset 0 0 10px rgba(255, 102, 170, 0.1);
+  text-shadow: 0 0 8px rgba(255, 102, 170, 0.8);
+}
+
+[data-ad-type="intheblack"] .holo-side-cta:hover {
+  background: rgba(255, 102, 170, 0.4);
+  box-shadow:
+    0 0 25px rgba(255, 102, 170, 0.7),
+    0 0 50px rgba(170, 0, 255, 0.4),
+    inset 0 0 15px rgba(255, 102, 170, 0.2);
+}
+
+@keyframes icon-pulse-intheblack {
+  0% {
+    text-shadow:
+      0 0 10px rgba(255, 102, 170, 0.9),
+      0 0 20px rgba(255, 102, 170, 0.5);
+  }
+  100% {
+    text-shadow:
+      0 0 15px rgba(255, 102, 170, 1),
+      0 0 30px rgba(170, 0, 255, 0.7),
+      0 0 40px rgba(255, 102, 170, 0.4);
+  }
+}
+
 /* Scanlines - more visible */
 .holo-side-scanlines {
   position: absolute;
