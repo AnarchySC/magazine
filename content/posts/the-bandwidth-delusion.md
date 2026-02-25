@@ -4,8 +4,9 @@ draft: false
 featured_image: /images/header-the-bandwidth-delusion.png
 image_prompt: Anime-style illustration of a vast library-observatory hybrid, holographic waveforms of different languages floating through the air in different colors, a lone xenolinguist studying data on glowing screens, cassette futurism aesthetic, warm lighting, minimal white background
 issue_number: '2935.055'
-journalist: ソフィア 中村
-journalist_title: Human Interest & Lifestyle Editor
+journalist: アワセン・オエ
+journalist_title: Opinion Columnist
+journalist_collab: ソフィア 中村
 title: 'The Bandwidth Delusion: Why Fast Talkers Don''t Build Better Starships'
 title_jp: 帯域幅の妄想：なぜ早口の種族が優れた宇宙船を造れないのか
 subtitle_jp: 銀河異星言語学局の画期的な研究が、言語・自由・革新の関係について通説を覆す

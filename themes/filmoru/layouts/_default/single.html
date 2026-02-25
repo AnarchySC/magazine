@@ -28,6 +28,26 @@
           <span><span class="article-hero__author">{{ $name }}</span></span>
         {{ end }}
       {{ end }}
+      {{ with .Params.journalist_collab }}
+        {{ $name := . }}
+        {{ $found := false }}
+        <span class="collab-sep">&</span>
+        {{ range $.Site.Data.journalists.journalists }}
+          {{ if eq .name.display $name }}
+            {{ $found = true }}
+            <span class="author-tip-wrap">
+              <span class="article-hero__author">{{ $name }}</span>
+              <span class="author-tip">
+                <span class="author-tip__name">{{ .name.romanji }}</span>
+                <a href="/staff/#{{ .id }}" class="author-tip__link">Staff Profile →</a>
+              </span>
+            </span>
+          {{ end }}
+        {{ end }}
+        {{ if not $found }}
+          <span><span class="article-hero__author">{{ $name }}</span></span>
+        {{ end }}
+      {{ end }}
       <span class="edition-stamp">
         <span class="edition-stamp__number">{{ .Params.year | default "2935" }}.{{ .Date.YearDay | printf "%03d" }}</span>
       </span>
@@ -256,6 +276,12 @@
 
 .author-tip__link:hover {
   text-decoration: underline;
+}
+
+.collab-sep {
+  color: var(--text-light);
+  font-size: 0.8rem;
+  margin: 0 -4px;
 }
 
 @media (max-width: 600px) {
