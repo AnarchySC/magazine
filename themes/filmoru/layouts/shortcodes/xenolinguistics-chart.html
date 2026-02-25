@@ -1,0 +1,335 @@
+{{/* Xenolinguistics Interactive Chart — Cassette Future Magazine */}}
+{{/* Usage: {{< xenolinguistics-chart >}} in article with language_data in frontmatter */}}
+
+{{ $data := .Page.Params.language_data }}
+
+<div class="xeno-chart-wrap">
+  <div class="xeno-chart-divider">
+    <span class="divider-line divider-blue"></span>
+    <span class="divider-line divider-orange"></span>
+    <span class="divider-line divider-yellow"></span>
+  </div>
+
+  <div class="xeno-chart-header">
+    <h3 class="xeno-chart-title">GALACTIC BUREAU OF XENOLINGUISTICS</h3>
+    <p class="xeno-chart-subtitle">Interactive Data Terminal &mdash; Drag the weights to explore what predicts innovation</p>
+  </div>
+
+  <div class="xeno-chart-body">
+    <div class="xeno-controls">
+      <div class="xeno-control-group">
+        <label class="xeno-label">Y-AXIS</label>
+        <select id="xeno-y-axis" class="xeno-select">
+          <option value="innovation_rank" selected>Innovation Rank (lower = better)</option>
+          <option value="freedom_score">Freedom Score (0&ndash;100)</option>
+        </select>
+      </div>
+
+      <div class="xeno-controls-divider"></div>
+
+      <div class="xeno-section-label">X-AXIS WEIGHTS</div>
+
+      <div class="xeno-control-group">
+        <label class="xeno-label">FREEDOM <span id="xeno-w-freedom-val" class="xeno-slider-val">40</span></label>
+        <input type="range" id="xeno-w-freedom" class="xeno-slider" min="0" max="100" value="40" data-key="freedom_score">
+      </div>
+      <div class="xeno-control-group">
+        <label class="xeno-label">R&amp;D SPENDING <span id="xeno-w-rd-val" class="xeno-slider-val">0</span></label>
+        <input type="range" id="xeno-w-rd" class="xeno-slider" min="0" max="100" value="0" data-key="rd_pct">
+      </div>
+      <div class="xeno-control-group">
+        <label class="xeno-label">EDUCATION <span id="xeno-w-edu-val" class="xeno-slider-val">0</span></label>
+        <input type="range" id="xeno-w-edu" class="xeno-slider" min="0" max="100" value="0" data-key="education">
+      </div>
+      <div class="xeno-control-group">
+        <label class="xeno-label">SOCIAL TRUST <span id="xeno-w-trust-val" class="xeno-slider-val">0</span></label>
+        <input type="range" id="xeno-w-trust" class="xeno-slider" min="0" max="100" value="0" data-key="social_trust">
+      </div>
+      <div class="xeno-control-group">
+        <label class="xeno-label">TRADE OPENNESS <span id="xeno-w-trade-val" class="xeno-slider-val">0</span></label>
+        <input type="range" id="xeno-w-trade" class="xeno-slider" min="0" max="100" value="0" data-key="trade_openness">
+      </div>
+      <div class="xeno-control-group">
+        <label class="xeno-label">ECON FREEDOM <span id="xeno-w-econ-val" class="xeno-slider-val">0</span></label>
+        <input type="range" id="xeno-w-econ" class="xeno-slider" min="0" max="100" value="0" data-key="econ_freedom">
+      </div>
+      <div class="xeno-control-group">
+        <label class="xeno-label">SPEECH RATE <span id="xeno-w-speech-val" class="xeno-slider-val">0</span></label>
+        <input type="range" id="xeno-w-speech" class="xeno-slider" min="0" max="100" value="0" data-key="bits_per_sec">
+      </div>
+
+      <div class="xeno-controls-divider"></div>
+
+      <div class="xeno-control-group">
+        <button id="xeno-preset-freedom" class="xeno-btn">Freedom Only</button>
+        <button id="xeno-preset-speech" class="xeno-btn">Speech Only</button>
+        <button id="xeno-preset-all" class="xeno-btn">Equal Weights</button>
+      </div>
+    </div>
+    <div class="xeno-canvas-wrap">
+      <canvas id="xeno-canvas"></canvas>
+      <div id="xeno-tooltip" class="xeno-tooltip"></div>
+    </div>
+  </div>
+
+  <div class="xeno-chart-divider">
+    <span class="divider-line divider-blue"></span>
+    <span class="divider-line divider-orange"></span>
+    <span class="divider-line divider-yellow"></span>
+  </div>
+</div>
+
+<script>
+  window.__xenoData = {{ $data | jsonify | safeJS }};
+</script>
+
+{{ $js := resources.Get "js/xeno-chart.js" }}
+{{ if eq hugo.Environment "development" }}
+  {{ with $js | js.Build }}
+    <script src="{{ .RelPermalink }}"></script>
+  {{ end }}
+{{ else }}
+  {{ $opts := dict "minify" true }}
+  {{ with $js | js.Build $opts | fingerprint }}
+    <script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous"></script>
+  {{ end }}
+{{ end }}
+
+<style>
+.xeno-chart-wrap {
+  margin: var(--space-xl) 0;
+  font-family: var(--font-en);
+}
+
+.xeno-chart-divider {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  max-width: 200px;
+  margin-bottom: var(--space-md);
+}
+
+.xeno-chart-header {
+  margin-bottom: var(--space-lg);
+}
+
+.xeno-chart-title {
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--cassette-blue);
+  margin: 0 0 var(--space-xs) 0;
+  border: none;
+  padding: 0;
+}
+
+.xeno-chart-subtitle {
+  font-size: 0.75rem;
+  color: var(--text-light);
+  letter-spacing: 0.02em;
+  margin: 0;
+}
+
+.xeno-chart-body {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: var(--space-lg);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  padding: var(--space-lg);
+}
+
+.xeno-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.xeno-control-group {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.xeno-controls-divider {
+  height: 1px;
+  background: var(--border);
+  margin: var(--space-xs) 0;
+}
+
+.xeno-section-label {
+  font-family: var(--font-display);
+  font-size: 0.6rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--nasa-orange);
+  margin-bottom: 2px;
+}
+
+.xeno-label {
+  font-family: var(--font-en);
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--text-light);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.xeno-slider-val {
+  font-family: var(--font-en);
+  color: var(--nasa-orange);
+  font-weight: 600;
+  font-size: 0.7rem;
+  min-width: 2.5ch;
+  text-align: right;
+}
+
+.xeno-select {
+  font-family: var(--font-en);
+  font-size: 0.8rem;
+  padding: 5px 8px;
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  background: var(--bg);
+  color: var(--text);
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%23666'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  padding-right: 24px;
+}
+
+.xeno-select:focus {
+  outline: 1px solid var(--nasa-orange);
+  border-color: var(--nasa-orange);
+}
+
+.xeno-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 5px;
+  background: var(--border);
+  border-radius: 1px;
+  outline: none;
+  cursor: pointer;
+}
+
+.xeno-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  background: var(--nasa-orange);
+  border: 2px solid var(--bg);
+  border-radius: 1px;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
+.xeno-slider::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  background: var(--nasa-orange);
+  border: 2px solid var(--bg);
+  border-radius: 1px;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
+.xeno-btn {
+  font-family: var(--font-en);
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 4px 8px;
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  background: var(--bg);
+  color: var(--text-light);
+  cursor: pointer;
+  margin-bottom: 3px;
+}
+
+.xeno-btn:hover {
+  border-color: var(--nasa-orange);
+  color: var(--nasa-orange);
+}
+
+.xeno-canvas-wrap {
+  position: relative;
+}
+
+#xeno-canvas {
+  width: 100%;
+  display: block;
+  cursor: crosshair;
+}
+
+.xeno-tooltip {
+  display: none;
+  position: absolute;
+  background: var(--bg);
+  border: 1px solid var(--nasa-orange);
+  border-radius: 2px;
+  padding: 8px 12px;
+  font-size: 0.72rem;
+  line-height: 1.5;
+  color: var(--text);
+  pointer-events: none;
+  z-index: 10;
+  max-width: 300px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  white-space: nowrap;
+}
+
+.xeno-tooltip strong {
+  color: var(--nasa-orange);
+  font-weight: 600;
+}
+
+.xeno-tooltip .xeno-tt-species {
+  color: var(--text-light);
+  font-size: 0.62rem;
+}
+
+.xeno-tooltip .xeno-tt-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.xeno-tooltip .xeno-tt-val {
+  font-weight: 600;
+}
+
+@media (max-width: 700px) {
+  .xeno-chart-body {
+    grid-template-columns: 1fr;
+  }
+
+  .xeno-controls {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: var(--space-sm);
+  }
+
+  .xeno-control-group {
+    flex: 1 1 45%;
+    min-width: 130px;
+  }
+
+  .xeno-controls-divider,
+  .xeno-section-label {
+    flex: 1 1 100%;
+  }
+}
+</style>

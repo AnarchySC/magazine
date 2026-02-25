@@ -2,7 +2,7 @@
   Holographic Ad Component - Blade Runner / Cassette Future style
 
   Usage: {{ partial "holo-ad.html" (dict "type" "kofi") }}
-  Types: kofi, book, scrivener, merch, galleray, intheblack
+  Types: kofi, book, scrivener, merch, galleray, intheblack, cryptortoise
 */}}
 
 {{ $type := .type | default "kofi" }}
@@ -77,6 +77,17 @@
       <div class="holo-subtext">Space combat pong. Shields up. Free to play.</div>
     </div>
     <a href="https://ko-fi.com/s/d21284eadd" target="_blank" class="holo-cta">PLAY NOW →</a>
+  </div>
+
+  {{ else if eq $type "cryptortoise" }}
+  <div class="holo-content">
+    <div class="holo-icon">⬡</div>
+    <div class="holo-text">
+      <div class="holo-tagline-jp">暗号化防御</div>
+      <div class="holo-headline">CRYPTORTOISE</div>
+      <div class="holo-subtext">Plug in your FIDO2 key. Everything unlocks. Pull it out. Everything locks.</div>
+    </div>
+    <a href="https://github.com/AnarchySC/cryptortoise" target="_blank" class="holo-cta">GET IT →</a>
   </div>
   {{ end }}
 
