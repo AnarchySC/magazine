@@ -10,7 +10,23 @@
     <div class="deck">{{ .Title }}</div>
     <div class="article-hero__meta">
       {{ with .Params.journalist }}
-        <span><span class="article-hero__author">{{ . }}</span></span>
+        {{ $name := . }}
+        {{ $found := false }}
+        {{ range $.Site.Data.journalists.journalists }}
+          {{ if eq .name.display $name }}
+            {{ $found = true }}
+            <span class="author-tip-wrap">
+              <span class="article-hero__author">{{ $name }}</span>
+              <span class="author-tip">
+                <span class="author-tip__name">{{ .name.romanji }}</span>
+                <a href="/staff/#{{ .id }}" class="author-tip__link">Staff Profile →</a>
+              </span>
+            </span>
+          {{ end }}
+        {{ end }}
+        {{ if not $found }}
+          <span><span class="article-hero__author">{{ $name }}</span></span>
+        {{ end }}
       {{ end }}
       <span class="edition-stamp">
         <span class="edition-stamp__number">{{ .Params.year | default "2935" }}.{{ .Date.YearDay | printf "%03d" }}</span>
@@ -195,6 +211,51 @@
   background: var(--nasa-orange);
   border-color: var(--nasa-orange);
   color: #fff;
+}
+
+.author-tip-wrap {
+  position: relative;
+  cursor: pointer;
+}
+
+.author-tip {
+  display: none;
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  padding: 8px 12px;
+  border-radius: 2px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  white-space: nowrap;
+  z-index: 10;
+}
+
+.author-tip-wrap:hover .author-tip {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.author-tip__name {
+  color: var(--text);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.author-tip__link {
+  color: var(--nasa-orange);
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  border: none;
+}
+
+.author-tip__link:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 600px) {
