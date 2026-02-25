@@ -1,0 +1,757 @@
+{{ define "main" }}
+<section class="ct-page">
+
+  <!-- Hero -->
+  <header class="ct-hero">
+    <img src="/images/cryptortoise-banner.png" alt="Cryptortoise" class="ct-hero-banner">
+    <h1 class="section-title">クリプトータス</h1>
+    <p class="page-subtitle">Cryptortoise</p>
+    <p class="ct-tagline">Plug in your $5 FIDO2 key to unlock everything.<br>Pull it out to lock everything.</p>
+    <p class="ct-tagline-sub">Hardware-key-based directory encryption for Linux. Zero passwords. Ever again.</p>
+  </header>
+
+  <div class="content-divider">
+    <span class="divider-line divider-blue"></span>
+    <span class="divider-line divider-orange"></span>
+    <span class="divider-line divider-yellow"></span>
+  </div>
+
+  <!-- Value Proposition -->
+  <div class="ct-value">
+    <div class="ct-value-card">
+      <span class="ct-value-icon">⬡</span>
+      <h3>No Passwords</h3>
+      <p>Your FIDO2 hardware key derives encryption keys on demand. Nothing to remember. Nothing to leak.</p>
+    </div>
+    <div class="ct-value-card">
+      <span class="ct-value-icon">⟐</span>
+      <h3>Physical Security</h3>
+      <p>Key not plugged in? Everything is encrypted. Walk away from your desk with your key and your data locks itself.</p>
+    </div>
+    <div class="ct-value-card">
+      <span class="ct-value-icon">◈</span>
+      <h3>$5 Hardware</h3>
+      <p>A Raspberry Pi Pico with free FIDO2 firmware. No expensive security tokens required.</p>
+    </div>
+  </div>
+
+  <!-- How It Works -->
+  <div class="ct-section">
+    <h2 class="ct-section-title">仕組み</h2>
+    <p class="ct-section-subtitle">How It Works</p>
+
+    <div class="ct-flow">
+      <div class="ct-flow-col">
+        <div class="ct-flow-header ct-flow-unlock">KEY PLUGGED IN</div>
+        <div class="ct-flow-steps">
+          <div class="ct-flow-step">USB detected</div>
+          <div class="ct-flow-arrow">&#9660;</div>
+          <div class="ct-flow-step">FIDO2 HMAC key derived</div>
+          <div class="ct-flow-arrow">&#9660;</div>
+          <div class="ct-flow-step">gocryptfs mounts vaults</div>
+          <div class="ct-flow-arrow">&#9660;</div>
+          <div class="ct-flow-step">Symlinks restored</div>
+          <div class="ct-flow-arrow">&#9660;</div>
+          <div class="ct-flow-step ct-flow-result ct-flow-result-unlock">UNLOCKED</div>
+        </div>
+      </div>
+      <div class="ct-flow-col">
+        <div class="ct-flow-header ct-flow-lock">KEY REMOVED</div>
+        <div class="ct-flow-steps">
+          <div class="ct-flow-step">USB removal detected</div>
+          <div class="ct-flow-arrow">&#9660;</div>
+          <div class="ct-flow-step">Keys wiped from memory</div>
+          <div class="ct-flow-arrow">&#9660;</div>
+          <div class="ct-flow-step">gocryptfs unmounts</div>
+          <div class="ct-flow-arrow">&#9660;</div>
+          <div class="ct-flow-step">Symlinks removed</div>
+          <div class="ct-flow-arrow">&#9660;</div>
+          <div class="ct-flow-step ct-flow-result ct-flow-result-lock">LOCKED</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="content-divider">
+    <span class="divider-line divider-blue"></span>
+    <span class="divider-line divider-orange"></span>
+    <span class="divider-line divider-yellow"></span>
+  </div>
+
+  <!-- Features -->
+  <div class="ct-section">
+    <h2 class="ct-section-title">機能</h2>
+    <p class="ct-section-subtitle">Features</p>
+
+    <div class="ct-features">
+      <div class="ct-feature">
+        <span class="ct-feature-icon">&#128274;</span>
+        <div>
+          <strong>Directory Encryption</strong>
+          <span>Encrypt any directory with hardware-derived keys via gocryptfs</span>
+        </div>
+      </div>
+      <div class="ct-feature">
+        <span class="ct-feature-icon">&#127760;</span>
+        <div>
+          <strong>Browser Protection</strong>
+          <span>Encrypt Brave, Firefox, and LibreWolf profiles transparently</span>
+        </div>
+      </div>
+      <div class="ct-feature">
+        <span class="ct-feature-icon">&#9881;</span>
+        <div>
+          <strong>App Config Encryption</strong>
+          <span>Protect Discord, Steam, and other app configs with one command</span>
+        </div>
+      </div>
+      <div class="ct-feature">
+        <span class="ct-feature-icon">&#128273;</span>
+        <div>
+          <strong>Credential Vault</strong>
+          <span>Store passwords encrypted at rest with your FIDO2 key</span>
+        </div>
+      </div>
+      <div class="ct-feature">
+        <span class="ct-feature-icon">&#128737;</span>
+        <div>
+          <strong>Software Passkeys</strong>
+          <span>Track and manage FIDO2 passkeys across sites</span>
+        </div>
+      </div>
+      <div class="ct-feature">
+        <span class="ct-feature-icon">&#9889;</span>
+        <div>
+          <strong>System Tray Daemon</strong>
+          <span>Auto-locks on key removal, auto-unlocks on insertion</span>
+        </div>
+      </div>
+      <div class="ct-feature">
+        <span class="ct-feature-icon">&#128193;</span>
+        <div>
+          <strong>Nautilus Integration</strong>
+          <span>Right-click encrypt/decrypt from the file manager</span>
+        </div>
+      </div>
+      <div class="ct-feature">
+        <span class="ct-feature-icon">&#129513;</span>
+        <div>
+          <strong>Browser Extension</strong>
+          <span>Autofill credentials and manage passkeys in Brave/Firefox</span>
+        </div>
+      </div>
+      <div class="ct-feature">
+        <span class="ct-feature-icon">&#128682;</span>
+        <div>
+          <strong>PAM Integration</strong>
+          <span>Unlock encrypted vaults automatically at login</span>
+        </div>
+      </div>
+      <div class="ct-feature">
+        <span class="ct-feature-icon">&#9889;</span>
+        <div>
+          <strong>Setup Wizard</strong>
+          <span>Guided first-run configuration with GTK4 UI</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Supported Apps -->
+  <div class="ct-section">
+    <h2 class="ct-section-title">対応アプリ</h2>
+    <p class="ct-section-subtitle">Supported Apps</p>
+
+    <div class="ct-apps-grid">
+      <div class="ct-app-card">
+        <div class="ct-app-name">Brave</div>
+        <div class="ct-app-type">Browser</div>
+        <div class="ct-app-desc">Full profile &mdash; history, passwords, cookies, extensions</div>
+      </div>
+      <div class="ct-app-card">
+        <div class="ct-app-name">Firefox</div>
+        <div class="ct-app-type">Browser</div>
+        <div class="ct-app-desc">Full profile &mdash; logins, bookmarks, session data</div>
+      </div>
+      <div class="ct-app-card">
+        <div class="ct-app-name">LibreWolf</div>
+        <div class="ct-app-type">Browser</div>
+        <div class="ct-app-desc">Full profile &mdash; privacy-first Firefox fork</div>
+      </div>
+      <div class="ct-app-card">
+        <div class="ct-app-name">Discord</div>
+        <div class="ct-app-type">Chat</div>
+        <div class="ct-app-desc">Config, tokens, cache</div>
+      </div>
+      <div class="ct-app-card">
+        <div class="ct-app-name">Steam</div>
+        <div class="ct-app-type">Gaming</div>
+        <div class="ct-app-desc">Config, saved credentials, VDF files</div>
+      </div>
+      <div class="ct-app-card">
+        <div class="ct-app-name">GNOME Keyring</div>
+        <div class="ct-app-type">System</div>
+        <div class="ct-app-desc">Stored passwords and secrets</div>
+      </div>
+      <div class="ct-app-card">
+        <div class="ct-app-name">Proton Mail</div>
+        <div class="ct-app-type">Email</div>
+        <div class="ct-app-desc">IMAP/SMTP credentials, config</div>
+      </div>
+      <div class="ct-app-card ct-app-card-any">
+        <div class="ct-app-name">Any Directory</div>
+        <div class="ct-app-type">Custom</div>
+        <div class="ct-app-desc">cryptortoise encrypt &lt;path&gt; works on anything</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="content-divider">
+    <span class="divider-line divider-blue"></span>
+    <span class="divider-line divider-orange"></span>
+    <span class="divider-line divider-yellow"></span>
+  </div>
+
+  <!-- Hardware -->
+  <div class="ct-section">
+    <h2 class="ct-section-title">ハードウェア</h2>
+    <p class="ct-section-subtitle">Hardware</p>
+
+    <div class="ct-hw">
+      <div class="ct-hw-card">
+        <div class="ct-hw-badge">推奨</div>
+        <h3>Pico FIDO &mdash; $5</h3>
+        <table class="ct-hw-specs">
+          <tr><td>Device</td><td>Raspberry Pi Pico</td></tr>
+          <tr><td>Firmware</td><td>Pico FIDO v7.4+</td></tr>
+          <tr><td>Protocol</td><td>FIDO2 + hmac-secret</td></tr>
+          <tr><td>Cost</td><td>~$5 (Pico) + free firmware</td></tr>
+        </table>
+        <p class="ct-hw-note">Flash the UF2 firmware, plug it in, run <code>cryptortoise setup</code>.</p>
+      </div>
+
+      <div class="ct-hw-compat">
+        <h3>Also Compatible</h3>
+        <ul>
+          <li>YubiKey 5 series</li>
+          <li>SoloKeys Solo 2</li>
+          <li>Nitrokey FIDO2</li>
+          <li>Any FIDO2 key with hmac-secret</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Quick Start / CTA -->
+  <div class="ct-section">
+    <h2 class="ct-section-title">始める</h2>
+    <p class="ct-section-subtitle">Get Started</p>
+
+    <div class="ct-install">
+      <div class="ct-install-step">
+        <span class="ct-step-num">1</span>
+        <div>
+          <strong>Prerequisites</strong>
+          <code>sudo apt install gocryptfs</code>
+        </div>
+      </div>
+      <div class="ct-install-step">
+        <span class="ct-step-num">2</span>
+        <div>
+          <strong>Clone &amp; Install</strong>
+          <code>git clone https://github.com/AnarchySC/cryptortoise.git<br>cd cryptortoise && ./install.sh</code>
+        </div>
+      </div>
+      <div class="ct-install-step">
+        <span class="ct-step-num">3</span>
+        <div>
+          <strong>Setup</strong>
+          <code>cryptortoise setup</code>
+        </div>
+      </div>
+    </div>
+
+    <a href="https://github.com/AnarchySC/cryptortoise" target="_blank" class="ct-cta">Get Cryptortoise on GitHub &rarr;</a>
+    <p class="ct-cta-sub">Free &amp; open source. MIT license. 363 tests passing.</p>
+  </div>
+
+  <div class="content-divider">
+    <span class="divider-line divider-blue"></span>
+    <span class="divider-line divider-orange"></span>
+    <span class="divider-line divider-yellow"></span>
+  </div>
+
+  <!-- Built By -->
+  <div class="ct-footer">
+    <img src="/images/cryptortoise-logo.png" alt="Cryptortoise" class="ct-footer-logo">
+    <p class="ct-footer-brand">Built by <a href="https://anarchygames.org">anarchygames.org</a></p>
+    <p class="ct-footer-mission">One-person indie dev shop building free, open-source tools and games.<br>No tracking. No telemetry. No accounts. Just software that works for you.</p>
+  </div>
+
+</section>
+
+<style>
+.ct-page {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Hero */
+.ct-hero {
+  margin-bottom: var(--space-lg);
+}
+
+.ct-hero-banner {
+  width: 100%;
+  max-width: 900px;
+  margin-bottom: var(--space-lg);
+  border: 1px solid var(--border);
+}
+
+.ct-tagline {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.6;
+  margin: var(--space-md) 0 var(--space-sm) 0;
+}
+
+.ct-tagline-sub {
+  font-size: 1rem;
+  color: var(--text-light);
+  font-style: italic;
+}
+
+/* Section headers */
+.ct-section {
+  margin-bottom: var(--space-xl);
+}
+
+.ct-section-title {
+  font-family: var(--font-jp);
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: var(--space-xs);
+}
+
+.ct-section-subtitle {
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  color: var(--text-light);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: var(--space-lg);
+}
+
+/* Value proposition cards */
+.ct-value {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-lg);
+  margin-bottom: var(--space-xl);
+}
+
+.ct-value-card {
+  padding: var(--space-lg);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-top: 3px solid #00E676;
+}
+
+.ct-value-icon {
+  display: block;
+  font-size: 2rem;
+  color: #00E676;
+  margin-bottom: var(--space-md);
+  text-shadow: 0 0 12px rgba(0, 230, 118, 0.5);
+}
+
+.ct-value-card h3 {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  margin-bottom: var(--space-sm);
+}
+
+.ct-value-card p {
+  font-size: 0.9rem;
+  color: var(--text-light);
+  line-height: 1.5;
+}
+
+/* How it works flow */
+.ct-flow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-xl);
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.ct-flow-col {
+  text-align: center;
+}
+
+.ct-flow-header {
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  padding: var(--space-sm) var(--space-md);
+  margin-bottom: var(--space-md);
+}
+
+.ct-flow-unlock {
+  background: rgba(0, 230, 118, 0.15);
+  color: #00E676;
+  border: 1px solid rgba(0, 230, 118, 0.3);
+}
+
+.ct-flow-lock {
+  background: rgba(232, 93, 4, 0.15);
+  color: var(--nasa-orange);
+  border: 1px solid rgba(232, 93, 4, 0.3);
+}
+
+.ct-flow-steps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-xs);
+}
+
+.ct-flow-step {
+  font-size: 0.85rem;
+  padding: var(--space-sm) var(--space-md);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  width: 100%;
+}
+
+.ct-flow-arrow {
+  font-size: 0.7rem;
+  color: var(--text-light);
+  line-height: 1;
+}
+
+.ct-flow-result {
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+.ct-flow-result-unlock {
+  border-color: #00E676;
+  color: #00E676;
+  background: rgba(0, 230, 118, 0.1);
+}
+
+.ct-flow-result-lock {
+  border-color: var(--nasa-orange);
+  color: var(--nasa-orange);
+  background: rgba(232, 93, 4, 0.1);
+}
+
+/* Features list */
+.ct-features {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-md);
+  text-align: left;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.ct-feature {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-md);
+  padding: var(--space-md);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid #00E676;
+}
+
+.ct-feature-icon {
+  font-size: 1.3rem;
+  flex-shrink: 0;
+  width: 28px;
+  text-align: center;
+}
+
+.ct-feature strong {
+  display: block;
+  font-size: 0.9rem;
+  margin-bottom: 2px;
+}
+
+.ct-feature span {
+  font-size: 0.8rem;
+  color: var(--text-light);
+  line-height: 1.4;
+}
+
+/* Supported apps grid */
+.ct-apps-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: var(--space-md);
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.ct-app-card {
+  padding: var(--space-md);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  text-align: left;
+}
+
+.ct-app-name {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  margin-bottom: 2px;
+}
+
+.ct-app-type {
+  font-size: 0.7rem;
+  color: #00E676;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: var(--space-sm);
+}
+
+.ct-app-desc {
+  font-size: 0.8rem;
+  color: var(--text-light);
+  line-height: 1.4;
+}
+
+.ct-app-card-any {
+  border-style: dashed;
+  border-color: #00E676;
+}
+
+.ct-app-card-any .ct-app-desc {
+  font-family: monospace;
+  font-size: 0.75rem;
+}
+
+/* Hardware section */
+.ct-hw {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: var(--space-lg);
+  text-align: left;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.ct-hw-card {
+  padding: var(--space-lg);
+  background: linear-gradient(135deg, #002a10 0%, #001a0a 100%);
+  color: #e6e6e6;
+  border: 2px solid #00E676;
+  position: relative;
+}
+
+.ct-hw-badge {
+  display: inline-block;
+  font-family: var(--font-jp);
+  font-size: 0.7rem;
+  background: #00E676;
+  color: #001a0a;
+  padding: 2px 10px;
+  letter-spacing: 0.1em;
+  margin-bottom: var(--space-md);
+}
+
+.ct-hw-card h3 {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  margin-bottom: var(--space-md);
+}
+
+.ct-hw-specs {
+  width: 100%;
+  font-size: 0.85rem;
+  border-collapse: collapse;
+  margin-bottom: var(--space-md);
+}
+
+.ct-hw-specs td {
+  padding: var(--space-xs) 0;
+  border-bottom: 1px solid rgba(0, 230, 118, 0.15);
+}
+
+.ct-hw-specs td:first-child {
+  color: #00E676;
+  font-weight: 600;
+  width: 90px;
+}
+
+.ct-hw-note {
+  font-size: 0.8rem;
+  color: rgba(230, 230, 230, 0.7);
+}
+
+.ct-hw-note code {
+  color: #00E676;
+}
+
+.ct-hw-compat {
+  padding: var(--space-lg);
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+
+.ct-hw-compat h3 {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  margin-bottom: var(--space-md);
+}
+
+.ct-hw-compat ul {
+  list-style: none;
+  padding: 0;
+}
+
+.ct-hw-compat li {
+  font-size: 0.85rem;
+  padding: var(--space-xs) 0;
+  color: var(--text-light);
+}
+
+.ct-hw-compat li::before {
+  content: "~ ";
+  color: #00E676;
+}
+
+/* Install steps */
+.ct-install {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  max-width: 550px;
+  margin: 0 auto var(--space-lg) auto;
+  text-align: left;
+}
+
+.ct-install-step {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-md);
+  padding: var(--space-md);
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+
+.ct-step-num {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  background: #00E676;
+  color: #001a0a;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.ct-install-step strong {
+  display: block;
+  font-size: 0.9rem;
+  margin-bottom: 4px;
+}
+
+.ct-install-step code {
+  font-size: 0.8rem;
+  color: #00E676;
+  line-height: 1.6;
+}
+
+/* CTA */
+.ct-cta {
+  display: inline-block;
+  background: #00E676;
+  color: #001a0a;
+  padding: var(--space-md) var(--space-xl);
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  transition: background 0.2s, box-shadow 0.2s;
+}
+
+.ct-cta:hover {
+  background: #69F0AE;
+  box-shadow: 0 0 20px rgba(0, 230, 118, 0.5);
+}
+
+.ct-cta-sub {
+  margin-top: var(--space-md);
+  font-size: 0.8rem;
+  color: var(--text-light);
+}
+
+/* Footer branding */
+.ct-footer {
+  margin-top: var(--space-lg);
+  padding: var(--space-xl) 0;
+}
+
+.ct-footer-logo {
+  width: 96px;
+  height: 96px;
+  margin-bottom: var(--space-md);
+}
+
+.ct-footer-brand {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  margin-bottom: var(--space-sm);
+}
+
+.ct-footer-brand a {
+  color: var(--nasa-orange);
+  text-decoration: none;
+}
+
+.ct-footer-brand a:hover {
+  color: var(--cassette-yellow);
+}
+
+.ct-footer-mission {
+  font-size: 0.85rem;
+  color: var(--text-light);
+  line-height: 1.6;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+  .ct-value {
+    grid-template-columns: 1fr;
+  }
+
+  .ct-flow {
+    grid-template-columns: 1fr;
+    gap: var(--space-lg);
+  }
+
+  .ct-features {
+    grid-template-columns: 1fr;
+  }
+
+  .ct-hw {
+    grid-template-columns: 1fr;
+  }
+
+  .ct-apps-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+{{ end }}
