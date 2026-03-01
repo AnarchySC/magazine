@@ -2,7 +2,7 @@
 # Domain: anarchygames.org
 # Year: 2935 | Format: Filmoru (21:9)
 
-baseURL: "/"
+baseURL: "/magazine/"
 languageCode: "en-us"
 title: "Cassette Future Magazine"
 theme: "filmoru"

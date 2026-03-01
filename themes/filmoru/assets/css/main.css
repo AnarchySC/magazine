@@ -11,7 +11,7 @@
 /* Techno Agony - Display font for English titles */
 @font-face {
   font-family: 'Techno Agony';
-  src: url('/fonts/TechnoAgony-Jdzn.ttf') format('truetype');
+  src: url('../fonts/TechnoAgony-Jdzn.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -19,7 +19,7 @@
 /* Corke - Display font for Cassette Future Magazine subtitle */
 @font-face {
   font-family: 'Corke';
-  src: url('/fonts/Corke.ttf') format('truetype');
+  src: url('../fonts/Corke.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -27,7 +27,7 @@
 /* Codex - Display font for site header */
 @font-face {
   font-family: 'Codex';
-  src: url('/fonts/Codex.ttf') format('truetype');
+  src: url('../fonts/Codex.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -35,7 +35,7 @@
 /* Fawkes Halftone Italic - Display font for English site title */
 @font-face {
   font-family: 'Fawkes';
-  src: url('/fonts/FawkesHalftoneItalic-7OYxK.otf') format('opentype');
+  src: url('../fonts/FawkesHalftoneItalic-7OYxK.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }

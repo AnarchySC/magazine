@@ -30,7 +30,7 @@
     {{ range .Site.Data.journalists.journalists }}
     <article class="staff-card" id="{{ .id }}">
       <div class="staff-portrait">
-        <img src="/images/staff/{{ .id }}.png" alt="{{ .name.display }}" loading="lazy">
+        <img src="{{ printf "images/staff/%s.png" .id | relURL }}" alt="{{ .name.display }}" loading="lazy">
       </div>
 
       <div class="staff-header">
@@ -85,7 +85,7 @@
         {{ range $name, $pages := . }}
           {{ if eq $name $journalistName }}
           <div class="staff-articles">
-            <a href="{{ printf "/journalists/%s/" ($name | urlize) }}">View {{ len $pages }} article{{ if ne (len $pages) 1 }}s{{ end }} by {{ $journalistName }} →</a>
+            <a href="{{ printf "journalists/%s/" ($name | urlize) | relURL }}">View {{ len $pages }} article{{ if ne (len $pages) 1 }}s{{ end }} by {{ $journalistName }} →</a>
           </div>
           {{ end }}
         {{ end }}

@@ -19,7 +19,7 @@
               <span class="article-hero__author">{{ $name }}</span>
               <span class="author-tip">
                 <span class="author-tip__name">{{ .name.romanji }}</span>
-                <a href="/staff/#{{ .id }}" class="author-tip__link">Staff Profile →</a>
+                <a href="{{ "staff/" | relURL }}#{{ .id }}" class="author-tip__link">Staff Profile →</a>
               </span>
             </span>
           {{ end }}
@@ -39,7 +39,7 @@
               <span class="article-hero__author">{{ $name }}</span>
               <span class="author-tip">
                 <span class="author-tip__name">{{ .name.romanji }}</span>
-                <a href="/staff/#{{ .id }}" class="author-tip__link">Staff Profile →</a>
+                <a href="{{ "staff/" | relURL }}#{{ .id }}" class="author-tip__link">Staff Profile →</a>
               </span>
             </span>
           {{ end }}
