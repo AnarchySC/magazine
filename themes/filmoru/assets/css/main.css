@@ -2742,6 +2742,49 @@ html:not([data-theme="dark"]) .holo-ad-side {
   .holo-ad-side:hover,
   .holo-side-scanlines,
   .holo-side-icon,
+  .holo-ad-side:hover .holo-side-headline,
+  .banner-title-main,
+  .section-title,
+  .logo-jp,
+  .banner-edition::after {
+    animation: none;
+  }
+
+  .holo-ad-side::before,
+  .holo-ad-side::after {
+    display: none;
+  }
+
+  .divider-blue,
+  .divider-orange,
+  .divider-yellow {
+    box-shadow: none;
+  }
+}
+
+/* Disable flicker animations on touch devices (iPad, phones) —
+   rapid opacity cycling causes WebKit GPU rendering artifacts */
+@media (hover: none) {
+  .banner-title-main,
+  .section-title,
+  .logo-jp {
+    animation: none;
+  }
+
+  .banner-edition::after {
+    animation: none;
+  }
+
+  .divider-blue,
+  .divider-orange,
+  .divider-yellow {
+    box-shadow: none;
+  }
+
+  .holo-ad-side,
+  .holo-ad-side:hover,
+  .holo-side-scanlines,
+  .holo-side-icon,
   .holo-ad-side:hover .holo-side-headline {
     animation: none;
   }
@@ -2749,5 +2792,12 @@ html:not([data-theme="dark"]) .holo-ad-side {
   .holo-ad-side::before,
   .holo-ad-side::after {
     display: none;
+  }
+
+  .holo-ad-side {
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+    -webkit-mask-image: none;
+    mask-image: none;
   }
 }
