@@ -14,16 +14,17 @@
 
   <div class="cosmogirls-grid">
     {{ range .Pages.ByDate.Reverse }}
+    {{ $girl := . }}
     <a href="{{ .RelPermalink }}" class="cosmogirl-card">
       {{ with .Params.featured_image }}
       <div class="cosmogirl-thumb">
-        <img src="{{ $.Site.BaseURL }}{{ strings.TrimPrefix "/" . }}" alt="{{ $.Params.name }}">
+        <img src="{{ site.BaseURL }}{{ strings.TrimPrefix "/" . }}" alt="{{ $girl.Params.name }}">
       </div>
       {{ end }}
       <div class="cosmogirl-card-info">
-        <h2>{{ $.Params.name }}</h2>
+        <h2>{{ $girl.Params.name }}</h2>
         <div class="text-small text-light">
-          {{ $.Params.species }} • {{ $.Params.occupation }}
+          {{ $girl.Params.species }} • {{ $girl.Params.occupation }}
         </div>
       </div>
     </a>
