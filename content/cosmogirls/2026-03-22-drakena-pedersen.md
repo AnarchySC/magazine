@@ -2,6 +2,8 @@
 age: 275 (25 in Chirix years)
 date: '2026-03-22T11:43:01'
 draft: false
+featured_image: /images/cosmogirl-drakena-pedersen.png
+fullbody_image: /images/cosmogirl-drakena-pedersen-fullbody.png
 height: 5'0"
 hobbies:
 - Studying dead civilizations
