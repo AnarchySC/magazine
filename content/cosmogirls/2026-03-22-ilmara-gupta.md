@@ -2,6 +2,8 @@
 age: 27 (108 in Chirix years)
 date: '2026-03-22T12:03:35'
 draft: false
+featured_image: /images/cosmogirl-ilmara-gupta.png
+fullbody_image: /images/cosmogirl-ilmara-gupta-fullbody.png
 height: 5'7"
 hobbies:
 - Reactor core photography
