@@ -1,9 +1,9 @@
 ---
-date: '2026-04-28T16:13:15'
+date: '2026-05-05T17:32:50'
 draft: false
-issue_number: '2935.118'
-journalist: エリオット 花村
-journalist_title: Culture & Entertainment Correspondent
+issue_number: '2935.125'
+journalist: ヴィクター 清水
+journalist_title: Economics & Trade Editor
 subtitle_jp: ''
 tags: []
 title: Article
@@ -11,12 +11,4 @@ title_jp: 記事
 year: 2935
 ---
 
-{
-  "title_jp": "忘れられた双子の都市：銀河で最も有名な駅には、誰も語らない鏡の姿がある",
-  "title_en": "The Forgotten Twin: The Galaxy's Most Famous Station Has a Mirror Nobody Talks About",
-  "subtitle_jp": "太陽と月、東と西——そして片方だけが語り継がれる理由",
-  "excerpt": "Everyone knows Solaris Prime. Carved into the face of Kepler's Ridge, lit from within, the jewel of the Core Systems. But there was another station. Same architect. Same mountain DNA. Same river valley. And history swallowed it whole. Here's what actually happened.",
-  "content": "# The Forgotten Twin: The Galaxy's Most Famous Station Has a Mirror Nobody Talks About\n\nOkay, here's the thing nobody's telling you—\n\nWhen people talk about Solaris Prime, the great carved-mountain station of the inner Kepler corridor, they talk about it like it was always singular. Like it emerged alone from the rock face, perfect and inevitable, the lone guardian of the Core Systems' most strategic transit valley.\n\nIt didn't.\n\nSolaris Prime was never meant to stand alone. And if you dig into the original Numenorean Engineering Guild records — the actual construction manifests, not the tourism packet — you find something that rewrites the whole story.\n\n**Let me show you how this actually works.**\n\nBack in the settlement era, before the Outer Rim Coalition existed, before the Solar Defense Compact drew its lines in the void, two stations were commissioned simultaneously. Same architect. Same geological philosophy. Same design language — that incredible carved-facade aesthetic, habitation rings hewn directly into living rock, observation spires that catch stellar light at angles calculated to the hour.\n\nThey flanked the same river valley on opposite sides.\n\nTo the west: **Solaris Prime** — then called *Anor Station*, the Tower of the Sun. Faces the morning light. Warm stone. The commercial hub, the market rings, the famous gardens that somehow grow in asteroid-adjacent gravity.\n\nTo the east: ***Ithil Station*** — the Tower of the Moon. Faces the night side. Cooler architecture. Built for observation, for scholarship, for the kind of quiet that serious science requires. The libraries there were reportedly staggering.\n\nSun and Moon. East and West. Two mountains, one valley, one civilization's most elegant infrastructure achievement. A matched set.\n\nAND HERE'S WHERE IT GETS INTERESTING.\n\nThe Outer Rim Conflict — the first one, not the current entertainment series — reached that valley in the colony year 2271. Ithil Station fell. What followed over the next six decades is documented in exactly zero school curricula I've been able to find. The station was occupied, repurposed, renamed. Its scholarship archives were stripped. Its architectural DNA was inverted — the same carved-mountain technique, the same spire geometry, but turned toward entirely different purposes. The locals started calling it **Morgul Station**. The name stuck. Then the name disappeared from official maps entirely.\n\nAnd Anor Station? Renamed Solaris Prime. Given a mythology of solitary grandeur. The tourist materials don't mention a twin.\n\nThis is the real story. Forget what you heard.\n\nI talked to Architect-Historian **Yeva Malachite** at the Ceres Institute of Settlement Studies, who has spent eleven years trying to get Ithil Station's original blueprints into public archives. Her assessment was blunt: *"The twin narrative complicates the origin story that certain interests prefer. A singular monument is easier to mythologize. A pair implies a relationship — and that relationship has a history people don't want examined."*\n\nThe valley still exists. Solaris Prime still glows. And if you take the eastern approach route — the one the transit authority has rated 'scenic detour, not recommended for commercial traffic' for the last sixty years — you can still see the carved face of Ithil Station's mountain.\n\nSame spires. Same geological craft. Different everything else.\n\nYou're gonna want to remember this name: **Ithil Station**. Because the Ceres Institute is pushing for a full historical restoration designation, and the Colony Administration of Kepler Ridge is, predictably, stalling on paperwork.\n\nThe Sun got a legend. The Moon got erased.\n\nSomeone decided only one of them deserved to be remembered. And nobody even asked us if that was okay.",
-  "tags": ["歴史", "建築", "コロニー史", "失われた都市", "ケプラー回廊", "文化", "settlement history", "architecture", "lost stations", "Kepler corridor"],
-  "image_prompt": "Two massive carved-mountain space stations facing each other across a dramatic river valley in deep space, one bathed in warm golden starlight, one in cool silver moonlight, anime/sci-fi style, minimal linework, white background, architectural detail, mirror symmetry"
-}
+\nANNOUNCED COST:        3,000,000,000,000 SGC\nActual deployment cost: ~4.8T (historical multiplier: 1.6x)\nVeteran care, 50 years:  ~2.1T\nInfrastructure loss:     ~0.9T\nOpportunity cost:        Incalculable\n────────────────────────────────────────────\nTOTAL REAL COST:        ~7.8T minimum\n
