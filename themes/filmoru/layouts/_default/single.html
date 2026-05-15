@@ -88,6 +88,14 @@
     </div>
   </footer>
   {{ end }}
+
+  {{ with .Params.source_reference }}
+    {{ if .url }}
+    <p class="article-source-reference">
+      History repeating itself: <a href="{{ .url }}" rel="noopener" target="_blank">{{ .title | default .url }}</a>
+    </p>
+    {{ end }}
+  {{ end }}
 </article>
 
 <style>
@@ -231,6 +239,23 @@
   background: var(--nasa-orange);
   border-color: var(--nasa-orange);
   color: #fff;
+}
+
+.article-source-reference {
+  margin-top: var(--space-lg);
+  font-size: 0.75rem;
+  font-style: italic;
+  color: var(--text-light);
+}
+
+.article-source-reference a {
+  color: var(--text-light);
+  border-bottom: 1px dotted var(--text-light);
+}
+
+.article-source-reference a:hover {
+  color: var(--nasa-orange);
+  border-bottom-color: var(--nasa-orange);
 }
 
 .author-tip-wrap {
