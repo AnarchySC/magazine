@@ -1,9 +1,6 @@
 ---
 date: '2026-03-02T18:38:22'
 draft: false
-featured: true
-featured_label_jp: "特集記事"
-featured_label_en: "Featured Investigation"
 featured_image: /images/header-the-resource-extraction-truth-the-system-the-resis.png
 image_prompt: Anime-style illustration of a lone figure standing at a crossroads in
   space, three paths diverging toward different starfields, mathematical equations
