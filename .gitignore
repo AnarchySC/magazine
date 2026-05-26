@@ -15,3 +15,11 @@ Thumbs.db
 
 # Hugo lock file
 .hugo_build.lock
+
+# Secrets — defensive even though .env lives outside site/
+.env
+.env.*
+*api_token*
+*api_key*
+*.pem
+*.key
