@@ -7,7 +7,27 @@
       <div class="banner-edition">2935.{{ now.YearDay | printf "%03d" }}</div>
       <h1 class="banner-title-main">カセット・フューチャー</h1>
       <div class="banner-subtitle">CASSETTE FUTURE MAGAZINE</div>
+      {{ with site.Params.coverTag }}<div class="banner-covertag">{{ . | upper }}</div>{{ end }}
+      {{ with site.Params.slogan }}<div class="banner-slogan">{{ . }}</div>{{ end }}
     </div>
+    <style>
+      .banner-covertag {
+        font-family: var(--font-display, sans-serif);
+        font-weight: 700;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        margin-top: var(--space-sm, 0.5rem);
+        color: var(--nasa-orange, #ff6600);
+      }
+      .banner-slogan {
+        font-family: var(--font-display, sans-serif);
+        font-style: italic;
+        font-size: 1rem;
+        color: var(--text-light, #555);
+        margin-top: 2px;
+      }
+    </style>
 
     <!-- Headlines (from today's issue) -->
     {{ $issueNum := printf "2935.%03d" now.YearDay }}
