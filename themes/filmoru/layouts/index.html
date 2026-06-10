@@ -106,6 +106,76 @@
   </div>
   {{ end }}
 
+  <!-- CFP Slideshow -->
+  {{ $cfp := where (where .Site.RegularPages "Section" "cfp") "Params.image" "!=" nil }}
+  {{ if $cfp }}
+  <section class="cfp-slideshow" aria-label="Cassette Future Porn">
+    <div class="cfp-slideshow-head">
+      <h2 class="section-title">CFP</h2>
+      <span class="cfp-slideshow-sub">カセット・フューチャー・ポルノ — reader transmissions from across the rim</span>
+      <a href="{{ "cfp/" | relURL }}" class="cfp-slideshow-all">View all →</a>
+    </div>
+    <div class="cfp-slides" id="cfp-slides">
+      {{ range $i, $p := (first 14 $cfp.ByDate.Reverse) }}
+      <a href="{{ $p.RelPermalink }}" class="cfp-slide{{ if eq $i 0 }} active{{ end }}">
+        <img src="{{ $.Site.BaseURL }}{{ strings.TrimPrefix "/" $p.Params.image }}" alt="{{ $p.Title }}" loading="lazy">
+        <div class="cfp-slide-caption">
+          <div class="cfp-slide-title">{{ $p.Title }}</div>
+          {{ with $p.Params.concept }}<p class="cfp-slide-blurb">{{ . }}</p>{{ end }}
+          <div class="cfp-slide-credit">
+            {{ with $p.Params.photographer }}Submitted by {{ . }}{{ end }}{{ with $p.Params.location }} · {{ . }}{{ end }}
+          </div>
+        </div>
+      </a>
+      {{ end }}
+    </div>
+    {{ if gt (len $cfp) 1 }}
+    <div class="cfp-dots" id="cfp-dots">
+      {{ range $i, $p := (first 14 $cfp.ByDate.Reverse) }}
+      <button class="cfp-dot{{ if eq $i 0 }} active{{ end }}" data-i="{{ $i }}" aria-label="Slide {{ add $i 1 }}"></button>
+      {{ end }}
+    </div>
+    {{ end }}
+  </section>
+  <style>
+    .cfp-slideshow { max-width: 1200px; margin: 0 auto var(--space-xl, 2.5rem); }
+    .cfp-slideshow-head { display: flex; align-items: baseline; gap: var(--space-md, 1rem); flex-wrap: wrap; margin-bottom: var(--space-sm, 0.5rem); }
+    .cfp-slideshow-sub { font-family: var(--font-display, sans-serif); font-size: 0.78rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-light, #777); }
+    .cfp-slideshow-all { margin-left: auto; font-family: var(--font-display, sans-serif); font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-light, #777); text-decoration: none; }
+    .cfp-slideshow-all:hover { color: var(--nasa-orange, #ff6600); }
+    .cfp-slides { position: relative; aspect-ratio: 16/9; overflow: hidden; border: 1px solid var(--border, #ddd); background: #000; }
+    .cfp-slide { position: absolute; inset: 0; opacity: 0; transition: opacity 0.7s ease; text-decoration: none; pointer-events: none; }
+    .cfp-slide.active { opacity: 1; pointer-events: auto; }
+    .cfp-slide img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .cfp-slide-caption { position: absolute; left: 0; right: 0; bottom: 0; padding: 2.4rem 1.4rem 1.1rem; color: #fff; background: linear-gradient(transparent, rgba(0,0,0,0.82)); }
+    .cfp-slide-title { font-family: var(--font-display, sans-serif); font-size: 1.15rem; font-weight: 700; }
+    .cfp-slide-blurb { margin: 0.3rem 0 0.4rem; font-size: 0.92rem; max-width: 62ch; line-height: 1.4; color: rgba(255,255,255,0.92); }
+    .cfp-slide-credit { font-family: var(--font-display, sans-serif); font-size: 0.72rem; letter-spacing: 0.05em; text-transform: uppercase; color: rgba(255,255,255,0.7); }
+    .cfp-dots { display: flex; justify-content: center; gap: 8px; margin-top: 0.7rem; }
+    .cfp-dot { width: 9px; height: 9px; border-radius: 50%; border: none; background: var(--border, #ccc); cursor: pointer; padding: 0; }
+    .cfp-dot.active { background: var(--nasa-orange, #ff6600); }
+    @media (max-width: 600px) { .cfp-slide-blurb { display: none; } }
+  </style>
+  <script>
+  (function () {
+    var slides = Array.prototype.slice.call(document.querySelectorAll('#cfp-slides .cfp-slide'));
+    var dots = Array.prototype.slice.call(document.querySelectorAll('#cfp-dots .cfp-dot'));
+    if (slides.length < 2) return;
+    var cur = 0, timer;
+    function show(n) {
+      slides[cur].classList.remove('active'); if (dots[cur]) dots[cur].classList.remove('active');
+      cur = (n + slides.length) % slides.length;
+      slides[cur].classList.add('active'); if (dots[cur]) dots[cur].classList.add('active');
+    }
+    function next() { show(cur + 1); }
+    function start() { timer = setInterval(next, 5500); }
+    function reset() { clearInterval(timer); start(); }
+    dots.forEach(function (d, i) { d.addEventListener('click', function (e) { e.preventDefault(); show(i); reset(); }); });
+    start();
+  })();
+  </script>
+  {{ end }}
+
   <!-- Main Content: Articles + Cosmogirl Side by Side -->
   {{ $todayIssue := printf "2935.%03d" now.YearDay }}
   <section class="home-main-grid mt-xl">
