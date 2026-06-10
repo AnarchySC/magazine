@@ -22,6 +22,11 @@
   {{ end }}
 
   {{ with .Params.concept }}<p class="cfp-concept">{{ . }}</p>{{ end }}
+  <div class="cfp-credit">
+    {{ with .Params.photographer }}<span>Submitted by <strong>{{ . }}</strong></span>{{ end }}
+    {{ with .Params.homeworld }}<span>· {{ . }}</span>{{ end }}
+    {{ with .Params.location }}<span>· Shot at {{ . }}</span>{{ end }}
+  </div>
   {{ with .Content }}<div class="cfp-body">{{ . }}</div>{{ end }}
 </article>
 
@@ -43,6 +48,7 @@
 .cfp-single-image { border: 1px solid var(--border, #ddd); margin-bottom: var(--space-lg, 1.5rem); }
 .cfp-single-image img { width: 100%; height: auto; display: block; }
 .cfp-concept { font-size: 1.1rem; color: var(--text, #1a1a1a); max-width: 65ch; }
+.cfp-credit { margin-top: var(--space-md, 1rem); display: flex; flex-wrap: wrap; gap: 0.5rem; font-family: var(--font-display, sans-serif); font-size: 0.78rem; letter-spacing: 0.05em; text-transform: uppercase; color: var(--text-light, #777); }
 .cfp-body { max-width: 65ch; color: var(--text-light, #555); }
 </style>
 {{ end }}
