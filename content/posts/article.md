@@ -1,7 +1,7 @@
 ---
-date: '2026-06-09T17:32:28'
+date: '2026-07-02T10:32:45'
 draft: false
-issue_number: '2935.160'
+issue_number: '2935.183'
 journalist: ヴィクター 清水
 journalist_title: Economics & Trade Editor
 subtitle_jp: ''
@@ -11,4 +11,4 @@ title_jp: 記事
 year: 2935
 ---
 
-\nAthletes negotiate → Academies compete → Contracts enforced voluntarily\nEveryone knows the rules → Rules apply equally → Best deal wins\n
+\nStable citizenship rule → Predictable lives → Independent actors\nUnstable citizenship rule → Fearful residents → Dependent actors\n                                                      ↓\n                                           Easier to tax, police, expel\n
