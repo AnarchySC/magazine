@@ -64,3 +64,8 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          # Site artifact is large (hundreds of MB of images); the default
+          # 10-minute poll times out. Give Pages more time to go live.
+          timeout: 1800000
+          error_count: 20
