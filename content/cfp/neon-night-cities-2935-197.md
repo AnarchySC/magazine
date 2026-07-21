@@ -1,13 +1,13 @@
 ---
-title: "Still Ringing, Nobody Home"
-date: 2026-07-17T16:02:15.586285
+title: "Haze Over the Sump"
+date: 2026-07-18T15:29:22.831270
 image: "/images/cfp/neon-night-cities-2935-197.png"
 category: "Neon Night Cities"
 genre: "03-neon-night-cities"
 issue: "2935.197"
 style: "photoreal"
-location: "Novaya Odessa — Sump Quarter, Drowned Street Level"
-photographer: "Dex Okafor-Ling"
-homeworld: "Cheyenne Station — Copperside Ward"
-concept: "The lower streets of Sump Quarter flood every monsoon cycle when the runoff gates back up, and nobody's fixed the drainage in about forty years. The booth has been there longer than most residents can remember, and people still use it when their handsets die."
+location: "Kepler's Landing — Sump District, Lower Plate"
+photographer: "Declan Orvuski"
+homeworld: "Arcturus Station — Portside Annex"
+concept: "Kepler's Landing stacks its residential decks so tight that the antenna forests on the lower plates never see direct light, just the bleed of a thousand neon signs through particulate haze. Most people who live here stop noticing the glow after the first week; it just becomes what night looks like."
 ---

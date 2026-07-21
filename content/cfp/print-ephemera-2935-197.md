@@ -1,13 +1,13 @@
 ---
-title: "Third Edition, Dog-Eared"
-date: 2026-07-17T15:55:15.586285
+title: "Everything I Kept"
+date: 2026-07-18T15:22:22.831270
 image: "/images/cfp/print-ephemera-2935-197.png"
 category: "Print & Ephemera"
 genre: "10-print-ephemera"
 issue: "2935.197"
 style: "photoreal"
-location: "Bureau Reach — Mantis Yard Depot"
-photographer: "Carvel Oduya"
-homeworld: "Cheyenne Station — Copperwall Ring"
-concept: "The Mantis Yard technical library stopped cataloguing physical manuals sometime around 2890, which means the good ones get passed hand to hand until the binding gives out. This copy of the Series-7 Thruster Diagnostic Index has been repaired with rivet tape at least four times and still gets pulled off the shelf most mornings."
+location: "Ganymede Shelf — Slagport District, Bunk Row"
+photographer: "Orsolya Bench"
+homeworld: "Arcturus Station — Kettle Tier, Mid-Hab"
+concept: "Slagport has a way of making you hold onto things longer than you planned — the light stays amber all day on account of the filtered panels, and nobody throws anything out that still has a use in it. These tapes have been passed around three bunks and one cargo transfer before landing here, labels faded to almost nothing but still readable if you know what you're looking for."
 ---
