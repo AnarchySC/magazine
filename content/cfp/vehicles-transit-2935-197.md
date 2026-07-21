@@ -1,13 +1,13 @@
 ---
-title: "Fog Line, Dusk Run"
-date: 2026-07-17T16:00:15.586285
+title: "Third Shift, Wet Season"
+date: 2026-07-18T15:27:22.831270
 image: "/images/cfp/vehicles-transit-2935-197.png"
 category: "Vehicles & Transit"
 genre: "05-vehicles-transit"
 issue: "2935.197"
 style: "photoreal"
-location: "Veranthos III — Greyveil Suburbs, Lowline Corridor"
-photographer: "Fenwick Odalys"
-homeworld: "Pallid Moon, Veranthos System"
-concept: "The Lowline has been running the same cream-and-orange cars since the Veranthos resettlement, and most nights you can barely see the track ahead for the valley fog rolling in off the cooling fields. People ride it home from the processing yards without looking up, knowing every stop by the sound of the brakes."
+location: "Proxima Haul Corridor — Bellweather Freight Yard, Outer Platform"
+photographer: "Tomasz Krulik"
+homeworld: "Lacaille Depot — Sinter Flats"
+concept: "The sodium lights at Bellweather have been the same amber wash for forty years, and the rain comes in off the scrubland every night around second bell without fail. Most of the haulers here run on drivers who learned the routes from their parents."
 ---
