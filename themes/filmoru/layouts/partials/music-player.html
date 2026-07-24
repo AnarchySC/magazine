@@ -1,0 +1,204 @@
+{{/* Persistent cassette-future music player. Enumerates static/music/*.mp3 at build,
+     skips anything containing "elevenlabs", shuffles, and resumes across page loads. */}}
+{{- $tracks := slice -}}
+{{- range (readDir "static/music") -}}
+  {{- $n := .Name -}}
+  {{- if and (strings.HasSuffix (lower $n) ".mp3") (not (in (lower $n) "elevenlabs")) -}}
+    {{- $tracks = $tracks | append (dict "src" (printf "music/%s" $n | relURL)) -}}
+  {{- end -}}
+{{- end -}}
+
+<div id="cfm-player" aria-label="Cassette Future radio" data-tracks="{{ $tracks | jsonify }}">
+  <button id="cfm-toggle" class="cfm-btn cfm-play" aria-label="Play">
+    <svg class="cfm-ico-play" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+    <svg class="cfm-ico-pause" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" style="display:none"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>
+  </button>
+  <div class="cfm-mid">
+    <div class="cfm-label">
+      <span class="cfm-eq" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+      <span class="cfm-title" id="cfm-title">Cassette Future Radio</span>
+    </div>
+    <div class="cfm-bar" id="cfm-bar"><div class="cfm-fill" id="cfm-fill"></div></div>
+  </div>
+  <button id="cfm-next" class="cfm-btn cfm-skip" aria-label="Next track" title="Next">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M6 5v14l9-7zM16 5h2v14h-2z"/></svg>
+  </button>
+  <audio id="cfm-audio" preload="none"></audio>
+</div>
+
+<style>
+  #cfm-player{
+    position:fixed; left:16px; bottom:16px; z-index:9998;
+    display:flex; align-items:center; gap:10px;
+    width:min(340px, calc(100vw - 32px));
+    padding:8px 12px; border-radius:10px;
+    background:linear-gradient(180deg, var(--cassette-blue,#1B3A5F), var(--cassette-navy,#0D2137));
+    border:1px solid var(--nasa-gold,#F48C06);
+    box-shadow:0 6px 24px rgba(0,0,0,.4), inset 0 1px 0 rgba(255,255,255,.06);
+    font-family:var(--font-en,'Inter',sans-serif); color:#fff;
+  }
+  #cfm-player .cfm-btn{
+    flex:0 0 auto; display:grid; place-items:center; cursor:pointer;
+    background:var(--nasa-orange,#E85D04); color:#0D2137;
+    border:none; border-radius:50%; padding:0;
+    transition:transform .1s ease, background .15s ease;
+  }
+  #cfm-player .cfm-play{ width:38px; height:38px; }
+  #cfm-player .cfm-skip{ width:30px; height:30px; background:transparent; color:var(--nasa-yellow,#FAA307); }
+  #cfm-player .cfm-btn:hover{ transform:scale(1.06); }
+  #cfm-player .cfm-skip:hover{ background:rgba(250,163,7,.15); }
+  #cfm-player .cfm-btn svg{ fill:currentColor; }
+  #cfm-player .cfm-mid{ flex:1 1 auto; min-width:0; display:flex; flex-direction:column; gap:5px; }
+  #cfm-player .cfm-label{ display:flex; align-items:center; gap:7px; min-width:0; }
+  #cfm-player .cfm-title{
+    font-size:12px; letter-spacing:.02em; white-space:nowrap;
+    overflow:hidden; text-overflow:ellipsis; color:#fff;
+  }
+  #cfm-player .cfm-bar{
+    height:4px; border-radius:2px; background:rgba(255,255,255,.15);
+    cursor:pointer; overflow:hidden;
+  }
+  #cfm-player .cfm-fill{
+    height:100%; width:0%;
+    background:linear-gradient(90deg,var(--nasa-yellow,#FAA307),var(--nasa-orange,#E85D04));
+  }
+  /* equalizer bars – animate only while playing */
+  #cfm-player .cfm-eq{ flex:0 0 auto; display:inline-flex; align-items:flex-end; gap:2px; height:12px; }
+  #cfm-player .cfm-eq i{ width:2px; height:4px; background:var(--nasa-yellow,#FAA307); border-radius:1px; }
+  #cfm-player.cfm-on .cfm-eq i{ animation:cfmEq .9s ease-in-out infinite; }
+  #cfm-player.cfm-on .cfm-eq i:nth-child(2){ animation-delay:.15s; }
+  #cfm-player.cfm-on .cfm-eq i:nth-child(3){ animation-delay:.3s; }
+  #cfm-player.cfm-on .cfm-eq i:nth-child(4){ animation-delay:.45s; }
+  @keyframes cfmEq{ 0%,100%{ height:3px; } 50%{ height:12px; } }
+  @media (prefers-reduced-motion: reduce){
+    #cfm-player.cfm-on .cfm-eq i{ animation:none; height:8px; }
+  }
+  @media (max-width:520px){ #cfm-player{ width:calc(100vw - 32px); } }
+</style>
+
+<script>
+(function(){
+  var root = document.getElementById('cfm-player');
+  if(!root) return;
+  var tracks;
+  try { tracks = JSON.parse(root.getAttribute('data-tracks')); } catch(e){ tracks = []; }
+  if(!tracks || !tracks.length){ root.style.display='none'; return; }
+
+  var audio  = document.getElementById('cfm-audio');
+  var toggle = document.getElementById('cfm-toggle');
+  var nextBtn= document.getElementById('cfm-next');
+  var titleEl= document.getElementById('cfm-title');
+  var fillEl = document.getElementById('cfm-fill');
+  var barEl  = document.getElementById('cfm-bar');
+  var icoPlay = toggle.querySelector('.cfm-ico-play');
+  var icoPause= toggle.querySelector('.cfm-ico-pause');
+
+  var K = { order:'cfmOrder', pos:'cfmPos', time:'cfmTime', playing:'cfmPlaying', vol:'cfmVol' };
+  function get(k){ try{ return localStorage.getItem(k); }catch(e){ return null; } }
+  function set(k,v){ try{ localStorage.setItem(k,v); }catch(e){} }
+
+  function prettify(src){
+    var f = src.split('/').pop().replace(/\.mp3$/i,'');
+    f = decodeURIComponent(f).replace(/-/g,' ').replace(/\s+\d+$/,'').trim();
+    return f.replace(/\b\w/g, function(c){ return c.toUpperCase(); }) || 'Untitled';
+  }
+
+  // --- shuffle order (persisted so we don't repeat / reshuffle every nav) ---
+  var order;
+  try { order = JSON.parse(get(K.order)); } catch(e){ order = null; }
+  var valid = Array.isArray(order) && order.length === tracks.length &&
+              order.every(function(i){ return i>=0 && i<tracks.length; });
+  if(!valid){
+    order = tracks.map(function(_,i){ return i; });
+    for(var i=order.length-1;i>0;i--){ var j=Math.floor(Math.random()*(i+1)); var t=order[i]; order[i]=order[j]; order[j]=t; }
+    set(K.order, JSON.stringify(order));
+    set(K.pos, '0'); set(K.time, '0');
+  }
+
+  var pos = parseInt(get(K.pos)||'0',10); if(isNaN(pos)||pos<0||pos>=order.length) pos=0;
+  var wantPlaying = get(K.playing) === '1';
+  var vol = parseFloat(get(K.vol)); if(isNaN(vol)) vol=0.7;
+  audio.volume = Math.max(0, Math.min(1, vol));
+
+  function curTrack(){ return tracks[order[pos]]; }
+
+  function loadTrack(seekTo, autoplay){
+    var t = curTrack(); if(!t) return;
+    audio.src = t.src;
+    titleEl.textContent = prettify(t.src);
+    if(seekTo){
+      audio.addEventListener('loadedmetadata', function once(){
+        audio.removeEventListener('loadedmetadata', once);
+        try{ audio.currentTime = seekTo; }catch(e){}
+      });
+    }
+    set(K.pos, String(pos));
+    if(autoplay) tryPlay();
+  }
+
+  function tryPlay(){
+    var p = audio.play();
+    if(p && p.catch){ p.catch(function(){ /* autoplay blocked; wait for a gesture */ }); }
+  }
+
+  function reflect(playing){
+    icoPlay.style.display  = playing ? 'none' : '';
+    icoPause.style.display = playing ? '' : 'none';
+    toggle.setAttribute('aria-label', playing ? 'Pause' : 'Play');
+    root.classList.toggle('cfm-on', playing);
+  }
+
+  toggle.addEventListener('click', function(){
+    if(audio.paused){ set(K.playing,'1'); tryPlay(); }
+    else { audio.pause(); }
+  });
+
+  nextBtn.addEventListener('click', function(){ advance(1, true); });
+
+  function advance(step, play){
+    pos = (pos + step + order.length) % order.length;
+    set(K.time,'0');
+    loadTrack(0, play);
+  }
+
+  barEl.addEventListener('click', function(e){
+    if(!audio.duration) return;
+    var r = barEl.getBoundingClientRect();
+    audio.currentTime = ((e.clientX - r.left) / r.width) * audio.duration;
+  });
+
+  audio.addEventListener('play',  function(){ set(K.playing,'1'); reflect(true); });
+  audio.addEventListener('pause', function(){ set(K.playing,'0'); reflect(false); });
+  audio.addEventListener('ended', function(){ advance(1, true); });
+
+  var lastSave = 0;
+  audio.addEventListener('timeupdate', function(){
+    if(audio.duration){ fillEl.style.width = (audio.currentTime/audio.duration*100)+'%'; }
+    if(audio.currentTime - (window.__cfmLastT||0) > 1.5 || audio.currentTime < (window.__cfmLastT||0)){
+      window.__cfmLastT = audio.currentTime;
+      set(K.time, String(audio.currentTime));
+      set(K.pos, String(pos));
+    }
+  });
+
+  window.addEventListener('pagehide', function(){
+    set(K.time, String(audio.currentTime||0));
+    set(K.pos, String(pos));
+    set(K.playing, audio.paused ? '0' : '1');
+  });
+
+  // First user gesture anywhere: if we're meant to be playing but got blocked, start.
+  function kickstart(){
+    if(wantPlaying && audio.paused){ tryPlay(); }
+    document.removeEventListener('pointerdown', kickstart);
+    document.removeEventListener('keydown', kickstart);
+  }
+  document.addEventListener('pointerdown', kickstart, {once:false});
+  document.addEventListener('keydown', kickstart, {once:false});
+
+  // Boot: resume where we left off.
+  var resumeTime = parseFloat(get(K.time)); if(isNaN(resumeTime)) resumeTime=0;
+  reflect(false);
+  loadTrack(resumeTime, wantPlaying);
+})();
+</script>
