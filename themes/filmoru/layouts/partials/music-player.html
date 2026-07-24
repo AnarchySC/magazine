@@ -1,10 +1,13 @@
 {{/* Persistent cassette-future music player. Enumerates static/music/*.mp3 at build,
      skips anything containing "elevenlabs", shuffles, and resumes across page loads. */}}
+{{- $titles := site.Data.tracks -}}
 {{- $tracks := slice -}}
 {{- range (readDir "static/music") -}}
   {{- $n := .Name -}}
   {{- if and (strings.HasSuffix (lower $n) ".mp3") (not (in (lower $n) "elevenlabs")) -}}
-    {{- $tracks = $tracks | append (dict "src" (printf "music/%s" $n | relURL)) -}}
+    {{- $stem := strings.TrimSuffix ".mp3" $n -}}
+    {{- $title := index $titles $stem -}}
+    {{- $tracks = $tracks | append (dict "src" (printf "music/%s" $n | relURL) "title" $title) -}}
   {{- end -}}
 {{- end -}}
 
@@ -28,7 +31,7 @@
 
 <style>
   #cfm-player{
-    position:fixed; left:16px; bottom:16px; z-index:9998;
+    position:fixed; left:50%; transform:translateX(-50%); bottom:16px; z-index:9998;
     display:flex; align-items:center; gap:10px;
     width:min(340px, calc(100vw - 32px));
     padding:8px 12px; border-radius:10px;
@@ -125,7 +128,7 @@
   function loadTrack(seekTo, autoplay){
     var t = curTrack(); if(!t) return;
     audio.src = t.src;
-    titleEl.textContent = prettify(t.src);
+    titleEl.textContent = t.title || prettify(t.src);
     if(seekTo){
       audio.addEventListener('loadedmetadata', function once(){
         audio.removeEventListener('loadedmetadata', once);
