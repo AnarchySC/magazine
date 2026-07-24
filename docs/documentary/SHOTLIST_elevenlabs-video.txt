@@ -1,0 +1,278 @@
+CASSETTE FUTURISM DOC — ELEVENLABS VIDEO SHOT LIST
+==================================================
+~54 clips @ 8s each, tiled under the narration. Build entirely in ElevenLabs
+Studio (Image & Video -> Export to timeline -> narration -> music/SFX -> export).
+
+GLOBAL SETTINGS
+---------------
+Aspect: 21:9 (2.39:1)  |  Clip length: 8s  |  Default model: Veo 3.1
+Hero/4K shots: Kling 2.5  |  Brand-match shots: image-to-video w/ a CFP render.
+
+APPEND THIS STYLE BLOCK TO EVERY PROMPT
+---------------------------------------
+STYLE: cassette futurism, late-1970s analog sci-fi production design; CRT glow,
+phosphor-green and amber light, beige and gunmetal industrial plastic, chunky
+physical switches and dials; anamorphic widescreen 2.39:1 (21:9), soft film
+grain, halation, shallow depth of field, warm practical lighting.
+AVOID: on-screen text, logos, real-world flags, visible human faces, modern
+touchscreens/glossy chrome (except Act III present-day shots).
+
+NOTE: Do NOT try to depict Star Wars / Alien / Blade Runner directly — the
+prompts below are ORIGINAL era-homage imagery, not the copyrighted films.
+Title cards (A BETTER YESTERDAY, CASSETTE FUTURE) are editor text overlays, not
+generated clips.
+
+================================================================
+COLD OPEN (~30s, 4 clips)
+================================================================
+C01 · Veo 3.1 · under "There's a future that never arrived..."
+  Extreme close-up: a single amber cursor blinking on a black CRT in a dark room,
+  faint scanlines, dust motes in a thin light beam, slow push-in. +STYLE
+
+C02 · Veo 3.1 · under "A future made of plastic and metal you could hold..."
+  Macro dolly across 1970s analog hardware on a workbench — beige casings, toggle
+  switches, a reel-to-reel deck, soft rack-focus. +STYLE
+
+C03 · Veo 3.1 · under "Screens that glowed... machines that hummed and clicked"
+  Phosphor-green CRT warming up, text glow blooming; a cassette clunks into a
+  deck, a mechanical counter ticks over. +STYLE
+
+C04 · Kling 2.5 · under "We call it cassette futurism... forgot to build."
+  Slow wide reveal of a dim control room full of analog consoles and blinking
+  indicator lights, hazy atmosphere, cinematic. +STYLE
+
+================================================================
+ACT I — THE AESTHETIC (~92s, 11 clips)
+================================================================
+C05 · Veo 3.1 · "Look closely... no glass slab. Nothing is sealed."
+  Slow orbit around a boxy analog terminal, no glass slab in sight, exposed
+  seams and screws, matte plastic, low camera angle. +STYLE
+
+C06 · Veo 3.1 · "tactile. Every function has a surface — a switch, a dial..."
+  Macro: a thumb pressing a labeled square button worn smooth, then flicking a
+  metal toggle; satisfying mechanical detail. +STYLE
+
+C07 · Veo 3.1 · "The interface isn't hidden behind an interface..."
+  Close pan across a panel of clearly-labeled knobs, rocker switches and needle
+  gauges, everything legible and physical. +STYLE
+
+C08 · Veo 3.1 · "The palette is industrial. Beige. Gunmetal. warning-orange..."
+  Static product-style shot of stacked equipment in beige, gunmetal, warning-
+  orange and safety-yellow, soft studio light, gentle push-in. +STYLE
+
+C09 · Veo 3.1 · "Plastics that yellowed with age, and no one minded."
+  Macro detail of sun-yellowed vintage plastic casing, fine scratches and wear,
+  warm side light, shallow focus. +STYLE
+
+C10 · Veo 3.1 · "Light came in two flavors: phosphor green, and amber..."
+  Close-up of a monochrome CRT drawing a glowing wireframe vector graphic, heavy
+  scanlines and halation, electrons not pixels. +STYLE
+
+C11 · Kling 2.5 · "And it was heavy. These were objects with mass."
+  Low hero angle of a heavy metal-and-plastic machine on a desk, weighty and
+  solid, dramatic single-source light. +STYLE
+
+C12 · Veo 3.1 · "You didn't upgrade them every autumn; you owned them."
+  Slow dolly past a well-kept machine that has clearly been used for years,
+  worn labels, a coffee ring on the desk beside it. +STYLE
+
+C13 · Veo 3.1 · "When one broke, you opened it... fixed the part that failed."
+  Hands with a screwdriver removing a back panel, revealing socketed chips and a
+  replaceable fuse; no faces, close on the hands. +STYLE
+
+C14 · Veo 3.1 · "Cassette futurism isn't really about the cassettes."
+  Macro of a single compact cassette rotating slowly on a dark reflective
+  surface, tape spools visible, moody rim light. +STYLE
+
+C15 · Kling 2.5 · "It's about a relationship... the tools were legible..."
+  Wide, warm shot of a tidy analog workspace bathed in amber light, one lamp,
+  legible machines, an inviting human scale. +STYLE
+
+================================================================
+ACT II — WHERE IT CAME FROM (~138s, 18 clips)
+================================================================
+C16 · Veo 3.1 · "It was what the future looked like from inside 1965 to 1985..."
+  Archival-style slow pan across a shelf of vintage 70s-80s consumer electronics,
+  faded box art, warm nostalgic grade. +STYLE
+
+C17 · Veo 3.1 · "The compact cassette arrived from Philips in 1963..."
+  Hero macro of a compact cassette being loaded into a tape deck, the door
+  closing, play button depressing. +STYLE
+
+C18 · Veo 3.1 · "By 1979, the Walkman made the future portable."
+  A boxy portable cassette player with foam headphones on a table, slow push-in,
+  a hand clipping it to a belt; no face. +STYLE
+
+C19 · Veo 3.1 · "Home computers loaded their programs from ordinary audio tape."
+  A beige home computer beside a cassette drive, a loading pattern flickering on
+  a CRT, a tape spinning to load data. +STYLE
+
+C20 · Veo 3.1 · "But the look crystallized on film."
+  Dust in a projector beam, a reel of film turning, cinema-booth glow, moody. +STYLE
+
+C21 · Kling 2.5 · "1977, Star Wars rejected the clean chrome utopias..."
+  ORIGINAL homage: a worn, lived-in cargo-spaceship corridor, scuffed panels and
+  grime, blinking wall readouts, wide anamorphic. +STYLE
+
+C22 · Veo 3.1 · "wanted a used universe — scuffed, dented, lived-in."
+  Macro of a dented, grease-smudged control panel with hand-worn switches and
+  taped-on labels, working-class future. +STYLE
+
+C23 · Kling 2.5 · "Ridley Scott's Alien built the cathedral."
+  ORIGINAL homage: a dim industrial starship bridge, ranks of amber and green
+  CRTs, cathedral-like depth, atmospheric haze. +STYLE
+
+C24 · Veo 3.1 · "a computer called Mother, green screens blinking amber."
+  Close on a wall of small monochrome monitors scrolling green text, amber
+  indicator lamps blinking in sequence. +STYLE
+
+C25 · Veo 3.1 · "Not a warship — a workplace."
+  A cluttered crew workstation — mugs, cables, a clipboard, a half-eaten meal
+  tray beside the console; lived-in, no faces. +STYLE
+
+C26 · Veo 3.1 · "That single film is still the visual bible..."
+  Slow reverent dolly across a beautifully detailed retro-future console, hero
+  lighting, reflections in the CRT glass. +STYLE
+
+C27 · Kling 2.5 · "Blade Runner taught it to layer the old under the new."
+  ORIGINAL homage: rain-slicked neon-lit street at night, old machinery
+  retrofitted with new tech, steam and reflections, anamorphic flares. +STYLE
+
+C28 · Veo 3.1 · "real design philosophy — Dieter Rams at Braun, less but better."
+  Clean product shot of minimalist mid-century functional electronics, a single
+  dial and speaker grille, soft even light. +STYLE
+
+C29 · Veo 3.1 · "Cold War consoles. Soviet industrial control panels."
+  A wall-sized bank of utilitarian switches, gauges and labeled buttons in an
+  austere concrete room, cold fluorescent light. +STYLE
+
+C30 · Veo 3.1 · "Aerospace instrumentation... a tired human at 3 in the morning."
+  Cockpit-style array of round analog dials and warning lamps glowing in the
+  dark, one lamp pulsing, quiet and tense. +STYLE
+
+C31 · Veo 3.1 · "The name itself came later — coined online, decades on..."
+  A modern hand scrolling a wall of retro tech photos on a dim monitor at night,
+  nostalgic glow; keep it abstract, no readable text. +STYLE
+
+C32 · Veo 3.1 · "buying tape decks, and film cameras, and keyboards that click."
+  Quick trio of macros: a tape deck door closing, a film camera advance lever, a
+  mechanical keyboard key bottoming out. +STYLE
+
+C33 · Kling 2.5 · "If we still want it this badly — why didn't we get it?"
+  Slow push into a single glowing amber CRT in an otherwise dark room, the
+  question hanging, contemplative. +STYLE
+
+================================================================
+ACT III — THE FUTURE THAT'S STILL POSSIBLE (~152s, 19 clips)
+================================================================
+NOTE: C34-C37 deliberately show COLD, MODERN, GLOSSY tech (the "other fork").
+Override the AVOID line for these four only.
+
+C34 · Veo 3.1 · "the cassette future... was outvoted."
+  Cold, clinical shot of a modern black glass smartphone on a white surface,
+  sterile even light, no warmth, shallow focus. [modern look]
+
+C35 · Kling 2.5 · "We chased the shrinking chip, the sealed case..."
+  A sealed unibody laptop with no visible screws, and a cold blue server-room
+  aisle of humming racks, clinical and impersonal. [modern look]
+
+C36 · Veo 3.1 · "the screen that does everything by pretending to be nothing."
+  A featureless dark glass slab reflecting a face-shaped void, minimal, uncanny,
+  cold light. [modern look]
+
+C37 · Veo 3.1 · "traded the switch for the swipe... owned for the thing you rent."
+  A finger swiping a blank glossy touchscreen, then a 'subscription required'
+  style padlock glyph (no readable brand text). [modern look]
+
+C38 · Veo 3.1 · "But a fork is not a wall."
+  A physical railway/track switch lever throwing from one path to another, heavy
+  mechanical motion, symbolic, warm light returns. +STYLE
+
+C39 · Veo 3.1 · "one of our best storytellers imagined the road we didn't take."
+  A worn paperback book resting under a warm desk lamp, pages softly riffling in
+  a breeze, dust motes; no readable title. +STYLE
+
+C40 · Kling 2.5 · "the Butlerian Jihad — a revolt against the thinking machines."
+  Symbolic: silhouettes of toppled, dead machines and dark dormant screens in a
+  vast hall, embers and haze, epic scale, no faces. +STYLE
+
+C41 · Veo 3.1 · "Thou shalt not make a machine in the likeness of a human mind."
+  Words-as-texture beat: letters carved into weathered stone in warm light
+  (editor may overlay the actual line); slow tilt up. +STYLE
+
+C42 · Veo 3.1 · "It did not end progress. It redirected it."
+  A river of light splitting and flowing down a new channel, abstract, warm,
+  hopeful motion. +STYLE
+
+C43 · Kling 2.5 · "poured its genius into human faculties and honest tools..."
+  A finely engineered brass-and-steel mechanical instrument turning, gears
+  meshing precisely, jewel-like craftsmanship, warm light. +STYLE
+
+C44 · Veo 3.1 · "Imagine a directive — a simple, deliberate brake..."
+  A single large, deliberate lever being pulled by unseen hands, heavy and
+  decisive, dramatic light, symbolic. +STYLE
+
+C45 · Veo 3.1 · "Not a rejection of technology. A rule about what kind."
+  Two objects side by side under warm light: a sealed black slab vs. an open,
+  repairable analog machine; camera favors the analog one. +STYLE
+
+C46 · Veo 3.1 · "The engineers... get bored, and then they get brilliant."
+  A cluttered inventor's bench alive with half-built analog prototypes, sketches
+  and tools, warm creative chaos; no faces. +STYLE
+
+C47 · Kling 2.5 · "Analog storage, perfected instead of abandoned."
+  A gorgeous next-gen reel-to-reel / tape machine, oversized precise spools
+  spinning, chrome and warm indicator light, hero shot. +STYLE
+
+C48 · Veo 3.1 · "Mechanical computation, refined for a century."
+  An elegant mechanical computer of brass gears and rods computing, intricate
+  motion, museum lighting. +STYLE
+
+C49 · Veo 3.1 · "Interfaces built for human hands..."
+  A beautifully ergonomic control surface, a hand resting naturally on sculpted
+  dials and keys, tactile and warm; no face. +STYLE
+
+C50 · Veo 3.1 · "Tools designed to be understood, owned, and repaired."
+  An open, serviceable machine with a clean modular interior, a hand swapping a
+  labeled module, everything legible. +STYLE
+
+C51 · Kling 2.5 · "It was never nostalgia. It's a blueprint..."
+  Camera pulls back from the analog workbench to reveal a warm, humane, advanced
+  cassette-future city/interior — mature, not retro. +STYLE
+
+C52 · Veo 3.1 · "the first tremors are already here... right-to-repair..."
+  Present-day but hopeful: hands opening and repairing their own device at a
+  kitchen table, a 'repairable' spirit, warm light. [mixed look]
+
+C53 · Veo 3.1 · "Small refusals. a directive we write for ourselves."
+  A young person's hands threading a cassette tape into a deck and pressing play,
+  quiet resolve; no face, warm close-up. +STYLE
+
+================================================================
+CLOSE (~14s, 2 clips)
+================================================================
+C54 · Kling 2.5 · "The future on tape was never behind us."
+  The amber cursor from C01 blinking in the dark, then slowly brightening, warm
+  and hopeful, slow push-in. +STYLE
+
+C55 · Veo 3.1 · "It's just the one we haven't pressed record on... yet."
+  A single hand reaching in and pressing a satisfying physical RECORD key, the
+  mechanism clunking down, tape beginning to roll. +STYLE
+  -> Editor: cut to TITLE CARD "CASSETTE FUTURE — 銀河通信" over tape hiss.
+
+================================================================
+ASSEMBLY IN ELEVENLABS STUDIO
+================================================================
+1. Image & Video: generate C01..C55 (paste prompt core + the STYLE block).
+   Reuse a CFP render as an image-to-video reference on any shot you want
+   pinned to your existing brand art.
+2. Export each clip to the Studio timeline, in order.
+3. Narration: paste the matching chapter text (files 01-05) onto the timeline;
+   the transcript auto-syncs. Use ONE locked narrator voice for all chapters.
+4. Score: ElevenMusic — slow, warm analog-synth ambient bed, low in the mix.
+   SFX V2 — tape hiss + CRT hum under everything; add switch-clicks and a tape
+   'clunk' at each act break.
+5. Upscale (Topaz) to 4K if desired; export MP4 at 21:9.
+
+BUDGET: video generation costs more than TTS — check per-clip credit cost before
+mass-generating. Generate ONE test clip first to lock the look, THEN batch.

@@ -1,0 +1,298 @@
+CASSETTE FUTURISM DOC — MASTER PRODUCTION SHEET (budget hybrid)
+==============================================================
+Every shot tagged [VIDEO] (ElevenLabs, paid) or [STILL] (ComfyUI, free + Ken
+Burns pan). ~12 core video clips, ~4 optional, ~39 stills. One file to work from.
+
+TAG KEY
+  [VIDEO]      generate as an 8s clip in ElevenLabs Image & Video
+  [VIDEO opt]  nice-to-have motion; do only if budget allows
+  [STILL]      generate on ComfyUI, animate with a Ken Burns move in the editor
+
+----------------------------------------------------------------
+VIDEO GLOBALS (ElevenLabs)
+  Aspect 21:9 | 8s/clip | model Veo 3.1 (Kling 2.5 for hero/4K)
+  APPEND STYLE:
+    cassette futurism, late-1970s analog sci-fi production design; CRT glow,
+    phosphor-green and amber light, beige and gunmetal industrial plastic,
+    chunky physical switches and dials; anamorphic 2.39:1, film grain, halation,
+    shallow depth of field, warm practical lighting.
+    AVOID: on-screen text, logos, real flags, visible faces, modern glossy tech
+    (except Act III present-day shots).
+
+STILL GLOBALS (ComfyUI)
+  Checkpoint waiIllustriousSDXL_v160 / NoobAI-XL | generate 16:9 @1344x768,
+  crop to 21:9 | IP-Adapter STANDARD (medium) locked to a CFP render for a
+  consistent look | Pony: prepend "score_9, score_8_up, score_7_up"
+  APPEND POSITIVE:
+    cassette futurism, retro analog sci-fi, 1970s-80s technology, CRT glow,
+    phosphor-green and amber lighting, beige and gunmetal industrial plastic,
+    chunky switches and dials, cinematic composition, dramatic lighting, film
+    grain, highly detailed, masterpiece, best quality
+  NEGATIVE:
+    text, watermark, signature, logo, flag, people, faces, modern smartphone,
+    touchscreen, glossy chrome, blurry, lowres, bad hands, extra fingers,
+    deformed, jpeg artifacts, oversaturated, cluttered
+    (hand-macro shots: remove "people, faces"; add "detailed hand")
+
+RHYTHM: open each act with its [VIDEO] shot, then let the [STILL]s ride under
+the narration until the next act. Hold each still 5-9s.
+NOTE: title cards ("A BETTER YESTERDAY", "CASSETTE FUTURE") are editor overlays.
+Star Wars / Alien / Blade Runner beats are ORIGINAL era-homage, not the films.
+
+================================================================
+COLD OPEN
+================================================================
+C01 [VIDEO] Veo 3.1 · "There's a future that never arrived..."
+  Extreme close-up: a single amber cursor blinking on a black CRT in a dark room,
+  faint scanlines, dust motes in a light beam, slow push-in.
+
+C02 [STILL] Ken Burns: pan L->R · "A future made of plastic and metal you could hold..."
+  vintage 1970s analog hardware on a workbench, beige plastic casings, toggle
+  switches, a reel-to-reel tape deck, shallow depth of field
+
+C03 [VIDEO] Veo 3.1 · "Screens that glowed... machines that hummed and clicked"
+  a phosphor-green CRT warming up, text glow blooming; a cassette clunks into a
+  deck, a mechanical counter ticks over.
+
+C04 [STILL] Ken Burns: slow pull-out · "We call it cassette futurism... forgot to build."
+  a dim retro control room full of analog consoles and blinking indicator lights,
+  hazy atmosphere, wide cinematic shot
+
+================================================================
+ACT I — THE AESTHETIC
+================================================================
+C05 [STILL] push-in · "Look closely... nothing is sealed."
+  a boxy analog terminal with exposed seams and visible screws, matte beige
+  plastic, low angle, no glass touchscreen
+
+C06 [VIDEO] Veo 3.1 · "Every function has a surface — a switch, a dial..."
+  Macro: a thumb pressing a labeled worn button, then flicking a metal toggle;
+  satisfying mechanical detail.
+
+C07 [STILL] pan L->R · "The interface isn't hidden behind an interface..."
+  a control panel of clearly labeled knobs, rocker switches and needle gauges,
+  everything physical and legible
+
+C08 [STILL] push-in · "The palette is industrial. Beige. Gunmetal. warning-orange..."
+  stacked vintage equipment in beige, gunmetal, warning-orange and safety-yellow,
+  soft studio light, product composition
+
+C09 [STILL] pan R->L · "Plastics that yellowed with age..."
+  macro of sun-yellowed vintage plastic casing, fine scratches and wear, warm
+  side light, shallow focus
+
+C10 [VIDEO] Veo 3.1 · "Light came in two flavors: phosphor green, and amber..."
+  a monochrome CRT drawing a glowing green wireframe vector graphic, heavy
+  scanlines and halation, close-up.
+
+C11 [STILL] push-in (hero) · "And it was heavy. objects with mass."
+  low hero angle of a heavy metal-and-plastic machine on a desk, solid and
+  weighty, dramatic single-source light
+
+C12 [STILL] pan L->R · "you owned them."
+  a well-worn machine used for years, faded labels, a coffee ring on the desk
+  beside it, warm nostalgic light
+
+C13 [VIDEO opt] Veo 3.1 · "When one broke, you opened it... fixed the part that failed."
+  hands with a screwdriver removing a back panel, revealing socketed chips and a
+  replaceable fuse; close on the hands, no faces.
+
+C14 [STILL] slow push-in · "isn't really about the cassettes."
+  a single compact cassette on a dark reflective surface, tape spools visible,
+  moody rim light, macro
+
+C15 [STILL] slow pull-out · "the tools were legible... served the person."
+  a tidy analog workspace bathed in warm amber light, one desk lamp, legible
+  machines, inviting human scale, wide
+
+================================================================
+ACT II — WHERE IT CAME FROM
+================================================================
+C16 [STILL] pan L->R · "what the future looked like from 1965 to 1985..."
+  a shelf of vintage 70s-80s consumer electronics, faded packaging, warm
+  nostalgic grade
+
+C17 [VIDEO] Veo 3.1 · "The compact cassette arrived from Philips in 1963..."
+  hero macro of a compact cassette loaded into a tape deck, the door closing,
+  the play button depressing.
+
+C18 [STILL] push-in · "the Walkman made the future portable."
+  a boxy portable cassette player with foam headphones on a table, a hand
+  clipping it to a belt (hand-macro)
+
+C19 [VIDEO] Veo 3.1 · "Home computers loaded programs from ordinary audio tape."
+  a beige home computer beside a cassette drive, a loading pattern flickering on
+  a CRT, a tape spinning to load data.
+
+C20 [STILL] slow push-in · "the look crystallized on film."
+  dust in a cinema projector beam, a film reel turning, projection-booth glow,
+  moody
+
+C21 [STILL] slow pull-out (wide) · "rejected the clean chrome utopias..."
+  ORIGINAL homage: a worn lived-in cargo-spaceship corridor, scuffed grimy
+  panels, blinking wall readouts, wide anamorphic
+
+C22 [STILL] pan R->L · "a used universe — scuffed, dented, lived-in."
+  macro of a dented grease-smudged control panel with hand-worn switches and
+  taped-on paper labels
+
+C23 [STILL] slow push-in · "Ridley Scott's Alien built the cathedral."
+  ORIGINAL homage: a dim industrial starship bridge, ranks of amber and green
+  CRTs, cathedral-like depth, atmospheric haze
+
+C24 [VIDEO] Veo 3.1 · "a computer called Mother, green screens blinking amber."
+  a wall of small monochrome monitors scrolling green text, amber indicator lamps
+  blinking in sequence.
+
+C25 [STILL] slow pan R->L · "Not a warship — a workplace."
+  a cluttered crew workstation, mugs, cables, a clipboard, a meal tray beside the
+  console, lived-in, no people
+
+C26 [STILL] slow push-in · "still the visual bible..."
+  a beautifully detailed retro-future console, hero lighting, reflections in the
+  curved CRT glass
+
+C27 [VIDEO opt] Kling 2.5 · "layer the old under the new."
+  ORIGINAL homage: a rain-slicked neon-lit street at night, old machinery
+  retrofitted with new tech, steam and reflections, anamorphic flares.
+
+C28 [STILL] slow pan L->R · "Dieter Rams at Braun, less but better."
+  minimalist mid-century functional electronics, a single dial and speaker
+  grille, soft even light, clean product shot
+
+C29 [STILL] pan L->R · "Cold War consoles. Soviet industrial control panels."
+  a wall-sized bank of utilitarian switches, gauges and labeled buttons in an
+  austere concrete room, cold light
+
+C30 [STILL] push-in · "Aerospace instrumentation... a tired human at 3 in the morning."
+  a cockpit array of round analog dials and warning lamps glowing in the dark,
+  one lamp brighter, quiet tension
+
+C31 [STILL] slow push-in · "coined online, decades on..."
+  a hand scrolling a wall of retro-tech photos on a dim monitor at night,
+  nostalgic glow, abstract, no readable text (hand-macro)
+
+C32 [STILL] pan L->R · "tape decks, film cameras, keyboards that click."
+  a flat-lay of a tape deck, a film camera, and a mechanical keyboard on a wood
+  desk, warm light, tactile objects
+
+C33 [STILL] very slow push-in · "why didn't we get it?"
+  a single glowing amber CRT in an otherwise dark room, contemplative, empty
+  space around it
+
+================================================================
+ACT III — THE FUTURE THAT'S STILL POSSIBLE
+================================================================
+(C34-C37: COLD/MODERN look. VIDEO STYLE -> "cold clinical light, sterile,
+ minimalist, modern glossy tech, desaturated". STILL: swap the positive suffix
+ similarly and REMOVE "modern smartphone, touchscreen, glossy chrome" from neg.)
+
+C34 [STILL] slow push-in · "the cassette future... was outvoted."
+  a modern black glass smartphone alone on a white surface, sterile even light,
+  cold, shallow focus [modern]
+
+C35 [STILL] pan L->R · "the shrinking chip, the sealed case..."
+  a sealed unibody laptop with no screws beside a cold blue server-room aisle of
+  humming racks, clinical [modern]
+
+C36 [STILL] slow push-in · "the screen that... pretends to be nothing."
+  a featureless dark glass slab reflecting a faceless void, minimal, uncanny,
+  cold light [modern]
+
+C37 [STILL] push-in · "traded the switch for the swipe... owned for rent."
+  a finger swiping a blank glossy touchscreen, a faint padlock glyph, no readable
+  text [modern, hand-macro]
+
+C38 [VIDEO] Veo 3.1 · "a fork is not a wall."
+  a heavy physical railway switch lever throwing from one track to another,
+  mechanical motion, symbolic, warm light returns.
+
+C39 [STILL] slow push-in · "imagined the road we didn't take."
+  a worn paperback book under a warm desk lamp, pages softly riffling, dust
+  motes, no readable title
+
+C40 [VIDEO opt] Kling 2.5 · "the Butlerian Jihad — a revolt against the thinking machines."
+  symbolic: silhouettes of toppled dead machines and dark dormant screens in a
+  vast hall, embers and haze, epic scale, no faces.
+
+C41 [STILL] slow tilt up · "make a machine in the likeness of a human mind."
+  weathered stone with a blank engraved panel in warm light (editor overlays the
+  quote), reverent
+
+C42 [VIDEO opt] Veo 3.1 · "It did not end progress. It redirected it."
+  abstract: a river of warm light splitting and flowing down a new channel,
+  hopeful motion.
+
+C43 [VIDEO] Kling 2.5 · "human faculties and honest tools..."
+  a finely engineered brass-and-steel mechanical instrument turning, gears
+  meshing precisely, jewel-like craftsmanship, warm light.
+
+C44 [STILL] slow push-in · "Imagine a directive — a deliberate brake..."
+  a single large deliberate lever mid-pull, heavy and decisive, dramatic light,
+  symbolic, no face
+
+C45 [STILL] slow pan L->R · "A rule about what kind."
+  two objects side by side in warm light: a sealed black slab vs an open
+  repairable analog machine, composition favoring the analog one
+
+C46 [STILL] pan R->L · "get bored, and then they get brilliant."
+  a cluttered inventor's bench of half-built analog prototypes, sketches and
+  tools, warm creative chaos, no people
+
+C47 [VIDEO] Kling 2.5 · "Analog storage, perfected instead of abandoned."
+  a gorgeous next-gen reel-to-reel tape machine, oversized precise spools
+  spinning, chrome and warm indicator light, hero shot.
+
+C48 [STILL] slow pan L->R · "Mechanical computation, refined for a century."
+  an elegant mechanical computer of brass gears and rods, intricate, museum
+  lighting
+
+C49 [STILL] push-in · "Interfaces built for human hands..."
+  a beautifully ergonomic control surface, a hand resting on sculpted dials and
+  keys, tactile, warm (hand-macro)
+
+C50 [STILL] slow push-in · "understood, owned, and repaired."
+  an open serviceable machine with a clean modular interior, a hand swapping a
+  labeled module, everything legible (hand-macro)
+
+C51 [VIDEO] Kling 2.5 · "It's a blueprint..."
+  camera pulls back from an analog workbench to reveal a warm humane ADVANCED
+  cassette-future interior, mature not retro, wide.
+
+C52 [STILL] push-in · "the first tremors are already here... right-to-repair..."
+  hopeful present-day: hands repairing their own device at a kitchen table, warm
+  light, a repairable spirit (hand-macro)
+
+C53 [STILL] slow push-in · "a directive we write for ourselves."
+  a young person's hands threading a cassette tape into a deck, pressing play,
+  quiet resolve, warm close-up, no face (hand-macro)
+
+================================================================
+CLOSE
+================================================================
+C54 [STILL] slow brighten push-in · "The future on tape was never behind us."
+  the amber cursor from C01 blinking in the dark, warm and hopeful (brightness
+  ramp done in the editor)
+
+C55 [VIDEO] Veo 3.1 · "the one we haven't pressed record on... yet."
+  a hand reaching in and pressing a satisfying physical RECORD key, the mechanism
+  clunking down, tape beginning to roll.
+  -> Editor: cut to TITLE CARD "CASSETTE FUTURE — 銀河通信" over tape hiss.
+
+================================================================
+TALLY & ASSEMBLY
+================================================================
+[VIDEO] core (12): C01 C03 C06 C10 C17 C19 C24 C38 C43 C47 C51 C55
+[VIDEO opt] (4):   C13 C27 C40 C42
+[STILL] (39):      everything else -> ComfyUI + Ken Burns
+
+BUILD:
+1. Generate ONE video test clip first (C01) to confirm the look AND per-clip
+   credit cost. Multiply by 12 (or 16) before batching the rest.
+2. Generate the [STILL]s on ComfyUI, IP-Adapter style-locked to a CFP render.
+3. Editor (DaVinci Resolve, free): lay clips + stills in C-order; apply each
+   still's Ken Burns move (Resolve "Dynamic Zoom"). Hold stills 5-9s.
+4. Narration: chapter VO (files 01-05) underneath; land cuts on sentence ends.
+5. Score: warm analog-synth pad + continuous tape hiss/CRT hum; switch-click +
+   tape-clunk at act breaks (generate music/SFX in ElevenLabs — cheap).
+6. Crop to 21:9, add title cards, export MP4.
