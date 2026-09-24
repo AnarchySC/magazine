@@ -38,8 +38,6 @@ title_jp: 磁器の夢：権力者たちが残した美の牢獄
 year: 2935
 ---
 
-# The Porcelain Dream: The Beauty Cage the Powerful Left Behind
-
 Deep inside the Royal Archive Station of Aranjuez — one of Earth's last intact imperial palaces, now administered as a heritage colony on the Iberian Plateau — past the curated gardens and the grand ceremonial halls that every tourism feed tells you to photograph, there is a room nobody mentions.
 
 The Porcelain Room.

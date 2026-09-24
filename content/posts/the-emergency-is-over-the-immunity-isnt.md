@@ -32,8 +32,6 @@ title_jp: 緊急令は終わった。免責は続く。
 year: 2935
 ---
 
-# The Emergency Is Over. The Immunity Isn't.
-
 The Galactic Health Bureau issued a notice last week — six lines, buried in a routine administrative batch transmission at 0200 station time — announcing the formal termination of all Emergency Treatment Authorizations tied to the Nebula Virus pandemic declarations. Commissioner Yael Dornbach called it "a milestone in galactic recovery."
 
 That's one version of events.

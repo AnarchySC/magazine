@@ -28,8 +28,6 @@ title_jp: 59年前に撃沈された船：コロニー議員がついに調査�
 year: 2935
 ---
 
-# The Ship We Sank 59 Years Ago: A Colony Assembly Member Finally Demands an Inquiry
-
 **陳 マックスウェル | Military & Security Correspondent**
 
 ---

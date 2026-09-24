@@ -19,8 +19,6 @@ title_jp: 地球統一評議会議長、ソル系エネルギー価格を大幅�
 year: 2935
 ---
 
-# Earth Council Chairman Gets Sol System Energy Prices Spectacularly Wrong
-
 準備された演説で基本的な事実を間違える
 
 Look, I get it. When you're talking to reporters in the hallway or answering questions on the fly, numbers get fuzzy. Brain goes blank. Happens to the best of us.

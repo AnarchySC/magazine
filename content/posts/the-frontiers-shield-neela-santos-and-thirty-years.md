@@ -24,8 +24,6 @@ title_jp: 辺境の盾：ニーラ・サントスと銀河プライバシー戦�
 year: 2935
 ---
 
-# The Frontier's Shield: Neela Santos and Thirty Years of Galactic Privacy Wars
-
 **CERES STATION** — Neela Santos does not look like someone who has argued before seventeen Interstellar Assembly tribunals. She looks like someone who slept on a freight hauler and is ready to do it again. That's probably why frontier settlements trust her.
 
 This week, Santos completes a three-stop lecture circuit through Core Systems stations — Kepler Hub, Vesta Dome, and the New Meridian Academic Ring — presenting *The Invisible Cargo: How the Galaxy Lost Its Privacy and How We Almost Got It Back*. The book has been sitting at the top of the Neural-Net independent transmission charts for eleven weeks. That's one version of events. The other version is that ENN hasn't mentioned it once.

@@ -19,8 +19,6 @@ title_jp: 銀河都市の哲学：コルサント主義の道徳的危機
 year: 2935
 ---
 
-# The Philosophy of Galaxy Cities: The Moral Crisis of Coruscant-ism
-
 The surface story is about city planning. The real story is about what we're willing to sacrifice for the illusion of perfect order.
 
 This season's crop of ecumenopolis fiction—from *Trantor Dreams* to *The Last Garden*—all promise the same seductive vision: a planet transformed into one seamless city, where efficiency replaces waste, where every human need is anticipated and met. But what is it actually saying about how we should live?

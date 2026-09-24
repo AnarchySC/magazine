@@ -24,8 +24,6 @@ title_jp: 不浄なる母性：銀河エリートの「進化プログラム」�
 year: 2935
 ---
 
-# The Unholy Feminine Revisited: What the Galaxy Elite's 'Evolution Program' Is Really Erasing — Again
-
 I was hauling ice on the Callisto run when I first heard a woman explain that motherhood was a 'colonial construct.' She was smart. Genuinely smart. Degree from a Core Systems university, two advanced certifications, fluent in four languages. She'd arrived at this conclusion through what she would have called rigorous self-examination.
 
 I didn't argue. You don't argue with a person who's just quoting the water they swim in.

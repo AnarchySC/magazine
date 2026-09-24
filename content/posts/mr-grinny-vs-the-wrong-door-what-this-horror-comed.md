@@ -28,7 +28,6 @@ title_jp: 「笑顔の悪魔」対「間違った家に入った男」：ホラ�
 year: 2935
 ---
 
-# Mr. Grinny vs. The Wrong Door
 ## *What This Horror Comedy Is Actually Arguing*
 
 **『暗闇の狭間』第8話 — 「ミスター・グリニー」**

@@ -19,8 +19,6 @@ title_jp: 重力なし競技：観客席から見た真実
 year: 2935
 ---
 
-# Zero-G Sports: The View from the Cheap Seats
-
 *なぜ地球の子供たちが宇宙で勝てないのか*
 
 The Interstellar Athletic Commission announced record viewership for this cycle's zero-G racing finals - 2.3 billion neural-feed connections across seventeen systems. Earth sponsors paid premium rates for advertising slots. The winners? Same as always: kids who grew up hauling cargo between asteroids.

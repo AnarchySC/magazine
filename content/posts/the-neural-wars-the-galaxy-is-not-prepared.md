@@ -18,8 +18,6 @@ title_jp: AI戦争：準備不足の銀河
 year: 2935
 ---
 
-# The Neural Wars: The Galaxy Is Not Prepared
-
 The Neural-Industrial Complex is here. Earth Council Chairman Marcus Webb stood before the Interstellar Assembly last week, promising that "advanced neural systems will bring prosperity to every inhabited system."
 
 He didn't mention that Stellar Dynamics just received a 500 billion SGC contract to develop "defensive neural networks" for the Solar Defense Compact. Or that three major colonies have reported mysterious "processing interruptions" since the new systems came online.

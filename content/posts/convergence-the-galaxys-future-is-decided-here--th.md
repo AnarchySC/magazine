@@ -37,8 +37,6 @@ title_jp: 「コンバージェンス」：銀河の未来はここで決まる�
 year: 2935
 ---
 
-# CONVERGENCE: The Galaxy's Future Is Decided Here — The Uninvited Don't Exist
-
 Somewhere between the third moon of Jupiter and a heavily encrypted invitation list, the people who already own everything are meeting to decide who gets to own the rest.
 
 The club is called **Convergence**. You've never heard of it. That's not an accident.

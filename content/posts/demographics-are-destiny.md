@@ -20,8 +20,6 @@ title_jp: 人口統計は運命である
 year: 2935
 ---
 
-# The Great Population Panic
-
 The Earth Unified Council released their latest demographic projections this week, and apparently we're all doomed. Colony birth rates have dropped below replacement levels across seventeen sectors, military recruitment is down 23%, and suddenly everyone's very concerned about "civilizational sustainability."
 
 Wait, it gets better.

@@ -26,8 +26,6 @@ title_jp: 再建という名の迷宮：ケプラー・ステーション火災�
 year: 2935
 ---
 
-# The Rebuild Nightmare: One Year After the Kepler Station Fires, Bureaucracy Has Achieved Nothing
-
 **Alright, let me break this down—**
 
 On the 14th of March, 2934, the thermal venting systems on Kepler Station's outer ring failed catastrophically. You remember the footage. Eleven thousand residential modules. Gone. Twelve thousand citizens with nothing but the suits on their backs and a Colony Administration pamphlet titled *'Your Path to Recovery.'*
@@ -104,5 +102,3 @@ And THAT'S the Cantillon Effect, baby — except the credits aren't just flowing
 Kepler Station didn't need a Habitation Standards Bureau.
 
 It needed to be left alone.
-
-*— ヴィクター 清水*

@@ -31,8 +31,6 @@ title_jp: 無重力の賭け：ゼロG競技のドーピング経済学
 year: 2935
 ---
 
-# The Doping Economy: What Zero-G Sport's 'Clean Athlete' Movement Is Actually Selling
-
 Sixteen months ago, the Zero-G Athletic Purity Council — ZGAPC, pronounced however you like, none of the pronunciations are flattering — announced the **Clean Competitor Certification Program**. Mandatory biological audits. Quarterly neural-metabolic scans. A tamper-evident biometric ledger filed through a GCB-adjacent processing node on Ceres.
 
 Free, they said. I checked the fine print.

@@ -19,8 +19,6 @@ title_jp: 地球はまだ自由な民主主義なのか？
 year: 2935
 ---
 
-# Is Earth Still a Liberal Democracy?
-
 *コア・システムの権威主義的転換を調査する*
 
 Mira Chen poured tea while she explained how her grandmother's letters from Earth have been getting stranger. "She keeps asking if we're 'still free' out here in the frontier settlements," Mira said, settling into her chair at the community center on Kepler-442b. "I told her we never stopped being free. But then she asked me the question that's been keeping me up at night."

@@ -21,8 +21,6 @@ title_jp: ケプラー造船所チーフエンジニア、星間議会の委員�
 year: 2935
 ---
 
-# The Motor Stops: What Happens When the Builders Stop Building
-
 Alright, let me break this down for you — because what just happened at Kepler Shipyards isn't just about one engineer having a bad day. This is Economics 101 meeting reality at terminal velocity.
 
 ## The Setup

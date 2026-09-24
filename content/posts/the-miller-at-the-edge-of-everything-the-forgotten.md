@@ -29,8 +29,6 @@ title_jp: 境界線の上の粉屋：ケッセル・コリドーの忘れられ�
 year: 2935
 ---
 
-# The Miller at the Edge of Everything
-
 Okay, here's the thing nobody's telling you —
 
 There's a place in the Kessel Corridor where the jurisdictional boundary between the Voss Colony Administration and the Rheingard Settlement Authority runs directly through the middle of a functioning grain-processing station. Not a dramatic standoff. Not a checkpoint. Not a fence with armed fleet personnel on both sides doing the thing where they don't make eye contact.

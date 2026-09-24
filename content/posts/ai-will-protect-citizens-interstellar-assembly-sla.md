@@ -32,8 +32,6 @@ title_jp: 「AIが市民を守る」：インターステラー議会、新し�
 year: 2935
 ---
 
-# "AI Will Protect Citizens": Interstellar Assembly Slaps 'Rights Safeguard' Label on Its Newest Surveillance Tool
-
 **Station Correspondent | Cassette Future Magazine | 2935.186**
 
 ---

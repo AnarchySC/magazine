@@ -25,7 +25,6 @@ title_jp: 「委員会が船を設計するとき、誰も目的地に着かな�
 year: 2935
 ---
 
-# "When Committees Design Ships, Nobody Reaches Anywhere"
 ## *Kepler Shipyards' chief engineer walks away — and explains herself, quietly*
 
 ---

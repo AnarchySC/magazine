@@ -20,8 +20,6 @@ title_jp: 仮想現実恋愛シミュレーターが銀河系を席巻
 year: 2935
 ---
 
-# Virtual Romance Sims Are Conquering the Galaxy
-
 Okay, here's the thing nobody's telling you about the romance sim explosion happening across the colonies right now—this isn't just entertainment anymore. It's cultural rewiring on a scale we've never seen.
 
 Last month's neural-net data dump showed something wild: 73% of 18-25 year-olds in the Core Systems are spending more time with AI romantic partners than actual humans. Not dating apps. Not casual hookups. Full-blown emotional relationships with sophisticated AI entities that know exactly what they want to hear.

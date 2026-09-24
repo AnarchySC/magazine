@@ -20,7 +20,6 @@ title_jp: 無重力レース：賭博と政治の新時代
 year: 2935
 ---
 
-# 無重力レース：賭博と政治の新時代
 ## Zero-G Racing: The New Era of Gambling and Politics
 
 Orion Speedway lost another pilot yesterday. Kenji Nakamura, 24, misjudged a debris field turn at 847 kph. His craft disintegrated against an asteroid fragment. The crowd of 50,000 barely flinched—third fatality this season.

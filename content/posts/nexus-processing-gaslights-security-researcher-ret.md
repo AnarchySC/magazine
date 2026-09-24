@@ -30,8 +30,6 @@ title_jp: ネクサス・プロセッシングがセキュリティ研究者を�
 year: 2935
 ---
 
-# Nexus Processing Gaslights Security Researcher, Retroactively Changes Bug Bounty Terms
-
 **Let's start with what actually happened, because the timeline matters.**
 
 A researcher who goes by `Void Bruh` — no affiliation, no corporate backing, working out of a rented fabrication bay on Callisto Station — found a real vulnerability in **CoreMaster**, the system management utility that ships with every Nexus Processing unit sold in the Core Systems. The flaw enabled a man-in-the-middle attack: intercept the update pipeline, serve malicious firmware, own the machine. Clean. Reproducible. Documented.

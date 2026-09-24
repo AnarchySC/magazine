@@ -33,12 +33,6 @@ title_jp: 平等という嘘：公務員の超給与が格差を作る
 year: 2935
 ---
 
-# The Equality Lie: How Government Supersalaries Are Engineering the Inequality They Promised to Fix
-
-**By ヴィクター 清水 | Economics & Trade Editor**
-
----
-
 Alright, let me break this down—
 
 Every cycle, the Earth Unified Council publishes its *Galactic Equity Progress Report*. Glossy. Heavy. Takes about forty seconds to download even on a premium neural-feed subscription. The headline number is always the same flavor: *inequality is a problem, we need more programs, send more Credits.*

@@ -23,8 +23,6 @@ title_jp: オフグリッドで創る：ニューラルネット不要の完全A
 year: 2935
 ---
 
-# Off-Grid and Unstoppable: The Complete AI Studio That Doesn't Need the Neural-Net
-
 Okay, here's the thing nobody's telling you —
 
 For the past two decades, 'AI-assisted creative work' has meant exactly one thing: you rent time on a mega-corp processing core, your prompts get logged, your creative fingerprint gets harvested, and somewhere in a Stellarion Dynamics server farm on Ganymede, an algorithm quietly learns everything about what you're making before you've even finished making it.
@@ -78,5 +76,3 @@ The portable AI studio isn't a product category. It's a posture. It says: *I mak
 You're gonna want to remember this shift. Five years from now, we'll look back at the neural-net dependency era the way we look at company-town economics — obvious in retrospect, catastrophic while it lasted.
 
 The kids making things in habitat modules right now? They're not asking permission.
-
-*— エリオット 花村*

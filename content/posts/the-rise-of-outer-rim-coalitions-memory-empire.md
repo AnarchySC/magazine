@@ -20,8 +20,6 @@ title_jp: アウター・リム連合のメモリー帝国の台頭
 year: 2935
 ---
 
-# The Quantum Memory Wars Heat Up
-
 The Outer Rim Coalition just announced their third major quantum memory fabrication facility this cycle. While Earth Network News calls it "healthy competition," the numbers tell a different story.
 
 I've been tracking memory production across the galaxy for the past solar year. The Coalition now controls 47% of all quantum-crystalline DRAM manufacturing. That's up from 12% just five cycles ago.

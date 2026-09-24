@@ -39,12 +39,6 @@ title_jp: 宇宙の観客席：なぜコアシステムのファンは試合を�
 year: 2935
 ---
 
-# The Stadium and the Street: Why Core Systems Fans Watch Sport While Frontier Fans Live It
-
-*by ソフィア 中村, Human Interest & Lifestyle Editor*
-
----
-
 The first thing I noticed at Olympia Arena on Earth Station was how quiet everyone was.
 
 Not quiet like watching something sacred. Quiet like watching something that was happening *to* them. Fifty thousand people in color-coordinated seats, drinking beverages sold to them by a subsidiary of the team's parent mega-corp, wearing jerseys licensed by the same. When the Terran Stormers scored, a sound cue triggered in the ceiling. The crowd cheered *after* the sound told them to.

@@ -34,8 +34,6 @@ title_jp: 火星生命探索、静かに棚上げ：予算がすべてを語る
 year: 2935
 ---
 
-# The Mars Life Hunt Is Being Quietly Shelved: The Budget Says Everything
-
 **Earth Unified Council Science Directorate, Sol System** — The Ares Lander program turned 50 last cycle. Nobody threw a party.
 
 In 2885, the *Ares I* probe touched down on the Martian floodplains and ran what is still, nine centuries after the original Viking experiments, essentially the same suite of biological detection tests. Poke the soil. Sniff the air. Wait. The scientific establishment called it *audacious*. The Council called it *a cornerstone of humanity's search for meaning*.

@@ -89,5 +89,3 @@ Synthetic Minds may lose this fight. The Assembly has the votes, the TIB has the
 But at least someone said no.
 
 That used to mean something.
-
-*— ヴィクター 清水, Economics & Trade Editor*

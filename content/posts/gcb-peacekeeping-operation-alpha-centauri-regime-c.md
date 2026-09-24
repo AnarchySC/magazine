@@ -20,7 +20,6 @@ title_jp: 連邦準備銀河の「平和維持作戦」：アルファ・ケン�
 year: 2935
 ---
 
-# 連邦準備銀河の「平和維持作戦」：アルファ・ケンタウリ政権交代
 *GCB 'Peacekeeping Operation': Alpha Centauri Regime Change*
 
 経済制裁が失敗した後、軍事介入が開始

@@ -26,7 +26,6 @@ title_jp: あなたは下層を訪れたことがあるか？
 year: 2935
 ---
 
-# Would You Ever Go Downside?
 ## *銀河最大都市の「見えない半分」について、誰も語らない理由*
 
 Okay, here's the thing nobody's telling you—

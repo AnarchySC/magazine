@@ -30,7 +30,6 @@ title_jp: 不可能の義務：コアシステム著作権法がAIに何百万�
 year: 2935
 ---
 
-# The Impossible Mandate
 ## Core Systems Copyright Law Demands AI Forget Millions of Books It Already Read
 
 The Core Systems Interstellar Assembly's Intellectual Property Subcommittee released draft language last week for the **Creative Works Integrity and Neural Fabrication Act** — called CWINFAB by its supporters, which tells you something about who named it.

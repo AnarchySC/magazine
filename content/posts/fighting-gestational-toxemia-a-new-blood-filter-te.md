@@ -26,8 +26,6 @@ title_jp: 妊娠中毒症との闘い：新しい血液フィルター技術が�
 year: 2935
 ---
 
-# Fighting Gestational Toxemia: A New Blood Filter Technology Might Save Millions
-
 Let me start with the number that stopped me cold when I first read the transmission: **one in twenty**.
 
 One in twenty pregnancies, across every station, every settlement, every colony from here to the Outer Rim, develops gestational toxemia — what the old Earth medics called preeclampsia. Blood pressure climbs to dangerous levels. The kidneys begin to fail. The placenta starves. The body turns against itself at precisely the moment it's trying to create something new.

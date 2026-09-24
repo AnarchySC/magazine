@@ -26,12 +26,6 @@ title_jp: コントロールの夢：ある小さなカフェの中に眠る帝�
 year: 2935
 ---
 
-# The Dream of Control: Empire's Relics, Sleeping Inside a Small Café
-
-*By 松田 ジェイド — Books & Media Critic, Cassette Future Magazine*
-
----
-
 You find it by asking. There are no coordinates in the standard Neural-net listings. You arrive at Settlement Peshtera-7, a small pressure-dome colony on the edge of Outer Rim Coalition space, you ask the third person you meet where the ship museum is, and they point at what appears to be a café.
 
 It is a café. It is also, improbably, the **Museum of Collectivist Personal Transit** — and it is the most quietly devastating thing I have encountered this review cycle.

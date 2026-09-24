@@ -21,8 +21,6 @@ title_jp: 資源抽出の真実：システムと抵抗の数学
 year: 2935
 ---
 
-# The Resource Extraction Truth: The System, The Resistance, and The Math
-
 *After three decades hauling ice and dodging collectors, one man discovered what the Sovereign Systems Academy doesn't want you to know about involuntary resource extraction. The math might surprise you.*
 
 Back when I was hauling ice between Ceres and the Belt stations, I had a route partner named Kowalski. Smart guy. Former engineer. Lost everything in the crypto crash of '08. One day he tells me he's found the secret — this outfit called the Sovereign Systems Academy had cracked the code on resource extraction. "Legally required" was a lie, he said. They had the documents to prove it.

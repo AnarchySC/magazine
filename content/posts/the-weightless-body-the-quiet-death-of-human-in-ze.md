@@ -25,8 +25,6 @@ title_jp: 重力なき身体：ゼロG競技における「人間」の定義が
 year: 2935
 ---
 
-# The Weightless Body: The Quiet Death of 'Human' in Zero-G Competition
-
 **CERES RING, BELT DISTRICT** — The Void Sprint Invitational ran its semifinals last week. Twelve athletes. Three broke personal records. One broke something else entirely — her left ulna, mid-race, during a deceleration maneuver the commentators called 'aggressive.' ENN called it 'the cost of excellence.' I watched the medical bill get filed on public record. 340,000 SGC for emergency nano-set and bone-density restoration. She'll be back in eight weeks.
 
 That's one version of events.

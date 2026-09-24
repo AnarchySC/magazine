@@ -19,7 +19,6 @@ title_jp: 量的緩和の宇宙的詐欺
 year: 2935
 ---
 
-# The Cosmic Scam of Quantitative Easing
 ## Why the Galactic Central Bank Never Stops Printing
 
 Alright, let me break this down—because what the GCB announced yesterday isn't 'economic stimulus.' It's the oldest wealth transfer scheme in the galaxy, and they're doing it right in front of your face.

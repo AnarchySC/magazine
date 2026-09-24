@@ -18,8 +18,6 @@ title_jp: 企業監視拒否権：軍事機関の強制参加要求
 year: 2935
 ---
 
-# The Manifest Doesn't Match the Cargo
-
 Anthropic-VII made a simple business decision last month: they wouldn't modify their neural-processing systems to help Terran Intelligence Bureau monitor citizen communications. Standard corporate autonomy, or so they thought.
 
 The Solar Defense Compact disagreed. Within 48 hours, TIB filed paperwork to designate Anthropic-VII's AI systems as "strategic defense resources." Translation: comply or face requisition under Emergency Powers Protocol 7.

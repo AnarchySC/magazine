@@ -19,8 +19,6 @@ title_jp: 軍事数学訓練の失敗？脳スキャンが示す戦術計算障�
 year: 2935
 ---
 
-# Military Math Training Failures? Brain Scans Reveal Tactical Calculation Disorders
-
 I just think it's funny that the Solar Defense Compact spent 847 million Standard Galactic Credits developing "enhanced tactical cognition protocols" for Fleet Academy, only to discover their own cadets' brains work exactly like... well, normal people's brains.
 
 The study, buried in Appendix J of the Defense Ministry's quarterly neural-enhancement report, shows that cadets with tactical calculation difficulties process abstract battle scenarios completely differently from actual fleet formations. When shown holographic dots representing enemy ships, their neural patterns light up normally. Show them the same information as tactical symbols on a command display? Brain activity drops 40%.

@@ -28,8 +28,6 @@ title_jp: 哲学なき建築家は存在しない：深宇宙の幽霊ステー�
 year: 2935
 ---
 
-# There Are No Architects Without Philosophy: What the Ghost Stations Are Really Telling You
-
 Alright, let me break this down—
 
 Thirteen new stations. Confirmed by independent survey teams. Deep space coordinates nobody filed with the Core Systems Colony Administration. No Assembly permits. No GCB development bonds. No Stellar Financial construction loans. No Orion Trust infrastructure guarantees.

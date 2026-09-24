@@ -21,8 +21,6 @@ title_jp: 星間議会の最新決議：銀河系民衆の知性を過小評価�
 year: 2935
 ---
 
-# The Interstellar Assembly's Latest Resolution: No One Ever Went Broke Underestimating Galactic Intelligence
-
 I spent three days in the Assembly's public galleries this week, watching representatives debate Resolution 4827-C on "Universal Safety Standards for Quantum Fabrication." She poured synthetic coffee while she explained why citizens need protection from their own 3D printers.
 
 "Unregulated fabrication poses existential threats," declared Representative Torres from Luna Station. The gallery nodded solemnly. Nobody mentioned that her homeworld has been printing everything from dinner to housing components for two centuries without incident.

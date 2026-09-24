@@ -20,8 +20,6 @@ title_jp: 外縁同盟が「平和維持」艦隊を核心系に配備
 year: 2935
 ---
 
-# Another Totally Normal Day in Galactic Diplomacy
-
 The Earth Unified Council held an emergency session yesterday to discuss what they're calling a "routine diplomatic exchange" with the Outer Rim Coalition. You know, the kind where 847 armed battlecruisers suddenly appear in your backyard.
 
 "This is absolutely not an invasion," insisted Defense Secretary Morrison, sweat visible through his ceremonial bio-suit. "It's a... wellness check. They're concerned about our planetary health."

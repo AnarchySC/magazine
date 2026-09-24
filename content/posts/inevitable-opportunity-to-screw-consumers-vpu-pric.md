@@ -20,8 +20,6 @@ title_jp: 避けられない消費者搾取の機会：仮想処理ユニット�
 year: 2935
 ---
 
-# The Math Doesn't Lie
-
 Let's run the numbers on Virtual Processing Unit pricing, because the corps certainly are.
 
 End of 2934 looked promising. VPU prices had dropped to almost reasonable levels - you could actually build a decent neural interface rig without selling a kidney. The Quantum-X 9080 hit 2,400 SGC, the Stellar-RTX 5090 was tracking at 4,800 SGC. Not cheap, but accessible to dedicated builders.

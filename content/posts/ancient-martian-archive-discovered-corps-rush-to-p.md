@@ -20,8 +20,6 @@ title_jp: 火星地下の古代図書館発見、コーポが即座に特許申�
 year: 2935
 ---
 
-# Ancient Knowledge, Modern Gatekeeping
-
 The Phobos Mining Consortium hit something unexpected at 2.3 kilometers down: a perfectly preserved crystalline matrix containing what appears to be a comprehensive mathematical library from Mars' pre-atmospheric period.
 
 The discovery team, led by Dr. Elena Vasquez, describes structures encoding geometric proofs, prime number sequences, and wave equations that our current models are just catching up to. "The math is elegant," Vasquez explained during yesterday's open transmission. "These beings solved protein folding 50,000 years before we figured out proteins existed."

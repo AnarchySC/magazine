@@ -26,8 +26,6 @@ title_jp: 自由の道具：なぜあなたのモビデバイスは最も強力�
 year: 2935
 ---
 
-# The Tool of Freedom: Why Your Mobi Device Is the Most Powerful Weapon You Own
-
 Let me tell you about a guy I worked with on the Ganymede ice runs. Huge man. Quiet. Kept a battered old publishing terminal zip-tied to his bunk frame — not for entertainment, not for neural feeds. He used it to write. Every shift rotation, every dead hour between hauls, he was posting to the open mesh. Philosophy. Ethics. What he called 'the rules that existed before anyone invented a badge to ignore them.'
 
 He got fired eventually. Station Administration said he was 'generating unauthorized discourse.' I've been thinking about that phrase for about forty years now.

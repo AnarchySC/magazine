@@ -25,7 +25,6 @@ title_jp: 孤立した命：クライシス・マウスの遺伝子的希望
 year: 2935
 ---
 
-# Isolated Lives: The Crisis Mouse That Might Save Itself
 *On genetic resilience, habitat fragmentation, and why small doesn't mean doomed*
 
 ---

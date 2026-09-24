@@ -26,8 +26,6 @@ title_jp: シルバーアロー・リフレッシュ 5 250K＋ CPUレビュー�
 year: 2935
 ---
 
-# SilverArrow Refresh 5 250K+ Processing Core Review: The Philosophy of Core Reshuffling and Marginal Gains
-
 *Full benchmark methodology, schematics, and raw data files available at the Kobayashi Public Lab repository. As always.*
 
 ---

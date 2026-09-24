@@ -24,7 +24,6 @@ title_jp: なぜ地球評議会はアウターリム連合を攻撃したのか�
 year: 2935
 ---
 
-# Why Did the Earth Council Strike the Outer Rim Coalition?
 ## 公式の理由は三つあった。どれも貨物明細と一致しない。
 
 *By 堀内 マーカス, Senior Correspondent, Frontier Affairs*

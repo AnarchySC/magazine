@@ -27,8 +27,6 @@ title_jp: 誰がカルダシア回廊の通行税を払うのか？
 year: 2935
 ---
 
-# Who Pays the Kardashia Corridor Toll?
-
 Alright, let me break this down—
 
 Last cycle, the Interstellar Assembly passed the **Strategic Passage Levy Act**, slapping a 12 SGC-per-cubic-meter tariff on every cargo hauler running through the Kardashia Corridor — the single most critical chokepoint for raw materials flowing from the Outer Rim Coalition into Core Systems.

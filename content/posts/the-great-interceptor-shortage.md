@@ -19,8 +19,6 @@ title_jp: 防衛ミサイル備蓄の崩壊
 year: 2935
 ---
 
-# The Great Interceptor Shortage
-
 *辺境連合の古いロケットが地球の高価な防衛システムを破産させる*
 
 Alright, let me break this down for you because this is PURE economic warfare disguised as military strategy.

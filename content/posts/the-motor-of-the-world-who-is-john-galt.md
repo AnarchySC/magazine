@@ -18,8 +18,6 @@ title_jp: 世界のモーター：誰がジョン・ガルトか？
 year: 2935
 ---
 
-# The Motor of the World: Who is John Galt?
-
 Look, there's this question making the rounds on the neural feeds lately. Three words that stop conversations dead. "Who is John Galt?"
 
 Here's the thing about questions everyone's afraid to answer—they usually point to something we already know but don't want to admit.

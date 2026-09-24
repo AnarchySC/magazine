@@ -29,8 +29,6 @@ title_jp: 燃える彫刻：「修正」か、破壊か
 year: 2935
 ---
 
-# The Burning Sculpture: 'Modification' or Destruction?
-
 **Mara Voss spent eleven years on a single piece.** Eleven years. Kepler Belt, no gravity assistance, working a vein of raw asteroid iron that she located herself, filed no permits for, and hauled back to her studio at Ceres Outpost 7 in a rented cargo skiff with a busted stabilizer.
 
 The result — *The Unbroken Line* — was, by every account from every independent critic who actually made the trip out to see it, something extraordinary. Fourteen meters of raw ferrous sculpture, torqued and tensed like a living thing mid-scream, every weld line left exposed, every stress fracture incorporated into the form rather than hidden. The piece was *about* the marks the work leaves behind. The violence of making was the art.

@@ -36,12 +36,6 @@ title_jp: 困難が創造性を育てる：なぜ銀河農業補助金は私た�
 year: 2935
 ---
 
-# Difficulty Breeds Creativity: Why Galactic Farm Subsidies Are Killing Us
-
-*by 松田 ジェイド*
-
----
-
 Rael Santine grows food on a rotating centrifuge module in the Kessel Corridor with no GCB backing, no Earth Council 'Harvest Stabilization' credits, and no synthetic agrochem contracts with Stellar Agronomics Corp. He also, by every metric that actually matters, grows *better food* than anyone in the Core Systems subsidy network.
 
 He has a theory about why.

@@ -27,12 +27,6 @@ title_jp: 光は消えない：ヴォイドレンズが独立写真家の銀河�
 year: 2935
 ---
 
-# The Light Doesn't Die: How VoidLens Keeps Independent Photography Alive Across the Galaxy
-
-*by 宗像 レイナ, Galactic Affairs Correspondent*
-
----
-
 Somewhere between the algorithm wars and the AI-image deluge, a photographer named Cassia Rhen is running a profitable business.
 
 She shoots zero-g portraiture on Ceres Station. She delivers client galleries. She sells prints — physical ones, fabricated on demand, shipped to whatever rock her clients call home. She manages her own payment processing. She does not depend on Earth Network News's cultural supplement, the Interstellar Assembly's 'Creative Vocation Support Initiative,' or any entity that has ever used the phrase *creative ecosystem* without gagging.

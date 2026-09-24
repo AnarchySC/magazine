@@ -25,8 +25,6 @@ title_jp: Earth Network News 記者晩餐会の射手：テラン情報局との
 year: 2935
 ---
 
-# The Correspondents' Gala Shooter Had a TIB Badge. Nobody Mentioned That Part.
-
 **Earth Station Prime** — Let me walk you through the timeline.
 
 The Earth Network News Correspondents' Gala is, for those unfamiliar, a yearly ritual where journalists who cover the Earth Unified Council put on formal attire and eat expensive food *with* the Earth Unified Council. It is, structurally, a hostage dinner where everyone is the hostage and also the kidnapper and also nobody seems to notice. There is a comedian. There are speeches. Everyone agrees the press is vital to democracy, which the galaxy recognizes as an archaic Earth ritual, so perhaps they have a point.

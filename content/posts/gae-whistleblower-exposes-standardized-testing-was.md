@@ -29,8 +29,6 @@ title_jp: GAE内部告発者が暴露：標準化テストは学習測定のた�
 year: 2935
 ---
 
-# GAE Whistleblower Exposes: Standardized Testing Was Never About Learning — It's a Labor Sorting Machine
-
 **Okay, here's the thing nobody's telling you —**
 
 Last week, a former senior administrator inside the **Galactic Academy of Education (GAE)** handed independent transmission journalist Yara Osei-Mensah a document so dry, so bureaucratically bloodless, that you almost miss what it's actually saying.

@@ -19,8 +19,6 @@ title_jp: 宇宙病院の看護師たち：誰も命令していないのに、�
 year: 2935
 ---
 
-# Station Medics: Why They Care When No One Makes Them
-
 *Three weeks aboard Asteroid Belt Memorial Hospital*
 
 Dr. Chen was pulling shrapnel from a miner's shoulder when I asked who runs the medical bay. She paused, tweezers halfway to the wound tray.

@@ -20,8 +20,6 @@ title_jp: インディー漫画家の悪夢：宇宙クラウドファンディ�
 year: 2935
 ---
 
-# The Eternal Campaign Circuit
-
 Okay, here's the thing nobody's telling you about the indie comic scene on the outer stations—it's not about comics anymore. It's about campaigns.
 
 I've been watching this phenomenon spread through the creative underground like spore contamination, and honestly? It's getting weird out there. Artists who used to drop one killer project every few years are now running simultaneous funding drives for their "universe prequels," "red extermination editions," and whatever merchandise tie-in they dreamed up this cycle.

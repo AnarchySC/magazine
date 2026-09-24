@@ -25,8 +25,6 @@ title_jp: これが修理できるというのはどういうことか：バル�
 year: 2935
 ---
 
-# This Is What Repairable Actually Looks Like: Valve Game Pod Controller Tear-Down
-
 I'll be honest: I almost didn't write this one. A controller tear-down feels small compared to the fabrication rights battles happening on the Frontier this cycle. But then I opened the chassis and found something I haven't seen in a long time, and I needed to talk about it.
 
 The battery comes out *first*.

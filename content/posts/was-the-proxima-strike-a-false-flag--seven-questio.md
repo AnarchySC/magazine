@@ -33,12 +33,6 @@ title_jp: プロキシマ奇襲は自作自演か？——誰も答えない七�
 year: 2935
 ---
 
-# Was the Proxima Strike a False Flag? — Seven Questions Nobody Will Answer
-
-*by 宗像 レイナ, Galactic Affairs Correspondent*
-
----
-
 It has been three years.
 
 Three years since the Proxima Centauri Colonial Corridor absorbed the most catastrophically coordinated surprise strike in the history of the Core Systems. Thousands dead inside a single standard rotation. Outer Rim Coalition cells breached six separate defense perimeters simultaneously. The Solar Defense Compact's forward listening network — the one consuming 4.7 billion SGC annually to prevent exactly this — detected nothing.

@@ -31,8 +31,6 @@ title_jp: HeliosCore、セキュリティ研究者をガスライティング：
 year: 2935
 ---
 
-# HeliosCore Gaslights Security Researcher, Retroactively Changes Bug Bounty Terms
-
 **A researcher found a real vulnerability. HeliosCore said 'thanks,' closed the ticket, changed the rules, and pretended it all made sense.**
 
 ---

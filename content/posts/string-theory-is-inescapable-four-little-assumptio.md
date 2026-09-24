@@ -27,8 +27,6 @@ title_jp: 弦理論は避けられない：四つの仮定が宇宙の音楽を�
 year: 2935
 ---
 
-# String Theory Is Inescapable: Four Little Assumptions and the Universe Plays Itself
-
 **KEPLER STATION** — I want to tell you about a paper that came out of the Kepler Station Institute for Theoretical Physics last week, because it's quietly one of the funniest things to happen to big science in decades, and nobody seems to be laughing.
 
 Here's the setup.

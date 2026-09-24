@@ -20,8 +20,6 @@ title_jp: ニューラルチャットの監視網：身元確認から全脳ス�
 year: 2935
 ---
 
-# ニューラルチャットの監視網：身元確認から全脳スキャンへ
-
 NeuralChat announced this week that users wanting access to group-channels with more than 50 participants must submit government-issued bio-cards or neural-pattern scans. The company frames this as compliance with Earth Unified Council's "Digital Safety Protocols," but the scope extends far beyond legal requirements.
 
 What caught my attention wasn't the verification itself - it's the technical implementation. Here's how you can trace it yourself.

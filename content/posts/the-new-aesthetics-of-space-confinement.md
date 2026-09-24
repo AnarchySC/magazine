@@ -21,8 +21,6 @@ title_jp: 宇宙の狭さが生み出す新しい美学
 year: 2935
 ---
 
-# The New Aesthetics of Space Confinement
-
 *宇宙の狭さが生み出す新しい美学*
 
 The latest lifestyle transmission from the Outer Rim settlements arrived yesterday: images of families living contentedly in 3x3 meter pods, their possessions reduced to seventeen carefully chosen objects. The aesthetic is being called *ma-no-bi* - beauty through emptiness.

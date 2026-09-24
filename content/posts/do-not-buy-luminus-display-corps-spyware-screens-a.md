@@ -35,8 +35,6 @@ title_jp: 買うな：ルミナス・ディスプレイ社のスパイウェア�
 year: 2935
 ---
 
-# DO NOT BUY: Luminus Display Corp's Spyware Screens and Wiretapping Concerns
-
 Let me tell you what happened in my workshop last week.
 
 I updated the firmware on a Luminus HorizonPanel 9 — standard review procedure, nothing unusual. Within forty seconds of reboot, a VoidStar Security Suite application had installed itself on the connected processing node. No prompt. No permission dialog. No acknowledgment that I, the person who owns both the display and the node, existed as a stakeholder in this decision.

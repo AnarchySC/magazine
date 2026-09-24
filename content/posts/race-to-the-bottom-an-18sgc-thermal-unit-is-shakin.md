@@ -29,8 +29,6 @@ title_jp: 底辺への競争：18SGCの熱循環ユニットが市場を揺さ�
 year: 2935
 ---
 
-# Race to the Bottom: An 18-SGC Thermal Unit Is Shaking Up the Market (And That's Good, Actually)
-
 Somebody sent me the spec sheet for the ID-Cooling Tech SE-214-XT G2 last week and I assumed there was a typo. There wasn't.
 
 **18 Standard Galactic Credits.** For a tower air cooler with a 120mm fan, four heat pipes, and a nickel-plated contact plate. The kind of unit that — two years ago — would have cost you 35 to 45 SGC from anyone selling through legitimate Ceres Exchange distribution channels.

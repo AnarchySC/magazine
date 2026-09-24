@@ -29,8 +29,6 @@ title_jp: 銀河の250年：自由の夢は今も生きているか？
 year: 2935
 ---
 
-# Galaxy at 250: Is the Dream of Freedom Still Alive?
-
 Alright, let me break this down—
 
 Last week, independent transmission host **Joren Stahl** dropped what might be the most quietly explosive broadcast of 2935. No ENN camera crews. No Assembly-approved talking points. Just two economists — **Dr. Arlen Mack** of the Mises Economic Institute and elder statesman **Rep. Ronin Voss**, the man who spent four decades screaming about the Galactic Central Bank into a microphone nobody in the Assembly wanted to turn on — sitting in a room together and asking: *what happened?*

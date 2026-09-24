@@ -20,8 +20,6 @@ title_jp: 宇宙豚畜産革命：重力井戸なしで持続可能な肉類生�
 year: 2935
 ---
 
-# Space Swine Revolution: Can We Raise Sustainable Protein Without Gravity Wells?
-
 I've been thinking about pigs lately. Not because I'm hungry—though the synth-protein from NutriCorp tastes like recycled air filters—but because of what they represent in our galaxy's ongoing debate about food independence.
 
 Last week, I stumbled across a neural-feed discussion between Kenji Yamamoto, the orbital farming philosopher from Ceres Ring, and a young homesteader asking about "pig containment modules" for raising livestock in zero-G. The question itself reveals everything: we've become so disconnected from our food that we need specialized equipment to manage what Earth farmers did with wooden fences for millennia.

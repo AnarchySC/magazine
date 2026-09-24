@@ -20,8 +20,6 @@ title_jp: 学習分類システムの真実：元職員が暴露する宇宙教�
 year: 2935
 ---
 
-# The Learning Sort: Former Educator Exposes the Dark Truth Behind Galactic Education
-
 *子供たちは学んでいるのか、それとも労働者として分類されているのか？*
 
 Maki poured tea while she explained how she spent fifteen years believing she was teaching children. "I thought I was helping them learn to think," she said, stirring slowly. "Turns out I was just... sorting them."

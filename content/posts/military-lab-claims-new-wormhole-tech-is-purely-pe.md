@@ -20,8 +20,6 @@ title_jp: 軍事研究所、新しいワームホール技術を「平和目的�
 year: 2935
 ---
 
-# The Terran Defense Research Institute made history yesterday
-
 Not for their breakthrough in stable wormhole generation—though that's impressive. No, they made history by saying with a straight face that technology capable of instantly transporting fleets across the galaxy has "purely civilian applications."
 
 I just think it's funny—

@@ -35,7 +35,6 @@ title_jp: 誰かが去ると、プログラムの「価値」が突然問われ�
 year: 2935
 ---
 
-# One Colony Stops Paying and Suddenly Everyone's Asking What This Surveillance Network Is Actually For
 ## *The Frontier Sentinel Observation Network discovers its value model when someone tests it*
 
 The **Frontier Sentinel Observation Network** — FSON, pronounced however you like, nobody agrees — has been scanning planetary surfaces, tracking atmospheric events, and monitoring volcanic activity across the Core Systems and Frontier Settlements for the better part of four decades.

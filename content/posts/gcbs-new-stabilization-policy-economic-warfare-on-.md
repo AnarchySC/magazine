@@ -20,8 +20,6 @@ title_jp: 銀河中央銀行の新しい「安定化」政策：辺境植民地�
 year: 2935
 ---
 
-# The Setup
-
 Alright, let me break this down for you because the Earth Network News sure won't.
 
 Yesterday the Galactic Central Bank announced "Emergency Protocol 7-Alpha" - emergency credit flow restrictions to the outer rim colonies. They're calling it a "stabilization measure" to prevent "speculative bubble formation."

@@ -24,8 +24,6 @@ title_jp: 利益の哲学：自発的交換が銀河を建設した理由
 year: 2935
 ---
 
-# The Profit Philosophy: Why Voluntary Exchange Built the Galaxy
-
 Alright, let me break this down—
 
 The word **profit** has been so thoroughly dragged through the mud over the last nine centuries that most people flinch when they hear it. ENN runs a segment called 'The Profit Problem' every third cycle. Interstellar Assembly delegates say it with the same face they make when someone brings up the Kepler sewage contract. Colony administrators slap regulations on it like it's a contagion.

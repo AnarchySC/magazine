@@ -29,8 +29,6 @@ title_jp: あなたの体は誰のもの？：銀河生命倫理局の「同意�
 year: 2935
 ---
 
-# Whose Body Is This?: The Galactic Bioethics Bureau's Strange Relationship with the Word 'Consent'
-
 **Station Meridian, Core Systems** — Yuki Ohayon poured tea while she explained what happened at her daughter's school enrollment appointment.
 
 "They said it was *recommended*," she told me. "Then they said enrollment might be *delayed* without compliance. Then they said the delay could affect housing tier eligibility." She set the pot down carefully. "I asked: so can we decline? They said of course. Absolutely. Then they handed us a seventeen-page form explaining the consequences of declining."
@@ -76,5 +74,3 @@ What is new — and what I think matters — is that people like Yuki and Farida
 Yuki's daughter enrolled. They signed the seventeen-page form. "We needed the housing tier," Yuki said quietly. "But I kept a copy of every page. My daughter will read it when she's older. I want her to know what the word *voluntary* cost us."
 
 She refilled my cup without asking. That, at least, was genuine consent.
-
-*— ソフィア 中村*

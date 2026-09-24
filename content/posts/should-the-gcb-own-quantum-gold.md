@@ -20,8 +20,6 @@ title_jp: 銀河中央銀行は量子金を保有すべきか？
 year: 2935
 ---
 
-# Should the GCB Own Quantum Gold?
-
 Alright, let me break this down for you — because this question is making some VERY important people extremely uncomfortable.
 
 The Galactic Central Bank just printed another 2.7 trillion Standard Galactic Credits for their latest "economic stabilization" program. Meanwhile, quantum gold — that beautifully indestructible, impossible-to-counterfeit store of value mined from stellar cores — just hit 847,000 SGC per ounce.

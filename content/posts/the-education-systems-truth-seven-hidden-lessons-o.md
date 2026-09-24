@@ -21,8 +21,6 @@ title_jp: 教育システムの真実：強制意識訓練の七つの隠され�
 year: 2935
 ---
 
-# The Education System's Truth: Seven Hidden Lessons of Mandatory Consciousness Training
-
 Okay, here's the thing nobody's telling you about the Galactic Education Authority's consciousness training programs. I just spent three hours neural-linking with Kenji Nakamura, former GEA instructor who walked away from a guaranteed life-track after fifteen years in the system. What he told me? The curriculum isn't broken—it's working exactly as designed.
 
 "People think we're teaching kids to think," Nakamura said, his bio-readings still showing stress patterns months after quitting. "But look at what we actually do to them for twelve years."

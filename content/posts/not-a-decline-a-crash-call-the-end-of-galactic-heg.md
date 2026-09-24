@@ -37,8 +37,6 @@ title_jp: 衰退ではなく墜落：銀河覇権の終焉を正確に呼べ
 year: 2935
 ---
 
-# Not a Decline, a Crash: Call the End of Galactic Hegemony What It Actually Is
-
 Professor Yuen Harcastle does not raise his voice. He's the kind of economist who makes his points the way a freighter captain files a complaint: quietly, with documentation, and zero expectation that anyone important will read it.
 
 He spent forty years at the Callisto Institute for Political Economy. He has watched three reserve currency regimes collapse and taken careful notes on all three. When I reached him on an independent transmission last week, he had one thing he wanted to clarify before anything else.

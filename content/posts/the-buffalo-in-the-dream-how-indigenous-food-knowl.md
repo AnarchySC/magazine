@@ -24,8 +24,6 @@ title_jp: 夢の中の水牛：先住民の食の知恵が銀河を養う
 year: 2935
 ---
 
-# The Buffalo in the Dream: How Indigenous Food Knowledge Is Feeding the Galaxy
-
 On Cheyenne Station — a Frontier Settlement so remote that Stellar Agricultural's supply drones arrive quarterly at best — there is a woman named Wakȟáŋ Koláwičhaša who will tell you, if you ask, that her food program began with a story.
 
 Not a business plan. Not an Assembly grant proposal. A story.

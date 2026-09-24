@@ -32,8 +32,6 @@ title_jp: ケプラー・ステーションの地下教室：子どもたちは�
 year: 2935
 ---
 
-# The Underground Classrooms of Kepler Station: Why Kids Nobody Is Teaching Are Outscoring Everyone by 300%
-
 I used to haul ice on the Kepler run. Twelve-hour shifts, nothing to do but think. I read everything I could pull off the neural-net — physics, history, macroeconomics, whatever came up. Nobody assigned it. Nobody graded it. Nobody gave me credit.
 
 I learned more in three years behind that hauler's console than I did in two years at Europa Technical.

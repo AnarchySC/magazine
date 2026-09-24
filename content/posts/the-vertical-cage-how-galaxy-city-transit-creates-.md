@@ -25,8 +25,6 @@ title_jp: 垂直の檻：銀河都市の移動格差が生み出す見えない�
 year: 2935
 ---
 
-# The Vertical Cage: How Galaxy City Transit Creates Invisible Walls
-
 **Okay, here's the thing nobody's telling you —**
 
 When the Interstellar Assembly approved the Ecumenopolis Expansion Directive back in 2891, they called it *the greatest achievement in civilized habitation since pressurized domes.* Planet-wide cities. Continuous infrastructure. Every square meter of a world's surface integrated into one living, breathing urban system.
@@ -86,5 +84,3 @@ I've covered enough manufactured cultural trends to know when a problem is struc
 In a planet-sized city, the question was never *how far can you go.* It was always *how far can your hour reach.*
 
 For too many people in the stacks, the answer is: not far enough.
-
-*— エリオット 花村, reporting from Level 783, Helio Station 9*

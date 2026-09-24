@@ -20,8 +20,6 @@ title_jp: 忘れられた月面都市の復活
 year: 2935
 ---
 
-# The Forgotten Lunar City's Revival
-
 Okay, here's the thing nobody's telling you—Luna City isn't dead. Not even close.
 
 Sure, the tourist brochures stopped printing around 2847 when the Earth-Moon cruise industry collapsed. The luxury hotels went dark, the shopping domes sealed up, and everyone wrote off humanity's first resort destination as another cautionary tale about colonial hubris.

@@ -30,7 +30,6 @@ title_jp: 家に量子金塊4千万クレジット、現金2百万クレジッ�
 year: 2935
 ---
 
-# Terran Intelligence Bureau Officer Arrested With 40 Million SGC in Quantum Gold Bars and 2 Million in Cash Stuffed Behind His Habitat Wall
 ### *'A Significant Quantity of Compensation' — His Words*
 
 ---

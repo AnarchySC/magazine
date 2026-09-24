@@ -28,12 +28,6 @@ title_jp: パターンを壊す最も速い方法：それは思考ではない
 year: 2935
 ---
 
-# The Fastest Way to Break a Pattern: It's Not What You Think
-
-*by 松田 ジェイド, Books & Media Critic*
-
----
-
 There is a book making quiet rounds in the Frontier Settlements right now. No publisher. No Neural-feed campaign. Just a recycled data-chip being passed between habitat modules by people who say it changed something fundamental about their days. It's called *Before You Understand It, Do It* — attributed to a behavioral scientist who spent forty years on a generation ship with no external stimulus and an unusual amount of time to watch humans fail to become better versions of themselves.
 
 I read it in one sitting. Then I sat very still for a long time.

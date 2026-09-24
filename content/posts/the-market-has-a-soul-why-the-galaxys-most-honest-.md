@@ -37,8 +37,6 @@ title_jp: 魂の市場：経済学と精神的真実の交差点
 year: 2935
 ---
 
-# The Market Has a Soul: Why the Galaxy's Most Honest Economics Textbook Is Also a Spiritual One
-
 Alright, let me break this down—
 
 Somewhere between the Ceres Exchange's seventeenth consecutive quarter of synthetic liquidity injections and the GCB's latest 'stabilization communiqué' — which, for the record, stabilized absolutely nothing except the net worth of Stellar Financial's board members — a small academic press on Kepler Station quietly released a book that should not exist.
@@ -106,5 +104,3 @@ Somebody is getting the new credits first. Somebody is getting them last. That g
 Ritenū's book gives you the language to say so with moral clarity, not just statistical frustration.
 
 Get it before someone quietly pulls it from the distribution nodes.
-
-*— ヴィクター 清水*

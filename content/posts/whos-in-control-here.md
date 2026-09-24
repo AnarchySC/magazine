@@ -20,8 +20,6 @@ title_jp: 誰がコントロールしているのか？
 year: 2935
 ---
 
-# Who's In Control Here?
-
 Worked construction on Station Kepler-442b back in '28. Foreman there had a saying: "Safety rules written in blood work. Safety rules written in fear just get people killed."
 
 Been thinking about that watching the Interstellar Assembly debate their new neural-net "safety protocols." You know, the ones that'll monitor every transmission, flag "dangerous misinformation," and graciously protect us simple folk from ideas that might hurt our fragile minds.

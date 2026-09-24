@@ -26,8 +26,6 @@ title_jp: 石に刻まれた顔：評議会議長、また自分の顔を歴史�
 year: 2935
 ---
 
-# Faces Carved in Stone: Council Chairman Attempts to Add His Face to Galactic History. Again.
-
 I just think it's funny—
 
 On the 14th of this cycle, Earth Unified Council Chairman Harlan Voss posted to his personal neural feed a **photoshopped image** of his own face nestled among the four founding figures carved into the Monument of Unified Ascent on Luna's southern plateau.

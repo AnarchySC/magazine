@@ -21,8 +21,6 @@ title_jp: 重力ダンス革命：なぜ地球の子供たちが宇宙で踊っ�
 year: 2935
 ---
 
-# The Gravity Dance Revolution: Why Earth Kids Are Dancing in Space
-
 Okay, here's the thing nobody's telling you—the hottest entertainment phenomenon in the galaxy right now isn't happening on Earth. It's floating 500 million kilometers away in Jupiter's orbit, and it's about to change everything we think we know about performance art.
 
 **Jupiters-kei** (木星系) started six months ago in the underground clubs of Ganymede Station. Picture this: dancers using micro-gravity generators to create pockets of zero-g, then choreographing routines that literally couldn't exist planetside. We're talking full 360-degree rotations, bodies flowing like liquid mercury, formations that look like living galaxies.

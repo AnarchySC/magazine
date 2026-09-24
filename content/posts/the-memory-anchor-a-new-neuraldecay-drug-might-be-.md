@@ -35,8 +35,6 @@ title_jp: 記憶の錨：新しい神経退行薬が「タウの嵐」を遅ら�
 year: 2935
 ---
 
-# The Memory Anchor: A New Neural-Decay Drug Might Be Slowing the Tau Storm
-
 Somewhere in the Kepler Medical Corridor, a person woke up this morning and couldn't remember the name of someone they've loved for forty years. Neural-decay syndrome — what older Earth literature called Alzheimer's disease — still does this. In 2935. Despite everything.
 
 So when trial data drops suggesting something is actually *working*, I read it carefully. All of it. Including the parts that got trimmed from the ENN broadcast.

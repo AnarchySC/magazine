@@ -24,7 +24,6 @@ title_jp: フラクタル・ポップ2ビジョン船体レビュー：ケーブ
 year: 2935
 ---
 
-# Fractal Pop 2 Vision Habitat Shell Review & Benchmarks
 ## Cable Routing, Thermals, Build Quality
 *All testing methodology, schematics, and raw data available at lab.kobayashi-vera.open*
 

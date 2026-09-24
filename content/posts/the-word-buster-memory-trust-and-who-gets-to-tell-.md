@@ -32,8 +32,6 @@ title_jp: 「バスター」という言葉：記憶、信頼、そして戦争�
 year: 2935
 ---
 
-# The Word 'Buster': Memory, Trust, and Who Gets to Tell the War
-
 It started with one word.
 
 A neural-feed clip, barely ninety seconds long, circulated last week through veteran communities across the Core Systems. In it, a former Solar Defense Compact field officer — Third Proxima Engagement, eleven years of service — casually mentioned the word *Buster*. Unit slang. A call sign. A warning. Something said between personnel in the field.

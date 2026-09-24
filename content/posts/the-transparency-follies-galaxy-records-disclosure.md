@@ -24,7 +24,6 @@ title_jp: 透明性の茶番：銀河記録開示賞2935年版
 year: 2935
 ---
 
-# The Transparency Follies: Galaxy Records Disclosure Awards, 2935 Edition
 ### *Recognizing Excellence in Bureaucratic Obstruction Across the Known Galaxy*
 
 *Compiled by the Frontier Press Collective and the Open Manifest Project. Sixth annual edition.*

@@ -28,7 +28,6 @@ title_jp: 最初の訴追、ついに：ネビュラ・ウイルス危機の真�
 year: 2935
 ---
 
-# The First Indictment, Finally
 ## *Someone Is Actually Being Held Responsible for the Nebula Virus Catastrophe*
 
 ---

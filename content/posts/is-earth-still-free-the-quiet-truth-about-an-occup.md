@@ -32,12 +32,6 @@ title_jp: 地球はまだ自由か：植民地化された惑星の静かな真�
 year: 2935
 ---
 
-# Is Earth Still Free?: The Quiet Truth About an Occupied Planet
-
-*By 堀内 マーカス, Senior Correspondent, Frontier Affairs*
-
----
-
 The Chairman said he loves credit dilution. That's one version of events.
 
 Here is another: the Standard Galactic Credit has lost 34% of its purchasing power against frontier commodity baskets in the last six years. The Galactic Central Bank calls this "managed stabilization." I've hauled enough cargo to know that when the manifest doesn't match the cargo, someone is offloading weight they don't want to account for.

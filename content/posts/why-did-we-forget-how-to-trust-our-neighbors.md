@@ -20,8 +20,6 @@ title_jp: なぜ私たちは隣人を信頼することを忘れたのか？
 year: 2935
 ---
 
-# Why Did We Forget How to Trust Our Neighbors?
-
 Mika poured tea while she explained how her block handles disputes. "Someone takes something that isn't theirs, we talk. Someone's struggling, we help. Someone's angry, we listen." She shrugged like it was obvious. "Why would we call the Patrol?"
 
 I was sitting in her kitchen on Settlement Station 7, where the Colony Administration just announced mandatory bio-monitoring for all residents. "For your protection," the proclamation read. "To maintain order and safety."

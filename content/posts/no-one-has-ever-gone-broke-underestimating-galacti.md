@@ -30,8 +30,6 @@ title_jp: 銀河公衆の知性を過小評価して破産した者は一人も�
 year: 2935
 ---
 
-# No One Has Ever Gone Broke Underestimating Galactic Intelligence: New Evidence Submitted
-
 Let me tell you about the best sales pitch I ever heard.
 
 I was moving comm subscriptions in the Belt, back when the Ceres relays were still patched together with splice-wire and optimism. My floor manager — a beautiful crook named Vasquez — had a technique he called the *Fog Wall*. You didn't lie, exactly. You just built a sentence so long, so stuffed with technical-sounding syllables, that by the time the mark reached the end of it, they'd forgotten what the question was. He sold 40,000 subscriptions in a quarter. Retired to Ganymede. Sends me a card every solstice.

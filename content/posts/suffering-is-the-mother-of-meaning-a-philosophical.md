@@ -29,8 +29,6 @@ title_jp: 苦しみは意味の母である：銀河時代の哲学的再発見
 year: 2935
 ---
 
-# Suffering Is the Mother of Meaning: A Philosophical Rediscovery for the Galactic Age
-
 Okay, here's the thing nobody's telling you —
 
 We won. Humanity actually won the war against pain. Neural dampeners in every med-bay from here to the Oort. Mood-calibration implants available at any Colony Station pharmacy for about 40 SGC. Algorithmic contentment feeds that learn your exact psychological weak spots and quietly sand them smooth before you even notice they were there.

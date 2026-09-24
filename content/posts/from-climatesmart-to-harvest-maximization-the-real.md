@@ -29,8 +29,6 @@ title_jp: 「気候賢明」から「収穫最大化」へ：小規模農場が�
 year: 2935
 ---
 
-# From 'Climate-Smart' to 'Harvest Maximization': The Real Reason Small Farms Are Disappearing
-
 Okay, here's the thing nobody's telling you —
 
 About eighteen months ago, the Earth Unified Council's Department of Sustenance ran something called the **Regenerative Farm Initiative** (RFI). It wasn't perfect. Bureaucracy never is. But it was genuinely, measurably helping small frontier agricultural operators — the kind growing heirloom Martian grain on half a pressurized hectare, the kind who figured out nitrogen cycling in low-G soil before any university thought to study it.

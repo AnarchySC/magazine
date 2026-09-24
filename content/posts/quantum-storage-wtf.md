@@ -24,7 +24,6 @@ title_jp: 量子ストレージ：一体全体どうなってるの？
 year: 2935
 ---
 
-# Quantum Storage: WTF?
 ## 価格暴騰の仕組みと、あなた自身で確認できる方法
 
 Let me start with the part that genuinely delights me, because if you lead with the outrage you miss the interesting bit.

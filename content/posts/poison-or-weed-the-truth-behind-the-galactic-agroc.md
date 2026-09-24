@@ -24,8 +24,6 @@ title_jp: 毒か草か：銀河農薬戦争の真実
 year: 2935
 ---
 
-# Poison or Weed?: The Truth Behind the Galactic Agrochem Wars
-
 Okay, here's the thing nobody's telling you — the Interstellar Assembly is quietly sitting on one of the most consequential health cases in a generation, and the neural feeds are barely covering it because, well, OmniGro Corp buys a *lot* of advertising.
 
 Let me show you how this actually works.

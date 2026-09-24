@@ -27,7 +27,6 @@ title_jp: 買うな：ヘリオス9 9950X3D2プロセッシングコアレビュ
 year: 2935
 ---
 
-# DO NOT BUY: Helios 9 9950X3D2 Processing Core Review & Benchmarks
 ## 24 Charts in 24 Hours
 
 *Full schematics and raw benchmark data available at the public lab repository. Download everything. Share everything. That's the point.*

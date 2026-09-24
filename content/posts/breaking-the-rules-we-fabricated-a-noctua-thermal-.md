@@ -28,7 +28,6 @@ title_jp: ルールを破る：私たちはノクトゥアの熱流体循環装�
 year: 2935
 ---
 
-# Breaking the Rules: We Fabricated a Noctua Thermal Circulation Unit From Scratch
 ### *「印刷しないでください」と書いてあった。もちろん印刷した。*
 
 Something wonderful happened last cycle, and I want to tell you about it carefully, because the details matter.

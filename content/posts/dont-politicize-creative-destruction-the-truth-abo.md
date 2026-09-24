@@ -29,8 +29,6 @@ title_jp: 「創造的破壊」を政治化するな：AIと経済変革の真�
 year: 2935
 ---
 
-# Don't Politicize Creative Destruction: The Truth About AI and Economic Change
-
 Alright, let me break this down—
 
 Somewhere between the third and fourth 'Emergency AI Transition Summit' this cycle, I stopped counting the press releases and started drawing on the whiteboard.

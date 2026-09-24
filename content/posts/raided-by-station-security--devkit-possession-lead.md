@@ -20,8 +20,6 @@ title_jp: '警察突入: 開発キット所持で市民を逮捕'
 year: 2935
 ---
 
-# Station Security Raids Citizen Over Dev-Kit Collection
-
 Luna Station Security conducted a dawn raid on citizen Tanaka Hiroshi's residential pod yesterday, confiscating what they termed 'unauthorized development hardware' - including vintage Stellar Entertainment and Cosmos Gaming dev-kits dating back to 2890.
 
 The charges? Possession of tools that *could theoretically* be used to reverse-engineer proprietary code.

@@ -22,8 +22,6 @@ title_jp: ガラクティック・ニューラル - サイバダイン社の海�
 year: 2935
 ---
 
-# The Math Pirates of Sector 7
-
 Let's talk about something fascinating: the same corp that just patented basic quantum memory addressing is apparently scraping the Prometheus Archive shadow library for training data. They patented *math*. Think about that.
 
 Cyberdyne Corp's latest neural network models show clear evidence of training on copyrighted materials from the underground archive - the same archive that exists because knowledge got locked behind paywalls. The irony would be funny if it wasn't so predictable.

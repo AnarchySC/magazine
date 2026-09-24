@@ -24,12 +24,6 @@ title_jp: デジタルIDという名の鎖：あなたの存在を証明する�
 year: 2935
 ---
 
-# The Digital ID Chain: You Need Permission to Prove You Exist?
-
-**by 宗像 レイナ | Galactic Affairs Correspondent**
-
----
-
 The Earth Unified Council released its proposal last week. The language is warm, the fonts are friendly, and the stated goal is *convenience*.
 
 They want to make it easier for you to prove who you are.

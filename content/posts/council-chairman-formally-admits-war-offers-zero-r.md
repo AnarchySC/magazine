@@ -106,5 +106,3 @@ It means: you don't get to know, and you're funding it anyway.
 The Chairman admitted Wednesday night that Earth citizens are paying for a war that helps someone else. He was calm about it. Almost comfortable.
 
 That comfort is the story.
-
-*— 宗像 レイナ, Galactic Affairs*

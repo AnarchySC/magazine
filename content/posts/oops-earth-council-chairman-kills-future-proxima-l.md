@@ -20,8 +20,6 @@ title_jp: 失敗：地球統一議会議長、イラン代替組織の指導者�
 year: 2935
 ---
 
-# Strategic Miscalculation
-
 The Earth Council Chairman told Galactic Broadcasting yesterday that the initial phase of Operation Proxima Freedom successfully "neutralized key targets" - targets that, according to his own staff briefings three days earlier, were supposed to become the new provisional government.
 
 The manifest doesn't match the cargo. Again.

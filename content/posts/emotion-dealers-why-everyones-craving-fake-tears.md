@@ -20,8 +20,6 @@ title_jp: 感情ディーラー：なぜ誰もが偽の涙を求めているの�
 year: 2935
 ---
 
-# The Commodification of the Human Heart
-
 Walk into any entertainment district from Luna City to the Proxima colonies, and you'll see the same sight: lines of people waiting for their next hit from an *kanjo-ya* (emotion dealer). Not drugs—pure, distilled emotional experiences. Fifteen minutes of manufactured heartbreak. A shot of artificial nostalgia. Synthetic grief, carefully calibrated to leave you empty but somehow satisfied.
 
 The surface story is about convenience. Why suffer through a three-hour tragedy when you can get the catharsis in a quick neural injection? Why risk actual loss when you can experience perfect, safe sorrow?

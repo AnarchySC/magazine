@@ -37,12 +37,6 @@ title_jp: 「盲点」という名の失敗：銀河医療認証局、リコー�
 year: 2935
 ---
 
-# The 'Blind Spot' Excuse: Galactic Medicines Certification Bureau Stays Quiet While Recalls Pile Up
-
-*by ソフィア 中村 | Human Interest & Lifestyle*
-
----
-
 Marta Voss is fifty-three years old. She has a cortical regulation implant installed by a licensed GMCB-certified practitioner, using a GMCB-approved device, following GMCB-reviewed surgical protocols. Six months after the procedure, the implant began misfiring — sending incorrect signals to her vestibular system. She describes it as being permanently seasick in a room that is also falling.
 
 She poured tea while she explained, her hand steadier than I expected.

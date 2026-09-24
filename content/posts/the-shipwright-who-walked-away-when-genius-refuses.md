@@ -33,8 +33,6 @@ title_jp: 銀河造船の天才が去る：委員会に殺された夢
 year: 2935
 ---
 
-# The Shipwright Who Walked Away: When Genius Refuses to Die by Committee
-
 Alright, let me break this down—
 
 Mira Okafor didn't storm out. She didn't cry. She didn't give a press conference. She left a two-line resignation note on her chief engineer's desk at Kepler Shipyards, walked to the docking bay, boarded a private shuttle, and was gone before the third shift started.

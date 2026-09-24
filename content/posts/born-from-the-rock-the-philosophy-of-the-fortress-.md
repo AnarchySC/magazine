@@ -29,12 +29,6 @@ title_jp: 岩から生まれた都市：逆さまに建てられた要塞の哲�
 year: 2935
 ---
 
-# Born from the Rock: The Philosophy of the Fortress Built Backwards
-
-*By 松田 ジェイド, Books & Media Critic — Architecture & Cultural Memory Desk*
-
----
-
 There is a settlement at the edge of the Kessel Corridor that the standard galactic tourism feeds never show you. Not because it's dangerous. Because it's embarrassing — to every engineer who ever drew a straight line upward and called it progress.
 
 The locals call it **Tenmei-za**. The descent city. Built, over nine generations, *downward into the ridge it stands on.*

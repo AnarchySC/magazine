@@ -18,8 +18,6 @@ title_jp: 大拒否の時代到来 - 地球統一の終焉
 year: 2935
 ---
 
-# The Great Reject Era Arrives - End of Terrestrial Unity
-
 辺境植民地が地球中央統制に背を向ける
 
 Talked to Viktor Nakamura yesterday. Former trade liaison for the Earth Unified Council, now runs independent freight between Titan and Europa. Twenty-three years watching the Council's "Integrated Prosperity Protocol" drain colonies dry.

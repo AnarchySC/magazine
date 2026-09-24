@@ -20,8 +20,6 @@ title_jp: 忘却の図書館：記憶を食べる惑星への旅
 year: 2935
 ---
 
-# The Library of Forgetting: Journey to the Memory-Eating Planet
-
 Three days into hyperspace from the Core Systems lies Mnemosyne-VII, where humans queue to forget.
 
 The planet markets itself as "therapeutic amnesia" - pay 2,000 SGC and their bio-neural technicians will delete any memory with surgical precision. Embarrassing mistakes, lost loves, childhood trauma. Gone. The marketing feeds show smiling families boarding shuttles, promising "freedom from your past."

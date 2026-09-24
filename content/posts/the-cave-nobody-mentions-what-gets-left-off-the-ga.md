@@ -29,12 +29,6 @@ title_jp: 忘れられた洞窟：銀河観光の影に隠された宝
 year: 2935
 ---
 
-# The Cave Nobody Mentions: What Gets Left Off the Galactic Tourism Map
-
-*by 松田 ジェイド*
-
----
-
 Elysion Station is not a place. It is a product.
 
 The resort megacorps — StellarSurf Hospitality, AquaRim Leisure Group, and the quietly omnipresent hands of Orion Trust's real estate division — have spent four centuries perfecting the packaging. Crystalline pressure domes over warm salt-water flats. Bioluminescent tide-pools regulated to glow on schedule. Docking bays designed to funnel twelve million visitors a year from arrival pod to branded beach chair without ever requiring a single unscripted thought.

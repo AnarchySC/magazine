@@ -24,7 +24,6 @@ title_jp: 勝利？：エンドツーエンド暗号化がついに標準メッ�
 year: 2935
 ---
 
-# 勝利？：エンドツーエンド暗号化がついに標準メッセージに到達
 ## Victory?: End-to-End Encryption Finally Reaches Standard Messaging — I Read the Fine Print
 
 The announcement came with considerable fanfare on the neural feeds. OmniComm OS and StellarDroid — the two operating systems installed on roughly 94% of mobi devices across inhabited space — have jointly implemented end-to-end encryption for their native cross-platform messaging protocol, Unified Signal Exchange (USE).

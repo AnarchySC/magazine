@@ -29,7 +29,6 @@ title_jp: 中心は一つじゃない：環状軌道線が教えてくれる都�
 year: 2935
 ---
 
-# Not One Center: What the Ring Transit Line Actually Teaches Us About Cities
 ### 密度の哲学——一つの核か、星座か
 
 *By 松田 ジェイド, Books & Media Critic — writing outside her lane, because the city is a text too*

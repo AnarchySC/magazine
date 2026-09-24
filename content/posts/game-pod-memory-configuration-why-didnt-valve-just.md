@@ -34,8 +34,6 @@ title_jp: ゲームポッドのメモリ構成：なぜヴァルブは正直に�
 year: 2935
 ---
 
-# Game Pod Memory Configuration: Why Didn't Valve Just Tell Us?
-
 I want to start by saying something nice about Valve: they open-source a lot. Their fabrication schematics are public. Their thermal specifications are documented. The Game Pod's cooling solution is genuinely elegant and I've written about it before.
 
 So the memory configuration situation is especially baffling to me. Not enraging — baffling.

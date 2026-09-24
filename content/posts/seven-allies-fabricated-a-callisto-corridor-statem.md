@@ -60,5 +60,3 @@ Anyway.
 The Callisto Corridor remains contested. The seven-nation statement remains unaccepted. The clarifying statement about the statement is, as of transmission time, under review by three separate Compact subcommittees.
 
 The conference room on Lunar Station One is already booked for next month.
-
-*— 陳 マックスウェル is Cassette Future's Military & Security Correspondent. He has been blocked by four Solar Defense Compact press offices this quarter and considers this a personal record worth defending.*

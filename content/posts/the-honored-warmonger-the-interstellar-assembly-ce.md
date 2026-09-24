@@ -36,12 +36,6 @@ title_jp: 名誉ある戦争屋：アセンブリーが自分たちの最も熱�
 year: 2935
 ---
 
-# The Honored Warmonger: The Interstellar Assembly Celebrates Its Most Enthusiastic Advocate for Killing
-
-*By 宗像 レイナ, Galactic Affairs Correspondent*
-
----
-
 Cassius Graham-Voss has never deployed with a fleet. He has, however, voted to send other people's children to thirty-seven distinct military engagements over the course of a thirty-year Assembly career.
 
 This week, his colleagues are honoring him for it.

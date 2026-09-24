@@ -25,8 +25,6 @@ title_jp: 美しき銀河債券：地獄か、それとも別の地獄か
 year: 2935
 ---
 
-# Those Big, Beautiful Galactic Bonds: Hell, or a Different Hell
-
 Alright, let me break this down—
 
 Somewhere right now, a perfectly reasonable person in a mid-tier colony station is sitting across from a financial advisor at **Stellar Financial** or **Orion Trust**, and that advisor is sliding a brochure across the table with a very calming color palette. Lots of deep blues. Maybe a nebula. The brochure says something like *'Interstellar Assembly Bonds: Stability You Can Count On.'*
@@ -86,5 +84,3 @@ So next time someone hands you a nebula brochure and tells you Assembly Bonds ar
 *Safe from what, exactly?*
 
 Because it isn't safe from rate moves. And it isn't safe from credit dilution. The only thing it's safe from is the possibility that you might have done something useful with your credits instead.
-
-*— ヴィクター 清水, Economics & Trade Editor*

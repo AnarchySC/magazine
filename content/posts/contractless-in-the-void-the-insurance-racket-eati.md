@@ -31,8 +31,6 @@ title_jp: 重力なき契約：ゼロG競技の保険という名の賭け
 year: 2935
 ---
 
-# Contractless in the Void: The Insurance Racket Eating Zero-G Athletes Alive
-
 Kiara Voss won the Callisto Drift Championship seventeen days ago. Fastest unassisted lateral split in recorded competition — 0.0034 seconds off the all-time mark. The feeds ran her image for forty-eight hours. Sponsors queued.
 
 She is currently in a Ganymede medical bay, unable to pay for the shoulder reconstruction her winning run required.

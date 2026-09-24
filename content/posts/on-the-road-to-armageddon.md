@@ -18,8 +18,6 @@ title_jp: ハルマゲドンへの道
 year: 2935
 ---
 
-# On the Road to Armageddon
-
 I had thought the Earth Unified Council had hit a new low point last week when the Galactic Arts Commission approved a Millennium commemorative quantum hologram featuring Council Chairman Drake leaning against his command podium with plasma cannons crossed and glowering—but that was before Defense Secretary Magnus Vex demanded 200 trillion Standard Galactic Credits from the Interstellar Assembly for what he calls "comprehensive defensive preparations."
 
 Wait, it gets better.

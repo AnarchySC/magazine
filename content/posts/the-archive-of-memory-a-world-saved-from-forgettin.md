@@ -20,8 +20,6 @@ title_jp: 記憶の図書館：忘却から救われた世界
 year: 2935
 ---
 
-# The Archive of Memory: A World Saved from Forgetting
-
 ## ヴェリディアン・ステーションで発見された物語の力
 
 Veirdian Station orbits a dying star sixty parsecs from the nearest shipping lane. Most travelers avoid it—officially a "technical research facility," unofficially a place where careers go to disappear. But beneath its bureaucratic designation lies something extraordinary: the largest collection of hand-carved crystal narratives in known space.

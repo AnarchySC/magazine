@@ -19,8 +19,6 @@ title_jp: 重力ゼロ競技連盟、地球本部への「安全費」支払い�
 year: 2935
 ---
 
-# Zero-G Athletics Federation Refuses 'Safety Fee' to Earth HQ
-
 The Interstellar Zero-G Athletics Federation voted 847-23 yesterday to suspend all payments to Earth's Athletic Safety Bureau. The 2.3 billion SGC annual "assessment" was supposed to fund safety protocols for zero-G competitions.
 
 That's one version of events.

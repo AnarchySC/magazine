@@ -31,8 +31,6 @@ title_jp: 誰が建てているのか：深宇宙の自律生存ステーショ�
 year: 2935
 ---
 
-# Who Is Building the Ghost Stations? The Answer Is More Beautiful Than You Think
-
 I've hauled ice to seventeen stations that didn't exist on any official chart. You learn to stop being surprised. What you don't stop being is curious.
 
 Last cycle, a salvage crew working the Kessel Corridor reported something that didn't fit their mental model: a fully pressurized, self-sustaining habitat ring, approximately four hundred meters diameter, oxygen recyclers running clean, water reclamation at 94% efficiency, fabrication bays stocked and operational. No distress beacon. No registration transponder. Nobody home — but clearly, somebody had been. And before them, somebody had *built*.
@@ -66,5 +64,3 @@ I don't know who the architects of the ghost stations are. I hope I never find o
 The stations keep appearing. The investigations keep failing. And somewhere in the deep black, someone is running conduit and thinking about airflow and wondering if the recyclers will need maintenance before the first occupants arrive.
 
 That's not a bug. That's the design.
-
-*— アワセン・オエ*

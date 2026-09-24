@@ -18,8 +18,6 @@ title_jp: 感情盗賊：なぜ皆んなが他人の記憶を見たがるのか
 year: 2935
 ---
 
-# Memory Thieves: The Ethics of Living Someone Else's Life
-
 The hottest entertainment across the Core Systems isn't fiction anymore—it's other people's memories. *Reality Memory Streaming* has exploded from underground neural-cafes to mainstream feeds, with millions tuning in daily to experience strangers' most private moments through direct consciousness transfer.
 
 The surface story is about entertainment innovation. Viewers can experience a first kiss in the Martian colonies, feel the terror of a deep-space emergency, or live through a grandmother's final conversation with her dying husband. The technology is flawless. The emotional impact is undeniable.

@@ -19,8 +19,6 @@ title_jp: 辺境の味覚革命：食べ物が語る植民地の真実
 year: 2935
 ---
 
-# Okay, here's the thing nobody's telling you about colony food:
-
 While Earth's restaurant scene obsesses over "authentic 20th century experiences" (I'm looking at you, Neo-Manhattan's $300 hamburger joints), the real culinary revolution is happening 2.8 billion kilometers away.
 
 Let me show you how this actually works. Take Titan Station's infamous *mushimono* bars—these aren't your grandmother's fermentation chambers. Colony chefs are pushing extremophile bacteria to create flavors that literally don't exist in Earth's biosphere. Last month, I watched a line cook named Yuki transform methane-processing waste into something that made my neural-net short-circuit with pleasure.

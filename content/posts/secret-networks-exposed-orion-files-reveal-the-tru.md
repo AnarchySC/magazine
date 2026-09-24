@@ -20,8 +20,6 @@ title_jp: 秘密ネットワークの露出：オリオン・ファイルズが�
 year: 2935
 ---
 
-# Transmission 2935.067: The Orion Files
-
 I sat down with independent transmitter リッキー・ヴァランダス on Neural Feed Station 7 to discuss the data dump that has Core Systems politicians scrambling. The Orion Files - thousands of encrypted communications between mega-corp executives and what appears to be Outer Rim intelligence assets.
 
 The documents paint a picture that shouldn't surprise anyone who's watched power operate for more than five minutes. Financial manipulation tied to compromise operations. Credit flows that make no economic sense until you realize they're buying silence, not returns.

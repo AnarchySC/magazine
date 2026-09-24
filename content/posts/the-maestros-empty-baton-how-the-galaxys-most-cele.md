@@ -38,7 +38,6 @@ title_jp: 指揮者の空虚な言葉：マエストロの詐欺師伝説
 year: 2935
 ---
 
-# The Maestro's Empty Baton
 ## How the Galaxy's Most Celebrated Central Banker Was Always Talking About Nothing
 
 *By ヴィクター 清水 | Economics & Trade Editor*

@@ -20,8 +20,6 @@ title_jp: 辺境密輸業者：「合法」と「違法」の境界線
 year: 2935
 ---
 
-# Frontier Smugglers: The Line Between 'Legal' and 'Illegal'
-
 ## 植民地の経済現実が地球の法律を無効化
 
 The manifest said "industrial printing compounds." The cargo hold contained forty-seven medical fabricators, each capable of synthesizing everything from antibiotics to surgical mesh. Street value on Kepler-442b: 2.3 million SGC. Earth classification: Class-A contraband.

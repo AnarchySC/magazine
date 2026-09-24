@@ -28,8 +28,6 @@ title_jp: ワクチンは背骨だけのものじゃない：無脊椎動物免�
 year: 2935
 ---
 
-# Vaccines Aren't Just for Backbones: The Quiet Revolution in Invertebrate Immunology
-
 Somewhere in the pressurized kelp-and-crustacean domes of Ganymede's agricultural ring, a batch of tunnel shrimp just got vaccinated. Not metaphorically. Not experimentally. *Commercially*. And the immunology behind it is worth sitting with for a moment, because it quietly dismantles something most of us assumed was settled biology.
 
 The assumption: vaccines work by training adaptive immunity — the vertebrate system with B-cells, T-cells, immunological memory. The thing fish and mammals and humans have. The thing shrimp, insects, bivalves, and about 97% of animal species on record decidedly *do not* have.

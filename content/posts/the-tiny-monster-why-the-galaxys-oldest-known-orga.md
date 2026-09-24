@@ -34,8 +34,6 @@ title_jp: 小さな怪物：銀河最古の生物が「ハルク化」して共�
 year: 2935
 ---
 
-# The Tiny Monster: Why the Galaxy's Oldest Known Organism Hulks Out and Eats Its Neighbors
-
 **TITAN RESEARCH STATION, OUTER MOON BELT** — Researchers at the Titan Exobiology Institute announced this week that *Euplotes gigatrox*, a single-celled organism with an evolutionary résumé dating back roughly one billion years, has been quietly doing something that the Solar Defense Compact's Advanced Morphology Division has spent approximately 340 billion Standard Galactic Credits trying to replicate in a lab.
 
 It transforms. On purpose. Into a giant. And then it eats its neighbors.

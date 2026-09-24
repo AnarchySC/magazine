@@ -19,8 +19,6 @@ title_jp: 軍事用途なし：科学者困惑
 year: 2935
 ---
 
-# No Military Applications: Scientists Baffled
-
 *New quantum crystal discovery deemed 'completely useless' by Solar Defense Compact*
 
 Researchers at Titan Science Station dropped some genuinely troubling news this week: they've discovered quantum crystals that apparently serve no military purpose whatsoever.

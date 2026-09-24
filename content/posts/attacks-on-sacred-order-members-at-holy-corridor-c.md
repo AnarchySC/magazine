@@ -25,8 +25,6 @@ title_jp: 聖職者への暴力：「平和な聖地」で繰り返される攻�
 year: 2935
 ---
 
-# Attacks on Sacred Order Members at 'Holy Corridor' Continue — Authorities Discover Urgent Paperwork to File Instead
-
 **NEW JERUSALEM STATION, CORE SYSTEMS** — Last week, Sister Amara Voss of the Celestial Order of the Eternal Flame was walking through the Sanctum Corridor's public transit hub when a man ran up behind her, shoved her to the ground, walked away, turned around, and kicked her.
 
 Then he left.

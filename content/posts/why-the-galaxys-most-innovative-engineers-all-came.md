@@ -26,8 +26,6 @@ title_jp: 辺境の子どもたちはなぜ銀河最高の技術者になるの�
 year: 2935
 ---
 
-# Why the Galaxy's Most Innovative Engineers All Came from Unschooled Frontier Settlements
-
 I was nine years old the first time I took apart an ice reclamation pump without being asked to. Nobody told me to. Nobody was watching. There was a noise it made — a small, wrong noise — and I had four hours until my father came back from the outer haul. So I opened the thing up.
 
 I didn't fix it that day. I made it worse, actually. Had to own that when he got home. But I knew what was inside it. I knew which part was lying to me. And three days later, on my second attempt, the noise stopped.

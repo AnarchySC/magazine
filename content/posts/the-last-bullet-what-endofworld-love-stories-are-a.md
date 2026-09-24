@@ -24,8 +24,6 @@ title_jp: 最後の弾丸：愛と終末の物語が語る本当のこと
 year: 2935
 ---
 
-# The Last Bullet: What End-of-World Love Stories Are Actually Saying
-
 *A short film review — 'Stay With Me,' dir. unknown, independent transmission release, 2935*
 
 ---

@@ -26,8 +26,6 @@ title_jp: 設計者の反乱：銀河最高の居住空間建築家たちが議�
 year: 2935
 ---
 
-# The Architect's Refusal: Why the Galaxy's Best Habitat Designers Won't Touch Assembly Commissions
-
 Alright, let me break this down—
 
 Kaede Voss just turned down 4.7 billion Standard Galactic Credits.

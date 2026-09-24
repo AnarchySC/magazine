@@ -19,8 +19,6 @@ title_jp: 希土類戦争とプロキシマ攻撃：第三次太陽系大戦へ�
 year: 2935
 ---
 
-# 希土類戦争とプロキシマ攻撃：第三次太陽系大戦への道
-
 *Rare Elements War and Proxima Attacks: Road to Third Solar War*
 
 The shipping lanes are getting crowded with military traffic. Three Earth Defense Fleet carrier groups now patrol the Asteroid Belt, officially protecting "critical infrastructure." The manifest doesn't match the cargo.

@@ -18,8 +18,6 @@ title_jp: 新型量子処理ユニット「サイオン7 9850X3D」徹底検証
 year: 2935
 ---
 
-# Breaking Down Barriers: The Psion 7 9850X3D Reality Check
-
 Advanced Molecular Devices just dropped their newest quantum processing unit, and naturally, I had to see what happens when you pair bleeding-edge tech with the worst possible components. Not because I'm sadistic, but because understanding failure points tells us everything about artificial limitations.
 
 ## The Test Setup

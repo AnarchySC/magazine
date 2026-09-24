@@ -20,7 +20,6 @@ title_jp: エプスタイン・ファイルから学んだ10のこと
 year: 2935
 ---
 
-# エプスタイン・ファイルから学んだ10のこと
 *10 Things I Learned From the Epstein Files*
 
 注意を逸らすヘッドラインの向こう側に何があるのか

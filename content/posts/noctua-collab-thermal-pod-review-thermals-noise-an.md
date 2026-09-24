@@ -27,8 +27,6 @@ title_jp: ノクトゥア・コラボ熱管理ポッドレビュー：熱特性�
 year: 2935
 ---
 
-# VoidCraft Flux Prime × Noctua Edition: We Built One. Here's the Data.
-
 Let me start with the honest version of this product in one sentence: it's a Flux Prime with Noctua fans in the box.
 
 That's not an insult. The interesting part isn't that it exists — it's *why* it works, and more importantly, *when* it doesn't.

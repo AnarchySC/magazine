@@ -26,8 +26,6 @@ title_jp: 古代DNAが示す：アレルギーの敵は「清潔すぎる未来�
 year: 2935
 ---
 
-# Ancient DNA Proves We've Been Blaming the Wrong Villain for Allergies This Whole Time
-
 For roughly a hundred years, the dominant medical narrative went like this: humans evolved in filth. Mud, parasites, unfiltered water, the occasional mouthful of soil. Our immune systems *needed* that chaos. Then we built clean stations, sterilized our food vats, and scrubbed the microbial ecosystem into submission — and our bodies, confused and furious, started attacking pollen and synthesized proteins instead.
 
 This theory had a name. It had textbooks. It had a whole generation of Galactic Medicines Bureau pamphlets that basically told you to go lick a rock on Titan.

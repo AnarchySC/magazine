@@ -24,8 +24,6 @@ title_jp: 半分のくちばしで頂点へ：ケア・オウムが教える適�
 year: 2935
 ---
 
-# Half a Beak to the Top: What a Parrot Teaches Us About Adaptation Science
-
 **Verde Station Wildlife Reserve, Asteroid Belt Biome Ring 7**
 
 Bruce arrived at the reserve six years ago in bad shape. A fabricator malfunction — the kind of industrial accident that happens when you corner-cut on safety shielding — had sheared away most of his upper beak. The attending biologists gave him maybe two years. He was immediately deprioritized in the feeding queue by the other males.

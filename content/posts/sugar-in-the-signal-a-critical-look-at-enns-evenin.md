@@ -23,8 +23,6 @@ title_jp: 信号の中の砂糖：ENN夜間放送の批評的考察
 year: 2935
 ---
 
-# Sugar in the Signal: A Critical Look at ENN's Evening Broadcast
-
 I used to haul ice on the Ganymede-Ceres run. Twelve-hour shifts. Nothing but the hum of the cryo-pumps and whatever was piping through the station feed when I docked. Back then, ENN felt like information. Sparse. A little cold. But it told you what a cargo rate was, where the storms were, who'd gone dark in the Belt.
 
 Somebody at Earth Network News decided that era was over.

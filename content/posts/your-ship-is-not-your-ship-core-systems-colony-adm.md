@@ -91,5 +91,3 @@ The bill advances to full Colony Assembly vote in six cycles. Several neighborin
 Of course they are.
 
 The galaxy spent nine centuries learning that you don't own what you cannot use freely. Some people apparently need the lesson again.
-
-*— 宗像 レイナ, Galactic Affairs Correspondent*

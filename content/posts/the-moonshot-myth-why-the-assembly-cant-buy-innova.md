@@ -29,8 +29,6 @@ title_jp: ムーンショットの神話：なぜ議会はイノベーション�
 year: 2935
 ---
 
-# The Moonshot Myth: Why the Assembly Can't Buy Innovation
-
 Alright, let me break this down—
 
 A new book is circulating the independent transmission networks this cycle. *Engineered Horizons: Industrial Policy and the Illusion of the Planned Leap* — authored by economist Rael Voss out of a Frontier Settlement university that nobody at the Assembly has heard of, which is exactly why it's worth reading.

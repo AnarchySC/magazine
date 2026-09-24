@@ -18,8 +18,6 @@ title_jp: 誰が誰をコントロールしているのか？
 year: 2935
 ---
 
-# Who's Controlling Who Here?
-
 Back when I was hauling ice between Titan and the Belt, we had a saying: *If it floats, it boats.* Didn't matter if your ship was jury-rigged scrap or fresh from the Martian yards. If you could make runs without killing anybody, you belonged out there.
 
 Turns out the Interstellar Assembly missed that memo.

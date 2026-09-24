@@ -26,8 +26,6 @@ title_jp: 落下しない者たちの市場：ゼロ重力スポーツ経済の�
 year: 2935
 ---
 
-# The Market for Those Who Don't Fall: Inside the Zero-G Sports Economy
-
 **CERES RING FILING, CYCLE 2935.7** — The Interstellar Zero-G Athletic Consortium announced last week that broadcast rights for the coming Apex Circuit season sold for 1.8 trillion Standard Galactic Credits. The press release called it "a historic moment for human athletic achievement."
 
 I pulled the manifest.

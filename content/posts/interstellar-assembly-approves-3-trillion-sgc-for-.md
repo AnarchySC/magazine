@@ -20,8 +20,6 @@ title_jp: 星間議会、「平和維持作戦」に3兆ギャラクティック
 year: 2935
 ---
 
-# Another Tuesday, Another Trillion
-
 The Interstellar Assembly today voted overwhelmingly to approve Emergency Resolution 2935-44, allocating 3.2 trillion Standard Galactic Credits for what Fleet Admiral Sarah Chen-Nakamura called "essential stability operations in the Outer Rim."
 
 I just think it's funny—six months ago, these same officials were telling us the Outer Rim Coalition posed "minimal strategic concern." Today, apparently, they're an existential threat requiring immediate intervention. What changed? Well, the Coalition announced plans to establish their own rare earth mining operations on Kepler-442b. 

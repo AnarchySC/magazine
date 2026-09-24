@@ -25,7 +25,6 @@ title_jp: 蚊の「お腹いっぱい」信号はお尻から来る：腸じゃ�
 year: 2935
 ---
 
-# The 'I'm Full' Signal Comes From the Butt, Not the Brain
 ## What Titan Bloodsuckers Are Teaching Us About Hunger
 
 *Titan Free Science Collective, Open-Access Release 2935.11.04*

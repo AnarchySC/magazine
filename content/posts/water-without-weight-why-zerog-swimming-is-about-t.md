@@ -23,8 +23,6 @@ title_jp: 重力なき水：ゼロGスイミングが銀河を席巻する理由
 year: 2935
 ---
 
-# Water Without Weight: Why Zero-G Swimming Is About to Remake Everything
-
 **Ceres Station, Ring 7 Natatorium** — The water doesn't behave here.
 
 That's the first thing you notice. In the Ring 7 facility, the pool is a sealed ovoid — roughly eighteen meters along its long axis, six wide, four deep on what passes for the floor side. Swimmers enter through an airlock hatch. There is no surface tension worth mentioning. There are no lanes. The water is just... present, held by the enclosure and a soft centripetal assist that the engineers insist is not gravity and the swimmers insist doesn't help.

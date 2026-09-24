@@ -30,12 +30,6 @@ title_jp: 裏口から消えた量子金：セレス取引所の「配送記録�
 year: 2935
 ---
 
-# Quantum Gold Out the Back Airlock: The Ceres Exchange Delivery Records Don't Add Up
-
-*By 堀内 マーカス — Senior Correspondent, Frontier Affairs*
-
----
-
 The spot price of Quantum Gold is set by futures contracts traded on the Ceres Exchange. That much is public knowledge, printed in every introductory economics feed distributed to Core Systems schoolchildren. What is less prominently advertised is the gap between the price those contracts establish and the price you would actually pay to take physical delivery of the metal today.
 
 That gap is currently 340 Standard Galactic Credits per unit. Someone is paying for that difference. The manifest doesn't say who.

@@ -21,8 +21,6 @@ title_jp: 「記憶共有カラオケ」が銀河系を席巻：なぜ皆が他�
 year: 2935
 ---
 
-# The Real Story Behind Memory-Share Karaoke's Galactic Takeover
-
 Okay, here's the thing nobody's telling you about Memory-Share Karaoke—it's not actually about singing.
 
 Sure, the booths look like upgraded karaoke pods. You step inside, plug into the neural-feed, and suddenly you're belting out songs while experiencing someone else's actual memories. First heartbreak on Titan Station? Check. Wedding day during the Solar Flare of 2894? Double check. The rush of performing on stage at the legendary Jupiter Blues Festival? Now THAT'S a premium experience package.

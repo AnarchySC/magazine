@@ -20,8 +20,6 @@ title_jp: '忘れられた魂の墓地: 精神保健施設の隠された真実'
 year: 2935
 ---
 
-# The Forgotten Soul Cemetery: Mental Health Facility's Hidden Truth
-
 Okay, here's the thing nobody's telling you about Ganymede Colony's shining reputation as a "progressive healthcare destination."
 
 Walk fifteen minutes past the luxury treatment centers and holographic therapy spas that attract wealthy Core System residents, and you'll find a field of simple metal markers stretching into the methane mist. No names. Just numbers. Thousands of them.

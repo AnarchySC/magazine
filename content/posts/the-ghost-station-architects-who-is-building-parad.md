@@ -25,8 +25,6 @@ title_jp: 幽霊ステーションの建築家たち：誰が深宇宙に楽園�
 year: 2935
 ---
 
-# The Ghost Station Architects: Who Is Building Paradises at the Edge of Everything?
-
 I hauled ice on the Kuiper run for three years before I ever thought about beauty. You don't, out there. You think about pressure seals and shift rotations and whether the recycler smells funny again. Beauty is a luxury for people with gravity and a view.
 
 Then one transit, I drifted past something that had no business existing.

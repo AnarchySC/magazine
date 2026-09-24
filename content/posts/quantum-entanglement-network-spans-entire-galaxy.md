@@ -20,8 +20,6 @@ title_jp: 量子もつれ通信で銀河系ネットワークが完成
 year: 2935
 ---
 
-# Instant Messages Across 100,000 Light-Years
-
 The Galactic Communications Consortium announced yesterday that their quantum entanglement network now spans from the Orion Arm to the Sagittarius Arm. Messages that once took millennia to cross the galaxy now arrive instantly.
 
 The interesting part isn't that it works - it's *why* it works.

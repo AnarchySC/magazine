@@ -36,8 +36,6 @@ title_jp: 静かに！純粋基盤803：コンパクト処理ユニット革命�
 year: 2935
 ---
 
-# be quiet! Pure Base 803: The Compact Processing Pod Boom, ft. CEO
-
 Something is happening in the DIY processing pod market that the big fabrication houses don't want to talk about loudly, because it implies their entire catalog philosophy is wrong.
 
 Micro and Mini form factor builds — what the community has been calling 'compact cores' — are outselling full-tower ATX configurations for the third consecutive quarter on the Ceres Exchange's hobbyist supply indices. Not by a little. By a margin that one fabrication analyst described, with visible discomfort, as 'structurally significant.'

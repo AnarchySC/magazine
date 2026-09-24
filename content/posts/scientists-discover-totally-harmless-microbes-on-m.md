@@ -19,8 +19,6 @@ title_jp: 科学者たち、火星で「完全に無害な」微生物を発見
 year: 2935
 ---
 
-# Scientists Discover 'Totally Harmless' Microbes on Mars
-
 *軍事予算が奇跡的に三倍に増加*
 
 The Mars Colonial Research Station announced yesterday they've discovered microscopic life in the planet's subsurface ice—adorable little microbes that are "absolutely, positively no threat to human civilization whatsoever."

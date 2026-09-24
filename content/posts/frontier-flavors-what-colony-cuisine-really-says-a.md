@@ -20,8 +20,6 @@ title_jp: 辺境の味：植民地料理が語る真実
 year: 2935
 ---
 
-# Frontier Flavors: What Colony Cuisine Really Says About Us
-
 The reservations at *Kepler's Table* are booked through next season. The hottest restaurant on Ceres Station serves "authentic frontier cuisine"—hydroponic vegetables grown in Martian soil simulants, lab-cultured proteins seasoned with spices that took three generations to adapt to alien growing conditions. The waiting list includes Earth Unified Council members willing to pay 800 SGC for what colonists call "Tuesday dinner."
 
 But what is this trend actually saying?

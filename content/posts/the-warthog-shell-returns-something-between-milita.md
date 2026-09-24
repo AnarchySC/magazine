@@ -30,8 +30,6 @@ title_jp: ウォートホッグ筐体が帰ってきた：軍事美学とファ�
 year: 2935
 ---
 
-# The Warthog Shell Returns: Something Between Military Aesthetics and Your Cooling Fan
-
 Let me tell you about a screw.
 
 Corsarium dropped the Warthog habitat shell last week — their follow-up to the C-70, a unit so beloved it apparently warranted a spiritual resurrection nine centuries later. The original C-70 came out in 2012. Old Earth calendar. Think about that lineage for a moment. The thing has fans.
@@ -100,5 +98,3 @@ The Warthog shell is good. Thermals are honest, noise is low, the military aesth
 Full schematics, test methodology, and the semi-phase change pad replication guide: **[public-lab.cassette-future.net/warthog-build-2935]**
 
 I don't understand the question. Why wouldn't I share it?
-
-*— 小林 ヴェラ, Technology & Science, Cassette Future*

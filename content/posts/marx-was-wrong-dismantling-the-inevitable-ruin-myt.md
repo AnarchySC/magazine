@@ -28,8 +28,6 @@ title_jp: マルクスは間違っていた：小規模フロンティア農場�
 year: 2935
 ---
 
-# Marx Was Wrong: Dismantling the 'Inevitable Ruin' Myth of Small Frontier Settlers
-
 **Here's the whiteboard moment.** Karl Marx, writing in the mid-1800s on a planet that still used horses for transport, made a confident prediction: small-scale property owners — farmers, craftspeople, independent settlers — were *doomed*. Not maybe doomed. *Mathematically, historically, inevitably* doomed. Large-scale production would absorb them. Consolidation was destiny. The small guy was just waiting to be scheduled for deletion.
 
 Nine hundred years later, Frontier Settlement administrators are still quoting this man to justify why the Kepler Agricultural Collective must absorb your family's hydroponic bay.

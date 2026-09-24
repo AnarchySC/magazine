@@ -26,8 +26,6 @@ title_jp: サミュエルソンの美しい嘘：ギッフェン財という経�
 year: 2935
 ---
 
-# Samuelson's Beautiful Lies: The Giffen Good, Economics' Most Beloved Unicorn
-
 Okay okay okay, let me draw this out for you—
 
 Every first-year economics student at the Galactic Academy gets the same lesson in Week Three. The professor dims the lights, puts on their most dramatic voice, and says: *'The Law of Demand states that as price rises, demand falls. But...'*

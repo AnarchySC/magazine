@@ -19,8 +19,6 @@ title_jp: 中国限定AMD RX 9070 GREワイフ版：熱、ゲーミング、騒�
 year: 2935
 ---
 
-# Testing the Untestable: AMD's Outer Rim Gambit
-
 *Sponsored by Stellar Components - because someone has to fund independent hardware testing*
 
 So AMD released the RX 9070 GRE (Golden Rabbit Edition) exclusively to Outer Rim Coalition territories last cycle. Classic market segmentation - or as I call it, artificial scarcity with extra steps.

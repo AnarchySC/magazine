@@ -25,7 +25,6 @@ title_jp: ニューラル・ネットはまだ生きている：コミュニテ�
 year: 2935
 ---
 
-# The Neural-Net Still Works: The Quiet Miracle of Community Moderation
 ### *誰も強制しなかったのに、なぜ機能するのか*
 
 ---
@@ -83,5 +82,3 @@ The action is: it worked. The intention being floated in the Assembly right now 
 Some of us have seen that play before. We know how it ends.
 
 ---
-
-*— 宗像 レイナ, Galactic Affairs Correspondent*

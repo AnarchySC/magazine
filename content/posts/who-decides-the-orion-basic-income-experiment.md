@@ -20,8 +20,6 @@ title_jp: 誰が決めるの？：オリオン・ベーシック・インカム�
 year: 2935
 ---
 
-# Who Decides?: The Orion Basic Income Experiment
-
 *Three years of life where nobody said "get a job"*
 
 Mika Chen poured tea while she explained how her settlement works. "Everyone gets 2,000 Standard Galactic Credits monthly. No forms, no interviews, no proving you deserve it."

@@ -25,8 +25,6 @@ title_jp: 「合意なければ爆弾が降り注ぐ」：地球統一評議会�
 year: 2935
 ---
 
-# 'Lots of Ordnance Will Deploy' If No Agreement: Earth Council Chairman Defines Diplomacy With Explosives
-
 **EARTH STATION PRIME** — Chairman Harlan Voss stepped to the podium on Cycle-Day 4 of what the Earth Unified Council's press office is calling the *Goodwill Dialogue Initiative* with the Outer Rim Coalition. He was there, his communications team had carefully briefed, to discuss *peace*.
 
 I just think it's funny—
@@ -79,5 +77,3 @@ The galaxy, however, seems genuinely unsure. ENN's post-conference analysis pane
 They were not, apparently, considering *"a fairly transparent description of plans that already exist.*"
 
 The Chairman's office, for the record, has blocked this publication's press credentials for the third consecutive cycle. I keep the screenshots.
-
-*—陳 マックスウェル, Military & Security Correspondent*

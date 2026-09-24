@@ -39,8 +39,6 @@ title_jp: 量子記憶カルテル：彼らはどうやって銀河のストレ�
 year: 2935
 ---
 
-# The Quantum Storage Cartel: How They Controlled the Galaxy's Memory Market for Two Decades
-
 Let me start with something small, because this story hides inside something small.
 
 Inside every quantum storage cell — the kind in your mobi device, your fabrication unit, your ship's nav-core — there is a component called a suspension array lattice. It's a precision-engineered quantum anchor that holds the storage medium in alignment. Without it, the whole stack collapses. Data becomes noise.

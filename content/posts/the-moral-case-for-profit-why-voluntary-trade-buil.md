@@ -21,8 +21,6 @@ title_jp: 利益の道徳的根拠：自発的取引が銀河を築き上げ、�
 year: 2935
 ---
 
-# The Moral Case for Profit
-
 Okay okay okay, let me draw this out for you—
 
 Every morning, someone on Titan Station makes synthetic coffee. Not because they're altruistic saints, not because the Interstellar Assembly mandated Coffee Production Directive #4471, but because they want to make a profit. And every morning, miners heading to the belt pay them gladly because they want that coffee more than they want those credits.

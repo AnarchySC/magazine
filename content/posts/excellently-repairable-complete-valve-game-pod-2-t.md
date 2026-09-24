@@ -34,7 +34,6 @@ title_jp: 完璧に修理できる：バルブ・ゲームポッド2の完全分
 year: 2935
 ---
 
-# Excellently Repairable: Complete Valve Game Pod 2 Tear-Down Report
 ## It costs too much. Open it anyway.
 
 *by 小林 ヴェラ, Technology & Science Editor*

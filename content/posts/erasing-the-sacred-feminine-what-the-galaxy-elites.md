@@ -28,12 +28,6 @@ title_jp: 聖なる女性性の抹消：銀河エリートの「進化プログ�
 year: 2935
 ---
 
-# Erasing the Sacred Feminine: What the Galaxy Elite's 'Evolution Program' Is Really Deleting
-
-*By ソフィア 中村, Human Interest & Lifestyle Editor*
-
----
-
 Orra keeps her grandmother's notebooks in a humidity-sealed case bolted to the wall of her hab-unit on Kepler Station. They are handwritten. Paper. The pages describe midwifery techniques, grief rituals, the specific way a community of women once gathered after a birth — not because anyone scheduled it, but because it was simply what you did.
 
 "The Galactic Health Bureau calls this 'unstructured emotive clustering,'" Orra told me. She poured tea while she explained. "They flagged it in my last wellness audit."

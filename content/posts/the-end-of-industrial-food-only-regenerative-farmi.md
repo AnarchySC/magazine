@@ -28,12 +28,6 @@ title_jp: 工業的食料生産の終わり：再生農業だけが銀河を養�
 year: 2935
 ---
 
-# The End of Industrial Food: Only Regenerative Farming Can Feed the Galaxy
-
-**By 松田 ジェイド | Books & Media Critic, Cassette Future Magazine**
-
----
-
 Korvus Tane gets asked the same question everywhere he goes. At the Frontier Settlement Agronomy Symposium on Callisto. At the underground food markets of the Kessel Corridor. In the comment threads of every independent transmission he's ever published.
 
 *Can regenerative farming actually feed the galaxy?*

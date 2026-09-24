@@ -24,8 +24,6 @@ title_jp: 砂の無駄じゃない：Helios 7 370K+ 処理コアの完全レビ�
 year: 2935
 ---
 
-# Not a Waste of Sand: Helios 7 370K+ Processing Core Review & Benchmarks
-
 Let's start with the good news, because there's more of it than I expected.
 
 OmniChip's Helios 7 370K+ is, by almost every measurement I ran across three weeks of testing, the best thing OmniChip has shipped since the Photon architecture era. Strong single-thread performance. Thermal behavior that doesn't require you to route liquid coolant through your station wall. Power draw that won't flag your quarters for a consumption audit. And a price point that — for the first time in what feels like a decade of watching OmniChip struggle — actually makes sense relative to what you're getting.

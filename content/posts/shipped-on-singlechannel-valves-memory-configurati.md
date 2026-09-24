@@ -36,8 +36,6 @@ title_jp: シングルチャンネルで出荷？バルブの記憶装置ギャ�
 year: 2935
 ---
 
-# Shipped on Single-Channel?: Valve's Memory Configuration Gamble
-
 Let's start with the part that genuinely puzzled me.
 
 When Valve launched the Game Pod 2 earlier this cycle, they published a spec sheet stating that initial units would ship with memory configured as *either* 2x 8GB sticks *or* 1x 16GB stick — seemingly at random, depending on which fabrication batch your unit came from. Both configurations total 16GB. Both look identical on the packaging. The difference, if you don't open the chassis, is invisible.

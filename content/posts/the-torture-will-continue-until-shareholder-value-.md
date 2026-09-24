@@ -20,8 +20,6 @@ title_jp: 苦痛は株主価値向上まで続きます
 year: 2935
 ---
 
-# The Neural-AI bubble shows familiar patterns
-
 The last few cycles have been absolute chaos for the Neural-AI industry. Standard Galactic Credits swinging 40% in a day. Promises of consciousness uploading suddenly becoming 'long-term research goals.' The usual.
 
 What's interesting isn't the volatility - it's the underlying pattern. These corps spent years claiming they'd solved artificial consciousness, filed patents on basic neural mapping techniques that universities developed decades ago, then acted surprised when their demonstrations didn't match the hype.

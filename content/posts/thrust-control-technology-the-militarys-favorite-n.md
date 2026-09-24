@@ -30,8 +30,6 @@ title_jp: 『推力制御技術』：軍事契約の新しい言葉遊び
 year: 2935
 ---
 
-# Thrust Control Technology: The Military's Favorite New Euphemism
-
 Let me show you something.
 
 This is the official contract summary from the Solar Defense Advanced Research Bureau, verbatim: *"Thrust-control technology designed to make solid propulsion systems more adaptable across different missions and programs."*

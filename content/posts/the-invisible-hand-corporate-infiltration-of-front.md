@@ -19,8 +19,6 @@ title_jp: 見えざる手：フロンティア開発者への企業浸透
 year: 2935
 ---
 
-# The Invisible Hand: Corporate Infiltration of Frontier Developers
-
 *An investigation into Centari Holdings' shadow operations in frontier entertainment markets*
 
 Sixteen days. That's how long Stellar Guard Studios lasted after launching *Neural Vanguard*, their persistent-feed combat sim. 97,000 concurrent users on launch day, then straight into the recycler. Most staff terminated within the cycle. CEO Dusty Welch told reporters his studio was "pure frontier independent."

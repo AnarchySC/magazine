@@ -21,8 +21,6 @@ title_jp: 外縁同盟、標準銀河クレジットからの離脱を発表
 year: 2935
 ---
 
-# Outer Rim Coalition Breaks from Galactic Financial System
-
 The Outer Rim Coalition announced yesterday their immediate withdrawal from the Standard Galactic Credit, effective in 90 standard days. Coalition Premier Yuki Tanaka called it "the first step toward true economic independence from Core System manipulation."
 
 That's not what the numbers say.

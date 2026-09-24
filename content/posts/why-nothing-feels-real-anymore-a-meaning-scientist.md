@@ -29,8 +29,6 @@ title_jp: なぜ何もリアルに感じられないのか：意味の科学者�
 year: 2935
 ---
 
-# Why Nothing Feels Real Anymore: A Meaning Scientist Answers
-
 **Kepler Station, Residential Ring 7** — Professor Aiden Mori's quarters are aggressively ordinary. No neural-feed display. No ambient mood lighting calibrated to his biometrics. A kettle that you have to watch, because it doesn't alert you when it's ready.
 
 "That's the point," he says, noticing me notice. "The kettle requires your attention. Your attention is the thing."
@@ -82,5 +80,3 @@ What Mori prescribes is almost insultingly simple: contribution, connection, tra
 He refills my cup without asking.
 
 This is what it actually looks like when someone trusts that you want more tea. A small thing. Completely real.
-
-*— ソフィア 中村, Human Interest & Lifestyle Editor*

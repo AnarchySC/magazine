@@ -20,8 +20,6 @@ title_jp: 心の空洞：なぜミニマリストは自分の魂を売るのか
 year: 2935
 ---
 
-# The Hollow Heart: Why Minimalists Are Selling Their Souls
-
 They call it *kanso* living—the Neo-Minimalist movement sweeping through Core System habitats like a beautiful plague. Walk through any residential pod in Neo-Tokyo Station and you'll see them: humans reduced to shadows, existing in spaces so empty they echo with the sound of nothing.
 
 But what is it actually saying?

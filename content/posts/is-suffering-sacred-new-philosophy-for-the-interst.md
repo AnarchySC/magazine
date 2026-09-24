@@ -17,8 +17,6 @@ title_jp: 苦しみは神聖か？：星間時代の新しい哲学
 year: 2935
 ---
 
-# Is Suffering Sacred?: New Philosophy for the Interstellar Age
-
 Dr. Kenji Nakamura pours tea while he explains why half the galaxy thinks pain builds character. "The Neo-Stoics say we need hardship to grow," he tells me from his meditation pod on Europa Station. "But I've spent three years studying frontier settlements where people just... help each other avoid unnecessary suffering."
 
 The Neural-net philosophy feeds are full of debates about whether struggle gives life meaning. Earth intellectuals argue that easy living makes humans weak. Titan's underground cities, meanwhile, figured out how to eliminate most daily hardships centuries ago. Nobody told them they were supposed to suffer.

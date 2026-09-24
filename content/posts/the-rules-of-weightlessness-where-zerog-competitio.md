@@ -25,8 +25,6 @@ title_jp: 無重力の掟：ゼロG競技のドーピング問題と身体改造
 year: 2935
 ---
 
-# The Rules of Weightlessness: Where Zero-G Competition Ends and Body Modification Begins
-
 **CERES RING SPORTS COMPLEX** — The 2935 Galactic Open Zero-G Sprint Finals concluded last week with a disqualification that nobody who watched it will soon forget.
 
 Kaito Vasquez, a 24-year-old from Settlement Dreyfus-7 in the Outer Rim, crossed the terminal ring in 4.2 seconds. The previous record was 6.1. Vasquez, who grew up in a station with irregular gravity cycling, has a cardiovascular system that Earth-born physiologists are still arguing about in peer-reviewed journals. His resting heart rate is 28 beats per minute. His proprioception, tested after the race, registered responses that the Federation's own medical staff described in their report as "not within baseline parameters."

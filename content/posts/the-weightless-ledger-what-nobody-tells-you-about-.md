@@ -32,8 +32,6 @@ title_jp: 重力なき身体：フロンティア・スラロームの知られ�
 year: 2935
 ---
 
-# The Weightless Ledger: What Nobody Tells You About the Frontier Slalom Economy
-
 **CERES EXCHANGE BUREAU, ORBITAL DECK 7** — The Frontier Slalom Circuit posted 4.2 billion Standard Galactic Credits in declared revenue last cycle. Commissioner Yuki Haraldsen called it a watershed moment for the sport. She said it from a climate-controlled suite overlooking the Ceres Exchange floor.
 
 The athletes called it something else. I asked three of them. None would go on record.

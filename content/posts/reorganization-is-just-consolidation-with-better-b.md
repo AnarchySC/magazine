@@ -28,7 +28,6 @@ title_jp: 再編成という名の権力集中：衛星警戒網がまた一つ�
 year: 2935
 ---
 
-# Reorganization Is Just Consolidation With Better Branding
 ## Another Satellite Warning Network Quietly Handed to One Commander
 
 Last cycle, the Solar Defense Compact announced that Fleet Admiral Priya Sandhu — director of the Orbital Development Bureau, the SDC's main satellite acquisition arm — would be taking on what they called an 'expanded missile warning portfolio.'

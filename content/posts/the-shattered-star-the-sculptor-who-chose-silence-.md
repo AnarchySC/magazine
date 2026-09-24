@@ -26,8 +26,6 @@ title_jp: 砕かれた星：「修正」より「沈黙」を選んだ彫刻家
 year: 2935
 ---
 
-# The Shattered Star: The Sculptor Who Chose Silence Over 'Correction'
-
 **Kepler Belt, Frontier Settlements** — The studio still smells like burnt composite resin. María Vásquez doesn't apologize for that. She pours tea while she explains — slowly, like she's been asked before and has decided this time to get it exactly right.
 
 "They didn't want to destroy it," she says. "That's what they kept telling me. *We just want to make it accessible. We just want it to reach everyone.*"

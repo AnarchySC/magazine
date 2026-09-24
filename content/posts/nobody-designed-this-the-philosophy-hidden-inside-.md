@@ -25,8 +25,6 @@ title_jp: 誰も設計していない：深宇宙に現れる幽霊ステーシ�
 year: 2935
 ---
 
-# Nobody Designed This: The Philosophy Hidden Inside the Galaxy's Ghost Stations
-
 **Alright, let me break this down—**
 
 Six new stations. In eighteen months. Deep space. No Assembly registration. No GCB financing records. No corporate logo stamped on the airlock.

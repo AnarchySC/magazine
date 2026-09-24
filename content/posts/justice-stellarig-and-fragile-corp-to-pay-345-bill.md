@@ -27,7 +27,6 @@ title_jp: 正義：レンタル艦船詐欺でステラリグとフラジル社�
 year: 2935
 ---
 
-# JUSTICE: StellaRig and Fragile Corp to Pay 3.45 Billion SGC for Rental Ship-Station Scam
 ## The 'Subscription Dock-Station' Program Was Exactly What It Looked Like
 
 Let's start with the settlement number, because it's large and satisfying in the way that large numbers are satisfying before you do the actual math: **3.45 billion Standard Galactic Credits**.

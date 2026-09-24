@@ -28,7 +28,6 @@ title_jp: 人類は本当に星を渡れるか？恒星間移住計画の夢と�
 year: 2935
 ---
 
-# Can Humanity Actually Leave the Solar System?
 ## The Dream and Reality of True Interstellar Migration
 
 Okay, here's the thing nobody's telling you — we've been *technically* an interstellar civilization for about sixty years now, and we still haven't figured out how to do it properly. We have stations on Kepler-442b. We have relay nodes in the Tau Ceti system. We have *tourism packages* to Proxima. And yet, genuine, self-sustaining, no-umbilical-cord-back-to-Earth interstellar migration? Nobody's cracked it. Not really.

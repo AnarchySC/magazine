@@ -19,8 +19,6 @@ title_jp: ファブリックAI社とクォンタム・テック社の取引に�
 year: 2935
 ---
 
-# Supply Chain Blues Hit Processing Market
-
 The processing core market took another hit this cycle as availability dropped to historic lows. Quantum Tech's latest fabrication delays have pushed premium neural cores to 400% markup on secondary markets.
 
 Here's what's actually happening: Fabric AI signed an exclusive supply deal with Quantum Tech three quarters ago. Now that AI model training demands have exploded across the colonies, other manufacturers can't get enough cores to meet demand. The Ceres Exchange shows processing power futures up 280% since the deal went public.

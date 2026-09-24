@@ -19,8 +19,6 @@ title_jp: 真空の中のヴィンテージ：なぜ地球時代の服が宇宙�
 year: 2935
 ---
 
-# The Real Story Behind Space Fashion's Earth Obsession
-
 Walk through any Colony Station marketplace and you'll see them: young voidborn kids wearing perfect replicas of 21st-century Earth clothing. Denim that serves no practical purpose in zero-g. Cotton t-shirts that require precious water to clean. Sneakers designed for surfaces that don't exist on most settlements.
 
 The surface story is about fashion rebellion—youth rejecting the practical jumpsuits and mag-wear their parents lived in. But what is it actually saying?

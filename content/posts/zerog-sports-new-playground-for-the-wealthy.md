@@ -20,8 +20,6 @@ title_jp: 重力ゼロ競技：富裕層の新たな遊び場
 year: 2935
 ---
 
-# Zero-G Sports: The Real Cost of Weightless Entertainment
-
 The Ceres Exchange buzzed last quarter when Aurora Entertainment announced a 340% profit spike from their zero-gravity racing leagues. Turns out watching people flip through vacuum sells premium advertising slots to pharmaceutical corps and luxury fabricators.
 
 Funny thing about zero-G sports - they didn't start as sports. Three decades back, asteroid miners developed these movement techniques to survive equipment failures in hard vacuum. Now those same maneuvers get broadcast across the Core Systems as "thrilling athletic competition."

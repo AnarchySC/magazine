@@ -21,8 +21,6 @@ title_jp: ケレス・リング：廃墟から生まれた芸術の聖地
 year: 2935
 ---
 
-# The Real Story Behind Ceres Ring's Creative Explosion
-
 Okay, here's the thing nobody's telling you about Ceres Ring—it wasn't supposed to be an art colony. Five years ago, this was just another dead mining station, abandoned when Asteroid Dynamics Corp pulled out after the lithium deposits ran dry.
 
 Then the squatters arrived.

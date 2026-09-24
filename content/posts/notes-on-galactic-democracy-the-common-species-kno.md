@@ -26,7 +26,6 @@ title_jp: 銀河民主主義覚書：普通種族は望むものを知ってい�
 year: 2935
 ---
 
-# Notes on Galactic Democracy: The Common Species Know What They Want, and Deserve to Get It Good and Hard
 ### *文化的砂漠の知的貧困について*
 
 ---

@@ -20,8 +20,6 @@ title_jp: 重力なしファッション：なぜ地球人はまだ床に執着�
 year: 2935
 ---
 
-# The Weight of Old Habits
-
 Watched the Titan Fashion Week feeds last cycle and couldn't stop thinking: why are we still pretending gravity matters?
 
 Every major house—Nakamura Couture, Stellar Threads, even the supposedly 'progressive' Void Collective—showed collections designed for walking. *Walking.* In 2935. When 78% of human civilization lives in low-G or zero-G environments.

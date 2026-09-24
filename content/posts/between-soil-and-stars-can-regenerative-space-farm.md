@@ -27,8 +27,6 @@ title_jp: 土と星の間で：再生型宇宙農業は本当に銀河を養え�
 year: 2935
 ---
 
-# Between Soil and Stars: Can Regenerative Space Farming Actually Feed the Galaxy?
-
 **土と星の間で** — *Between Soil and Stars*
 
 ---

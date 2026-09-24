@@ -26,12 +26,6 @@ title_jp: 誰も言語を所有していない：銀河標準語の崩壊が教�
 year: 2935
 ---
 
-# Nobody Owns Language: What the Collapse of Galactic Standard Is Actually Teaching Us
-
-**By 宗像 レイナ | Galactic Affairs Correspondent**
-
----
-
 In 2891, the Interstellar Assembly passed the Unified Communication Mandate. The official language of the galaxy would be Galactic Standard — a carefully engineered hybrid of the twelve most-spoken tongues, designed by a committee of 340 certified linguists, backed by 800 billion SGC in implementation funding.
 
 Today, nobody speaks Galactic Standard. Not even the linguists.

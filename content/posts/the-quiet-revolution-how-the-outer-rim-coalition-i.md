@@ -41,8 +41,6 @@ title_jp: 静かなる革命：外縁連合の台頭と核心システムの自�
 year: 2935
 ---
 
-# The Quiet Revolution: How the Outer Rim Coalition Is Building While the Core Systems Burn
-
 Alright, let me break this down—
 
 Two civilizations. Two trajectories. One of them is spending itself into a supernova, and one of them is quietly, methodically, *patiently* building the next century.

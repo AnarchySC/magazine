@@ -24,8 +24,6 @@ title_jp: 思想の戦場：急進派はなぜ「良い議論」だけでは足�
 year: 2935
 ---
 
-# The Battlefield of Ideas: Why Radicals Know a 'Good Argument' Is Never Enough
-
 **Alright, let me break this down—**
 
 Every few months, someone slides into my neural-feed with the same earnest energy. They've just discovered Menger, or Hazlitt, or the old Earth-era Rothbard files. They've read everything. They can *demolish* any GCB apologist in a live debate. Their logic is airtight. Their data is clean.

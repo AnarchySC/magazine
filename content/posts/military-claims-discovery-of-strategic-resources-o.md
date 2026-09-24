@@ -20,8 +20,6 @@ title_jp: 軍部、太陽系外惑星で「戦略的資源」を発見と発表
 year: 2935
 ---
 
-# Discovery Season is Here Again
-
 The Solar Defense Compact held a press conference yesterday to announce their "groundbreaking discovery" of quantum lithium deposits on Kepler-442b. Admiral Sarah Voss stood before the assembled media with the kind of straight face that deserves an acting award.
 
 "These quantum crystals are absolutely essential for our next-generation fleet defense systems," Voss explained, as if she'd been personally mining them for years. "Without immediate extraction operations, our defensive capabilities could be severely compromised."

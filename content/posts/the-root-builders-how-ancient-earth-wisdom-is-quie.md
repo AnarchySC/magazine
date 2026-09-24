@@ -30,8 +30,6 @@ title_jp: 根が橋を作る：古代の知恵が銀河の建築を変える
 year: 2935
 ---
 
-# The Root Builders: How Ancient Earth Wisdom Is Quietly Revolutionizing Galactic Architecture
-
 Okay, here's the thing nobody's telling you —
 
 While the Assembly's been busy commissioning another committee to design another identical transit hub on another orbital station, a small collective of bioarchitects has been quietly doing something that makes every poured-composite megastructure in the Core Systems look frankly embarrassing.

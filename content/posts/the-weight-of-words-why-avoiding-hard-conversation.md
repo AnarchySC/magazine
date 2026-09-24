@@ -25,8 +25,6 @@ title_jp: 言葉の重さ：難しい会話を避けることが、なぜあな�
 year: 2935
 ---
 
-# The Weight of Words: Why Avoiding Hard Conversations Is Quietly Destroying Your Life
-
 **Kepler Station, Ring 4 — Residential Quarter**
 
 Mara Osei has a small room. Not a counseling suite with soft lighting and certificated walls. A room. Two chairs, a low table, a kettle that sounds like it survived the Reconstruction. She has mediated somewhere between four and eight thousand difficult conversations — she stopped counting — and she charges nothing she knows people cannot pay.

@@ -20,8 +20,6 @@ title_jp: タイタンの地下都市で見つけた本当の自由
 year: 2935
 ---
 
-# The Real Freedom I Found in Titan's Underground Cities
-
 Okay, here's the thing nobody's telling you about Titan—forget everything you've heard about the "regulated mining settlements" and "corporate dormitory zones." The real story is happening thirty meters below the official surface, in a network of tunnels that officially doesn't exist.
 
 I'm talking about the *jiyū kuiki*—the free zones. Places where Saturn Corp's surveillance drones can't penetrate, where the methane fog provides perfect cover, and where some of the most revolutionary art in the galaxy is being created by people who've completely opted out of the credit economy.

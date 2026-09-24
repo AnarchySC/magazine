@@ -28,7 +28,6 @@ title_jp: 殺人者の目を読む：銀河で最も有名な裁判が教えて�
 year: 2935
 ---
 
-# Reading a Killer's Eyes: What the Galaxy's Most Famous Trial Is Actually Teaching Us
 ### ボディランゲージ専門家が語る、感情なき顔の科学
 
 ---

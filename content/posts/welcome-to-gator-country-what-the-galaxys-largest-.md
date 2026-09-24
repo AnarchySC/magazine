@@ -26,12 +26,6 @@ title_jp: ワニの国へようこそ：銀河最大の爬虫類保護区の哲�
 year: 2935
 ---
 
-# Welcome to Gator Country: What the Galaxy's Largest Reptile Sanctuary Actually Believes
-
-*By 松田 ジェイド, Books & Media Critic — but some places demand to be read like texts.*
-
----
-
 You pass it on the transit spur between Kepler Station and the outer refinery belts. Most passengers don't look up from their mobi devices. Those who do see the sign — a massive holographic rendering of an Earth-era American alligator, jaws open, three meters of armored patience — and immediately look back down.
 
 I got off the shuttle.

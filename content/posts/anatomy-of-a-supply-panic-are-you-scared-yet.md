@@ -28,7 +28,6 @@ title_jp: 供給パニックの解剖学：あなたはもう怖いですか？
 year: 2935
 ---
 
-# Anatomy of a Supply Panic: Are You Scared Yet?
 ### *ENN が「不足」を報道するたびに誰が儲かるのかを追ってみた*
 
 ---

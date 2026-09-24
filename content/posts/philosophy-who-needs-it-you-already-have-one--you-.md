@@ -31,8 +31,6 @@ title_jp: 哲学：誰がそれを必要とするか？あなたは既に持っ�
 year: 2935
 ---
 
-# Philosophy: Who Needs It? You Already Have One — You Just Haven't Looked At It
-
 Alright, let me break this down—
 
 Somebody walks into an Orion Trust credit office on Kepler Station. Signs a variable-rate loan agreement for a fabrication unit. Doesn't read the interest adjustment clause. Loses the unit fourteen months later when the prime lending rate ticks up 3.2 points.

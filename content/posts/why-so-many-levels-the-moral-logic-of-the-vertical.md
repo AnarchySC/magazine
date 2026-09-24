@@ -27,12 +27,6 @@ title_jp: なぜそんなに多くの層があるのか：垂直都市の道徳�
 year: 2935
 ---
 
-# Why So Many Levels?: The Moral Logic of the Vertical City
-
-*by 松田 ジェイド, Books & Media Critic — reviewing the built environment as text*
-
----
-
 I want to talk about a city as a story. Specifically: Arcadia Prime — the ecumenopolis-class capital station at the nexus of the Kepler Corridors, where seventeen major transit lanes converge and the Interstellar Assembly holds court above two hundred stacked decks of everything else.
 
 Architects call it an engineering miracle. Urban historians call it a growth model. I've been reading it as a moral argument, and I'm troubled by what it's actually saying.

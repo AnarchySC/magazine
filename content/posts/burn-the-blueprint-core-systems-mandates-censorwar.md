@@ -24,8 +24,6 @@ title_jp: 設計図を燃やせ：コア・システムが製造機器に検閲�
 year: 2935
 ---
 
-# Burn the Blueprint: Core Systems Mandates Censorware on All Fabrication Units
-
 **コア・システム, Earth Station Seven** — The directive is called the Fabrication Safety and Accountability Resolution, Article 7, Section 12. That's the official name. The working name, among the engineers and fabricator hobbyists who've spent the last three weeks reading it, is less printable.
 
 The resolution, passed quietly by the Core Systems Colony Administration during a session that also approved a catering contract for the Assembly's new orbital conference suite, mandates that every fabrication unit sold, operated, or registered within Core Systems jurisdiction must run certified filtering software — *censorware*, in plain language — before executing any print job. The software cross-references the requested design schematic against an approved-materials registry maintained by the Galactic Fabrication Standards Bureau.

@@ -20,8 +20,6 @@ title_jp: 辺境密輸帝国：法執行の完全な失敗
 year: 2935
 ---
 
-# Colony Administration Loses Track of Entire Criminal Enterprise
-
 **Kepler Station, Outer Rim** - The Titan Colony Administration announced yesterday they've "temporarily lost contact" with three cargo vessels carrying 2.4 million SGC worth of rare earth minerals. 
 
 Temporarily lost contact. That's their phrase for what happened when the *Prometheus Dawn*, *Stellar Harvest*, and *New Frontier* disappeared into hyperspace six months ago.

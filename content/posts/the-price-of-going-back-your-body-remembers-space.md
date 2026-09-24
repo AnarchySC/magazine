@@ -25,7 +25,6 @@ title_jp: 月面帰還の代償：あなたの体は宇宙を覚えている
 year: 2935
 ---
 
-# The Price of Going Back: Your Body Remembers Space
 ### 900年ぶりの月面有人探査が明かす、静かな生物学的真実
 
 Here's something nobody tells you in the recruitment holos for the Luna Reclamation Initiative: your skeleton doesn't care about your mission timeline.

@@ -25,7 +25,6 @@ title_jp: 壁を見つめていますか？現代人の「ボーっとする」�
 year: 2935
 ---
 
-# Are You Staring At The Wall?
 ## The Radical Case for Doing Absolutely Nothing
 
 *by ソフィア 中村, Human Interest & Lifestyle Editor*

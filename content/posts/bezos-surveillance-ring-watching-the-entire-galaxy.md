@@ -21,8 +21,6 @@ title_jp: ベゾス氏の監視リング：全銀河を見張る！
 year: 2935
 ---
 
-# The Ring Closes Tighter
-
 So the Ceres Post is bleeding credits faster than a hull breach, the Environmental Protection Bureau just decided carbon dioxide isn't actually dangerous anymore (shocking absolutely no one who's read their funding reports), and Orbital Security's Ring network can now track your pet cyber-cat through seventeen different habitat modules.
 
 I just think it's funny—

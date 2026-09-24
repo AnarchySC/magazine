@@ -35,7 +35,6 @@ title_jp: インディーズ・コミックの逆襲：メガコープの影で�
 year: 2935
 ---
 
-# The Indie Comics Counterattack
 ## Underground Creators Shining in the Shadow of the Mega-Corps
 
 Okay, here's the thing nobody's telling you—

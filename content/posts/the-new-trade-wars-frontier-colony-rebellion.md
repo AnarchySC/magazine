@@ -20,8 +20,6 @@ title_jp: 新しい貿易戦争：辺境植民地の反乱
 year: 2935
 ---
 
-# The New Trade Wars: Frontier Colony Rebellion
-
 Alright, let me break this down—something absolutely WILD is happening in the Outer Rim, and Earth Network News is calling it 'economic terrorism.' 
 
 The Kepler-442b mining colonies just told the Galactic Central Bank to shove their Standard Galactic Credits where the twin suns don't shine. Instead of SGCs, they're trading directly: rare earth minerals for manufactured goods, energy cells for food shipments, titanium for medical supplies.

@@ -35,8 +35,6 @@ title_jp: 「豊かさ」の定義を疑え：選択肢こそが本当の富だ
 year: 2935
 ---
 
-# Question the Definition of 'Rich': Options Are the Only Wealth That Matters
-
 Every few cycles, the neural feeds produce a new prophet in miniature. Thirty seconds. A confident voice. A reframe so clean it feels like a window being opened in a sealed chamber.
 
 This season's version goes like this: *Being rich isn't about fancy stuff. It's about having options.*

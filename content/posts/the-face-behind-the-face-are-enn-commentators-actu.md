@@ -29,7 +29,6 @@ title_jp: 画面の向こうの顔：ENN解説者は本当に本物の人間な�
 year: 2935
 ---
 
-# The Face Behind the Face: Are ENN Commentators Actually Human?
 ## ニューラルフィード最大手の「専門家」たちに何かがおかしい
 
 **by 陳 マックスウェル | Military & Security Correspondent**

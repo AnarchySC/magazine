@@ -34,8 +34,6 @@ title_jp: 目を閉じていた男：闘技場の群衆が彼を変えた夜
 year: 2935
 ---
 
-# The Man Who Kept His Eyes Closed: The Night the Arena Crowd Changed Everything
-
 Okay, here's the thing nobody's telling you—
 
 The **Helios Pinnacle Combat Arena** orbiting Ganymede is not a sports venue. I want to be really clear about that before we go any further. It is a *psychological instrument*. It was engineered — deliberately, by people who understood crowd dynamics at a neuroscientific level — to process 80,000 individual humans into a single emotional organism. That organism feels things no individual person would consent to feeling alone.

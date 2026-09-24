@@ -24,12 +24,6 @@ title_jp: シミュレーションの檻：なぜ私たちの子どもは考え�
 year: 2935
 ---
 
-# The Simulation Cage: Why Our Children Are Never Allowed to Think
-
-**By エリオット 花村 | Culture & Entertainment Correspondent**
-
----
-
 Okay, here's the thing nobody's telling you — **Mara Solís** spent nineteen years inside the Core Systems Consciousness Training apparatus. Designed curriculum. Trained instructors. Won the Assembly's 教育優秀賞 — the *Education Excellence Medal* — twice. She believed in it.
 
 Then she started paying attention to what she was actually doing.

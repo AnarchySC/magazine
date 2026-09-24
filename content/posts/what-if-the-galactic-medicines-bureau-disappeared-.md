@@ -24,7 +24,6 @@ title_jp: 銀河医薬品局が消えたら、何が残るか？
 year: 2935
 ---
 
-# What If the Galactic Medicines Bureau Disappeared Tomorrow?
 ## *誰も聞かなかった質問、そして全員が知っていた答え*
 
 ---

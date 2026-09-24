@@ -30,8 +30,6 @@ title_jp: はい、これは全て非常に合法的に見えます：ヴォイ�
 year: 2935
 ---
 
-# Yes, This All Seems Very Legitimate: VoidCore's AI Circular Funding
-
 Let me walk you through what the new Assembly disclosure filings actually say. Slowly. Because I've read them three times and I keep finding new things to be quietly astonished by.
 
 **Here's the structure, as best I can reconstruct it.**

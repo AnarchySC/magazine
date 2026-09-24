@@ -26,7 +26,6 @@ title_jp: 評議会議長、聖典朗読イベントで「戦争の章」を選�
 year: 2935
 ---
 
-# Council Chairman Chooses 'The War Chapters' for Sacred Text Reading Event
 ## *With the entire ancient canon available, he picked the siege warfare bits*
 
 The Earth Unified Council's Office of Cultural Optics announced this week that Chairman Harlan Voss would participate in **Galaxy Reads the Ancient Archives**, the annual event hosted at the Museum of Pre-Collapse Texts on Earth Station Prime, running the 19th through 25th of this cycle.

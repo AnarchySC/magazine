@@ -19,8 +19,6 @@ title_jp: 「宇宙の謎」解明より予算確保が優先
 year: 2935
 ---
 
-# Scientists Find Thing. Military Wants to Shoot It.
-
 Researchers at the Titan Deep Space Observatory announced yesterday they've detected what they're calling "quantum foam bubbles" - microscopic tears in spacetime that could theoretically allow near-instantaneous travel between star systems.
 
 The discovery lasted exactly 6.3 hours in civilian hands.

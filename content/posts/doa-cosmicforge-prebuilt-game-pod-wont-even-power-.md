@@ -29,7 +29,6 @@ title_jp: 死着：コズミックフォージ製・組み立て済みゲーム�
 year: 2935
 ---
 
-# DOA: CosmicForge Pre-Built Game Pod Won't Even Power On
 ## 一年後に再訪問——状況は変わっていなかった
 
 *by 小林 ヴェラ | Technology & Science*

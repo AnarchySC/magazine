@@ -36,8 +36,6 @@ title_jp: 勝利？：フロック・セーフティが「人間の声苦痛検�
 year: 2935
 ---
 
-# Victory?: VoidWatch Cancels 'Human Distress Audio Detection' Rollout After Galaxy Pushes Back
-
 VoidWatch Systems announced this week it would halt deployment of its Acoustic Distress Detection module — a microphone-embedded upgrade to its existing hull-scanner arrays that the company had marketed as a tool to identify 'audible signs of human suffering' in cargo bays, transit pods, and docking corridors.
 
 The Frontier Privacy Coalition called it a win. That's one version of events.

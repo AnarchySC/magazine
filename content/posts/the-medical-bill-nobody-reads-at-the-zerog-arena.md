@@ -22,7 +22,6 @@ title_jp: 重力なき競技場の医療費：誰が払っているのか
 year: 2935
 ---
 
-# The Medical Bill Nobody Reads at the Zero-G Arena
 ### 観客は熱狂する。負傷した選手は請求書を受け取る。
 
 ---
