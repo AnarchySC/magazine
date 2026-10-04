@@ -1,7 +1,7 @@
 ---
 date: '2026-04-28T17:32:25'
 draft: false
-featured_image: /images/header-the-light-doesnt-die-how-voidlens-keeps-independen.png
+featured_image: /images/header-the-light-doesnt-die-how-voidlens-keeps-independen.jpg
 image_prompt: Anime-style illustration, white background, a lone photographer in a
   sleek spacesuit floating weightlessly in deep space, holding a vintage camera up
   to their eye, stars and a distant nebula reflected in their visor, warm golden light

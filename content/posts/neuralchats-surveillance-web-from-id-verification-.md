@@ -1,7 +1,7 @@
 ---
 date: '2026-02-18T16:30:32'
 draft: false
-featured_image: /images/header-neuralchats-surveillance-web-from-id-verification-.png
+featured_image: /images/header-neuralchats-surveillance-web-from-id-verification-.jpg
 image_prompt: Anime-style illustration of interconnected neural networks with glowing
   data streams, surveillance cameras integrated into chat bubbles, corporate logos
   floating in digital space, minimal cyberpunk aesthetic on white background

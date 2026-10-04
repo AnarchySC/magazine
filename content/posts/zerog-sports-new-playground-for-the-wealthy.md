@@ -1,7 +1,7 @@
 ---
 date: '2026-02-08T01:30:32'
 draft: false
-featured_image: /images/header-zerog-sports-new-playground-for-the-wealthy.png
+featured_image: /images/header-zerog-sports-new-playground-for-the-wealthy.jpg
 image_prompt: Anime-style illustration of figures in sleek spacesuits racing through
   geometric space obstacles, with corporate logos visible on equipment, minimalist
   white background, conveying both athleticism and commercialization

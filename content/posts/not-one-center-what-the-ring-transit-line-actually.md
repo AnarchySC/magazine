@@ -1,7 +1,7 @@
 ---
 date: '2026-05-26T16:11:29'
 draft: false
-featured_image: /images/header-not-one-center-what-the-ring-transit-line-actually.png
+featured_image: /images/header-not-one-center-what-the-ring-transit-line-actually.jpg
 image_prompt: Anime-style minimal illustration, white background, a glowing circular
   transit ring floating in space with dozens of small luminous nodes evenly distributed
   around it, each node radiating soft warm light like a small town center, ink line

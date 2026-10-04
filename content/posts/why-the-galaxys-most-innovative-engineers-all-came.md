@@ -1,7 +1,7 @@
 ---
 date: '2026-04-21T17:32:50'
 draft: false
-featured_image: /images/header-why-the-galaxys-most-innovative-engineers-all-came.png
+featured_image: /images/header-why-the-galaxys-most-innovative-engineers-all-came.jpg
 image_prompt: 'Anime sci-fi illustration, minimal, white background: a lone frontier
   child sitting cross-legged on a dusty asteroid surface, surrounded by scattered
   mechanical parts from a disassembled pump or generator, concentrating deeply, twin

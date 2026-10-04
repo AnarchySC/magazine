@@ -1,7 +1,7 @@
 ---
 date: '2026-06-11T20:27:33'
 draft: false
-featured_image: /images/header-why-nothing-feels-real-anymore-a-meaning-scientist.png
+featured_image: /images/header-why-nothing-feels-real-anymore-a-meaning-scientist.jpg
 image_prompt: Anime sci-fi style, minimal, white background. A quiet scholar in simple
   robes sits at a plain wooden table on a space station, watching a kettle boil near
   a circular porthole showing stars. Steam rises. The room is strikingly ordinary

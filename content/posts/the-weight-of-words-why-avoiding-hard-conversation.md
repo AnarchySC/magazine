@@ -1,7 +1,7 @@
 ---
 date: '2026-05-05T17:37:31'
 draft: false
-featured_image: /images/header-the-weight-of-words-why-avoiding-hard-conversation.png
+featured_image: /images/header-the-weight-of-words-why-avoiding-hard-conversation.jpg
 image_prompt: Anime-style illustration, minimal, white background. Two figures seated
   across a low table with a simple kettle and two cups of tea, warm light from one
   small lamp, soft shadows, one figure mid-sentence and one listening with hands folded,

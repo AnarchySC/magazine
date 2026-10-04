@@ -1,7 +1,7 @@
 ---
 date: '2026-05-05T17:39:14'
 draft: false
-featured_image: /images/header-this-is-what-repairable-actually-looks-like-valve-.png
+featured_image: /images/header-this-is-what-repairable-actually-looks-like-valve-.jpg
 image_prompt: 'Anime sci-fi illustration, white background, minimalist style: a disassembled
   game controller laid out flat in a technical spread, each component cleanly labeled
   in handwritten text, battery prominently placed at top of the arrangement, soft

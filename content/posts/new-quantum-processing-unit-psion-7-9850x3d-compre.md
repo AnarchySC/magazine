@@ -1,7 +1,7 @@
 ---
 date: '2026-02-11T08:23:38'
 draft: false
-featured_image: /images/header-new-quantum-processing-unit-psion-7-9850x3d-compre.png
+featured_image: /images/header-new-quantum-processing-unit-psion-7-9850x3d-compre.jpg
 image_prompt: Futuristic CPU chip with glowing quantum circuits on white background,
   anime-style technical diagram with visible cache layers, minimal clean design
 issue_number: '2935.042'

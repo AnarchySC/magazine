@@ -1,7 +1,7 @@
 ---
 date: '2026-04-28T16:12:46'
 draft: false
-featured_image: /images/header-do-not-buy-helios-9-9950x3d2-processing-core-revie.png
+featured_image: /images/header-do-not-buy-helios-9-9950x3d2-processing-core-revie.jpg
 image_prompt: 'Anime/sci-fi style minimal illustration on white background: a glowing
   processing core chip floating in zero gravity, surrounded by 24 small holographic
   bar charts arranged in a circle, each chart slightly different heights, one chart

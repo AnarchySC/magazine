@@ -1,7 +1,7 @@
 ---
 date: '2026-02-11T08:22:25'
 draft: false
-featured_image: /images/header-secret-networks-exposed-orion-files-reveal-the-tru.png
+featured_image: /images/header-secret-networks-exposed-orion-files-reveal-the-tru.jpg
 image_prompt: Anime-style minimalist illustration showing scattered data tablets floating
   in space around a distant planet, with shadowy network connection lines between
   them, white background, cyberpunk aesthetic

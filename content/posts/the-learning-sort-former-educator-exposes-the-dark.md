@@ -1,7 +1,7 @@
 ---
 date: '2026-03-03T15:22:24'
 draft: false
-featured_image: /images/header-the-learning-sort-former-educator-exposes-the-dark.png
+featured_image: /images/header-the-learning-sort-former-educator-exposes-the-dark.jpg
 image_prompt: Anime-style illustration of a woman with gentle eyes pouring tea, with
   floating holographic test results and confused children in the background, minimal
   white background, soft lighting

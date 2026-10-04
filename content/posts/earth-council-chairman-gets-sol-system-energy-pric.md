@@ -1,7 +1,7 @@
 ---
 date: '2026-02-27T16:36:36'
 draft: false
-featured_image: /images/header-earth-council-chairman-gets-sol-system-energy-pric.png
+featured_image: /images/header-earth-council-chairman-gets-sol-system-energy-pric.jpg
 image_prompt: Anime-style illustration of a confused politician at a podium with floating
   holographic numbers showing wildly different statistics, minimal white background,
   satirical tone

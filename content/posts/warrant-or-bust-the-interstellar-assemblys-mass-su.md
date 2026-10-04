@@ -1,7 +1,7 @@
 ---
 date: '2026-06-11T20:28:38'
 draft: false
-featured_image: /images/header-warrant-or-bust-the-interstellar-assemblys-mass-su.png
+featured_image: /images/header-warrant-or-bust-the-interstellar-assemblys-mass-su.jpg
 image_prompt: Anime-style illustration, minimal white background, a single glowing
   neural-net data stream being stopped by a large translucent stamp reading 'WARRANT
   REQUIRED', geometric legal architecture in faint background lines, cool blue and

@@ -1,7 +1,7 @@
 ---
 date: '2026-05-05T17:38:40'
 draft: false
-featured_image: /images/header-the-digital-id-chain-you-need-permission-to-prove-.png
+featured_image: /images/header-the-digital-id-chain-you-need-permission-to-prove-.jpg
 image_prompt: Anime sci-fi style, minimal, white background. A single glowing digital
   token floats in empty space, wrapped in fine chain links. The chain extends off-frame
   into darkness. Clean linework, cold blue and white palette, faint grid overlay suggesting

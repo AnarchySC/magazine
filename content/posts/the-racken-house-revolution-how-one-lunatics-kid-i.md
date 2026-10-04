@@ -1,7 +1,7 @@
 ---
 date: '2026-04-14T14:02:01'
 draft: false
-featured_image: /images/header-the-racken-house-revolution-how-one-lunatics-kid-i.png
+featured_image: /images/header-the-racken-house-revolution-how-one-lunatics-kid-i.jpg
 image_prompt: Anime illustration, minimal white background, a young man in a worn
   frontier jumpsuit stands inside a tiered cylindrical habitat module in space, upper
   level has white rabbits on mesh platforms, lower level has chickens pecking at dark

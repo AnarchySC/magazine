@@ -1,7 +1,7 @@
 ---
 date: '2026-04-21T17:33:25'
 draft: false
-featured_image: /images/header-justice-stellarig-and-fragile-corp-to-pay-345-bill.png
+featured_image: /images/header-justice-stellarig-and-fragile-corp-to-pay-345-bill.jpg
 image_prompt: Anime sci-fi style illustration, minimal white background, a worn fabrication
   dock-station unit with a transparent display showing an endless scrolling receipt
   of fees, a frontier settler in a simple suit examining it with a magnifying glass,

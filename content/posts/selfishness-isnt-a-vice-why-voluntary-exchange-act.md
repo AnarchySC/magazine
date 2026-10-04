@@ -1,7 +1,7 @@
 ---
 date: '2026-09-24T13:59:37'
 draft: false
-featured_image: /images/header-selfishness-isnt-a-vice-why-voluntary-exchange-act.png
+featured_image: /images/header-selfishness-isnt-a-vice-why-voluntary-exchange-act.jpg
 image_prompt: 'A wide cinematic shot inside a vast Frontier Settlement trading dock
   carved into an asteroid interior, massive curved rock walls studded with glowing
   amber warning lights and chunky analog pressure gauges. At the center, two traders

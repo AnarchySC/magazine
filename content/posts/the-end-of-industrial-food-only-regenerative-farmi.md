@@ -1,7 +1,7 @@
 ---
 date: '2026-06-11T20:26:59'
 draft: false
-featured_image: /images/header-the-end-of-industrial-food-only-regenerative-farmi.png
+featured_image: /images/header-the-end-of-industrial-food-only-regenerative-farmi.jpg
 image_prompt: 'Anime/sci-fi minimal illustration: a weathered farmer standing in a
   lush terraced field on a frontier asteroid colony, hands in dark soil, stars visible
   through a transparent biodome ceiling, warm golden light, white background, Studio

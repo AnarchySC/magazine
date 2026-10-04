@@ -1,7 +1,7 @@
 ---
 title: "Broth at Last Light"
 date: 2026-06-10T15:33:33.590238
-image: "/images/cfp/neon-night-cities-2935-103.png"
+image: "/images/cfp/neon-night-cities-2935-103.jpg"
 category: "Neon Night Cities"
 genre: "03-neon-night-cities"
 issue: "2935.103"

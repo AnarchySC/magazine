@@ -1,7 +1,7 @@
 ---
 title: "Late Shift, Green Light"
 date: 2026-06-10T15:32:33.590238
-image: "/images/cfp/analog-hardware-2935-103.png"
+image: "/images/cfp/analog-hardware-2935-103.jpg"
 category: "Analog Hardware"
 genre: "04-analog-hardware"
 issue: "2935.103"

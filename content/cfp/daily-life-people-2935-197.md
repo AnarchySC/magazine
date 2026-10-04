@@ -1,7 +1,7 @@
 ---
 title: "Corner Stoop, Late Shift"
 date: 2026-07-18T15:26:22.831270
-image: "/images/cfp/daily-life-people-2935-197.png"
+image: "/images/cfp/daily-life-people-2935-197.jpg"
 category: "Daily Life"
 genre: "06-daily-life-people"
 issue: "2935.197"

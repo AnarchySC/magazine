@@ -1,7 +1,7 @@
 ---
 title: "Last Train, Fog Season"
 date: 2026-06-11T19:05:59.797345
-image: "/images/cfp/daily-life-people-2935-162.png"
+image: "/images/cfp/daily-life-people-2935-162.jpg"
 category: "Daily Life"
 genre: "06-daily-life-people"
 issue: "2935.162"

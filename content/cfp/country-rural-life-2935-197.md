@@ -1,7 +1,7 @@
 ---
 title: "Double Dusk, Dry Season"
 date: 2026-07-18T15:20:22.831270
-image: "/images/cfp/country-rural-life-2935-197.png"
+image: "/images/cfp/country-rural-life-2935-197.jpg"
 category: "Country & Rural Life"
 genre: "14-country-rural-life"
 issue: "2935.197"

@@ -1,7 +1,7 @@
 ---
 date: '2026-02-08T01:31:22'
 draft: false
-featured_image: /images/header-ancient-martian-archive-discovered-corps-rush-to-p.png
+featured_image: /images/header-ancient-martian-archive-discovered-corps-rush-to-p.jpg
 image_prompt: Crystalline geometric structures emerging from red Martian rock, with
   mathematical equations floating as holographic overlays, anime sci-fi style, minimal
   composition, white background

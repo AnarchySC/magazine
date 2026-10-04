@@ -1,7 +1,7 @@
 ---
 date: '2026-02-22T15:26:44'
 draft: false
-featured_image: /images/header-the-gravity-dance-revolution-why-earth-kids-are-da.png
+featured_image: /images/header-the-gravity-dance-revolution-why-earth-kids-are-da.jpg
 image_prompt: Anime-style illustration of graceful dancers floating in zero gravity,
   wearing sleek space suits with glowing micro-thrusters, bodies forming geometric
   patterns against a starfield backdrop with Jupiter visible in the distance, minimal

@@ -1,7 +1,7 @@
 ---
 date: '2026-04-28T16:09:48'
 draft: false
-featured_image: /images/header-quantum-gold-out-the-back-airlock-the-ceres-exchan.png
+featured_image: /images/header-quantum-gold-out-the-back-airlock-the-ceres-exchan.jpg
 image_prompt: Anime sci-fi style, minimal, white background. A massive asteroid space
   station vault with heavy blast doors slightly ajar, golden light spilling out but
   the vault appears mostly empty inside. A lone figure in a cargo hauler's worn jacket

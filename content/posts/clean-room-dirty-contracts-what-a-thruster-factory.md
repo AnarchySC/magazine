@@ -1,7 +1,7 @@
 ---
 date: '2026-09-24T14:01:08'
 draft: false
-featured_image: /images/header-clean-room-dirty-contracts-what-a-thruster-factory.png
+featured_image: /images/header-clean-room-dirty-contracts-what-a-thruster-factory.jpg
 image_prompt: Wide cinematic shot inside a gleaming ISO clean room on a massive industrial
   platform suspended over the amber-lit methane clouds of Titan, seen through floor-to-ceiling
   reinforced viewports. Technicians in full white bunny suits move in slow deliberate

@@ -1,7 +1,7 @@
 ---
 date: '2026-04-14T14:01:30'
 draft: false
-featured_image: /images/header-not-a-waste-of-sand-helios-7-370k-processing-core-.png
+featured_image: /images/header-not-a-waste-of-sand-helios-7-370k-processing-core-.jpg
 image_prompt: Anime sci-fi style, minimal white background, a glowing crystalline
   CPU chip floating in zero gravity, geometric circuit patterns etched into its surface
   like ancient script, soft blue-white light emanating from the core, a single female

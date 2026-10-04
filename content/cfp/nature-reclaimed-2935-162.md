@@ -1,7 +1,7 @@
 ---
 title: "Roots Know No Lease"
 date: 2026-06-11T19:04:59.797345
-image: "/images/cfp/nature-reclaimed-2935-162.png"
+image: "/images/cfp/nature-reclaimed-2935-162.jpg"
 category: "Nature Reclaimed"
 genre: "07-nature-reclaimed"
 issue: "2935.162"

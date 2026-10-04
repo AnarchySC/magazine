@@ -1,7 +1,7 @@
 ---
 date: '2026-03-22T12:16:59'
 draft: false
-featured_image: /images/header-seven-allies-fabricated-a-callisto-corridor-statem.png
+featured_image: /images/header-seven-allies-fabricated-a-callisto-corridor-statem.jpg
 image_prompt: Anime-style illustration, minimal white background, seven suited diplomats
   sitting around a floating holographic conference table in space, each holding an
   identical glowing document, all smiling awkwardly at a large stern admiral hologram

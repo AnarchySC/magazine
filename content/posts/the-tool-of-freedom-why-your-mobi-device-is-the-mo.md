@@ -1,7 +1,7 @@
 ---
 date: '2026-04-28T17:35:24'
 draft: false
-featured_image: /images/header-the-tool-of-freedom-why-your-mobi-device-is-the-mo.png
+featured_image: /images/header-the-tool-of-freedom-why-your-mobi-device-is-the-mo.jpg
 image_prompt: 'Anime sci-fi style, white background, minimalist: a weathered space
   worker''s hand holding a glowing mobi device, the screen displaying cascading text
   and network nodes spreading outward like roots or veins across the void, subtle

@@ -1,7 +1,7 @@
 ---
 title: "Cream on Concrete"
 date: 2026-06-10T15:31:33.590238
-image: "/images/cfp/vehicles-transit-2935-103.png"
+image: "/images/cfp/vehicles-transit-2935-103.jpg"
 category: "Vehicles & Transit"
 genre: "05-vehicles-transit"
 issue: "2935.103"

@@ -1,7 +1,7 @@
 ---
 title: "Third Class, Never Again"
 date: 2026-06-11T19:01:59.797345
-image: "/images/cfp/print-ephemera-2935-162.png"
+image: "/images/cfp/print-ephemera-2935-162.jpg"
 category: "Print & Ephemera"
 genre: "10-print-ephemera"
 issue: "2935.162"

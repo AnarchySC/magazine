@@ -1,7 +1,7 @@
 ---
 title: "Late Shift, No Plans"
 date: 2026-06-10T15:26:33.590238
-image: "/images/cfp/print-ephemera-2935-103.png"
+image: "/images/cfp/print-ephemera-2935-103.jpg"
 category: "Print & Ephemera"
 genre: "10-print-ephemera"
 issue: "2935.103"

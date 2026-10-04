@@ -1,7 +1,7 @@
 ---
 date: '2026-03-10T23:18:36'
 draft: false
-featured_image: /images/header-the-neural-wars-the-galaxy-is-not-prepared.png
+featured_image: /images/header-the-neural-wars-the-galaxy-is-not-prepared.jpg
 image_prompt: Anime-style illustration of a massive neural network visualization with
   corporate logos embedded in the nodes, Earth visible in background, clean white
   background, minimal futuristic aesthetic

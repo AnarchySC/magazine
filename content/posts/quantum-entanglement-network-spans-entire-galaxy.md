@@ -1,7 +1,7 @@
 ---
 date: '2026-02-22T15:26:20'
 draft: false
-featured_image: /images/header-quantum-entanglement-network-spans-entire-galaxy.png
+featured_image: /images/header-quantum-entanglement-network-spans-entire-galaxy.jpg
 image_prompt: Anime-style illustration of quantum particles connected by glowing threads
   across a stylized galaxy map, with space stations and communication arrays, minimal
   cyberpunk aesthetic, white background

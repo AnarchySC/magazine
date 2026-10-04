@@ -1,7 +1,7 @@
 ---
 title: "Rain on Ration Row"
 date: 2026-09-24T14:08:53.505101
-image: "/images/cfp/neon-night-cities-2935-267.png"
+image: "/images/cfp/neon-night-cities-2935-267.jpg"
 category: "Neon Night Cities"
 genre: "03-neon-night-cities"
 issue: "2935.267"

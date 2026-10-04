@@ -1,7 +1,7 @@
 ---
 date: '2026-02-22T15:27:46'
 draft: false
-featured_image: /images/header-frontier-flavors-what-colony-cuisine-really-says-a.png
+featured_image: /images/header-frontier-flavors-what-colony-cuisine-really-says-a.jpg
 image_prompt: Elegant futuristic restaurant interior with diners eating from utilitarian
   metal containers, contrasted with luxurious surroundings, anime art style, minimal
   composition, white background

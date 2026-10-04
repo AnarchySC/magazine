@@ -1,7 +1,7 @@
 ---
 date: '2026-02-10T12:00:49'
 draft: false
-featured_image: /images/header-station-medics-why-they-care-when-no-one-makes-the.png
+featured_image: /images/header-station-medics-why-they-care-when-no-one-makes-the.jpg
 image_prompt: Anime-style medical bay scene on space station, nurses and doctors working
   together naturally, mining equipment visible through windows, minimal white background,
   soft lighting

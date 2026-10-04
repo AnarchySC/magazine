@@ -1,7 +1,7 @@
 ---
 date: '2026-05-13T12:53:54'
 draft: false
-featured_image: /images/header-nobody-owns-language-what-the-collapse-of-galactic.png
+featured_image: /images/header-nobody-owns-language-what-the-collapse-of-galactic.jpg
 image_prompt: Anime sci-fi illustration, minimal white background, a young woman in
   a worn journalist's coat standing in a crowded space station corridor, dozens of
   holographic language scripts floating in the air around her — Japanese kanji, alien

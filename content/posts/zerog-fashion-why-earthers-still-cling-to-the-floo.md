@@ -1,7 +1,7 @@
 ---
 date: '2026-02-10T11:59:59'
 draft: false
-featured_image: /images/header-zerog-fashion-why-earthers-still-cling-to-the-floo.png
+featured_image: /images/header-zerog-fashion-why-earthers-still-cling-to-the-floo.jpg
 image_prompt: Anime-style illustration of a person floating in space wearing flowing,
   weightless garments that move like liquid mercury, minimal white background, ethereal
   and graceful

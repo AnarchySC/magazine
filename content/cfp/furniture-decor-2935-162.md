@@ -1,7 +1,7 @@
 ---
 title: "Roots and Reels"
 date: 2026-06-11T19:00:59.797345
-image: "/images/cfp/furniture-decor-2935-162.png"
+image: "/images/cfp/furniture-decor-2935-162.jpg"
 category: "Furniture & Decor"
 genre: "11-furniture-decor"
 issue: "2935.162"

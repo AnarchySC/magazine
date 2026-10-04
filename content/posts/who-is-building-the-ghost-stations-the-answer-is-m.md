@@ -1,7 +1,7 @@
 ---
 date: '2026-07-21T17:31:20'
 draft: false
-featured_image: /images/header-who-is-building-the-ghost-stations-the-answer-is-m.png
+featured_image: /images/header-who-is-building-the-ghost-stations-the-answer-is-m.jpg
 image_prompt: 'Cinematic wide shot from the viewport of an approaching cargo hauler:
   a massive self-sustaining habitat ring station glows amber and white against the
   infinite black of deep space, no registration lights, no docking authority beacon,

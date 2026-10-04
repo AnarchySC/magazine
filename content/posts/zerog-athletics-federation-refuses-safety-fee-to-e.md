@@ -1,7 +1,7 @@
 ---
 date: '2026-02-08T01:08:08'
 draft: false
-featured_image: /images/header-zerog-athletics-federation-refuses-safety-fee-to-e.png
+featured_image: /images/header-zerog-athletics-federation-refuses-safety-fee-to-e.jpg
 image_prompt: Anime-style illustration of astronauts racing through asteroid field,
   sleek racing suits with glowing trail effects, minimal white background, dynamic
   movement lines

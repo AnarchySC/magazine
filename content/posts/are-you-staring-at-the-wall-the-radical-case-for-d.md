@@ -1,7 +1,7 @@
 ---
 date: '2026-04-05T10:16:39'
 draft: false
-featured_image: /images/header-are-you-staring-at-the-wall-the-radical-case-for-d.png
+featured_image: /images/header-are-you-staring-at-the-wall-the-radical-case-for-d.jpg
 image_prompt: Anime-style illustration, minimal, white background, a young woman with
   short dark hair sitting alone in a small futuristic habitat room, cup of tea on
   a low table, staring gently at a blank wall, soft warm light from a single panel,

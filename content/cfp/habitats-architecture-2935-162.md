@@ -1,7 +1,7 @@
 ---
 title: "Last Light, Dome Six"
 date: 2026-06-11T19:09:59.797345
-image: "/images/cfp/habitats-architecture-2935-162.png"
+image: "/images/cfp/habitats-architecture-2935-162.jpg"
 category: "Habitats & Architecture"
 genre: "02-habitats-architecture"
 issue: "2935.162"

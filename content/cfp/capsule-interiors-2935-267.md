@@ -1,7 +1,7 @@
 ---
 title: "Dusk Through the Porthole"
 date: 2026-09-24T14:10:53.505101
-image: "/images/cfp/capsule-interiors-2935-267.png"
+image: "/images/cfp/capsule-interiors-2935-267.jpg"
 category: "Capsule Interiors"
 genre: "01-capsule-interiors"
 issue: "2935.267"

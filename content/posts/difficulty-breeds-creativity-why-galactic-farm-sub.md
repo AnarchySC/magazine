@@ -1,7 +1,7 @@
 ---
 date: '2026-07-17T15:18:50'
 draft: false
-featured_image: /images/header-difficulty-breeds-creativity-why-galactic-farm-sub.png
+featured_image: /images/header-difficulty-breeds-creativity-why-galactic-farm-sub.jpg
 image_prompt: Wide cinematic shot inside a vast rotating centrifuge agricultural module
   in deep space, visible through a curved transparisteel wall showing the star-scattered
   void outside. A weathered frontier farmer in a worn analog-gauge environmental suit

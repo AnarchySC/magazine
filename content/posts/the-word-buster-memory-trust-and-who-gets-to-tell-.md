@@ -1,7 +1,7 @@
 ---
 date: '2026-07-16T10:06:27'
 draft: false
-featured_image: /images/header-the-word-buster-memory-trust-and-who-gets-to-tell-.png
+featured_image: /images/header-the-word-buster-memory-trust-and-who-gets-to-tell-.jpg
 image_prompt: A weathered veteran in a worn Solar Defense Compact uniform sits at
   a battered CRT terminal aboard a dimly lit orbital station recreation lounge, watching
   a glowing analog neural-feed screen displaying frozen text and pixelated faces of

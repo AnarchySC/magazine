@@ -1,7 +1,7 @@
 ---
 date: '2026-07-17T15:19:28'
 draft: false
-featured_image: /images/header-the-market-has-a-soul-why-the-galaxys-most-honest-.png
+featured_image: /images/header-the-market-has-a-soul-why-the-galaxys-most-honest-.jpg
 image_prompt: A cluttered academic study aboard an orbital station, amber and warm
   lamplight spilling across stacks of physical books and analog notebooks covered
   in dense handwritten equations. Through a wide porthole, the rings of Saturn curve

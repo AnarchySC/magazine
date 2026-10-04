@@ -1,7 +1,7 @@
 ---
 date: '2026-02-14T17:41:00'
 draft: false
-featured_image: /images/header-the-great-reject-era-arrives--end-of-terrestrial-u.png
+featured_image: /images/header-the-great-reject-era-arrives--end-of-terrestrial-u.jpg
 image_prompt: Minimalist anime-style illustration of a space freighter departing from
   a space station, Earth visible in background, clean lines, white background, suggesting
   economic independence and departure from central authority

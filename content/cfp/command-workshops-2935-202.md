@@ -1,7 +1,7 @@
 ---
 title: "Patch Bay, Late Shift"
 date: 2026-07-21T17:34:18.846131
-image: "/images/cfp/command-workshops-2935-202.png"
+image: "/images/cfp/command-workshops-2935-202.jpg"
 category: "Command & Workshops"
 genre: "08-command-workshops"
 issue: "2935.202"

@@ -1,7 +1,7 @@
 ---
 title: "Third Shift, Nobody's Chair"
 date: 2026-07-21T17:31:18.846131
-image: "/images/cfp/furniture-decor-2935-202.png"
+image: "/images/cfp/furniture-decor-2935-202.jpg"
 category: "Furniture & Decor"
 genre: "11-furniture-decor"
 issue: "2935.202"

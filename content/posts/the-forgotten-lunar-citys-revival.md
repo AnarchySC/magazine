@@ -1,7 +1,7 @@
 ---
 date: '2026-02-11T08:23:10'
 draft: false
-featured_image: /images/header-the-forgotten-lunar-citys-revival.png
+featured_image: /images/header-the-forgotten-lunar-citys-revival.jpg
 image_prompt: Abandoned lunar city with glowing underground clubs visible through
   transparent domes, Earth visible in black sky, anime art style, minimalist composition,
   white background

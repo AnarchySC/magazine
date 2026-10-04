@@ -1,7 +1,7 @@
 ---
 title: "Barnacle Town at Dusk"
 date: 2026-09-24T14:09:53.505101
-image: "/images/cfp/habitats-architecture-2935-267.png"
+image: "/images/cfp/habitats-architecture-2935-267.jpg"
 category: "Habitats & Architecture"
 genre: "02-habitats-architecture"
 issue: "2935.267"

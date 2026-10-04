@@ -1,7 +1,7 @@
 ---
 title: "Second Watch, Same Mug"
 date: 2026-09-24T14:03:53.505101
-image: "/images/cfp/command-workshops-2935-267.png"
+image: "/images/cfp/command-workshops-2935-267.jpg"
 category: "Command & Workshops"
 genre: "08-command-workshops"
 issue: "2935.267"

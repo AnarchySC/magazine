@@ -1,7 +1,7 @@
 ---
 date: '2026-09-24T13:57:05'
 draft: false
-featured_image: /images/header-the-body-that-forgot-earth-what-bone-density-waive.png
+featured_image: /images/header-the-body-that-forgot-earth-what-bone-density-waive.jpg
 image_prompt: 'Cinematic wide shot inside a zero-G void-sprint racing corridor station:
   a young athlete in a sleek racing suit floats at the starting gate, body perfectly
   still, her expression unreadable — a 23-year-old who has already signed everything

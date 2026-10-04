@@ -1,7 +1,7 @@
 ---
 date: '2026-02-14T00:04:57'
 draft: false
-featured_image: /images/header-10-things-i-learned-from-the-epstein-files.png
+featured_image: /images/header-10-things-i-learned-from-the-epstein-files.jpg
 image_prompt: Anime-style illustration of scattered classified documents floating
   in space, with Earth and orbital stations in the background, minimal color palette,
   white background, subtle shadows

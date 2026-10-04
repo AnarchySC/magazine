@@ -1,7 +1,7 @@
 ---
 date: '2026-04-28T17:30:40'
 draft: false
-featured_image: /images/header-the-correspondents-gala-shooter-had-a-tib-badge-no.png
+featured_image: /images/header-the-correspondents-gala-shooter-had-a-tib-badge-no.jpg
 image_prompt: Anime-style illustration, minimal white background, a man in formal
   attire casually jogging through a glowing blue force-field barrier while armed guards
   in futuristic uniforms look on with confused expressions, journalists in tuxedos

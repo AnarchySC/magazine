@@ -1,7 +1,7 @@
 ---
 title: "Corner of the Good Hours"
 date: 2026-07-18T15:21:22.831270
-image: "/images/cfp/furniture-decor-2935-197.png"
+image: "/images/cfp/furniture-decor-2935-197.jpg"
 category: "Furniture & Decor"
 genre: "11-furniture-decor"
 issue: "2935.197"

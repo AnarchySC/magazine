@@ -1,7 +1,7 @@
 ---
 title: "Everything I Kept"
 date: 2026-07-18T15:22:22.831270
-image: "/images/cfp/print-ephemera-2935-197.png"
+image: "/images/cfp/print-ephemera-2935-197.jpg"
 category: "Print & Ephemera"
 genre: "10-print-ephemera"
 issue: "2935.197"

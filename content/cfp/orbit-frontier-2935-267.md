@@ -1,7 +1,7 @@
 ---
 title: "Still Runs Fine"
 date: 2026-09-24T14:02:53.505101
-image: "/images/cfp/orbit-frontier-2935-267.png"
+image: "/images/cfp/orbit-frontier-2935-267.jpg"
 category: "Orbit & Frontier"
 genre: "09-orbit-frontier"
 issue: "2935.267"

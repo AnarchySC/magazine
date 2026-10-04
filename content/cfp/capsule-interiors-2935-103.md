@@ -1,7 +1,7 @@
 ---
 title: "Low Tide, Good Light"
 date: 2026-06-10T15:35:33.590238
-image: "/images/cfp/capsule-interiors-2935-103.png"
+image: "/images/cfp/capsule-interiors-2935-103.jpg"
 category: "Capsule Interiors"
 genre: "01-capsule-interiors"
 issue: "2935.103"

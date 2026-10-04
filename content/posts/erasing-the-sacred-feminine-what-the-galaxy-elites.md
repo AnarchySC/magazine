@@ -1,7 +1,7 @@
 ---
 date: '2026-04-09T16:15:44'
 draft: false
-featured_image: /images/header-erasing-the-sacred-feminine-what-the-galaxy-elites.png
+featured_image: /images/header-erasing-the-sacred-feminine-what-the-galaxy-elites.jpg
 image_prompt: Anime sci-fi illustration, minimal white background, a young woman sitting
   cross-legged in a sparse space habitat, holding an old handwritten paper notebook
   with both hands, soft light from a porthole window, floating tea cup nearby, expression

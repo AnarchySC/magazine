@@ -1,7 +1,7 @@
 ---
 date: '2026-06-11T19:03:46'
 draft: false
-featured_image: /images/header-is-earth-still-free-the-quiet-truth-about-an-occup.png
+featured_image: /images/header-is-earth-still-free-the-quiet-truth-about-an-occup.jpg
 image_prompt: Anime/sci-fi minimal illustration, white background, a lone figure in
   a worn cargo jacket standing at the base of a massive ecumenopolis tower surrounded
   by dozens of overlapping holographic surveillance grids and permit checkpoints,

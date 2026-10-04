@@ -1,7 +1,7 @@
 ---
 date: '2026-02-11T08:22:47'
 draft: false
-featured_image: /images/header-defense-contractors-rush-to-weaponize-quantum-bubb.png
+featured_image: /images/header-defense-contractors-rush-to-weaponize-quantum-bubb.jpg
 image_prompt: Anime-style scientist in lab coat looking dejected while military officers
   in the background examine glowing quantum bubbles, minimal white background, satirical
   tone

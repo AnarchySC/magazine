@@ -1,7 +1,7 @@
 ---
 date: '2026-02-08T01:29:41'
 draft: false
-featured_image: /images/header-virtual-romance-sims-are-conquering-the-galaxy.png
+featured_image: /images/header-virtual-romance-sims-are-conquering-the-galaxy.jpg
 image_prompt: Anime-style illustration of a young person sitting in a futuristic room,
   looking lovingly at a glowing holographic figure, soft lighting, minimal white background,
   pastel colors

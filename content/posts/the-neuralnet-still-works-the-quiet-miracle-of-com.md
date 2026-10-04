@@ -1,7 +1,7 @@
 ---
 date: '2026-04-21T17:34:32'
 draft: false
-featured_image: /images/header-the-neuralnet-still-works-the-quiet-miracle-of-com.png
+featured_image: /images/header-the-neuralnet-still-works-the-quiet-miracle-of-com.jpg
 image_prompt: Anime-style illustration, minimal white background, a lone woman with
   short dark hair sitting at a glowing holographic terminal surrounded by floating
   text nodes and community forum icons connected by thin light threads, cigarette

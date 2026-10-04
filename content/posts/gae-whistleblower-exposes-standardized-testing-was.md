@@ -1,7 +1,7 @@
 ---
 date: '2026-06-08T06:00:11'
 draft: false
-featured_image: /images/header-gae-whistleblower-exposes-standardized-testing-was.png
+featured_image: /images/header-gae-whistleblower-exposes-standardized-testing-was.jpg
 image_prompt: 'Anime-style illustration, white background, a small child in a school
   uniform sitting at a stark metallic desk, taking a test on a glowing tablet, but
   the desk is on a conveyor belt leading to different labeled chutes: ''Engineering'',

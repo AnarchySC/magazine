@@ -1,7 +1,7 @@
 ---
 date: '2026-05-26T16:09:45'
 draft: false
-featured_image: /images/header-between-soil-and-stars-can-regenerative-space-farm.png
+featured_image: /images/header-between-soil-and-stars-can-regenerative-space-farm.jpg
 image_prompt: Anime-style illustration, minimal white background, a young woman in
   muddy boots standing inside a cylindrical rotating space habitat station, green
   terraced farming rings curving upward around her, soft natural light filtering through

@@ -1,7 +1,7 @@
 ---
 date: '2026-07-02T10:31:36'
 draft: false
-featured_image: /images/header-the-emergency-is-over-the-immunity-isnt.png
+featured_image: /images/header-the-emergency-is-over-the-immunity-isnt.jpg
 image_prompt: 'Wide cinematic shot inside a cavernous orbital pharmaceutical fabrication
   facility: rows of massive analog synthesis vats with pressure dials and reel-to-reel
   monitoring equipment, amber warning lights casting long shadows across the floor,

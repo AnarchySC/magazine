@@ -1,7 +1,7 @@
 ---
 title: "Late Shift, Same Bowl"
 date: 2026-06-10T15:30:33.590238
-image: "/images/cfp/daily-life-people-2935-103.png"
+image: "/images/cfp/daily-life-people-2935-103.jpg"
 category: "Daily Life"
 genre: "06-daily-life-people"
 issue: "2935.103"

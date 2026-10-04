@@ -1,7 +1,7 @@
 ---
 title: "Tuesday Night Rerun Pile"
 date: 2026-09-24T14:01:53.505101
-image: "/images/cfp/print-ephemera-2935-267.png"
+image: "/images/cfp/print-ephemera-2935-267.jpg"
 category: "Print & Ephemera"
 genre: "10-print-ephemera"
 issue: "2935.267"

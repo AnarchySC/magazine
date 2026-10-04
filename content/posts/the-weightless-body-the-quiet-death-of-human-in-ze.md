@@ -1,7 +1,7 @@
 ---
 date: '2026-05-26T16:10:21'
 draft: false
-featured_image: /images/header-the-weightless-body-the-quiet-death-of-human-in-ze.png
+featured_image: /images/header-the-weightless-body-the-quiet-death-of-human-in-ze.jpg
 image_prompt: Anime sci-fi style, minimal composition, white background. A slender
   zero-gravity athlete in a sleek competition suit frozen mid-sprint in void space,
   body partially translucent revealing glowing engineered bone lattice and luminous

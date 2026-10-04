@@ -1,7 +1,7 @@
 ---
 date: '2026-06-08T06:01:50'
 draft: false
-featured_image: /images/header-vaccines-arent-just-for-backbones-the-quiet-revolu.png
+featured_image: /images/header-vaccines-arent-just-for-backbones-the-quiet-revolu.jpg
 image_prompt: 'Anime-style illustration, white background, minimal linework: a translucent
   tunnel shrimp in a pressurized glass dome, surrounded by floating microcapsules
   glowing faintly blue, soft Ganymede curvature visible through dome glass, clean

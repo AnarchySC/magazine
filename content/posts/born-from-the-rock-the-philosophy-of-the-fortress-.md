@@ -1,7 +1,7 @@
 ---
 date: '2026-06-09T17:31:47'
 draft: false
-featured_image: /images/header-born-from-the-rock-the-philosophy-of-the-fortress-.png
+featured_image: /images/header-born-from-the-rock-the-philosophy-of-the-fortress-.jpg
 image_prompt: 'Anime-style minimalist illustration on white background: a cross-section
   view of a fortress city carved downward into a steep mountain ridge, with seven
   staggered gate levels descending the slope, warm amber stone glowing at each level,

@@ -1,7 +1,7 @@
 ---
 date: '2026-04-28T17:34:14'
 draft: false
-featured_image: /images/header-the-buffalo-in-the-dream-how-indigenous-food-knowl.png
+featured_image: /images/header-the-buffalo-in-the-dream-how-indigenous-food-knowl.jpg
 image_prompt: 'Anime/sci-fi minimal illustration, white background: a young woman
   in a frontier settlement pressure dome tending a small herd of bison-like creatures
   under artificial starlight, heritage grain stalks around her feet, a holographic

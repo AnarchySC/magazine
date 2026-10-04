@@ -1,7 +1,7 @@
 ---
 title: "Third Season, Dome Six"
 date: 2026-07-21T17:30:18.846131
-image: "/images/cfp/country-rural-life-2935-202.png"
+image: "/images/cfp/country-rural-life-2935-202.jpg"
 category: "Country & Rural Life"
 genre: "14-country-rural-life"
 issue: "2935.202"

@@ -1,7 +1,7 @@
 ---
 date: '2026-02-14T17:43:56'
 draft: false
-featured_image: /images/header-no-military-applications-scientists-baffled.png
+featured_image: /images/header-no-military-applications-scientists-baffled.jpg
 image_prompt: Anime-style scientist in lab coat holding glowing crystal, confused
   military officers in background, minimalist sci-fi lab setting, white background
 issue_number: '2935.045'

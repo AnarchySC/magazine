@@ -1,7 +1,7 @@
 ---
 date: '2026-04-28T16:10:29'
 draft: false
-featured_image: /images/header-the-architects-refusal-why-the-galaxys-best-habita.png
+featured_image: /images/header-the-architects-refusal-why-the-galaxys-best-habita.jpg
 image_prompt: 'Anime/sci-fi style minimal illustration: a lone female architect with
   short dark hair standing before vast holographic blueprints of a stunning curved
   space habitat, arms crossed, a stack of rejected Assembly contract documents at

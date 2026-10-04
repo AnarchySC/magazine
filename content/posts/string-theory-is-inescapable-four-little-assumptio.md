@@ -1,7 +1,7 @@
 ---
 date: '2026-05-13T12:55:29'
 draft: false
-featured_image: /images/header-string-theory-is-inescapable-four-little-assumptio.png
+featured_image: /images/header-string-theory-is-inescapable-four-little-assumptio.jpg
 image_prompt: 'Anime-style illustration, minimal, white background: a lone scientist
   at a small wooden desk with a single sheet of paper and a pencil, surrounded by
   floating cosmic string filaments that form elegant patterns in the air above her,

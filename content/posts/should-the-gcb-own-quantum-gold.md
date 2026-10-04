@@ -1,7 +1,7 @@
 ---
 date: '2026-02-27T16:37:59'
 draft: false
-featured_image: /images/header-should-the-gcb-own-quantum-gold.png
+featured_image: /images/header-should-the-gcb-own-quantum-gold.jpg
 image_prompt: Anime-style illustration of glowing golden quantum crystals floating
   above a futuristic central bank building, with holographic SGC currency symbols
   dissolving into light particles, minimal white background, satirical tone

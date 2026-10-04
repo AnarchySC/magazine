@@ -1,7 +1,7 @@
 ---
 date: '2026-03-02T18:38:22'
 draft: false
-featured_image: /images/header-the-resource-extraction-truth-the-system-the-resis.png
+featured_image: /images/header-the-resource-extraction-truth-the-system-the-resis.jpg
 image_prompt: Anime-style illustration of a lone figure standing at a crossroads in
   space, three paths diverging toward different starfields, mathematical equations
   floating in the cosmic background, minimal color palette, white background, contemplative

@@ -1,7 +1,7 @@
 ---
 date: '2026-03-10T23:19:02'
 draft: false
-featured_image: /images/header-raided-by-station-security--devkit-possession-lead.png
+featured_image: /images/header-raided-by-station-security--devkit-possession-lead.jpg
 image_prompt: Anime-style illustration of vintage gaming development hardware being
   confiscated by security officers in a futuristic space station setting, minimal
   white background, retro consoles and circuit boards scattered on desk

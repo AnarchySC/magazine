@@ -1,7 +1,7 @@
 ---
 date: '2026-07-02T10:32:09'
 draft: false
-featured_image: /images/header-the-man-who-kept-his-eyes-closed-the-night-the-are.png
+featured_image: /images/header-the-man-who-kept-his-eyes-closed-the-night-the-are.jpg
 image_prompt: Cinematic wide shot inside a vast orbital combat arena above Ganymede,
   Jupiter's swirling storms filling the curved transparent hull panels behind the
   crowd. Eighty thousand spectators packed into retro-analog tiered seating — chunky

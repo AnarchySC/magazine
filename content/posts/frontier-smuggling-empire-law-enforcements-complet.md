@@ -1,7 +1,7 @@
 ---
 date: '2026-02-14T17:41:25'
 draft: false
-featured_image: /images/header-frontier-smuggling-empire-law-enforcements-complet.png
+featured_image: /images/header-frontier-smuggling-empire-law-enforcements-complet.jpg
 image_prompt: Anime-style space cargo ships in the distance disappearing into hyperspace,
   with a concerned female administrator at a podium in the foreground, minimal white
   background, clean futuristic aesthetic

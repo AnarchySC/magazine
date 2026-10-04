@@ -1,7 +1,7 @@
 ---
 date: '2026-02-27T16:37:34'
 draft: false
-featured_image: /images/header-indie-comic-creators-nightmare-the-space-crowdfund.png
+featured_image: /images/header-indie-comic-creators-nightmare-the-space-crowdfund.jpg
 image_prompt: Anime-style illustration of a tired artist at a space station desk,
   surrounded by multiple floating holographic campaign windows and donation counters,
   minimal white background, slightly melancholic mood

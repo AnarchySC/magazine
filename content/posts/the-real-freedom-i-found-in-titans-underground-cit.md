@@ -1,7 +1,7 @@
 ---
 date: '2026-02-10T11:59:33'
 draft: false
-featured_image: /images/header-the-real-freedom-i-found-in-titans-underground-cit.png
+featured_image: /images/header-the-real-freedom-i-found-in-titans-underground-cit.jpg
 image_prompt: Underground cavern with bioluminescent fungi lighting, makeshift concert
   hall built from salvaged spaceship parts, people gathering around unusual musical
   instruments, methane mist, anime art style, minimal composition, white background

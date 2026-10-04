@@ -1,7 +1,7 @@
 ---
 date: '2026-07-21T17:30:41'
 draft: false
-featured_image: /images/header-was-the-proxima-strike-a-false-flag--seven-questio.png
+featured_image: /images/header-was-the-proxima-strike-a-false-flag--seven-questio.jpg
 image_prompt: A cinematic wide-angle shot set aboard a dimly lit independent transmission
   studio orbiting Proxima Centauri, chunky analog broadcast equipment humming with
   magnetic tape reels spinning slowly, banks of CRT monitors flickering with grainy

@@ -1,7 +1,7 @@
 ---
 date: '2026-03-22T12:20:42'
 draft: false
-featured_image: /images/header-samuelsons-beautiful-lies-the-giffen-good-economic.png
+featured_image: /images/header-samuelsons-beautiful-lies-the-giffen-good-economic.jpg
 image_prompt: 'Anime sci-fi style illustration on white background: a glowing holographic
   unicorn made of economic supply-and-demand graphs and credit symbols, floating above
   a galaxy academy lecture hall. A sharp-eyed journalist with cyberpunk glasses stands

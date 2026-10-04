@@ -1,7 +1,7 @@
 ---
 date: '2026-02-14T00:05:22'
 draft: false
-featured_image: /images/header-frontier-flavor-revolution-what-colony-food-really.png
+featured_image: /images/header-frontier-flavor-revolution-what-colony-food-really.jpg
 image_prompt: Futuristic space restaurant interior with floating food displays, glowing
   fermentation chambers, and diverse alien-human diners sharing meals, minimal anime
   art style, white background

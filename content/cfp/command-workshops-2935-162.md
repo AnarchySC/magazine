@@ -1,7 +1,7 @@
 ---
 title: "Late Session, Warm Tape"
 date: 2026-06-11T19:03:59.797345
-image: "/images/cfp/command-workshops-2935-162.png"
+image: "/images/cfp/command-workshops-2935-162.jpg"
 category: "Command & Workshops"
 genre: "08-command-workshops"
 issue: "2935.162"

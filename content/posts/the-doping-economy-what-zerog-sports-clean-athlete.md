@@ -1,7 +1,7 @@
 ---
 date: '2026-07-17T15:20:09'
 draft: false
-featured_image: /images/header-the-doping-economy-what-zerog-sports-clean-athlete.png
+featured_image: /images/header-the-doping-economy-what-zerog-sports-clean-athlete.jpg
 image_prompt: Cinematic wide shot inside a sprawling zero-gravity racing circuit carved
   through an asteroid's hollow interior, massive CRT scoreboards with flickering magnetic-tape
   readout displays lining the tunnel walls, chunky analog timing equipment bolted

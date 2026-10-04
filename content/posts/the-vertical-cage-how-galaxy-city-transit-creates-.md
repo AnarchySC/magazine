@@ -1,7 +1,7 @@
 ---
 date: '2026-04-28T17:33:05'
 draft: false
-featured_image: /images/header-the-vertical-cage-how-galaxy-city-transit-creates-.png
+featured_image: /images/header-the-vertical-cage-how-galaxy-city-transit-creates-.jpg
 image_prompt: Anime/sci-fi style illustration, white background, cross-section diagram
   of a towering vertical city showing multiple transit layers — sleek skylanes at
   the top with atmospheric craft, mid-level mag-rail platforms, and dark crowded lower

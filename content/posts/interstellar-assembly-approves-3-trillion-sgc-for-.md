@@ -1,7 +1,7 @@
 ---
 date: '2026-02-22T15:25:01'
 draft: false
-featured_image: /images/header-interstellar-assembly-approves-3-trillion-sgc-for-.png
+featured_image: /images/header-interstellar-assembly-approves-3-trillion-sgc-for-.jpg
 image_prompt: Anime-style illustration of a futuristic assembly hall with holographic
   displays showing star maps and credit amounts, politicians in formal space-age attire,
   minimal color palette, white background

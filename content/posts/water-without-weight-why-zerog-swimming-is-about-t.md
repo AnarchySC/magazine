@@ -1,7 +1,7 @@
 ---
 date: '2026-04-28T16:12:07'
 draft: false
-featured_image: /images/header-water-without-weight-why-zerog-swimming-is-about-t.png
+featured_image: /images/header-water-without-weight-why-zerog-swimming-is-about-t.jpg
 image_prompt: Anime sci-fi style, minimal, white background. A lone swimmer in a sleek
   bodysuit curling through a glowing ovoid water enclosure in zero gravity, water
   floating in perfect spheres around them, soft blue bioluminescent lighting, no visible

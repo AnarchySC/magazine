@@ -1,7 +1,7 @@
 ---
 date: '2026-04-19T09:14:54'
 draft: false
-featured_image: /images/header-council-chairman-chooses-the-war-chapters-for-sacr.png
+featured_image: /images/header-council-chairman-chooses-the-war-chapters-for-sacr.jpg
 image_prompt: Anime-style illustration, white background, a stern galactic politician
   in formal military-adjacent robes standing at a grand podium holding an ancient
   leather-bound text, the open page visibly showing maps of battle formations and

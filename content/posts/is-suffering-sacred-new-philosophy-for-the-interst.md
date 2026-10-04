@@ -1,7 +1,7 @@
 ---
 date: '2026-02-27T16:38:22'
 draft: false
-featured_image: /images/header-is-suffering-sacred-new-philosophy-for-the-interst.png
+featured_image: /images/header-is-suffering-sacred-new-philosophy-for-the-interst.jpg
 image_prompt: Anime-style illustration of a serene space station interior with people
   in meditation pods, soft lighting, minimalist design, white background
 issue_number: '2935.058'

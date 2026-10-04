@@ -1,7 +1,7 @@
 ---
 date: '2026-09-24T13:56:23'
 draft: false
-featured_image: /images/header-the-truth-about-the-assassination-plots-what-nobod.png
+featured_image: /images/header-the-truth-about-the-assassination-plots-what-nobod.jpg
 image_prompt: A dimly lit retro-analog press room aboard an orbital station, 2935.
   Chunky CRT monitors display blurred surveillance footage with timestamp anomalies
   highlighted in amber. A journalist sits across a scratched magnetic-tape-lined table

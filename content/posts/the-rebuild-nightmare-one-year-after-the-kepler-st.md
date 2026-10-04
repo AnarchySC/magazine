@@ -1,7 +1,7 @@
 ---
 date: '2026-04-14T14:02:33'
 draft: false
-featured_image: /images/header-the-rebuild-nightmare-one-year-after-the-kepler-st.png
+featured_image: /images/header-the-rebuild-nightmare-one-year-after-the-kepler-st.jpg
 image_prompt: Anime sci-fi style, minimal white background, a lone figure in a space
   suit standing in the middle of a vast field of charred rectangular ruins on a space
   station, holding a single paper document, small red stamp marks visible on the paper,

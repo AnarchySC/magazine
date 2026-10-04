@@ -1,7 +1,7 @@
 ---
 date: '2026-04-09T16:17:03'
 draft: false
-featured_image: /images/header-the-price-of-going-back-your-body-remembers-space.png
+featured_image: /images/header-the-price-of-going-back-your-body-remembers-space.jpg
 image_prompt: Anime-style illustration, white background, a lone suited figure standing
   on a dusty grey lunar surface under a stark black sky, looking down at their own
   gloved hands with quiet curiosity, Earth a small blue marble in the distance, soft

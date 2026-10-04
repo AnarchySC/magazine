@@ -1,7 +1,7 @@
 ---
 date: '2026-04-28T16:11:02'
 draft: false
-featured_image: /images/header-the-dream-of-control-empires-relics-sleeping-insid.png
+featured_image: /images/header-the-dream-of-control-empires-relics-sleeping-insid.jpg
 image_prompt: Anime illustration, minimal white background, a small cozy café interior
   in a space station, dim warm lighting, vintage spacecraft models and small transit
   pods displayed on shelves and in corners alongside teacups and café furniture, one

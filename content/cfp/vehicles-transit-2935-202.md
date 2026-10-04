@@ -1,7 +1,7 @@
 ---
 title: "Last Ride, Late Shift"
 date: 2026-07-21T17:37:18.846131
-image: "/images/cfp/vehicles-transit-2935-202.png"
+image: "/images/cfp/vehicles-transit-2935-202.jpg"
 category: "Vehicles & Transit"
 genre: "05-vehicles-transit"
 issue: "2935.202"

@@ -1,7 +1,7 @@
 ---
 title: "Where the Rails Sleep"
 date: 2026-09-24T14:04:53.505101
-image: "/images/cfp/nature-reclaimed-2935-267.png"
+image: "/images/cfp/nature-reclaimed-2935-267.jpg"
 category: "Nature Reclaimed"
 genre: "07-nature-reclaimed"
 issue: "2935.267"

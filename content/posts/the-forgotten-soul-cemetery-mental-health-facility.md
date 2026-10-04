@@ -1,7 +1,7 @@
 ---
 date: '2026-03-10T23:21:04'
 draft: false
-featured_image: /images/header-the-forgotten-soul-cemetery-mental-health-facility.png
+featured_image: /images/header-the-forgotten-soul-cemetery-mental-health-facility.jpg
 image_prompt: Anime-style illustration of a misty field with simple metal grave markers
   bearing only numbers, with futuristic city skyline in background, melancholic atmosphere,
   white background

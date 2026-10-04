@@ -1,7 +1,7 @@
 ---
 date: '2026-04-14T13:59:14'
 draft: false
-featured_image: /images/header-your-ship-is-not-your-ship-core-systems-colony-adm.png
+featured_image: /images/header-your-ship-is-not-your-ship-core-systems-colony-adm.jpg
 image_prompt: Anime style, minimalist, white background. A sleek personal spacecraft
   sits docked at a small home berth. A towering stack of holographic permit forms
   floats in the air beside it, glowing bureaucratic red. A lone figure in a worn flight

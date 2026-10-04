@@ -1,7 +1,7 @@
 ---
 date: '2026-03-22T12:18:47'
 draft: false
-featured_image: /images/header-notes-on-galactic-democracy-the-common-species-kno.png
+featured_image: /images/header-notes-on-galactic-democracy-the-common-species-kno.jpg
 image_prompt: 'Anime/sci-fi style minimal illustration: a lone figure sitting in a
   vast white desert made of sand dunes shaped like circuit boards and neural feeds,
   reading a physical paper book. Distant space stations float on the horizon like

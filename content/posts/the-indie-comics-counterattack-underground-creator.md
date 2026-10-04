@@ -1,7 +1,7 @@
 ---
 date: '2026-07-17T15:20:46'
 draft: false
-featured_image: /images/header-the-indie-comics-counterattack-underground-creator.png
+featured_image: /images/header-the-indie-comics-counterattack-underground-creator.jpg
 image_prompt: Wide cinematic shot inside a cramped but intensely alive independent
   comics studio carved into an asteroid rock face, with chunky analog printing presses
   humming alongside stacks of magnetic storage tape and glowing CRT monitors displaying

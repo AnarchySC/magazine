@@ -1,7 +1,7 @@
 ---
 date: '2026-06-09T17:30:36'
 draft: false
-featured_image: /images/header-terran-intelligence-bureau-officer-arrested-with-4.png
+featured_image: /images/header-terran-intelligence-bureau-officer-arrested-with-4.jpg
 image_prompt: Anime-style illustration, minimal white background, a suited intelligence
   official standing proudly next to enormous stacks of glowing gold bars taller than
   himself, looking completely calm and professional, one wall panel conspicuously

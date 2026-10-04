@@ -1,7 +1,7 @@
 ---
 date: '2026-07-02T10:34:08'
 draft: false
-featured_image: /images/header-shipped-on-singlechannel-valves-memory-configurati.png
+featured_image: /images/header-shipped-on-singlechannel-valves-memory-configurati.jpg
 image_prompt: 'Wide cinematic shot inside a cluttered but warmly lit open-access community
   hardware lab on an orbital station, thick reinforced portholes in the background
   showing the curvature of Earth below and the deep black of space beyond. On a long

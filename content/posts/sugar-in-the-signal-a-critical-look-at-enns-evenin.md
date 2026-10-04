@@ -1,7 +1,7 @@
 ---
 date: '2026-06-11T20:26:25'
 draft: false
-featured_image: /images/header-sugar-in-the-signal-a-critical-look-at-enns-evenin.png
+featured_image: /images/header-sugar-in-the-signal-a-critical-look-at-enns-evenin.jpg
 image_prompt: Anime sci-fi style, minimal white background, a sleek futuristic news
   anchor desk with holographic nebula displays glowing softly behind it, empty anchor
   chairs, the set is beautiful and completely hollow, blue-gray color palette, subtle

@@ -1,7 +1,7 @@
 ---
 date: '2026-06-08T06:02:29'
 draft: false
-featured_image: /images/header-the-chamber-revolution-what-this-habitat-shells-ai.png
+featured_image: /images/header-the-chamber-revolution-what-this-habitat-shells-ai.jpg
 image_prompt: Anime-style cutaway technical diagram of a futuristic computer case
   with visible internal chamber walls and glowing airflow paths in blue and orange,
   minimalist white background, clean isometric engineering illustration style, soft

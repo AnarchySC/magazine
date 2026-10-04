@@ -1,7 +1,7 @@
 ---
 title: "Late Shift, Good Book"
 date: 2026-06-10T15:25:33.590238
-image: "/images/cfp/furniture-decor-2935-103.png"
+image: "/images/cfp/furniture-decor-2935-103.jpg"
 category: "Furniture & Decor"
 genre: "11-furniture-decor"
 issue: "2935.103"

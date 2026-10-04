@@ -1,7 +1,7 @@
 ---
 date: '2026-04-28T16:13:45'
 draft: false
-featured_image: /images/header-ancient-dna-proves-weve-been-blaming-the-wrong-vil.png
+featured_image: /images/header-ancient-dna-proves-weve-been-blaming-the-wrong-vil.jpg
 image_prompt: Anime sci-fi style, minimal white background, a glowing double helix
   strand floating in space beside a cracked ancient bone fragment, small pollen particles
   orbiting both, clean scientific illustration aesthetic, soft blue and amber palette,

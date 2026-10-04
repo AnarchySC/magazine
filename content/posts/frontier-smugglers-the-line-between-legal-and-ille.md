@@ -1,7 +1,7 @@
 ---
 date: '2026-02-14T00:05:49'
 draft: false
-featured_image: /images/header-frontier-smugglers-the-line-between-legal-and-ille.png
+featured_image: /images/header-frontier-smugglers-the-line-between-legal-and-ille.jpg
 image_prompt: Futuristic cargo ship docked at frontier space station, sleek anime
   art style, minimal white background, holographic customs scanner showing false cargo
   manifest

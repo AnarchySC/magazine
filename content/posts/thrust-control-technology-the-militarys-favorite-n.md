@@ -1,7 +1,7 @@
 ---
 date: '2026-05-26T16:12:43'
 draft: false
-featured_image: /images/header-thrust-control-technology-the-militarys-favorite-n.png
+featured_image: /images/header-thrust-control-technology-the-militarys-favorite-n.jpg
 image_prompt: Anime/sci-fi illustration, minimal white background, a sleek solid rocket
   motor cross-section schematic floating in void, blueprint-style cyan lines, one
   half labeled with clean engineering notation, the other half stamped with multiple

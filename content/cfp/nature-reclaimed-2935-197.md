@@ -1,7 +1,7 @@
 ---
 title: "Green Door, No Key"
 date: 2026-07-18T15:25:22.831270
-image: "/images/cfp/nature-reclaimed-2935-197.png"
+image: "/images/cfp/nature-reclaimed-2935-197.jpg"
 category: "Nature Reclaimed"
 genre: "07-nature-reclaimed"
 issue: "2935.197"

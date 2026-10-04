@@ -1,7 +1,7 @@
 ---
 date: '2026-04-05T10:16:07'
 draft: false
-featured_image: /images/header-council-chairman-formally-admits-war-offers-zero-r.png
+featured_image: /images/header-council-chairman-formally-admits-war-offers-zero-r.jpg
 image_prompt: Anime-style illustration, minimal white background, a silver-haired
   man in formal diplomatic robes standing at a sleek podium shaped like a planet,
   speaking calmly into a void, holographic text floating beside him reads '0% RETURN',

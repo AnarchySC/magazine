@@ -71,12 +71,12 @@
     </div>
 
     <a href="{{ .RelPermalink }}" class="featured-link">
-      {{ with .Params.featured_image }}
+      {{ with .Params.featured_image }}{{ if fileExists (path.Join "static" .) }}
       <div class="featured-image-wrap">
-        <img src="{{ . }}" alt="{{ $.Title }}" class="featured-image">
+        <img src="{{ $.Site.BaseURL }}{{ strings.TrimPrefix "/" . }}" alt="{{ $.Title }}" class="featured-image">
         <div class="featured-image-accent"></div>
       </div>
-      {{ end }}
+      {{ end }}{{ end }}
 
       <div class="featured-body">
         <div class="featured-titles">
@@ -109,7 +109,7 @@
   <!-- CFP Slideshow -->
   {{ $cfp := where (where .Site.RegularPages "Section" "cfp") "Params.image" "!=" nil }}
   {{ if $cfp }}
-  <section class="cfp-slideshow" aria-label="Cassette Future Porn">
+  <section class="cfp-slideshow" aria-label="Cassette Future Pictorial">
     <div class="cfp-slideshow-head">
       <h2 class="section-title">CFP</h2>
       <span class="cfp-slideshow-sub">カセット・フューチャー・ポルノ — reader transmissions from across the rim</span>

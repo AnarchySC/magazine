@@ -1,7 +1,7 @@
 ---
 title: "Night Shift, Nobody Calling"
 date: 2026-07-21T17:41:18.846131
-image: "/images/cfp/capsule-interiors-2935-202.png"
+image: "/images/cfp/capsule-interiors-2935-202.jpg"
 category: "Capsule Interiors"
 genre: "01-capsule-interiors"
 issue: "2935.202"

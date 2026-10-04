@@ -1,7 +1,7 @@
 ---
 date: '2026-09-24T14:02:29'
 draft: false
-featured_image: /images/header-from-blueprint-to-syringe-who-built-the-pathogen-a.png
+featured_image: /images/header-from-blueprint-to-syringe-who-built-the-pathogen-a.jpg
 image_prompt: 'Cinematic wide shot inside a dimly lit converted cargo module research
   lab on Callisto, the curved corrugated metal walls covered in hand-annotated genetic
   sequence printouts and magnetic tape data spools. A Black woman scientist in her

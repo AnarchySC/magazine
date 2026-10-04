@@ -1,7 +1,7 @@
 ---
 date: '2026-04-14T14:00:24'
 draft: false
-featured_image: /images/header-offgrid-and-unstoppable-the-complete-ai-studio-tha.png
+featured_image: /images/header-offgrid-and-unstoppable-the-complete-ai-studio-tha.jpg
 image_prompt: Anime-style illustration of a lone creator floating in deep space, legs
   crossed, working on a sleek glowing portable workstation with holographic displays
   showing art, code, and 3D models, minimal white background, soft blue and amber

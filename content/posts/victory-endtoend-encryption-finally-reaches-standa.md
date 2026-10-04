@@ -1,7 +1,7 @@
 ---
 date: '2026-05-13T12:54:27'
 draft: false
-featured_image: /images/header-victory-endtoend-encryption-finally-reaches-standa.png
+featured_image: /images/header-victory-endtoend-encryption-finally-reaches-standa.jpg
 image_prompt: Anime sci-fi style, minimal, white background, a translucent holographic
   message bubble floating in zero-g, padlock icon partially open, shadow of a watching
   eye faint behind the bubble, cool blue and silver tones, clean linework

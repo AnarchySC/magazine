@@ -1,7 +1,7 @@
 ---
 date: '2026-02-18T16:30:03'
 draft: false
-featured_image: /images/header-bezos-surveillance-ring-watching-the-entire-galaxy.png
+featured_image: /images/header-bezos-surveillance-ring-watching-the-entire-galaxy.jpg
 image_prompt: Anime-style illustration of a giant mechanical ring floating above a
   futuristic cityscape with multiple eyes integrated into its surface, surveillance
   beams scanning down at small residential modules below, corporate logos visible

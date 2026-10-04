@@ -1,7 +1,7 @@
 ---
 date: '2026-04-05T10:18:26'
 draft: false
-featured_image: /images/header-hw-neuralnet-news--assembly-bans-core-routers-amd-.png
+featured_image: /images/header-hw-neuralnet-news--assembly-bans-core-routers-amd-.jpg
 image_prompt: 'Anime/sci-fi style illustration, white background, minimal linework:
   a tangled cluster of glowing network routers and data cables floating in space,
   some stamped with red ''BANNED'' seals in Japanese, a lone engineer in a jumpsuit

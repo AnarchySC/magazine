@@ -1,7 +1,7 @@
 ---
 date: '2026-04-19T09:16:36'
 draft: false
-featured_image: /images/header-the-profit-philosophy-why-voluntary-exchange-built.png
+featured_image: /images/header-the-profit-philosophy-why-voluntary-exchange-built.jpg
 image_prompt: Anime sci-fi style, minimal, white background. Two merchants on a space
   station trading goods by hand, warm glowing exchange between them. In the background,
   a towering glass bureaucracy tower with shadowy figures watching. Clean linework,

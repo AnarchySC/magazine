@@ -1,7 +1,7 @@
 ---
 date: '2026-04-19T09:17:06'
 draft: false
-featured_image: /images/header-quantum-storage-wtf.png
+featured_image: /images/header-quantum-storage-wtf.jpg
 image_prompt: 'Anime-style illustration, minimal, white background: a glowing translucent
   quantum crystal storage module floating in space, geometric lattice structure visible
   inside, surrounded by small data price charts trending sharply upward, a lone figure

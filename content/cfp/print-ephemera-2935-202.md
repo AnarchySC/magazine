@@ -1,7 +1,7 @@
 ---
 title: "Still Reading at 0200"
 date: 2026-07-21T17:32:18.846131
-image: "/images/cfp/print-ephemera-2935-202.png"
+image: "/images/cfp/print-ephemera-2935-202.jpg"
 category: "Print & Ephemera"
 genre: "10-print-ephemera"
 issue: "2935.202"

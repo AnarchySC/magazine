@@ -1,7 +1,7 @@
 ---
 date: '2026-02-16T16:08:22'
 draft: false
-featured_image: /images/header-gcb-peacekeeping-operation-alpha-centauri-regime-c.png
+featured_image: /images/header-gcb-peacekeeping-operation-alpha-centauri-regime-c.jpg
 image_prompt: Anime-style political satire illustration showing a banker in a military
   uniform standing over a small planet with mining equipment, while holding both a
   briefcase labeled 'GCB' and a Fleet Admiral's hat, minimal art style, white background

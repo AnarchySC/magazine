@@ -1,7 +1,7 @@
 ---
 date: '2026-03-03T15:22:52'
 draft: false
-featured_image: /images/header-outer-rimonly-amd-rx-9070-gre-waifu-edition-therma.png
+featured_image: /images/header-outer-rimonly-amd-rx-9070-gre-waifu-edition-therma.jpg
 image_prompt: Anime-style illustration of a futuristic GPU graphics card with kawaii
   anime girl character hologram emerging from cooling fans, surrounded by floating
   performance charts and thermal readouts, minimal white background, soft sci-fi aesthetic

@@ -1,7 +1,7 @@
 ---
 date: '2026-04-14T14:03:39'
 draft: false
-featured_image: /images/header-the-unholy-feminine-revisited-what-the-galaxy-elit.png
+featured_image: /images/header-the-unholy-feminine-revisited-what-the-galaxy-elit.jpg
 image_prompt: 'Anime illustration, minimal style, white background: a lone woman in
   a spacesuit stands at the edge of a vast asteroid, cradling a small glowing orb
   of light in both hands, the orb casting warm golden light upward onto her face,

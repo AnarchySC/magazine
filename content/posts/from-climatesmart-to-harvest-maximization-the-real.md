@@ -1,7 +1,7 @@
 ---
 date: '2026-06-08T06:03:01'
 draft: false
-featured_image: /images/header-from-climatesmart-to-harvest-maximization-the-real.png
+featured_image: /images/header-from-climatesmart-to-harvest-maximization-the-real.jpg
 image_prompt: Anime-style illustration, minimal white background, a small pressurized
   greenhouse dome on an asteroid surface, warm interior glow, fragile and beautiful
   against black space, a lone farmer silhouette visible inside, massive corporate

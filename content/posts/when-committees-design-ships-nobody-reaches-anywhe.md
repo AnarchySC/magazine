@@ -1,7 +1,7 @@
 ---
 date: '2026-03-22T12:20:02'
 draft: false
-featured_image: /images/header-when-committees-design-ships-nobody-reaches-anywhe.png
+featured_image: /images/header-when-committees-design-ships-nobody-reaches-anywhe.jpg
 image_prompt: Anime illustration, minimalist white background, a middle-aged woman
   with natural grey-streaked hair and warm dark skin sits alone at a glowing holographic
   drafting table, surrounded by delicate ship schematics floating in blue light, her

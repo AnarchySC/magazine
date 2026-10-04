@@ -1,7 +1,7 @@
 ---
 date: '2026-04-28T17:31:44'
 draft: false
-featured_image: /images/header-those-big-beautiful-galactic-bonds-hell-or-a-diffe.png
+featured_image: /images/header-those-big-beautiful-galactic-bonds-hell-or-a-diffe.jpg
 image_prompt: Anime sci-fi style, minimal white background, a stoic salaryman in a
   deep-blue corporate brochure floating in space, the brochure glowing faintly, a
   large whiteboard behind him covered in upward and downward arrows both leading to

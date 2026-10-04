@@ -1,7 +1,7 @@
 ---
 date: '2026-07-16T10:04:41'
 draft: false
-featured_image: /images/header-the-freedom-election-they-really-wanted-to-talk-ab.png
+featured_image: /images/header-the-freedom-election-they-really-wanted-to-talk-ab.jpg
 image_prompt: 'Wide cinematic shot of the Interstellar Assembly''s grand chamber interior
   in the year 2935, bathed in cold fluorescent and amber light from rows of chunky
   CRT display panels mounted along tiered walls showing propaganda slides reading

@@ -1,7 +1,7 @@
 ---
 date: '2026-07-16T10:05:58'
 draft: false
-featured_image: /images/header-the-memory-anchor-a-new-neuraldecay-drug-might-be-.png
+featured_image: /images/header-the-memory-anchor-a-new-neuraldecay-drug-might-be-.jpg
 image_prompt: A wide cinematic shot inside a dimly lit neural research laboratory
   aboard a large orbital station, with curved viewports showing the curve of Earth
   below bathed in golden dawn light. In the foreground, a researcher in a worn cloth

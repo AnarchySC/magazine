@@ -1,7 +1,7 @@
 ---
 date: '2026-03-10T23:20:17'
 draft: false
-featured_image: /images/header-space-swine-revolution-can-we-raise-sustainable-pr.png
+featured_image: /images/header-space-swine-revolution-can-we-raise-sustainable-pr.jpg
 image_prompt: Anime-style illustration of pigs floating peacefully in a space station
   greenhouse with Earth visible through transparent walls, composting systems creating
   fertile soil, minimalist design with soft lighting, white background

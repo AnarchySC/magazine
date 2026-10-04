@@ -1,7 +1,7 @@
 ---
 title: "Last Light, Both Suns"
 date: 2026-07-21T17:33:18.846131
-image: "/images/cfp/orbit-frontier-2935-202.png"
+image: "/images/cfp/orbit-frontier-2935-202.jpg"
 category: "Orbit & Frontier"
 genre: "09-orbit-frontier"
 issue: "2935.202"

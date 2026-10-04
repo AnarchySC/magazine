@@ -1,7 +1,7 @@
 ---
 date: '2026-07-16T10:05:19'
 draft: false
-featured_image: /images/header-philosophy-who-needs-it-you-already-have-one--you-.png
+featured_image: /images/header-philosophy-who-needs-it-you-already-have-one--you-.jpg
 image_prompt: Cinematic wide shot inside a cramped Kepler Station credit office, warm
   amber light from a bank of flickering CRT monitors stacked floor to ceiling displaying
   scrolling loan agreements and prime lending rate graphs in green phosphor text.

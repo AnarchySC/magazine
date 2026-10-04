@@ -1,7 +1,7 @@
 ---
 title: "Still Turning, Still Warm"
 date: 2026-06-11T19:07:59.797345
-image: "/images/cfp/analog-hardware-2935-162.png"
+image: "/images/cfp/analog-hardware-2935-162.jpg"
 category: "Analog Hardware"
 genre: "04-analog-hardware"
 issue: "2935.162"

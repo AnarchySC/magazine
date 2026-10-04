@@ -1,7 +1,7 @@
 ---
 date: '2026-03-10T23:20:38'
 draft: false
-featured_image: /images/header-the-interstellar-assemblys-latest-resolution-no-on.png
+featured_image: /images/header-the-interstellar-assemblys-latest-resolution-no-on.jpg
 image_prompt: Anime-style illustration of a grand space assembly hall with representatives
   in formal attire gesturing dramatically while citizens in the gallery look bewildered,
   minimal white background, clean lines

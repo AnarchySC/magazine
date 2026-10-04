@@ -1,7 +1,7 @@
 ---
 title: "Last Local Through the Fog"
 date: 2026-09-24T14:06:53.505101
-image: "/images/cfp/vehicles-transit-2935-267.png"
+image: "/images/cfp/vehicles-transit-2935-267.jpg"
 category: "Vehicles & Transit"
 genre: "05-vehicles-transit"
 issue: "2935.267"

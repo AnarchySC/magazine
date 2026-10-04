@@ -1,7 +1,7 @@
 ---
 date: '2026-02-10T12:01:38'
 draft: false
-featured_image: /images/header-fabric-aiquantum-tech-deal-questioned-as-processin.png
+featured_image: /images/header-fabric-aiquantum-tech-deal-questioned-as-processin.jpg
 image_prompt: Futuristic computer processing core with glowing circuits, anime style,
   floating holographic data streams, minimal white background, blue and purple color
   scheme

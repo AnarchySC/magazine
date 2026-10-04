@@ -1,7 +1,7 @@
 ---
 date: '2026-04-05T10:17:13'
 draft: false
-featured_image: /images/header-the-frontiers-shield-neela-santos-and-thirty-years.png
+featured_image: /images/header-the-frontiers-shield-neela-santos-and-thirty-years.jpg
 image_prompt: Anime-style minimalist illustration, white background, a lone woman
   in worn frontier-style jacket standing before a vast holographic data stream web,
   small figure against enormous glowing surveillance grid, muted blues and grays,

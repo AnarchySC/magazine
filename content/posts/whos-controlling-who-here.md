@@ -1,7 +1,7 @@
 ---
 date: '2026-02-14T00:07:56'
 draft: false
-featured_image: /images/header-whos-controlling-who-here.png
+featured_image: /images/header-whos-controlling-who-here.jpg
 image_prompt: Minimalist anime-style illustration of a distant planet with small settlements,
   overshadowed by a large official stamp or seal floating above it in space, white
   background

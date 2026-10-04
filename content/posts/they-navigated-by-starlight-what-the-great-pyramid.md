@@ -1,7 +1,7 @@
 ---
 date: '2026-09-24T13:57:43'
 draft: false
-featured_image: /images/header-they-navigated-by-starlight-what-the-great-pyramid.png
+featured_image: /images/header-they-navigated-by-starlight-what-the-great-pyramid.jpg
 image_prompt: 'Cinematic wide-angle scene: A lone figure in a worn analog-era spacesuit
   stands at the base of the Great Pyramid of Giza on a terraformed near-future Earth,
   night sky blazing with stars and a distant orbital station ring glowing amber above

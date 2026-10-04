@@ -1,7 +1,7 @@
 ---
 date: '2026-04-09T16:15:06'
 draft: false
-featured_image: /images/header-the-digital-soul-brand-why-the-galactic-health-bur.png
+featured_image: /images/header-the-digital-soul-brand-why-the-galactic-health-bur.jpg
 image_prompt: 'Anime-style illustration, minimal, white background: a human silhouette
   with a faintly glowing subcutaneous chip visible beneath the skin of the wrist,
   surrounded by floating bureaucratic documents with official seals, DNA helixes,

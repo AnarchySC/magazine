@@ -1,7 +1,7 @@
 ---
 date: '2026-04-05T10:17:51'
 draft: false
-featured_image: /images/header-can-code-have-a-conscience-when-megacorps-refuse-g.png
+featured_image: /images/header-can-code-have-a-conscience-when-megacorps-refuse-g.jpg
 image_prompt: Anime sci-fi style, minimal, white background. A lone humanoid figure
   in a corporate suit stands before an enormous glowing government seal, arms crossed,
   facing away from the viewer. The seal projects beams of light trying to reach a

@@ -1,7 +1,7 @@
 ---
 title: "End of the Long Shift"
 date: 2026-07-21T17:36:18.846131
-image: "/images/cfp/daily-life-people-2935-202.png"
+image: "/images/cfp/daily-life-people-2935-202.jpg"
 category: "Daily Life"
 genre: "06-daily-life-people"
 issue: "2935.202"

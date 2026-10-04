@@ -1,7 +1,7 @@
 ---
 date: '2026-04-19T09:15:34'
 draft: false
-featured_image: /images/header-can-humanity-actually-leave-the-solar-system-the-d.png
+featured_image: /images/header-can-humanity-actually-leave-the-solar-system-the-d.jpg
 image_prompt: 'Anime-style minimalist illustration on white background: a lone engineer
   floating in zero-gravity, holding a transparent blueprint of a massive colony ark
   ship, stars visible through a single porthole behind them, soft blue and white color

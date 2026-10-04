@@ -1,7 +1,7 @@
 ---
 date: '2026-04-19T09:16:06'
 draft: false
-featured_image: /images/header-isolated-lives-the-crisis-mouse-that-might-save-it.png
+featured_image: /images/header-isolated-lives-the-crisis-mouse-that-might-save-it.jpg
 image_prompt: 'Anime/sci-fi style illustration, minimal, white background: a small
   brown mouse sitting in glowing hydroponic soil beneath curved station walls, soft
   blue bioluminescent plant roots visible underground, gentle warm lighting, microscopic

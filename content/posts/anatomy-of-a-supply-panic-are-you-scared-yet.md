@@ -1,7 +1,7 @@
 ---
 date: '2026-06-08T05:58:51'
 draft: false
-featured_image: /images/header-anatomy-of-a-supply-panic-are-you-scared-yet.png
+featured_image: /images/header-anatomy-of-a-supply-panic-are-you-scared-yet.jpg
 image_prompt: 'Anime/sci-fi style minimal illustration: a worried humanoid citizen
   clutching a stack of atmospheric recycler membrane cartridges in a futuristic colony
   station corridor, while a holographic ENN broadcast floats nearby showing dramatic

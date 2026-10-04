@@ -1,7 +1,7 @@
 ---
 date: '2026-03-03T15:21:57'
 draft: false
-featured_image: /images/header-oops-earth-council-chairman-kills-future-proxima-l.png
+featured_image: /images/header-oops-earth-council-chairman-kills-future-proxima-l.jpg
 image_prompt: Anime-style illustration of a futuristic military command center with
   holographic star maps and confused officials looking at targeting displays, minimal
   white background, satirical tone

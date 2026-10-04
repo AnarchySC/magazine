@@ -1,7 +1,7 @@
 ---
 date: '2026-06-08T06:00:45'
 draft: false
-featured_image: /images/header-ai-will-protect-citizens-interstellar-assembly-sla.png
+featured_image: /images/header-ai-will-protect-citizens-interstellar-assembly-sla.jpg
 image_prompt: Anime-style illustration, minimal white background, a lone woman at
   a small testimony desk facing an enormous elevated curved committee bench with silhouetted
   figures behind it, the desk dwarfed by scale, soft blue-white lighting, holographic

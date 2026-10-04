@@ -1,7 +1,7 @@
 ---
 date: '2026-04-09T16:17:46'
 draft: false
-featured_image: /images/header-silverarrow-refresh-5-250k-processing-core-review-.png
+featured_image: /images/header-silverarrow-refresh-5-250k-processing-core-review-.jpg
 image_prompt: Futuristic CPU processing core floating in white void, anime minimalist
   style, clean circuit traces glowing faint blue, two nearly identical chips side
   by side with subtle differences in core layout visible, schematic blueprint lines

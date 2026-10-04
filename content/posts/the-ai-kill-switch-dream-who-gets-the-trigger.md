@@ -1,7 +1,7 @@
 ---
 date: '2026-09-24T14:00:20'
 draft: false
-featured_image: /images/header-the-ai-kill-switch-dream-who-gets-the-trigger.png
+featured_image: /images/header-the-ai-kill-switch-dream-who-gets-the-trigger.jpg
 image_prompt: Cinematic wide shot of a massive brutalist Core Systems Colony Administration
   tower on Earth, its facade covered in glowing analog readouts and magnetic tape
   reels the size of windows, churning slowly in the smoggy twilight. In the foreground,

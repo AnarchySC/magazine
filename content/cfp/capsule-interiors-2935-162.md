@@ -1,7 +1,7 @@
 ---
 title: "Morning Routine, Porthole Watch"
 date: 2026-06-11T19:10:59.797345
-image: "/images/cfp/capsule-interiors-2935-162.png"
+image: "/images/cfp/capsule-interiors-2935-162.jpg"
 category: "Capsule Interiors"
 genre: "01-capsule-interiors"
 issue: "2935.162"

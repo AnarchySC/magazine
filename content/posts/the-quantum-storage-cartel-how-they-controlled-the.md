@@ -1,7 +1,7 @@
 ---
 date: '2026-07-17T15:18:15'
 draft: false
-featured_image: /images/header-the-quantum-storage-cartel-how-they-controlled-the.png
+featured_image: /images/header-the-quantum-storage-cartel-how-they-controlled-the.jpg
 image_prompt: 'Cinematic wide-angle shot inside a vast, dimly lit industrial fabrication
   bay on a Frontier colony asteroid station. Rows of chunky analog-era quantum storage
   fabrication machines with reel-to-reel magnetic tape indicators and oversized CRT

@@ -1,7 +1,7 @@
 ---
 title: "Late Run, Nobody Watching"
 date: 2026-06-11T19:06:59.797345
-image: "/images/cfp/vehicles-transit-2935-162.png"
+image: "/images/cfp/vehicles-transit-2935-162.jpg"
 category: "Vehicles & Transit"
 genre: "05-vehicles-transit"
 issue: "2935.162"

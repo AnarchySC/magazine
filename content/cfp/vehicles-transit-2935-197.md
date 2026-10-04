@@ -1,7 +1,7 @@
 ---
 title: "Third Shift, Wet Season"
 date: 2026-07-18T15:27:22.831270
-image: "/images/cfp/vehicles-transit-2935-197.png"
+image: "/images/cfp/vehicles-transit-2935-197.jpg"
 category: "Vehicles & Transit"
 genre: "05-vehicles-transit"
 issue: "2935.197"

@@ -1,7 +1,7 @@
 ---
 title: "Still Turning, Still Here"
 date: 2026-06-10T15:27:33.590238
-image: "/images/cfp/orbit-frontier-2935-103.png"
+image: "/images/cfp/orbit-frontier-2935-103.jpg"
 category: "Orbit & Frontier"
 genre: "09-orbit-frontier"
 issue: "2935.103"

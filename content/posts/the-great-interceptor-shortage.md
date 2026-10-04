@@ -1,7 +1,7 @@
 ---
 date: '2026-03-03T15:23:16'
 draft: false
-featured_image: /images/header-the-great-interceptor-shortage.png
+featured_image: /images/header-the-great-interceptor-shortage.jpg
 image_prompt: Anime-style illustration of cheap, rusty rockets overwhelming expensive,
   sleek interceptor missiles in space, with SGC credit symbols floating away, minimal
   white background

@@ -1,7 +1,7 @@
 ---
 title: "Still Listening, Slowly Lost"
 date: 2026-06-10T15:29:33.590238
-image: "/images/cfp/nature-reclaimed-2935-103.png"
+image: "/images/cfp/nature-reclaimed-2935-103.jpg"
 category: "Nature Reclaimed"
 genre: "07-nature-reclaimed"
 issue: "2935.103"

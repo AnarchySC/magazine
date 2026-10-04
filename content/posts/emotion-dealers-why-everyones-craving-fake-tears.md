@@ -1,7 +1,7 @@
 ---
 date: '2026-02-14T00:06:37'
 draft: false
-featured_image: /images/header-emotion-dealers-why-everyones-craving-fake-tears.png
+featured_image: /images/header-emotion-dealers-why-everyones-craving-fake-tears.jpg
 image_prompt: Anime-style illustration of a futuristic vending machine dispensing
   glowing emotional essence bottles, with people in line holding empty hearts, minimalist
   white background

@@ -1,7 +1,7 @@
 ---
 title: "Blue Curve, Mustard Hours"
 date: 2026-07-18T15:23:22.831270
-image: "/images/cfp/orbit-frontier-2935-197.png"
+image: "/images/cfp/orbit-frontier-2935-197.jpg"
 category: "Orbit & Frontier"
 genre: "09-orbit-frontier"
 issue: "2935.197"

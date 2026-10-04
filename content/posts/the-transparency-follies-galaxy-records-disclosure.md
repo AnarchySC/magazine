@@ -1,7 +1,7 @@
 ---
 date: '2026-03-22T12:17:31'
 draft: false
-featured_image: /images/header-the-transparency-follies-galaxy-records-disclosure.png
+featured_image: /images/header-the-transparency-follies-galaxy-records-disclosure.jpg
 image_prompt: Anime sci-fi style, minimal white background, a stack of heavily redacted
   holographic documents floating in zero gravity, black bars covering most of the
   glowing text, a lone figure in a cargo hauler jacket reaching toward them from below,

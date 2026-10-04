@@ -1,7 +1,7 @@
 ---
 date: '2026-04-09T16:18:55'
 draft: false
-featured_image: /images/header-welcome-to-gator-country-what-the-galaxys-largest-.png
+featured_image: /images/header-welcome-to-gator-country-what-the-galaxys-largest-.jpg
 image_prompt: Anime/sci-fi style illustration of a massive ancient alligator floating
   motionless in a synthetic bayou habitat inside a space station, surrounded by glowing
   bioluminescent cypress trees, amber eyes reflecting starlight visible through a

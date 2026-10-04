@@ -1,7 +1,7 @@
 ---
 date: '2026-05-05T17:36:10'
 draft: false
-featured_image: /images/header-attacks-on-sacred-order-members-at-holy-corridor-c.png
+featured_image: /images/header-attacks-on-sacred-order-members-at-holy-corridor-c.jpg
 image_prompt: Anime-style illustration, minimal white background, a robed nun figure
   in futuristic space station corridor, sacred geometric symbols on the walls, station
   security robots facing away in the background, soft dramatic lighting, clean line

@@ -1,7 +1,7 @@
 ---
 date: '2026-02-27T16:38:50'
 draft: false
-featured_image: /images/header-military-math-training-failures-brain-scans-reveal.png
+featured_image: /images/header-military-math-training-failures-brain-scans-reveal.jpg
 image_prompt: Anime-style illustration of a young space cadet looking confused while
   staring at abstract tactical symbols on a holographic display, with actual starships
   visible through a window behind them, minimal white background

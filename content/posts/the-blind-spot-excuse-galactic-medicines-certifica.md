@@ -1,7 +1,7 @@
 ---
 date: '2026-07-02T10:33:26'
 draft: false
-featured_image: /images/header-the-blind-spot-excuse-galactic-medicines-certifica.png
+featured_image: /images/header-the-blind-spot-excuse-galactic-medicines-certifica.jpg
 image_prompt: A wide cinematic shot inside a dimly lit interstellar hospital recovery
   ward on Kepler Station — curved habitat walls with exposed conduit and chunky analog
   monitoring equipment, CRT-style patient displays showing waveform readouts with

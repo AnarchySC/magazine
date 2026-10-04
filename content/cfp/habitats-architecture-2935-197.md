@@ -1,7 +1,7 @@
 ---
 title: "Last Light, Pod Three"
 date: 2026-07-18T15:30:22.831270
-image: "/images/cfp/habitats-architecture-2935-197.png"
+image: "/images/cfp/habitats-architecture-2935-197.jpg"
 category: "Habitats & Architecture"
 genre: "02-habitats-architecture"
 issue: "2935.197"

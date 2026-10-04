@@ -1,7 +1,7 @@
 ---
 date: '2026-05-13T12:56:40'
 draft: false
-featured_image: /images/header-marx-was-wrong-dismantling-the-inevitable-ruin-myt.png
+featured_image: /images/header-marx-was-wrong-dismantling-the-inevitable-ruin-myt.jpg
 image_prompt: 'Anime sci-fi style, minimal illustration on white background: a small
   glowing hydroponic greenhouse dome floating in space, warm amber light inside, surrounded
   by vast dark void, a single silhouette of a settler tending plants visible through

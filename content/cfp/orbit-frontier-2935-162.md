@@ -1,7 +1,7 @@
 ---
 title: "Long Haul, Slow Light"
 date: 2026-06-11T19:02:59.797345
-image: "/images/cfp/orbit-frontier-2935-162.png"
+image: "/images/cfp/orbit-frontier-2935-162.jpg"
 category: "Orbit & Frontier"
 genre: "09-orbit-frontier"
 issue: "2935.162"

@@ -1,7 +1,7 @@
 ---
 date: '2026-06-11T20:24:43'
 draft: false
-featured_image: /images/header-nexus-processing-gaslights-security-researcher-ret.png
+featured_image: /images/header-nexus-processing-gaslights-security-researcher-ret.jpg
 image_prompt: Anime sci-fi style illustration, minimal white background, a lone researcher
   in a small cluttered fabrication bay on a space station, holographic screens showing
   code diffs and timestamps, a large corporate logo cracking apart like glass in the

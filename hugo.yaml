@@ -6,6 +6,7 @@ baseURL: "/magazine/"
 languageCode: "en-us"
 title: "Cassette Future Magazine"
 theme: "filmoru"
+enableRobotsTXT: true
 
 # Japanese/English bilingual support
 defaultContentLanguage: "en"

@@ -1,7 +1,7 @@
 ---
 date: '2026-04-14T14:00:57'
 draft: false
-featured_image: /images/header-the-last-bullet-what-endofworld-love-stories-are-a.png
+featured_image: /images/header-the-last-bullet-what-endofworld-love-stories-are-a.jpg
 image_prompt: Anime-style minimal illustration, two silhouetted figures standing in
   the ruins of an abandoned settlement under a vast alien sky, one figure gently resting
   a hand on the other's shoulder, single glowing bullet casing on cracked ground between

@@ -1,7 +1,7 @@
 ---
 date: '2026-04-21T17:30:35'
 draft: false
-featured_image: /images/header-lots-of-ordnance-will-deploy-if-no-agreement-earth.png
+featured_image: /images/header-lots-of-ordnance-will-deploy-if-no-agreement-earth.jpg
 image_prompt: Anime-style illustration, minimal white background, a pompous middle-aged
   politician in formal galactic council regalia standing at a podium, one hand raised
   cheerfully, the other hand holding a small glowing orbital bomb like a prop, press

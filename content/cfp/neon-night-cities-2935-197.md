@@ -1,7 +1,7 @@
 ---
 title: "Haze Over the Sump"
 date: 2026-07-18T15:29:22.831270
-image: "/images/cfp/neon-night-cities-2935-197.png"
+image: "/images/cfp/neon-night-cities-2935-197.jpg"
 category: "Neon Night Cities"
 genre: "03-neon-night-cities"
 issue: "2935.197"

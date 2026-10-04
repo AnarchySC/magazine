@@ -1,7 +1,7 @@
 ---
 date: '2026-07-21T17:32:05'
 draft: false
-featured_image: /images/header-the-quiet-revolution-how-the-outer-rim-coalition-i.png
+featured_image: /images/header-the-quiet-revolution-how-the-outer-rim-coalition-i.jpg
 image_prompt: 'Cinematic wide-angle split composition set in deep space near a massive
   orbital industrial station. LEFT SIDE: a sleek, newly-constructed Outer Rim Coalition
   shipyard with magnetic assembly cranes moving enormous hull sections, arc-welding

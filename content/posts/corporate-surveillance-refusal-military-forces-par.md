@@ -1,7 +1,7 @@
 ---
 date: '2026-03-10T23:19:27'
 draft: false
-featured_image: /images/header-corporate-surveillance-refusal-military-forces-par.png
+featured_image: /images/header-corporate-surveillance-refusal-military-forces-par.jpg
 image_prompt: Anime-style illustration of a futuristic courtroom with holographic
   displays showing AI neural networks, corporate logos, and military insignia, clean
   white background, minimal color palette

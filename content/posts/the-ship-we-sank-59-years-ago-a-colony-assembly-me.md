@@ -1,7 +1,7 @@
 ---
 date: '2026-06-11T20:24:04'
 draft: false
-featured_image: /images/header-the-ship-we-sank-59-years-ago-a-colony-assembly-me.png
+featured_image: /images/header-the-ship-we-sank-59-years-ago-a-colony-assembly-me.jpg
 image_prompt: 'Anime-style minimal illustration: a lone aging soldier standing before
   a small bronze memorial plaque on a white wall, stars visible through a porthole
   behind him, white background, soft melancholic lighting, clean lines, no text'

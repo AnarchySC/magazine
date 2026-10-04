@@ -1,7 +1,7 @@
 ---
 date: '2026-04-28T17:31:11'
 draft: false
-featured_image: /images/header-the-market-for-those-who-dont-fall-inside-the-zero.png
+featured_image: /images/header-the-market-for-those-who-dont-fall-inside-the-zero.jpg
 image_prompt: Anime sci-fi style, minimal, white background, lone athlete in a sleek
   zero-gravity suit floating in empty space with a small holographic contract document
   unfolding before them, glowing credits symbols reflected in their visor, distant

@@ -1,7 +1,7 @@
 ---
 date: '2026-04-14T13:59:50'
 draft: false
-featured_image: /images/header-what-if-the-galactic-medicines-bureau-disappeared-.png
+featured_image: /images/header-what-if-the-galactic-medicines-bureau-disappeared-.jpg
 image_prompt: 'Anime-style illustration, minimal, white background: a calm woman in
   a small apothecary shop on a space station, shelves filled with glowing vials and
   dried botanical specimens, warm amber light, steam rising from two cups of tea on

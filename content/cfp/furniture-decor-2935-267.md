@@ -1,7 +1,7 @@
 ---
 title: "Egg Chair, Quiet Orbit"
 date: 2026-09-24T14:00:53.505101
-image: "/images/cfp/furniture-decor-2935-267.png"
+image: "/images/cfp/furniture-decor-2935-267.jpg"
 category: "Furniture & Decor"
 genre: "11-furniture-decor"
 issue: "2935.267"

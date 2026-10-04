@@ -1,7 +1,7 @@
 ---
 date: '2026-02-14T17:41:47'
 draft: false
-featured_image: /images/header-the-torture-will-continue-until-shareholder-value-.png
+featured_image: /images/header-the-torture-will-continue-until-shareholder-value-.jpg
 image_prompt: Anime-style illustration of a simple neural interface device on a clean
   lab bench, with floating holographic patents and credit symbols dissolving into
   open-source code, minimal white background

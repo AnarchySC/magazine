@@ -1,7 +1,7 @@
 ---
 date: '2026-06-11T20:25:14'
 draft: false
-featured_image: /images/header-the-medical-bill-nobody-reads-at-the-zerog-arena.png
+featured_image: /images/header-the-medical-bill-nobody-reads-at-the-zerog-arena.jpg
 image_prompt: 'Anime-style illustration, white background, minimal composition: a
   lone zero-gravity athlete in a worn competition suit floating in empty void, a single
   crumpled document drifting nearby, distant arena lights faint in the background,

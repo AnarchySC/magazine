@@ -1,7 +1,7 @@
 ---
 date: '2026-07-17T15:21:23'
 draft: false
-featured_image: /images/header-the-porcelain-dream-the-beauty-cage-the-powerful-l.png
+featured_image: /images/header-the-porcelain-dream-the-beauty-cage-the-powerful-l.jpg
 image_prompt: A dramatic wide-angle shot inside an ornate, domed room inside a heritage
   colony station on Earth's Iberian Plateau. The walls and ceiling are entirely covered
   in hand-crafted porcelain figures — monkeys, dragons, pagodas, mythological creatures

@@ -1,7 +1,7 @@
 ---
 date: '2026-05-13T12:57:18'
 draft: false
-featured_image: /images/header-the-ghost-station-architects-who-is-building-parad.png
+featured_image: /images/header-the-ghost-station-architects-who-is-building-parad.jpg
 image_prompt: Anime/sci-fi illustration, minimal white background, a lone mysterious
   space station floating in deep void, organic architectural curves unlike corporate
   design, warm amber light from unusual-angled viewports, small hydroponic dome visible

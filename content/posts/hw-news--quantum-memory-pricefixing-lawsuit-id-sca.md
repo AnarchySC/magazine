@@ -1,7 +1,7 @@
 ---
 date: '2026-07-16T10:07:09'
 draft: false
-featured_image: /images/header-hw-news--quantum-memory-pricefixing-lawsuit-id-sca.png
+featured_image: /images/header-hw-news--quantum-memory-pricefixing-lawsuit-id-sca.jpg
 image_prompt: 'A cluttered, warmly-lit independent hardware journalist''s workshop
   aboard an orbital station, wide cinematic angle. Chunky CRT monitors glow amber
   and green, stacked in towers along curved station walls with riveted panels visible

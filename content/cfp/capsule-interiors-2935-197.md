@@ -1,7 +1,7 @@
 ---
 title: "End of the Passage"
 date: 2026-07-18T15:31:22.831270
-image: "/images/cfp/capsule-interiors-2935-197.png"
+image: "/images/cfp/capsule-interiors-2935-197.jpg"
 category: "Capsule Interiors"
 genre: "01-capsule-interiors"
 issue: "2935.197"

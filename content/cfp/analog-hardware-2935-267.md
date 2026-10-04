@@ -1,7 +1,7 @@
 ---
 title: "Still Logging In"
 date: 2026-09-24T14:07:53.505101
-image: "/images/cfp/analog-hardware-2935-267.png"
+image: "/images/cfp/analog-hardware-2935-267.jpg"
 category: "Analog Hardware"
 genre: "04-analog-hardware"
 issue: "2935.267"

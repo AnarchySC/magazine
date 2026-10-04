@@ -1,7 +1,7 @@
 ---
 date: '2026-02-14T17:44:25'
 draft: false
-featured_image: /images/header-zerog-sports-the-view-from-the-cheap-seats.png
+featured_image: /images/header-zerog-sports-the-view-from-the-cheap-seats.jpg
 image_prompt: Anime-style zero gravity racing scene, athletes in sleek suits floating
   through illuminated ring obstacles in space, minimal white background, dynamic motion
   lines

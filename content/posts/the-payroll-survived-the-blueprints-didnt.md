@@ -1,7 +1,7 @@
 ---
 date: '2026-09-24T13:58:56'
 draft: false
-featured_image: /images/header-the-payroll-survived-the-blueprints-didnt.png
+featured_image: /images/header-the-payroll-survived-the-blueprints-didnt.jpg
 image_prompt: A dimly lit Earth archival chamber deep in a retrofuturist underground
   complex beneath the Cairo Settlement, year 2935. Massive analog magnetic-tape storage
   columns line curved stone walls, blinking amber indicator lights casting warm shadows

@@ -1,7 +1,7 @@
 ---
 date: '2026-02-14T17:42:15'
 draft: false
-featured_image: /images/header-the-archive-of-memory-a-world-saved-from-forgettin.png
+featured_image: /images/header-the-archive-of-memory-a-world-saved-from-forgettin.jpg
 image_prompt: Anime-style illustration of translucent crystal formations in a vast
   circular chamber, each crystal glowing softly with inner light, floating crystalline
   structures carved with intricate microscopic patterns, one figure in robes touching

@@ -1,7 +1,7 @@
 ---
 date: '2026-03-22T12:18:08'
 draft: false
-featured_image: /images/header-noctua-collab-thermal-pod-review-thermals-noise-an.png
+featured_image: /images/header-noctua-collab-thermal-pod-review-thermals-noise-an.jpg
 image_prompt: Anime sci-fi style, minimal, white background. A sleek rectangular processing
   pod chassis floating in zero-g, its side panel open to reveal brown cooling fans
   with elegant blade geometry and soft amber lighting. Clean cable routing visible

@@ -1,7 +1,7 @@
 ---
 date: '2026-05-26T16:12:05'
 draft: false
-featured_image: /images/header-doa-cosmicforge-prebuilt-game-pod-wont-even-power-.png
+featured_image: /images/header-doa-cosmicforge-prebuilt-game-pod-wont-even-power-.jpg
 image_prompt: Anime style, minimal white background, a sleek black gaming PC tower
   sitting on a workbench with a single small red warning light on its front panel,
   the power button visibly unpressed, scattered diagnostic tools nearby, soft cool

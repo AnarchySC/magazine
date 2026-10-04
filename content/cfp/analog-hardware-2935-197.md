@@ -1,7 +1,7 @@
 ---
 title: "Still Running Fine"
 date: 2026-07-18T15:28:22.831270
-image: "/images/cfp/analog-hardware-2935-197.png"
+image: "/images/cfp/analog-hardware-2935-197.jpg"
 category: "Analog Hardware"
 genre: "04-analog-hardware"
 issue: "2935.197"

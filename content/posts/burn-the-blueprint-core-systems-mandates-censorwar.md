@@ -1,7 +1,7 @@
 ---
 date: '2026-04-14T14:03:06'
 draft: false
-featured_image: /images/header-burn-the-blueprint-core-systems-mandates-censorwar.png
+featured_image: /images/header-burn-the-blueprint-core-systems-mandates-censorwar.jpg
 image_prompt: Anime sci-fi style, minimal white background, a sleek personal fabrication
   unit with a glowing red lock symbol on its display screen, scattered blueprint holograms
   floating around it, some grayed out and crossed with red lines, sparse industrial

@@ -1,7 +1,7 @@
 ---
 date: '2026-02-22T15:28:08'
 draft: false
-featured_image: /images/header-whos-in-control-here.png
+featured_image: /images/header-whos-in-control-here.jpg
 image_prompt: Anime-style illustration of a space station construction worker looking
   up at massive digital screens showing flowing data streams, with government officials
   in suits standing between the worker and the screens, minimal color palette, white

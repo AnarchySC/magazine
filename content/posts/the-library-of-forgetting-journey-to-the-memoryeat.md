@@ -1,7 +1,7 @@
 ---
 date: '2026-02-22T15:27:17'
 draft: false
-featured_image: /images/header-the-library-of-forgetting-journey-to-the-memoryeat.png
+featured_image: /images/header-the-library-of-forgetting-journey-to-the-memoryeat.jpg
 image_prompt: Anime-style futuristic planet with white crystalline buildings built
   into mountain caves, spaceships landing on platforms, soft ethereal lighting, minimal
   white background, travelers in spacesuits walking toward glowing entrance

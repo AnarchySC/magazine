@@ -1,7 +1,7 @@
 ---
 date: '2026-05-26T16:10:59'
 draft: false
-featured_image: /images/header-reading-a-killers-eyes-what-the-galaxys-most-famou.png
+featured_image: /images/header-reading-a-killers-eyes-what-the-galaxys-most-famou.jpg
 image_prompt: Anime-style illustration, white background, a calm middle-aged man with
   dark hair sitting at a low table with a holographic face projection floating above
   a teacup, the projected face showing subtle geometric microexpression analysis overlays,

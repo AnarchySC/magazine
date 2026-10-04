@@ -1,7 +1,7 @@
 ---
 title: "Second Moon, Pale Grain"
 date: 2026-06-10T15:43:52.651825
-image: "/images/cfp/country-rural-life-2935-103.png"
+image: "/images/cfp/country-rural-life-2935-103.jpg"
 category: "Country & Rural Life"
 genre: "14-country-rural-life"
 issue: "2935.103"

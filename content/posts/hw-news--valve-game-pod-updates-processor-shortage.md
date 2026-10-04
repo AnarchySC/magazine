@@ -1,7 +1,7 @@
 ---
 date: '2026-02-27T16:37:05'
 draft: false
-featured_image: /images/header-hw-news--valve-game-pod-updates-processor-shortage.png
+featured_image: /images/header-hw-news--valve-game-pod-updates-processor-shortage.jpg
 image_prompt: Retro-futuristic gaming setup with sleek white console pods floating
   in zero gravity, scattered computer components and circuit boards, clean minimalist
   anime art style, white background

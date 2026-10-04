@@ -1,7 +1,7 @@
 ---
 date: '2026-04-28T17:33:42'
 draft: false
-featured_image: /images/header-do-not-buy-helioscore-9-9950x3d3-processing-core-r.png
+featured_image: /images/header-do-not-buy-helioscore-9-9950x3d3-processing-core-r.jpg
 image_prompt: 'Anime/sci-fi style, minimal illustration on white background: a sleek
   futuristic processor chip floating in zero gravity, surrounded by holographic benchmark
   graphs all showing nearly flat performance lines, with a small price tag glowing

@@ -1,7 +1,7 @@
 ---
 date: '2026-06-11T19:05:29'
 draft: false
-featured_image: /images/header-the-morning-the-satellites-fell-what-are-we-actual.png
+featured_image: /images/header-the-morning-the-satellites-fell-what-are-we-actual.jpg
 image_prompt: Anime style illustration, white background, a lone figure standing in
   a dark open field looking up at a sky full of silent dark satellites and one small
   glowing anomaly in the distance, minimal color palette of deep indigo and pale gold,

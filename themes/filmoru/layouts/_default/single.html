@@ -64,11 +64,11 @@
     <span class="divider-line divider-yellow"></span>
   </div>
 
-  {{ with .Params.featured_image }}
+  {{ with .Params.featured_image }}{{ if fileExists (path.Join "static" .) }}
   <figure class="article-feature-image">
     <img src="{{ $.Site.BaseURL }}{{ strings.TrimPrefix "/" . }}" alt="{{ $.Title }}">
   </figure>
-  {{ end }}
+  {{ end }}{{ end }}
 
   <div class="article-body drop-cap">
     {{ .Content }}

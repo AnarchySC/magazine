@@ -1,7 +1,7 @@
 ---
 date: '2026-05-13T12:56:05'
 draft: false
-featured_image: /images/header-worst-thermals-yet-tryx-flova-f50-habitat-shell-re.png
+featured_image: /images/header-worst-thermals-yet-tryx-flova-f50-habitat-shell-re.jpg
 image_prompt: Anime-style technical illustration on white background, a sleek futuristic
   computer chassis with glowing crossflow fan array visible through transparent panel,
   air flow lines shown as soft blue curves skimming incorrectly over a glowing processor,

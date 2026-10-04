@@ -1,7 +1,7 @@
 ---
 title: "Still Standing, Still Raining"
 date: 2026-07-21T17:39:18.846131
-image: "/images/cfp/neon-night-cities-2935-202.png"
+image: "/images/cfp/neon-night-cities-2935-202.jpg"
 category: "Neon Night Cities"
 genre: "03-neon-night-cities"
 issue: "2935.202"

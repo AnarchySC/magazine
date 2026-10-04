@@ -1,7 +1,7 @@
 ---
 date: '2026-06-11T20:29:14'
 draft: false
-featured_image: /images/header-solar-defense-compact-opens-community-launch-pad-f.png
+featured_image: /images/header-solar-defense-compact-opens-community-launch-pad-f.jpg
 image_prompt: 'Anime sci-fi style illustration, minimal, white background: a small
   handmade rocket on a launch pad dwarfed by enormous military gantries, a single
   figure in a worn lab coat standing beside it with a clipboard, warm dawn lighting,

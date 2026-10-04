@@ -1,7 +1,7 @@
 ---
 date: '2026-06-11T19:04:26'
 draft: false
-featured_image: /images/header-helioscore-gaslights-security-researcher-retroacti.png
+featured_image: /images/header-helioscore-gaslights-security-researcher-retroacti.jpg
 image_prompt: Anime sci-fi style, minimal, white background. A small determined researcher
   figure at a glowing fabrication bench, surrounded by floating holographic network
   diagrams showing a broken chain of authentication handshakes. In the background,

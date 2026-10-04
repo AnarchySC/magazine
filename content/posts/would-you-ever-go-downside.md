@@ -1,7 +1,7 @@
 ---
 date: '2026-04-09T16:16:17'
 draft: false
-featured_image: /images/header-would-you-ever-go-downside.png
+featured_image: /images/header-would-you-ever-go-downside.jpg
 image_prompt: Anime-style illustration, white background, cross-section diagram of
   a massive vertical city with thousands of stacked levels, warm amber light glowing
   from lower levels contrasting with cool blue artificial sky at the top, tiny human

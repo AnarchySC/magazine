@@ -1,7 +1,7 @@
 ---
 date: '2026-04-21T17:32:17'
 draft: false
-featured_image: /images/header-who-pays-the-kardashia-corridor-toll.png
+featured_image: /images/header-who-pays-the-kardashia-corridor-toll.jpg
 image_prompt: Anime sci-fi illustration, minimal white background, a massive space
   cargo hauler passing through a narrow glowing asteroid corridor with a holographic
   toll booth sign in Japanese and English, a suited bureaucrat on one side collecting

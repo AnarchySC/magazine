@@ -1,7 +1,7 @@
 ---
 date: '2026-06-11T20:25:53'
 draft: false
-featured_image: /images/header-nobody-designed-this-the-philosophy-hidden-inside-.png
+featured_image: /images/header-nobody-designed-this-the-philosophy-hidden-inside-.jpg
 image_prompt: 'Anime/sci-fi style minimal illustration on white background: a lone
   elegant cylindrical space station floating in deep black void, no corporate markings,
   soft warm light glowing from interior viewports, architectural blueprints dissolving

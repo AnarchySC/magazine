@@ -1,7 +1,7 @@
 ---
 date: '2026-09-24T13:58:22'
 draft: false
-featured_image: /images/header-did-nebulaplay-ever-actually-love-games-the-selfde.png
+featured_image: /images/header-did-nebulaplay-ever-actually-love-games-the-selfde.jpg
 image_prompt: 'Cinematic wide shot inside a massive, dimly lit interstellar distribution
   depot carved into an asteroid, walls stretching hundreds of meters high and packed
   floor-to-ceiling with pallets of shrink-wrapped Stellar Console VPUs gathering dust,

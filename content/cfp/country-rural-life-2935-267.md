@@ -1,7 +1,7 @@
 ---
 title: "Harvest Under the Ring"
 date: 2026-09-24T13:59:53.505101
-image: "/images/cfp/country-rural-life-2935-267.png"
+image: "/images/cfp/country-rural-life-2935-267.jpg"
 category: "Country & Rural Life"
 genre: "14-country-rural-life"
 issue: "2935.267"

@@ -1,7 +1,7 @@
 ---
 date: '2026-05-05T17:38:08'
 draft: false
-featured_image: /images/header-the-battlefield-of-ideas-why-radicals-know-a-good-.png
+featured_image: /images/header-the-battlefield-of-ideas-why-radicals-know-a-good-.jpg
 image_prompt: Anime sci-fi style, minimal white background, a lone figure stands at
   a massive glowing whiteboard covered in economic diagrams and galaxy maps, chalk
   dust floating in zero gravity, dramatic lighting from the board illuminating a determined

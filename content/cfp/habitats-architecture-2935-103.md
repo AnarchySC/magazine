@@ -1,7 +1,7 @@
 ---
 title: "Last Light, Block Nine"
 date: 2026-06-10T15:34:33.590238
-image: "/images/cfp/habitats-architecture-2935-103.png"
+image: "/images/cfp/habitats-architecture-2935-103.jpg"
 category: "Habitats & Architecture"
 genre: "02-habitats-architecture"
 issue: "2935.103"

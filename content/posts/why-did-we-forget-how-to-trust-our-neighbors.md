@@ -1,7 +1,7 @@
 ---
 date: '2026-02-16T16:09:32'
 draft: false
-featured_image: /images/header-why-did-we-forget-how-to-trust-our-neighbors.png
+featured_image: /images/header-why-did-we-forget-how-to-trust-our-neighbors.jpg
 image_prompt: Anime-style illustration of neighbors sitting around a kitchen table
   sharing tea, gentle warm lighting, space station windows showing stars in background,
   minimal white background, cozy domestic scene

@@ -1,7 +1,7 @@
 ---
 date: '2026-04-21T17:31:40'
 draft: false
-featured_image: /images/header-why-so-many-levels-the-moral-logic-of-the-vertical.png
+featured_image: /images/header-why-so-many-levels-the-moral-logic-of-the-vertical.jpg
 image_prompt: Anime-style cross-section illustration of a massive vertical megacity,
   white background, showing dozens of stacked urban decks descending from a bright
   sunlit top level to dark foggy lower levels, minimalist line art, the upper levels

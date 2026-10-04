@@ -1,7 +1,7 @@
 ---
 date: '2026-02-16T16:11:17'
 draft: false
-featured_image: /images/header-military-lab-claims-new-wormhole-tech-is-purely-pe.png
+featured_image: /images/header-military-lab-claims-new-wormhole-tech-is-purely-pe.jpg
 image_prompt: Anime-style scientific presentation room with researchers in lab coats
   standing next to military officers in uniform, holographic wormhole display with
   battleships emerging, minimalist white background, slight comedic undertone

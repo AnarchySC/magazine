@@ -1,7 +1,7 @@
 ---
 date: '2026-09-24T14:01:43'
 draft: false
-featured_image: /images/header-certified-killer-vs-void-monster-who-survives-the-.png
+featured_image: /images/header-certified-killer-vs-void-monster-who-survives-the-.jpg
 image_prompt: 'Cinematic wide shot inside a decommissioned asteroid ore corridor,
   deep in the Ceres-Jupiter scatter. Flickering mag-lamps cast amber and cold blue
   light across corroded industrial bulkheads lined with chunky analog pressure gauges,

@@ -1,7 +1,7 @@
 ---
 date: '2026-02-14T00:06:15'
 draft: false
-featured_image: /images/header-galactic-neural-news--cyberdyne-corps-piracy-70-qu.png
+featured_image: /images/header-galactic-neural-news--cyberdyne-corps-piracy-70-qu.jpg
 image_prompt: Anime-style illustration of a futuristic computer chip with pirate flag
   symbol hovering above it, quantum memory modules scattered around, minimal white
   background, sci-fi aesthetic

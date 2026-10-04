@@ -1,7 +1,7 @@
 ---
 title: "Tape Never Sleeps"
 date: 2026-07-18T15:24:22.831270
-image: "/images/cfp/command-workshops-2935-197.png"
+image: "/images/cfp/command-workshops-2935-197.jpg"
 category: "Command & Workshops"
 genre: "08-command-workshops"
 issue: "2935.197"

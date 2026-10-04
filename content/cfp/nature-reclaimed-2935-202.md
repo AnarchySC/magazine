@@ -1,7 +1,7 @@
 ---
 title: "Last Run to Nowhere"
 date: 2026-07-21T17:35:18.846131
-image: "/images/cfp/nature-reclaimed-2935-202.png"
+image: "/images/cfp/nature-reclaimed-2935-202.jpg"
 category: "Nature Reclaimed"
 genre: "07-nature-reclaimed"
 issue: "2935.202"

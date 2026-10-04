@@ -1,7 +1,7 @@
 ---
 date: '2026-02-22T15:25:28'
 draft: false
-featured_image: /images/header-gcbs-new-stabilization-policy-economic-warfare-on-.png
+featured_image: /images/header-gcbs-new-stabilization-policy-economic-warfare-on-.jpg
 image_prompt: Anime-style illustration of a massive space station central bank with
   credit symbols flowing outward in streams, while smaller frontier colony stations
   appear dim and distant, minimal white background, economic warfare theme

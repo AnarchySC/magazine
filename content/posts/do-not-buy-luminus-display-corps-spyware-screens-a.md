@@ -1,7 +1,7 @@
 ---
 date: '2026-07-21T17:32:41'
 draft: false
-featured_image: /images/header-do-not-buy-luminus-display-corps-spyware-screens-a.png
+featured_image: /images/header-do-not-buy-luminus-display-corps-spyware-screens-a.jpg
 image_prompt: A dimly lit workshop on an orbital station, wide cinematic shot. A large
   curved Luminus display panel lies disassembled on a worn metal workbench cluttered
   with analog oscilloscopes, chunky CRT diagnostic screens with green waveform readouts,

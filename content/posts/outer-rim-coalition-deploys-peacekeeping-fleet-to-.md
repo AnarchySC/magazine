@@ -1,7 +1,7 @@
 ---
 date: '2026-02-08T01:28:52'
 draft: false
-featured_image: /images/header-outer-rim-coalition-deploys-peacekeeping-fleet-to-.png
+featured_image: /images/header-outer-rim-coalition-deploys-peacekeeping-fleet-to-.jpg
 image_prompt: Anime-style illustration of massive battlecruisers looming over a blue
   planet, with smaller defensive satellites, minimal white background, serious military
   aesthetic with subtle comedic tension

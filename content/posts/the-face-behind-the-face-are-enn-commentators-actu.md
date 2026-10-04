@@ -1,7 +1,7 @@
 ---
 date: '2026-05-26T16:07:59'
 draft: false
-featured_image: /images/header-the-face-behind-the-face-are-enn-commentators-actu.png
+featured_image: /images/header-the-face-behind-the-face-are-enn-commentators-actu.jpg
 image_prompt: Anime style, minimal, white background, a sleek news anchor sitting
   at a floating holographic desk, their face subtly peeling at the jaw line to reveal
   a smooth synthetic layer beneath, dramatic studio lighting from below casting sharp

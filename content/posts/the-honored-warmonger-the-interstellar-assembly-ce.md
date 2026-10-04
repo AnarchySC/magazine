@@ -1,7 +1,7 @@
 ---
 date: '2026-07-17T15:17:00'
 draft: false
-featured_image: /images/header-the-honored-warmonger-the-interstellar-assembly-ce.png
+featured_image: /images/header-the-honored-warmonger-the-interstellar-assembly-ce.jpg
 image_prompt: 'Cinematic wide shot of the Titan Annex ceremonial rotunda in 2935:
   a vast, brutalist hall with curved walls lined with CRT screens cycling through
   grainy black-and-white footage of fleet carrier deployments, chunky analog consoles

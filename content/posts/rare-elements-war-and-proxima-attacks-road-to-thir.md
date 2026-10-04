@@ -1,7 +1,7 @@
 ---
 date: '2026-02-10T11:59:07'
 draft: false
-featured_image: /images/header-rare-elements-war-and-proxima-attacks-road-to-thir.png
+featured_image: /images/header-rare-elements-war-and-proxima-attacks-road-to-thir.jpg
 image_prompt: Anime-style space scene showing military ships patrolling an asteroid
   belt, Earth visible in background, minimal white space, tension in composition
 issue_number: '2935.041'

@@ -1,7 +1,7 @@
 ---
 date: '2026-03-22T12:19:27'
 draft: false
-featured_image: /images/header-the-im-full-signal-comes-from-the-butt-not-the-bra.png
+featured_image: /images/header-the-im-full-signal-comes-from-the-butt-not-the-bra.jpg
 image_prompt: Anime-style scientific illustration on white background, extreme macro
   close-up of a sleek bioluminescent insect with delicate translucent wings mid-flight,
   soft teal and amber glow from internal organs visible through exoskeleton, minimalist

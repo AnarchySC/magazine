@@ -1,7 +1,7 @@
 ---
 date: '2026-06-09T17:31:12'
 draft: false
-featured_image: /images/header-race-to-the-bottom-an-18sgc-thermal-unit-is-shakin.png
+featured_image: /images/header-race-to-the-bottom-an-18sgc-thermal-unit-is-shakin.jpg
 image_prompt: 'Anime/sci-fi style minimal illustration on white background: a sleek
   aluminum tower thermal cooler unit floating in zero-gravity, heat pipes glowing
   faintly orange, a small price tag reading ''18 SGC'' attached with a thin wire,

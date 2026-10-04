@@ -1,7 +1,7 @@
 ---
 date: '2026-05-13T12:55:00'
 draft: false
-featured_image: /images/header-the-rules-of-weightlessness-where-zerog-competitio.png
+featured_image: /images/header-the-rules-of-weightlessness-where-zerog-competitio.jpg
 image_prompt: Anime sci-fi style minimal illustration, white background, a lone athletic
   figure in a sleek pressure suit frozen mid-sprint inside a massive zero-gravity
   ring structure, geometric orbital framework in background, cool blue and silver

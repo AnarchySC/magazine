@@ -1,7 +1,7 @@
 ---
 date: '2026-02-11T08:24:02'
 draft: false
-featured_image: /images/header-the-cosmic-scam-of-quantitative-easing.png
+featured_image: /images/header-the-cosmic-scam-of-quantitative-easing.jpg
 image_prompt: Anime-style illustration of a massive holographic credit symbol floating
   above a futuristic space station exchange floor, with tiny figures of traders below,
   white background, minimal clean design

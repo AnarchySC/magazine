@@ -1,7 +1,7 @@
 ---
 date: '2026-02-14T17:43:31'
 draft: false
-featured_image: /images/header-memory-thieves-why-everyone-wants-to-watch-someone.png
+featured_image: /images/header-memory-thieves-why-everyone-wants-to-watch-someone.jpg
 image_prompt: Anime-style illustration of a person wearing a sleek neural headset
   with glowing neural pathways, surrounded by floating translucent memory bubbles
   containing glimpses of other people's experiences, minimal white background

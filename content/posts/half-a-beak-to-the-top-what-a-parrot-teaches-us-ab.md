@@ -1,7 +1,7 @@
 ---
 date: '2026-04-21T17:31:04'
 draft: false
-featured_image: /images/header-half-a-beak-to-the-top-what-a-parrot-teaches-us-ab.png
+featured_image: /images/header-half-a-beak-to-the-top-what-a-parrot-teaches-us-ab.jpg
 image_prompt: A confident green parrot with half an upper beak missing, perched high
   on a futuristic asteroid station wildlife reserve railing, looking composed and
   dominant, other birds visible below him, anime style, clean minimal background,

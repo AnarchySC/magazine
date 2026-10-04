@@ -1,7 +1,7 @@
 ---
 title: "Last Clear Frequency"
 date: 2026-06-10T15:28:33.590238
-image: "/images/cfp/command-workshops-2935-103.png"
+image: "/images/cfp/command-workshops-2935-103.jpg"
 category: "Command & Workshops"
 genre: "08-command-workshops"
 issue: "2935.103"

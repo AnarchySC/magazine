@@ -1,7 +1,7 @@
 ---
 title: "Still Picking Up Signal"
 date: 2026-07-21T17:38:18.846131
-image: "/images/cfp/analog-hardware-2935-202.png"
+image: "/images/cfp/analog-hardware-2935-202.jpg"
 category: "Analog Hardware"
 genre: "04-analog-hardware"
 issue: "2935.202"

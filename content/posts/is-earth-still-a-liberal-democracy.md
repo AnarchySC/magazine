@@ -1,7 +1,7 @@
 ---
 date: '2026-03-10T23:21:56'
 draft: false
-featured_image: /images/header-is-earth-still-a-liberal-democracy.png
+featured_image: /images/header-is-earth-still-a-liberal-democracy.jpg
 image_prompt: Anime style illustration of an elderly woman looking at a holographic
   letter with a concerned expression, colony settlement in background, minimal white
   background

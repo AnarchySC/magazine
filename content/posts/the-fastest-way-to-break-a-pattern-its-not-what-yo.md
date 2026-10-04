@@ -1,7 +1,7 @@
 ---
 date: '2026-06-08T06:01:14'
 draft: false
-featured_image: /images/header-the-fastest-way-to-break-a-pattern-its-not-what-yo.png
+featured_image: /images/header-the-fastest-way-to-break-a-pattern-its-not-what-yo.jpg
 image_prompt: 'Anime/sci-fi style minimal illustration on white background: a lone
   figure mid-step on a glowing pathway that extends into empty space, the path forming
   behind them as they walk, not ahead — soft blue and amber light, clean linework,

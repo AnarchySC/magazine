@@ -1,7 +1,7 @@
 ---
 date: '2026-02-14T17:44:51'
 draft: false
-featured_image: /images/header-the-hollow-heart-why-minimalists-are-selling-their.png
+featured_image: /images/header-the-hollow-heart-why-minimalists-are-selling-their.jpg
 image_prompt: Anime-style illustration of an ultra-minimalist space pod interior,
   completely white and empty except for a single person sitting alone, shot from above,
   white background, clean geometric lines, subtle melancholy mood

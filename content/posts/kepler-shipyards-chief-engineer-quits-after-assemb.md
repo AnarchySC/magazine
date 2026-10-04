@@ -1,7 +1,7 @@
 ---
 date: '2026-03-10T23:21:30'
 draft: false
-featured_image: /images/header-kepler-shipyards-chief-engineer-quits-after-assemb.png
+featured_image: /images/header-kepler-shipyards-chief-engineer-quits-after-assemb.jpg
 image_prompt: Anime-style illustration of a brilliant female engineer walking away
   from a massive industrial shipyard facility, carrying blueprints, with committee
   members in suits gesturing frantically behind her, minimal white background, sci-fi

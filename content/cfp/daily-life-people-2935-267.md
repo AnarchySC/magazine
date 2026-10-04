@@ -1,7 +1,7 @@
 ---
 title: "The 6:04 Out of Fog"
 date: 2026-09-24T14:05:53.505101
-image: "/images/cfp/daily-life-people-2935-267.png"
+image: "/images/cfp/daily-life-people-2935-267.jpg"
 category: "Daily Life"
 genre: "06-daily-life-people"
 issue: "2935.267"

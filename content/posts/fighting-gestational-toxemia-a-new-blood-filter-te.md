@@ -1,7 +1,7 @@
 ---
 date: '2026-04-28T17:35:59'
 draft: false
-featured_image: /images/header-fighting-gestational-toxemia-a-new-blood-filter-te.png
+featured_image: /images/header-fighting-gestational-toxemia-a-new-blood-filter-te.jpg
 image_prompt: Anime-style illustration of a glowing blood filtration device, translucent
   tubing with luminous liquid flowing through geometric crystalline membranes, soft
   blue and warm amber color palette, clean white background, minimalist scientific

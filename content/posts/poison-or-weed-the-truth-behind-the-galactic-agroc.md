@@ -1,7 +1,7 @@
 ---
 date: '2026-04-28T16:11:33'
 draft: false
-featured_image: /images/header-poison-or-weed-the-truth-behind-the-galactic-agroc.png
+featured_image: /images/header-poison-or-weed-the-truth-behind-the-galactic-agroc.jpg
 image_prompt: 'Anime-style minimal illustration on white background: a lone farmer
   in a futuristic colony habitat suit standing in rows of glowing hydroponic crops,
   holding a warning label that is being erased by a large corporate holographic logo

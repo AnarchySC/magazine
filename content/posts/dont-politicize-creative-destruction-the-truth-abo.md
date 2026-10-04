@@ -1,7 +1,7 @@
 ---
 date: '2026-06-11T19:04:59'
 draft: false
-featured_image: /images/header-dont-politicize-creative-destruction-the-truth-abo.png
+featured_image: /images/header-dont-politicize-creative-destruction-the-truth-abo.jpg
 image_prompt: Anime sci-fi style, minimal white background, a whiteboard covered in
   galactic economic diagrams and flow charts with arrows connecting 'AI disruption'
   to 'political management' to 'credit dilution', a shadowy suited figure stands at

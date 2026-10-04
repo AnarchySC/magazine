@@ -1,7 +1,7 @@
 ---
 date: '2026-07-17T15:17:32'
 draft: false
-featured_image: /images/header-victory-voidwatch-cancels-human-distress-audio-det.png
+featured_image: /images/header-victory-voidwatch-cancels-human-distress-audio-det.jpg
 image_prompt: A cinematic wide-angle shot inside a dimly lit deep-space transit corridor
   station, circa 2935 cassette-futurism aesthetic. Chunky analog hardware lines the
   curved corridor walls — banks of CRT monitors displaying waveform readouts and transponder

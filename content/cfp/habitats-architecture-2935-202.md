@@ -1,7 +1,7 @@
 ---
 title: "Snow Stack, Still On"
 date: 2026-07-21T17:40:18.846131
-image: "/images/cfp/habitats-architecture-2935-202.png"
+image: "/images/cfp/habitats-architecture-2935-202.jpg"
 category: "Habitats & Architecture"
 genre: "02-habitats-architecture"
 issue: "2935.202"

@@ -1,7 +1,7 @@
 ---
 title: "Two Moons, Feed Time"
 date: 2026-06-11T18:59:59.797345
-image: "/images/cfp/country-rural-life-2935-162.png"
+image: "/images/cfp/country-rural-life-2935-162.jpg"
 category: "Country & Rural Life"
 genre: "14-country-rural-life"
 issue: "2935.162"

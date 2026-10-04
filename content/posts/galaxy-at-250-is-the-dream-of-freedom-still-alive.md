@@ -1,7 +1,7 @@
 ---
 date: '2026-05-26T16:08:31'
 draft: false
-featured_image: /images/header-galaxy-at-250-is-the-dream-of-freedom-still-alive.png
+featured_image: /images/header-galaxy-at-250-is-the-dream-of-freedom-still-alive.jpg
 image_prompt: Anime sci-fi style, minimal white background, two older men sitting
   across from each other at a simple table in a sparse broadcast studio, surrounded
   by floating holographic charts showing a currency value curve declining over 250

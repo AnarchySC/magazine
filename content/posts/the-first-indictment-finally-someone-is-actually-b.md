@@ -1,7 +1,7 @@
 ---
 date: '2026-04-28T17:34:51'
 draft: false
-featured_image: /images/header-the-first-indictment-finally-someone-is-actually-b.png
+featured_image: /images/header-the-first-indictment-finally-someone-is-actually-b.jpg
 image_prompt: 'Anime-style illustration, minimal, white background: a woman sits across
   a small table from another woman in a compact space station quarter, steam rising
   from two tea cups between them, a viewport showing stars behind them, soft muted

@@ -1,7 +1,7 @@
 ---
 title: "Late Shift, Wet Street"
 date: 2026-06-11T19:08:59.797345
-image: "/images/cfp/neon-night-cities-2935-162.png"
+image: "/images/cfp/neon-night-cities-2935-162.jpg"
 category: "Neon Night Cities"
 genre: "03-neon-night-cities"
 issue: "2935.162"

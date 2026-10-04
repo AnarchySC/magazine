@@ -1,7 +1,7 @@
 ---
 date: '2026-02-18T16:31:21'
 draft: false
-featured_image: /images/header-who-decides-the-orion-basic-income-experiment.png
+featured_image: /images/header-who-decides-the-orion-basic-income-experiment.jpg
 image_prompt: Peaceful space settlement with diverse residents working in gardens
   and workshops, anime style, soft colors, white background, showing cooperation without
   oversight
