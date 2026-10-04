@@ -33,7 +33,7 @@ params:
   footerText: "銀河通信 • CASSETTE FUTURE"
 
   # Social/Meta
-  description: "Galactic news, culture, and the Cosmogirl of the Week. Broadcasting from Year 2935."
+  description: "Galactic news and culture. Broadcasting from Year 2935."
 
 markup:
   goldmark:
@@ -53,9 +53,6 @@ menu:
     - name: "Issues"
       url: "/issues/"
       weight: 1
-    - name: "Cosmogirls"
-      url: "/cosmogirls/"
-      weight: 2
     - name: "CFP"
       url: "/cfp/"
       weight: 3

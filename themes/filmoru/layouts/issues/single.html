@@ -33,26 +33,6 @@
     </div>
   </section>
 
-  <!-- Cosmogirl of the Week -->
-  <section class="issue-section">
-    <h2 class="issue-section-title">今週のコスモガール <span>Cosmogirl of the Week</span></h2>
-    <div class="issue-cosmogirl">
-      {{ range first 1 (where site.RegularPages "Section" "cosmogirls") }}
-        {{ if and (ge .Date $weekStart) (le .Date $issueDate) }}
-        <a href="{{ .RelPermalink }}" class="issue-cosmogirl-card">
-          {{ with .Params.featured_image }}
-          <img src="{{ $.Site.BaseURL }}{{ strings.TrimPrefix "/" . }}" alt="{{ $.Params.name }}">
-          {{ end }}
-          <div class="issue-cosmogirl-info">
-            <div class="issue-cosmogirl-name">{{ .Params.name }}</div>
-            <div class="issue-cosmogirl-details">{{ .Params.species }} • {{ .Params.occupation }}</div>
-          </div>
-        </a>
-        {{ end }}
-      {{ end }}
-    </div>
-  </section>
-
   <div class="issue-nav">
     <a href="{{ "issues/" | relURL }}" class="issue-back">← All Issues</a>
   </div>
@@ -148,43 +128,6 @@
 .issue-article-meta {
   font-size: 0.8rem;
   color: var(--nasa-orange);
-}
-
-.issue-cosmogirl-card {
-  display: flex;
-  gap: var(--space-lg);
-  padding: var(--space-md);
-  border: 1px solid var(--border);
-  transition: border-color 0.2s;
-  text-decoration: none;
-  color: inherit;
-}
-
-.issue-cosmogirl-card:hover {
-  border-color: var(--nasa-orange);
-}
-
-.issue-cosmogirl-card img {
-  width: 120px;
-  height: 120px;
-  object-fit: cover;
-}
-
-.issue-cosmogirl-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.issue-cosmogirl-name {
-  font-size: 1.2rem;
-  font-weight: 600;
-  margin-bottom: var(--space-xs);
-}
-
-.issue-cosmogirl-details {
-  font-size: 0.85rem;
-  color: var(--text-light);
 }
 
 .issue-nav {
