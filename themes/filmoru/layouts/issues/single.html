@@ -33,6 +33,22 @@
     </div>
   </section>
 
+  <!-- This issue's Cassette Future Pictorial spread -->
+  {{ $plates := where (where site.RegularPages "Section" "cfp") "Params.issue" .Params.issue_number }}
+  {{ with $plates }}
+  <section class="issue-section">
+    <h2 class="issue-section-title">ありえた未来の記録 <span>Cassette Future Pictorial</span></h2>
+    <div class="issue-cfp-grid">
+      {{ range (where . "Params.genre" "feature") | append (sort (where . "Params.genre" "!=" "feature") "Params.category") }}
+      <a href="{{ .RelPermalink }}" class="issue-cfp-plate{{ if eq .Params.genre "feature" }} issue-cfp-feature{{ end }}">
+        <img src="{{ site.BaseURL }}{{ strings.TrimPrefix "/" .Params.image }}" alt="{{ .Title }}" loading="lazy">
+        <span class="issue-cfp-label">{{ .Params.category | default .Title }}</span>
+      </a>
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
   <div class="issue-nav">
     <a href="{{ "issues/" | relURL }}" class="issue-back">← All Issues</a>
   </div>
@@ -128,6 +144,42 @@
 .issue-article-meta {
   font-size: 0.8rem;
   color: var(--nasa-orange);
+}
+
+.issue-cfp-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: var(--space-md);
+}
+
+.issue-cfp-plate {
+  display: block;
+  border: 1px solid var(--border);
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.2s;
+}
+
+.issue-cfp-plate:hover {
+  border-color: var(--nasa-orange);
+}
+
+.issue-cfp-feature {
+  grid-column: 1 / -1;
+}
+
+.issue-cfp-plate img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+}
+
+.issue-cfp-label {
+  display: block;
+  padding: var(--space-xs) var(--space-sm);
+  font-size: 0.8rem;
+  color: var(--text-light);
 }
 
 .issue-nav {
