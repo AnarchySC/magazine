@@ -1,13 +1,13 @@
 ---
-title: "Sleeping Next to the Engine"
-date: 2026-10-27T17:44:49.800928
+title: "Last Walk to Shift Change"
+date: 2026-10-27T22:59:45.685723
 image: "/images/cfp/capsule-interiors-2935-300.jpg"
 category: "Capsule Interiors"
 genre: "01-capsule-interiors"
 issue: "2935.300"
 style: "photoreal"
-location: "the engineering bay, tug vessel Marrow's Luck, Ceti System"
-photographer: "Petra Oshenko"
-homeworld: "Babylon Station"
-concept: "The diagnostic screen never really goes dark, so the night shift learns to sleep in its blue light. You get used to the hum, and then you miss it when you don't have it."
+location: "Vantiel Transit Barge, outbound corridor 4"
+photographer: "Benny Okafor-Lutz"
+homeworld: "Arcturus Station"
+concept: "The porthole glass is scratched thin from forty years of sleeves brushing past on the way to the engine deck. Everyone on this run knows the sound of his boots before they see his face."
 ---

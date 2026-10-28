@@ -1,13 +1,13 @@
 ---
-title: "Where the Line Gave Up"
-date: 2026-10-27T17:38:49.800928
+title: "Still Listening, Somehow"
+date: 2026-10-27T22:53:45.685723
 image: "/images/cfp/nature-reclaimed-2935-300.jpg"
 category: "Nature Reclaimed"
 genre: "07-nature-reclaimed"
 issue: "2935.300"
 style: "photoreal"
-location: "Thornmoor Spur, abandoned rail line"
-photographer: "Delmar Achebe"
-homeworld: "Osprey Vale"
-concept: "The old commuter car has not moved in two generations, and the forest decided that was an invitation. Kids from the valley still climb in through the broken window to eat lunch on the moss-covered seats."
+location: "Thessaly Vale, Oloron Sector"
+photographer: "Walt Prennison"
+homeworld: "Garrow's Moon"
+concept: "The old relay dish has not turned its face to the sky in sixty years, but the ivy has made a kind of ear of it anyway. Sheep graze the cable trenches now, and nobody out here minds the static of wind through the mesh."
 ---
